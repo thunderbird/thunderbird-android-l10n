@@ -1,0 +1,90 @@
+name: l10n - Import from Source
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Import source-language files and translations
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  l10n-sync-import:
+    name: Import translations from source repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout l10n repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          submodules: true
+
+      - name: Set up Java
+        uses: actions/setup-java@03ad4de0992f5dab5e18fcb136590ce7c4a0ac95 # v5.6.0
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+        with:
+          cache-provider: basic
+          cache-disabled: true
+          add-job-summary: false
+
+      - name: Import localization files
+        run: |
+          if [ "${{ inputs.all || false }}" = "true" ]; then
+            script -q -e -c "./weblate/scripts/sync import --all --apply" /dev/null
+          else
+            script -q -e -c "./weblate/scripts/sync import --apply" /dev/null
+          fi
+
+      - name: Create pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No localization changes detected."
+            exit 0
+          fi
+
+          branch_name="chore/l10n-import-source-strings"
+          git config user.name "Thunderbird l10n automation"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch_name"
+          git add -A
+          git commit -m "chore(l10n): import source strings"
+          git push --force-with-lease origin "$branch_name"
+
+          pr_body="$(cat <<'BODY'
+          Automated localization import from source repository.
+
+          Before merging:
+
+          1. Lock Weblate for this project.
+          2. Push any remaining pending Weblate changes.
+          3. Verify this PR includes the expected source-string import only.
+          4. Merge this PR.
+
+          After merging:
+
+          1. Unlock Weblate for this project.
+          BODY
+          )"
+
+          gh pr create \
+            --base main \
+            --head "$branch_name" \
+            --title "chore(l10n): import source strings" \
+            --body "$pr_body" \
+            || gh pr edit "$branch_name" \
+              --title "chore(l10n): import source strings" \
+              --body "$pr_body"

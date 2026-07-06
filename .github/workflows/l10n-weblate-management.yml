@@ -1,0 +1,58 @@
+name: l10n - Weblate Management
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: Weblate management command
+        required: true
+        default: update
+        type: choice
+        options:
+          - update
+          - create
+      apply:
+        description: Apply changes to Weblate
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  l10n-manage:
+    name: Run Weblate management command
+    runs-on: ubuntu-latest
+    environment: weblate
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          submodules: true
+
+      - name: Set up Java
+        uses: actions/setup-java@03ad4de0992f5dab5e18fcb136590ce7c4a0ac95 # v5.6.0
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+        with:
+          cache-provider: basic
+          cache-disabled: true
+          add-job-summary: false
+
+      - name: Run Weblate command
+        env:
+          WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        run: |
+          if [ "${{ inputs.apply }}" = "true" ] && [ "${{ inputs.command }}" = "create" ]; then
+            yes y | script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN" --apply' /dev/null
+          elif [ "${{ inputs.apply }}" = "true" ]; then
+            script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN" --apply' /dev/null
+          else
+            script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN"' /dev/null
+          fi

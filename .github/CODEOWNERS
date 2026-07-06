@@ -1,0 +1,5 @@
+# General tfa l10n owners
+* @thunderbird/mobile-android-reviewers
+
+# CODEOWNERS protection
+/.github/CODEOWNERS @jbott-tbird @wmontwe
