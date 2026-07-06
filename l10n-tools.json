@@ -1,0 +1,41 @@
+{
+  "source": {
+    "repository": "thunderbird/thunderbird-android",
+    "branches": [
+      "main",
+      "beta",
+      "release"
+    ]
+  },
+  "import": {
+    "sourceFilePatterns": [
+      "**/res/values/strings.xml",
+      "**/composeResources/values/strings.xml",
+      "app-metadata/*/en-US/*.txt"
+    ],
+    "translatedFilePatterns": [
+      "**/res/values*/strings.xml",
+      "**/composeResources/values*/strings.xml",
+      "app-metadata/**/*.txt"
+    ],
+    "excludedPaths": [
+      "app-metadata/**/changelogs/**",
+      "app-ui-catalog",
+      "ui-catalog",
+      "openpgp-api",
+      "/test/"
+    ]
+  },
+  "weblate": {
+    "baseUrl": "https://hosted.weblate.org/api/",
+    "projectSlug": "thunderbird",
+    "defaultLinkedComponent": "app-common",
+    "componentRepo": "weblate://thunderbird/thunderbird-android-l10n/app-common",
+    "discovery": {
+      "resources": [
+        "android",
+        "compose"
+      ]
+    }
+  }
+}

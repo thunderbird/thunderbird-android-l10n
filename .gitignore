@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+local.properties
+
+# Kotlin
+.kotlin/
+
+# Generated folders
+build/
+.tmp/
+
+# IDEA/Android Studio ignores
+*iml
+.idea/*
+
+# IDEA/Android Studio includes
+!.idea/icon.png
+!.idea/codeStyles/
+!.idea/fileTemplates/
+
+# Mac thumbnail db
+.DS_Store

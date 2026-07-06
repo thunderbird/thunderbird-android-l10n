@@ -1,0 +1,56 @@
+name: Weblate Management
+
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: Weblate management command
+        required: true
+        default: update
+        type: choice
+        options:
+          - update
+          - create
+      dry-run:
+        description: Run without applying changes
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  manage:
+    name: Run Weblate management command
+    runs-on: ubuntu-latest
+    environment: weblate
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          submodules: true
+
+      - name: Set up Java
+        uses: actions/setup-java@0f481fcb613427c0f801b606911222b5b6f3083a # v5.5.0
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@3f131e8634966bd73d06cc69884922b02e6faf92 # v6.2.0
+        with:
+          cache-provider: basic
+          cache-disabled: true
+          add-job-summary: false
+
+      - name: Run Weblate command
+        env:
+          WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+        run: |
+          args=(--token "$WEBLATE_TOKEN")
+          if [ "${{ inputs['dry-run'] }}" = "true" ]; then
+            args+=(--dry-run)
+          fi
+          ./weblate/scripts/weblate "${args[@]}" "${{ inputs.command }}"
