@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Compose</string>
+    <string name="message_list_widget_inbox_title">Unified Inbox</string>
+    <string name="message_list_widget_initializing">Loading…</string>
+    <string name="message_list_widget_label">Message List</string>
+    <string name="message_list_widget_list_item_loading">Loading…</string>
+</resources>
