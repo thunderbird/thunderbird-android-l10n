@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Недовршено</string>
+    <string name="special_mailbox_name_inbox">Сандуче</string>
+    <string name="special_mailbox_name_outbox">За слање</string>
+    <string name="special_mailbox_name_sent">Послато</string>
+    <string name="special_mailbox_name_trash">Отпад</string>
+</resources>

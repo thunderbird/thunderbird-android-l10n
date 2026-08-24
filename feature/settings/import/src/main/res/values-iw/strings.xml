@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_import_app_version_not_supported">גירסאת האפליקציה לא נתמכת.</string>
+    <string name="settings_import_authorization_and_password_required">נא להתחבר ולהכניס סיסמאות</string>
+    <string name="settings_import_authorization_required">נא להתחבר</string>
+    <string name="settings_import_button">יבא</string>
+    <string name="settings_import_failure">יבוא הגדרות נכשל</string>
+    <!-- Might be displayed in the message list widget when the list is scrolled and new data can't be fetched fast enough -->
+    <string name="settings_import_general_settings_item">הגדרות כלליות</string>
+    <string name="settings_import_incoming_server_password_hint">סיסמת שרת נכנס</string>
+    <!-- Content description for the icon that is displayed next to an imported account that requires sign-in -->
+    <string name="settings_import_later_button">מאוחר יותר</string>
+    <string name="settings_import_oauth_description">כדי להשתמש בחשבון הדוא\"ל הזה, יש צורך להתחבר ולתת ליישומון גישה לדוא\"ל שלך.</string>
+    <string name="settings_import_oauth_error_browser_not_found">היישומון לא הצליח למצוא דפדפן להשתמש בו על מנת לתת גישה לחשבון שלך.</string>
+    <string name="settings_import_oauth_error_oauth_flow_canceled">תהליך האישור בוטל</string>
+    <string name="settings_import_oauth_error_oauth_flow_failed">תהליך האישור נכשל עם השגיאה שלהלן: <xliff:g id="error">%s</xliff:g></string>
+    <string name="settings_import_oauth_error_oauth_not_supported">OAuth 2.0 כרגע לא נתמך עם הספק הזה.</string>
+    <string name="settings_import_oauth_sign_in">התחבר</string>
+    <string name="settings_import_oauth_sign_in_with_google">התחבר עם Google</string>
+    <string name="settings_import_outgoing_server_password_hint">סיסמת שרת יוצא</string>
+    <string name="settings_import_partial_failure">יבוא חלק מההגדרות נכשל</string>
+    <plurals name="settings_import_password_prompt">
+            <item quantity="one">על מנת להשתמש בחשבון \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמת השרת.</item>
+            <item quantity="two">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+            <item quantity="many">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+            <item quantity="other">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+        </plurals>
+    <string name="settings_import_password_required">נא להכניס סיסמאות</string>
+    <string name="settings_import_pick_app_button">ייבא מיישום</string>
+    <string name="settings_import_pick_app_dialog_title">ייבא מיישום</string>
+    <string name="settings_import_pick_document_button">בחר קובץ</string>
+    <string name="settings_import_read_failure">קריאת קובץ הגדרות נכשלה</string>
+    <string name="settings_import_scan_qr_code_button">סרוק ברקוד QR</string>
+    <string name="settings_import_server_name_format">שם שרת: <xliff:g id="hostname">%s</xliff:g></string>
+    <string name="settings_import_status_error">יבוא נכשל</string>
+    <string name="settings_import_status_log_in_required">דרושה התחברות</string>
+    <string name="settings_import_status_not_imported">לא יובא</string>
+    <string name="settings_import_status_password_required">דרושה סיסמה</string>
+    <string name="settings_import_status_success">יובא בהצלחה</string>
+    <string name="settings_import_success_generic">הגדרות יובאו בהצלחה</string>
+    <string name="settings_import_title">יבא הגדרות</string>
+    <string name="settings_import_use_same_password_for_outgoing_server">השתמש באותה סיסמה לשרת יוצא</string>
+    <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
+    <string name="settings_importing">מייבא הגדרות…</string>
+</resources>

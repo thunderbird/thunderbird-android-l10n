@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Brouillons</string>
+    <string name="special_mailbox_name_inbox">Boîte de réception</string>
+    <string name="special_mailbox_name_outbox">Boîte d’envoi</string>
+    <string name="special_mailbox_name_sent">Envoyés</string>
+    <string name="special_mailbox_name_trash">Corbeille</string>
+</resources>

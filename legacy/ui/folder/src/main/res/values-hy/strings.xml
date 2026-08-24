@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Սեւագրեր</string>
+    <string name="special_mailbox_name_inbox">Մուտքային</string>
+    <string name="special_mailbox_name_outbox">Ելքային</string>
+    <string name="special_mailbox_name_sent">Ուղարկուած</string>
+    <string name="special_mailbox_name_trash">Աղբարկղ</string>
+</resources>

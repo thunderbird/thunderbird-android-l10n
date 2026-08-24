@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_action">O aplikaci</string>
+    <!-- === App-specific strings ============================================================= -->
+    <!-- This should make it easier for forks to change the branding -->
+    <!-- Used in AndroidManifest.xml -->
+    <!-- Used in the about dialog -->
+    <string name="about_app_authors_k9">Páníčci robopsů K-9</string>
+    <string name="about_app_authors_thunderbird">Tým Thunderbird Mobile</string>
+    <string name="about_libraries">Softwarové knihovny</string>
+    <string name="about_project_title">Projekt s otevřeným zdrojovým kódem</string>
+    <string name="about_title">O aplikaci <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="about_website_title">Webová stránka</string>
+    <string name="ac_transfer_button_send">Poslat nastavovací zprávu</string>
+    <string name="ac_transfer_error_send">Při odesílání zprávy došlo k chybě. Zkontrolujte své připojení k síti a nastavení odchozího serveru.</string>
+    <string name="ac_transfer_finish">Pro dokončení otevřete zprávu na svém dalším zařízení a zadejte nastavovací kód.</string>
+    <string name="ac_transfer_generating">Vytváření nastavovací zprávy…</string>
+    <string name="ac_transfer_intro">Autocrypt nastavovací zpráva zabezpečeně sdílí vaše nastavení s ostatními zařízeními.</string>
+    <string name="ac_transfer_msg_body">Tato zpráva obsahuje všechny údaje pro zabezpečené přenesení vašich nastavení Autocrypt společně s tajným klíčem z původního zařízení. Pro nastavení nového zařízení pro Autocrypt, postupujte podle pokynů které by se měly zobrazit na novém zařízení. Tuto zprávu si můžete ponechat a použít jí jako zálohu svého tajného klíče. Pokud toho chcete využít, měli byste si zapsat heslo a bezpečně ho uložit.</string>
+    <string name="ac_transfer_msg_subject">Autocrypt nastavovací správa</string>
+    <string name="ac_transfer_sending_to">Odesílání zprávy na:</string>
+    <string name="ac_transfer_setting_summary">Zabezpečeně sdílet nastavení s ostatními zařízeními</string>
+    <string name="ac_transfer_setting_title">Poslat nastavovací zprávu Autocrypt</string>
+    <string name="ac_transfer_show_code">Zobrazit nastavovací kód</string>
+    <string name="ac_transfer_title">Autocrypt nastavovací zpráva</string>
+    <string name="ac_transfer_will_be_sent">Tato zpráva bude odeslána na vaši adresu:</string>
+    <string name="accessibility_move_cutoff_down">Přesunout hranici zobrazených akcí dolů</string>
+    <string name="accessibility_move_cutoff_up">Přesunout hranici zobrazených akcí nahoru</string>
+    <string name="accessibility_move_down">Přesunout dolů</string>
+    <string name="accessibility_move_item_down">Přesunout <xliff:g id="item">%1$s</xliff:g> dolů</string>
+    <string name="accessibility_move_item_up">Přesunout <xliff:g id="item">%1$s</xliff:g> nahoru</string>
+    <string name="accessibility_move_up">Přesunout nahoru</string>
+    <string name="account_delete_dlg_instructions_fmt">Účet \"<xliff:g id="account">%1$s</xliff:g>\" bude odstraněn z <xliff:g id="app_name">%2$s</xliff:g>.</string>
+    <string name="account_delete_dlg_title">Odstranit účet</string>
+    <string name="account_notify_contacts_mail_only_label">Pouze kontakty</string>
+    <string name="account_notify_contacts_mail_only_summary">Zobrazovat oznámení pouze na zprávy od známých kontaktů</string>
+    <string name="account_settings_action">Nastavení účtu</string>
+    <string name="account_settings_always_bcc_label">Kopii všech zpráv na adresu</string>
+    <string name="account_settings_always_show_cc_bcc_label">Vždy zobrazit kopie/skrytá</string>
+    <string name="account_settings_autodownload_message_size_1">1 KiB</string>
+    <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
+    <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
+    <string name="account_settings_autodownload_message_size_128">128 KiB</string>
+    <string name="account_settings_autodownload_message_size_16">16 KiB</string>
+    <string name="account_settings_autodownload_message_size_2">2 KiB</string>
+    <string name="account_settings_autodownload_message_size_2048">2 MiB</string>
+    <string name="account_settings_autodownload_message_size_256">256 KiB</string>
+    <string name="account_settings_autodownload_message_size_32">32 KiB</string>
+    <string name="account_settings_autodownload_message_size_4">4 KiB</string>
+    <string name="account_settings_autodownload_message_size_512">512 KiB</string>
+    <string name="account_settings_autodownload_message_size_5120">5 MiB</string>
+    <string name="account_settings_autodownload_message_size_64">64 KiB</string>
+    <string name="account_settings_autodownload_message_size_8">8 KiB</string>
+    <string name="account_settings_autodownload_message_size_any">libovolná velikost (bez omezení)</string>
+    <string name="account_settings_autodownload_message_size_label">Načíst zprávy až do</string>
+    <string name="account_settings_automatic_special_folder">Automaticky (%s)</string>
+    <string name="account_settings_composition">Odesílání zpráv</string>
+    <string name="account_settings_composition_label">Výchozí položky nové zprávy</string>
+    <string name="account_settings_composition_summary">Nastavit výchozí hodnoty Odesílatele, Skryté a podpisu</string>
+    <string name="account_settings_composition_title">Nastavení tvorby nových zpráv</string>
+    <string name="account_settings_crypto">Koncové šifrování</string>
+    <string name="account_settings_crypto_app">Zapnout podporu OpenPGP</string>
+    <string name="account_settings_crypto_app_select_title">Vybrat OpenPGP aplikaci</string>
+    <string name="account_settings_crypto_encrypt_all_drafts">Ukládat veškeré koncepty šifrovaně</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_off">Šifrovat koncepty pouze pokud je zapnuté šifrování</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_on">Všechny koncepty budou ukládány šifrovaně</string>
+    <string name="account_settings_crypto_encrypt_subject">Šifrovat předměty e-mailů</string>
+    <string name="account_settings_crypto_encrypt_subject_subtitle">Nemusí být podporováno některými příjemci</string>
+    <string name="account_settings_crypto_hide_sign_only">Skrýt nezašifrované podpisy</string>
+    <string name="account_settings_crypto_hide_sign_only_off">Budou zobrazeny všechny podpisy</string>
+    <string name="account_settings_crypto_hide_sign_only_on">Budou zobrazeny pouze zašifrované podpisy</string>
+    <string name="account_settings_crypto_key">Nastavit klíč pro šifrování mezi odesilatelem a příjemcem</string>
+    <string name="account_settings_crypto_prefer_encrypt">Vzájemný režim automatického šifrování</string>
+    <string name="account_settings_crypto_summary_config">Nastavování…</string>
+    <string name="account_settings_crypto_summary_off">Není nastavená žádná OpenPGP aplikace</string>
+    <string name="account_settings_crypto_summary_on">Připojeno k %s</string>
+    <string name="account_settings_default_quoted_text_shown_label">Citovat původní zprávu když odpovídám</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Zahrnout původní zprávu v odpovědi.</string>
+    <string name="account_settings_email_label">Vaše e-mailová adresa</string>
+    <string name="account_settings_folders">Složky</string>
+    <string name="account_settings_general_title">Obecná nastavení</string>
+    <string name="account_settings_identities_label">Správa identit</string>
+    <string name="account_settings_identities_summary">Nastavte alternativní adresy \'Od\' a podpisy</string>
+    <string name="account_settings_ignore_chat_messages_label">Ignorovat zprávy z chatů</string>
+    <string name="account_settings_ignore_chat_messages_summary">Nezobrazovat oznámení na zprávy patřící do e-mailového chatu</string>
+    <string name="account_settings_incoming_label">Příchozí server</string>
+    <string name="account_settings_incoming_summary">Nastavení serveru pro příchozí poštu</string>
+    <string name="account_settings_mail_check_frequency_label">Četnost dotazování složky</string>
+    <string name="account_settings_mail_display_count_label">Velikost místní složky</string>
+    <string name="account_settings_mark_message_as_read_on_delete_label">Označit jako přečtené při smazání</string>
+    <string name="account_settings_mark_message_as_read_on_delete_summary">Označit zprávu jako přečtenou, když je smazána</string>
+    <string name="account_settings_mark_message_as_read_on_view_label">Označit jako přečtené po otevření</string>
+    <string name="account_settings_mark_message_as_read_on_view_summary">Označit zprávu jako přečtenou po jejím otevření pro prohlížení</string>
+    <string name="account_settings_message_age_0">dnes</string>
+    <string name="account_settings_message_age_1">poslední 2 dny</string>
+    <string name="account_settings_message_age_14">poslední 2 týdny</string>
+    <string name="account_settings_message_age_1_month">poslední měsíc</string>
+    <string name="account_settings_message_age_1_year">poslední rok</string>
+    <string name="account_settings_message_age_2">poslední 3 dny</string>
+    <string name="account_settings_message_age_21">poslední 3 týdny</string>
+    <string name="account_settings_message_age_2_months">poslední 2 měsíce</string>
+    <string name="account_settings_message_age_3_months">poslední 3 měsíce</string>
+    <string name="account_settings_message_age_6_months">posledních 6 měsíců</string>
+    <string name="account_settings_message_age_7">poslední týden</string>
+    <string name="account_settings_message_age_any">kdykoli (bez omezení)</string>
+    <string name="account_settings_message_age_label">Synchronizovat zprávy z</string>
+    <string name="account_settings_message_format_auto">Automaticky</string>
+    <string name="account_settings_message_format_html">HTML (zachová obrázky a formátování)</string>
+    <string name="account_settings_message_format_label">Formát zprávy</string>
+    <string name="account_settings_message_format_text">Prostý text (odstraní obrázky a formátování)</string>
+    <string name="account_settings_message_read_receipt_label">Potvrzení o přečtení</string>
+    <string name="account_settings_message_read_receipt_summary">Vždy požadovat potvrzení o přečtení</string>
+    <string name="account_settings_name_label">Vaše jméno</string>
+    <string name="account_settings_no_folder_selected">Žádné</string>
+    <string name="account_settings_notification_channels_label">Kategorie oznámení</string>
+    <string name="account_settings_notification_light_account_color">Barva účtu</string>
+    <string name="account_settings_notification_light_blue">Modrá</string>
+    <string name="account_settings_notification_light_cyan">Azurová</string>
+    <string name="account_settings_notification_light_default_color">Výchozí barva ze systému</string>
+    <string name="account_settings_notification_light_disabled">Vypnuto</string>
+    <string name="account_settings_notification_light_green">Zelená</string>
+    <string name="account_settings_notification_light_label">Kontrolka oznámení</string>
+    <string name="account_settings_notification_light_magenta">Purpurová</string>
+    <string name="account_settings_notification_light_red">Červená</string>
+    <string name="account_settings_notification_light_white">Bílá</string>
+    <string name="account_settings_notification_light_yellow">Žlutá</string>
+    <string name="account_settings_notify_label">Oznamování nové pošty</string>
+    <string name="account_settings_notify_self_label">Zahrnout odchozí poštu</string>
+    <string name="account_settings_notify_self_summary">Zobrazovat oznámení pro vlastní odeslanou poštu</string>
+    <string name="account_settings_notify_summary">Oznamovat příchozí poštu ve stavovém řádku</string>
+    <string name="account_settings_notify_sync_label">Synchronizovat oznámení</string>
+    <string name="account_settings_notify_sync_summary">Oznamovat kontrolu nové pošty ve stavovém řádku</string>
+    <string name="account_settings_open_notification_settings_messages_summary">Nastavit oznámení na nové zprávy</string>
+    <string name="account_settings_open_notification_settings_miscellaneous_summary">Nastavit oznámení na chyby a stavy</string>
+    <string name="account_settings_openpgp_missing">Chybí OpenPGP aplikace – byla odinstalována?</string>
+    <string name="account_settings_outgoing_label">Server odchozí pošty</string>
+    <string name="account_settings_outgoing_summary">Nastavení serveru odchozí pošty (SMTP)</string>
+    <string name="account_settings_push_advanced_title">Pokročilé</string>
+    <string name="account_settings_quote_prefix_label">Předpona citovaného textu</string>
+    <string name="account_settings_quote_style_header">Záhlaví (jako Outlook)</string>
+    <string name="account_settings_quote_style_label">Styl citace odpovědi</string>
+    <string name="account_settings_quote_style_prefix">Prefix (jako Gmail)</string>
+    <string name="account_settings_reading_mail">Čtení pošty</string>
+    <string name="account_settings_remote_search_num_label">Limit vyhledávání na serveru</string>
+    <string name="account_settings_remote_search_num_results_entries_10">10</string>
+    <string name="account_settings_remote_search_num_results_entries_100">100</string>
+    <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
+    <string name="account_settings_remote_search_num_results_entries_25">25</string>
+    <string name="account_settings_remote_search_num_results_entries_250">250</string>
+    <string name="account_settings_remote_search_num_results_entries_50">50</string>
+    <string name="account_settings_remote_search_num_results_entries_500">500</string>
+    <string name="account_settings_remote_search_num_results_entries_all">Vše</string>
+    <string name="account_settings_reply_after_quote_label">Odpovědět za citovaným textem</string>
+    <string name="account_settings_reply_after_quote_summary">Původní zprávu zobrazit nad textem odpovědi.</string>
+    <string name="account_settings_ringtone">Zvuk při nové poště</string>
+    <string name="account_settings_search">Hledání</string>
+    <string name="account_settings_show_pictures_always">Od kohokoli</string>
+    <string name="account_settings_show_pictures_label">Vždy zobrazovat obrázky</string>
+    <string name="account_settings_show_pictures_never">Ne</string>
+    <string name="account_settings_show_pictures_only_from_contacts">Od kontaktů</string>
+    <string name="account_settings_signature__location_after_quoted_text">Za citovanými textem</string>
+    <string name="account_settings_signature__location_before_quoted_text">Před citovanými textem</string>
+    <string name="account_settings_signature__location_label">Umístění podpisu</string>
+    <string name="account_settings_signature_label">Podpis</string>
+    <string name="account_settings_signature_use_label">Používat podpis</string>
+    <string name="account_settings_strip_signature_label">Odstranit podpis z citované odpovědi</string>
+    <string name="account_settings_strip_signature_summary">Budou odstraněny podpisy z citovaných zpráv</string>
+    <string name="account_settings_sync">Stahování pošty</string>
+    <string name="account_settings_sync_remote_deletetions_label">Synchronizace odstranění ze serveru</string>
+    <string name="account_settings_sync_remote_deletetions_summary">Odstranit zprávy po jejich smazání na serveru</string>
+    <string name="account_settings_title_fmt">Nastavení účtu</string>
+    <string name="account_settings_upload_sent_messages_label">Nahrát odeslané zprávy</string>
+    <string name="account_settings_upload_sent_messages_summary">Po odeslání nahrát zprávy do složky Odesláno</string>
+    <string name="account_settings_vibrate_enable">Vibrovat</string>
+    <string name="account_settings_vibrate_pattern_1">Vzorec 1</string>
+    <string name="account_settings_vibrate_pattern_2">Vzorec 2</string>
+    <string name="account_settings_vibrate_pattern_3">Vzorec 3</string>
+    <string name="account_settings_vibrate_pattern_4">Vzorec 4</string>
+    <string name="account_settings_vibrate_pattern_5">Vzorec 5</string>
+    <string name="account_settings_vibrate_pattern_default">Standardní</string>
+    <string name="account_settings_vibrate_pattern_label">Vzorec vibrování</string>
+    <string name="account_settings_vibrate_summary_disabled">Vypnuto</string>
+    <string name="account_settings_vibrate_times">Opakovat vibrace</string>
+    <string name="account_settings_vibration">Vibrace</string>
+    <string name="account_setup_auto_select_folder">Automaticky vybrat složku</string>
+    <string name="account_setup_basics_title">Založit nový účet</string>
+    <string name="account_setup_expunge_policy_immediately">Ihned</string>
+    <string name="account_setup_expunge_policy_label">Odstranit smazané zprávy</string>
+    <string name="account_setup_expunge_policy_manual">Pouze ručně</string>
+    <string name="account_setup_expunge_policy_on_poll">Při dotazování</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Smazat na serveru</string>
+    <string name="account_setup_incoming_delete_policy_label">Když smažu zprávu</string>
+    <string name="account_setup_incoming_delete_policy_markread_label">Označit jako přečtenou na serveru</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Nemazat ji na serveru</string>
+    <string name="account_setup_incoming_subscribed_folders_only_label">Zobrazit jen odebírané složky</string>
+    <string name="account_setup_options_mail_check_frequency_12hour">Každých 12 hodin</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Každých 15 minut</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Každou hodinu</string>
+    <string name="account_setup_options_mail_check_frequency_24hour">Každých 24 hodin</string>
+    <string name="account_setup_options_mail_check_frequency_2hour">Každé 2 hodiny</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Každých 30 minut</string>
+    <string name="account_setup_options_mail_check_frequency_3hour">Každé 3 hodiny</string>
+    <string name="account_setup_options_mail_check_frequency_6hour">Každých 6 hodin</string>
+    <string name="account_setup_options_mail_check_frequency_never">Nikdy</string>
+    <string name="account_setup_options_mail_display_count_10">10 zpráv</string>
+    <string name="account_setup_options_mail_display_count_100">100 zpráv</string>
+    <string name="account_setup_options_mail_display_count_1000">1000 zpráv</string>
+    <string name="account_setup_options_mail_display_count_10000">10000 zpráv</string>
+    <string name="account_setup_options_mail_display_count_25">25 zpráv</string>
+    <string name="account_setup_options_mail_display_count_250">250 zpráv</string>
+    <string name="account_setup_options_mail_display_count_2500">2500 zpráv</string>
+    <string name="account_setup_options_mail_display_count_50">50 zpráv</string>
+    <string name="account_setup_options_mail_display_count_500">500 zpráv</string>
+    <string name="account_setup_options_mail_display_count_5000">5000 zpráv</string>
+    <string name="account_setup_options_mail_display_count_all">všechny zprávy</string>
+    <string name="account_setup_push_limit_10">10 složek</string>
+    <string name="account_setup_push_limit_100">100 složek</string>
+    <string name="account_setup_push_limit_1000">1000 složek</string>
+    <string name="account_setup_push_limit_25">25 složek</string>
+    <string name="account_setup_push_limit_250">250 složek</string>
+    <string name="account_setup_push_limit_5">5 složek</string>
+    <string name="account_setup_push_limit_50">50 složek</string>
+    <string name="account_setup_push_limit_500">500 složek</string>
+    <string name="account_setup_push_limit_label">Max. počet složek řízených Push</string>
+    <string name="accountlist_preferences">Seznam účtů</string>
+    <string name="accounts_title">Účty</string>
+    <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_add_to_contacts">Přidat do kontaktů</string>
+    <!-- Name of the action to compose a new message to a particular address. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_compose_message_to">Odeslat zprávu</string>
+    <!-- Name of the action to copy an email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_copy_email_address">Zkopírovat adresu</string>
+    <!-- Name of the action to copy a name and email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_copy_name_and_email_address">Zkopírovat jméno a adresu</string>
+    <string name="action_remote_search">Hledat zprávy na serveru</string>
+    <string name="add_account_action">Přidat účet</string>
+    <string name="add_attachment_action">Přidat přílohu</string>
+    <string name="add_from_contacts">Přidat z kontaktů</string>
+    <string name="address_type_home">Domov</string>
+    <string name="address_type_mobile">Mobilní</string>
+    <string name="address_type_other">Ostatní</string>
+    <string name="address_type_work">Práce</string>
+    <string name="animation_setting_follow_system">Podle systému</string>
+    <string name="animation_setting_off">Vypnuty</string>
+    <string name="animation_setting_on">Zapnuty</string>
+    <string name="animations_title">Animace</string>
+    <string name="app_license">Apache License, verze 2.0</string>
+    <string name="archive_action">Archivovat</string>
+    <string name="archive_folder_label">Název složky Archív</string>
+    <string name="archiving_not_available_for_this_account">Archivování není u tohoto účtu dostupné.</string>
+    <string name="attach_file">Přiložit soubor</string>
+    <!-- Default signature -->
+    <!-- General strings that include the app name -->
+    <!-- === General strings ================================================================== -->
+    <string name="authors">Autoři</string>
+    <string name="background_ops_always">Vždy</string>
+    <string name="background_ops_auto_sync_only">Když je zaškrtnutá „Aut. synchronizace“</string>
+    <string name="background_ops_label">Synchronizace na pozadí</string>
+    <string name="background_ops_never">Nikdy</string>
+    <string name="background_work_notification_remove_account">Odstraňování účtu…</string>
+    <string name="batch_select_all">Vybrat vše</string>
+    <string name="camera_permission_denied">Přístup k fotoaparátu zamítnut! Nepodařilo se pořídit fotografii</string>
+    <string name="changelog_latest_label_text">NEJNOVĚJŠÍ</string>
+    <string name="changelog_loading_error">Nepodařilo se nahrát seznam změn.</string>
+    <string name="changelog_recent_changes_title">Co je nového</string>
+    <string name="changelog_show_recent_changes">Po aktualizaci aplikace zobrazovat nejnovější změny</string>
+    <!-- Button text of the "snack bar" that is displayed when the app was updated. -->
+    <string name="changelog_snackbar_button_text">Zobrazit</string>
+    <!-- Displayed in a "snack bar" at the bottom of the screen when the app was updated. -->
+    <string name="changelog_snackbar_text">Zjistěte, co je v tomto vydání nového</string>
+    <string name="changelog_title">Seznam změn</string>
+    <string name="changelog_type_changed_text">ZMĚNY</string>
+    <string name="changelog_type_fixed_text">OPRAVY</string>
+    <string name="changelog_type_new_text">NOVINKY</string>
+    <string name="changelog_version_title">Verze %s</string>
+    <string name="check_mail_action">Zkontrolovat poštu</string>
+    <string name="choose_folder_copy_title">Zkopírovat do…</string>
+    <string name="choose_folder_move_title">Přesunout do…</string>
+    <string name="choose_folder_title">Výběr složky</string>
+    <string name="choose_identity_title">Vybrat identitu</string>
+    <!-- A user visible label for the email address copied to the clipboard -->
+    <string name="clipboard_label_email_address">E-mailová adresa</string>
+    <!-- A user visible label for the name and email address copied to the clipboard -->
+    <string name="clipboard_label_name_and_email_address">Jméno a adresa</string>
+    <string name="compose_action">Nová zpráva</string>
+    <string name="compose_error_incomplete_recipient">Kolonka příjemce neobsahuje úplnou informaci!</string>
+    <string name="compose_error_no_draft_folder">Tento účet nemá nastavenou žádnou složku pro koncepty!</string>
+    <string name="compose_error_no_key_configured">Pro tento účet není nastaven žádný klíč! Zkontrolujte nastavení.</string>
+    <string name="compose_title_compose">Nová zpráva</string>
+    <string name="compose_title_forward">Přeposlat</string>
+    <string name="compose_title_forward_as_attachment">Přeposlat jako přílohu</string>
+    <string name="compose_title_reply">Odpovědět</string>
+    <string name="compose_title_reply_all">Odpovědět všem</string>
+    <string name="confirm_discard_draft_message">Opravdu chcete tuto zprávu zahodit?</string>
+    <string name="confirm_discard_draft_message_title">Zahodit zprávu?</string>
+    <string name="copy_action">Kopírovat</string>
+    <plurals name="copy_address_to_clipboard">
+            <item quantity="one">Adresa zkopírována do schránky</item>
+            <item quantity="few">Adresy zkopírovány do schránky</item>
+            <item quantity="many">Adresy zkopírovány do schránky</item>
+            <item quantity="other">Adresy zkopírovány do schránky</item>
+        </plurals>
+    <string name="copy_subject_to_clipboard">Text předmětu zkopírován do schránky</string>
+    <string name="crypto_msg_cancelled">Zpráva je zašifrována, ale dešifrování bylo zrušeno.</string>
+    <string name="crypto_msg_encrypted_error">ale vyskytla se chyba při rozšifrovávání</string>
+    <string name="crypto_msg_encrypted_incomplete">pro rozšifrování je třeba zprávu napřed celou stáhnout</string>
+    <string name="crypto_msg_encrypted_insecure">ale šifra není považovaná za bezpečnou</string>
+    <string name="crypto_msg_encrypted_no_provider">ale není nastavena žádná šifrovací aplikace</string>
+    <string name="crypto_msg_encrypted_sign_error">ale podepsaná data mají chyby</string>
+    <string name="crypto_msg_encrypted_sign_expired">ale platnost podpisového klíče autora skončila</string>
+    <string name="crypto_msg_encrypted_sign_insecure">ale klíč autora není považován za bezpečný</string>
+    <string name="crypto_msg_encrypted_sign_mismatch">klíč neodpovídá autorovi</string>
+    <string name="crypto_msg_encrypted_sign_revoked">ale platnost autorova klíče byla odvolána</string>
+    <string name="crypto_msg_encrypted_sign_unknown">podepsáno neznámým klíčem</string>
+    <string name="crypto_msg_encrypted_sign_verified">od ověřeného odesilatele</string>
+    <string name="crypto_msg_encrypted_unsigned">není podepsáno přímo autorem</string>
+    <string name="crypto_msg_incomplete_signed">podpis bude možné zpracovat až po úplném stažení zprávy</string>
+    <string name="crypto_msg_title_encrypted_signed">Šifrováno</string>
+    <string name="crypto_msg_title_encrypted_signed_e2e">Podepsáno přímo autorem</string>
+    <string name="crypto_msg_title_encrypted_unknown">Šifrováno</string>
+    <string name="crypto_msg_title_encrypted_unsigned">Šifrováno</string>
+    <string name="crypto_msg_title_plaintext">Holý text</string>
+    <string name="crypto_msg_title_unencrypted_signed">Podepsaný čitelný text</string>
+    <string name="crypto_msg_title_unencrypted_signed_e2e">Holý text podepsaný přímo autorem</string>
+    <string name="crypto_msg_unencrypted_sign_error">podpis autora obsahoval chybu</string>
+    <string name="crypto_msg_unencrypted_sign_expired">ale platnost podpisového klíče autora skončila</string>
+    <string name="crypto_msg_unencrypted_sign_insecure">ale klíč autora není považován za bezpečný</string>
+    <string name="crypto_msg_unencrypted_sign_mismatch">ale klíč neodpovídá autorovi</string>
+    <string name="crypto_msg_unencrypted_sign_revoked">ale platnost autorova klíče byla odvolána</string>
+    <string name="crypto_msg_unencrypted_sign_unknown">podepsáno neznámým klíčem</string>
+    <string name="crypto_msg_unencrypted_sign_verified">od ověřeného podepisujícího</string>
+    <string name="crypto_msg_unsupported_encrypted">Zpráva je zašifrována, ale v nepodporovaném formátu.</string>
+    <string name="crypto_msg_unsupported_signed">obsahuje nepodporovaný podpis</string>
+    <string name="crypto_no_provider_button">Přejít do nastavení</string>
+    <string name="crypto_no_provider_message">Tento e-mail byl zašifrován pomocí OpenPGP. \nPro jeho přečtení je třeba nainstalovat a nastavit kompatibilní OpenPGP aplikaci.</string>
+    <string name="crypto_no_provider_title">Tento e-mail je šifrovaný</string>
+    <string name="debug_enable_debug_logging_summary">Zaznamenávat rozšířené diagnostické informace</string>
+    <string name="debug_enable_debug_logging_title">Povolit ladící záznam</string>
+    <string name="debug_enable_sensitive_logging_summary">V záznamech mohou být zobrazena hesla.</string>
+    <string name="debug_enable_sensitive_logging_title">Záznamenávat citlivé informace</string>
+    <string name="debug_enable_sync_debug_logging_summary">Zaznamenávat diagnostické informace o synchronizaci na 24 hodin</string>
+    <string name="debug_enable_sync_debug_logging_title">Povolit ladicí protokolování synchronizace</string>
+    <string name="debug_export_logs_failure">Export se nezdařil.</string>
+    <string name="debug_export_logs_success">Export úspěšný. Záznamy událostí mohou obsahovat citlivé informace. Buďte opatrní s tím, komu je pošlete.</string>
+    <string name="debug_export_logs_title">Exportovat záznamy událostí</string>
+    <string name="debug_feature_flags">LADĚNÍ: Příznaky funkcí</string>
+    <string name="debug_force_auth_failure">Test: Vynutit selhání autentifikace</string>
+    <string name="debug_force_auth_failure_done">Stav OAuth vymazán. Další žádost selže.</string>
+    <string name="debug_force_auth_failure_unavailable">U tohoto účtu není dostupná žádná konfigurace OAuth.</string>
+    <string name="debug_invalidate_access_token">Test: Zneplatnit přístupový token</string>
+    <string name="debug_invalidate_access_token_already_modified">Uložený přístupový token již byl upraven.</string>
+    <string name="debug_invalidate_access_token_cannot_modify">Nepodařilo se upravit uložený přístupový token. Zkuste lokální zneplatnění.</string>
+    <string name="debug_invalidate_access_token_done">Přístupový token zneplatněn. Další žádostí se obnoví.</string>
+    <string name="debug_invalidate_access_token_local">Test: Zneplatnit přístupový token (lokálně)</string>
+    <string name="debug_invalidate_access_token_local_done">Vyžádáno lokální zneplatnění. Další žádostí se získá nový token.</string>
+    <string name="debug_invalidate_access_token_server">Test: Zneplatnit přístupový token (server)</string>
+    <string name="debug_invalidate_access_token_server_done">Uložený přístupový token je poškozen. Další žádost selže, poté se obnoví.</string>
+    <string name="debug_invalidate_access_token_unavailable">U tohoto účtu není dostupný žádný OAuth token.</string>
+    <string name="debug_open_secret_debug_screen">Otevřít tajnou ladicí obrazovku</string>
+    <string name="debug_preferences">Ladění</string>
+    <string name="debug_sync_export_logs_title">Exportovat protokoly synchronizace</string>
+    <string name="default_identity_description">Výchozí identita</string>
+    <string name="delete_action">Smazat</string>
+    <string name="dialog_attachment_progress_title">Stahuji přílohy</string>
+    <string name="dialog_autocrypt_mutual_description_1">Normálně budou zprávy šifrovány volitelně, nebo při odpovědi na šifrovanou zprávu.</string>
+    <string name="dialog_autocrypt_mutual_description_2">Pokud odesílatel i příjemce zapnou vzájemný režim, šifrování bude ve výchozím stavu zapnuté.</string>
+    <string name="dialog_autocrypt_mutual_learn_more"><a href="https://k9mail.app/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html">Kliknutím sem</a> se můžete dozvědět více.</string>
+    <string name="dialog_autocrypt_mutual_title">Vzájemný režim automatického šifrování</string>
+    <string name="dialog_confirm_clear_local_folder_action">Vyčistit zprávy</string>
+    <string name="dialog_confirm_clear_local_folder_message">Toto ze složky odebere všechny lokálně uložené zprávy. Ze serveru nebudou vymazány žádné zprávy.</string>
+    <string name="dialog_confirm_clear_local_folder_title">Vymazat zprávy uložené lokálně?</string>
+    <string name="dialog_confirm_delete_cancel_button">Ne</string>
+    <string name="dialog_confirm_delete_confirm_button">Ano</string>
+    <string name="dialog_confirm_delete_message">Chcete smazat tuto zprávu?</string>
+    <plurals name="dialog_confirm_delete_messages">
+            <item quantity="one">Opravdu si přejete smazat tuto zprávu?</item>
+            <item quantity="few">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zprávy?</item>
+            <item quantity="many">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
+            <item quantity="other">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
+        </plurals>
+    <string name="dialog_confirm_delete_title">Potvrzení mazání</string>
+    <string name="dialog_confirm_empty_spam_message">Opravdu chcete vyprázdnit složku Nevyžádané?</string>
+    <string name="dialog_confirm_empty_spam_title">Potvrdit vysypání nevyžádaných</string>
+    <string name="dialog_confirm_empty_trash_message">Opravdu chcete vyprázdnit složku Koš?</string>
+    <string name="dialog_confirm_empty_trash_title">Potvrdit vyprázdnění koše</string>
+    <string name="dialog_confirm_mark_all_as_read_cancel_button">Ne</string>
+    <string name="dialog_confirm_mark_all_as_read_confirm_button">Ano</string>
+    <string name="dialog_confirm_mark_all_as_read_message">Opravdu chcete označit všechny zprávy jako přečtené?</string>
+    <string name="dialog_confirm_mark_all_as_read_title">Potvrdit označení všech jako přečtené</string>
+    <string name="dialog_confirm_spam_cancel_button">Ne</string>
+    <string name="dialog_confirm_spam_confirm_button">Ano</string>
+    <plurals name="dialog_confirm_spam_message">
+            <item quantity="one">Opravdu chcete přesunout tuto zprávy do nevyžádané pošty?</item>
+            <item quantity="few">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zprávy do nevyžádané pošty?</item>
+            <item quantity="many">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
+            <item quantity="other">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
+        </plurals>
+    <string name="dialog_confirm_spam_title">Potvrzení přesunu do nevyžádané pošty</string>
+    <string name="dialog_openkeychain_info_install">Nainstalovat</string>
+    <string name="dialog_openkeychain_info_text">Pro šifrování mezi odesílatelem a příjemcem je potřeba aplikace OpenKeychain.</string>
+    <string name="dialog_openkeychain_info_title">Není nainstalovaná žádná OpenPGP aplikace</string>
+    <string name="disable_encryption">Vypnout šifrování</string>
+    <string name="disable_inline_pgp">Zakázat PGP/INLINE</string>
+    <string name="disable_sign_only">Zakázat jen PGP podpis</string>
+    <string name="discard_action">Zahodit</string>
+    <string name="display_preferences">Zobrazení</string>
+    <string name="done_action">Hotovo</string>
+    <string name="drafts_folder_label">Název složky Koncepty</string>
+    <string name="edit_as_new_message_action">Upravit jako novou zprávu</string>
+    <string name="edit_identity_description_hint">(Volitelné)</string>
+    <string name="edit_identity_description_label">Popis identity</string>
+    <string name="edit_identity_email_hint">(Vyžadováno)</string>
+    <string name="edit_identity_email_label">E-mailová adresa</string>
+    <string name="edit_identity_name_hint">(Volitelné)</string>
+    <string name="edit_identity_name_label">Vaše jméno</string>
+    <string name="edit_identity_reply_to_hint">(Volitelné)</string>
+    <string name="edit_identity_reply_to_label">Adresa pro odpověď</string>
+    <string name="edit_identity_save">Uložit</string>
+    <string name="edit_identity_signature_hint">(Volitelné)</string>
+    <string name="edit_identity_signature_label">Podpis</string>
+    <string name="edit_identity_title">Upravit identitu</string>
+    <string name="empty_spam_action">Vysypat nevyžádané</string>
+    <string name="empty_subject">Předmět není vyplněn, pro odeslání klepněte znovu</string>
+    <string name="empty_trash_action">Vysypat koš</string>
+    <string name="enable_encryption">Zapnout šifrování</string>
+    <string name="enable_inline_pgp">Povolit PGP/INLINE</string>
+    <string name="enable_sign_only">Povolit režim podepisování PGP</string>
+    <string name="error_activity_not_found">Pro tuto akci nebyla nalezena žádná vhodná aplikace.</string>
+    <string name="error_contact_address_not_found">Adresa tohoto kontaktu nebyla nalezena.</string>
+    <string name="error_crypto_inline_attach">Režim PGP/INLINE nepodporuje přílohy!</string>
+    <string name="error_crypto_provider_connect">Nelze se spojit se službou šifrování, zkontrolujte své nastavení nebo ťukněte na ikonu šifrování pro nový pokus!</string>
+    <string name="error_crypto_provider_incompatible">Poskytovatel šifrování používá neslučitelnou verzi. Zkontrolujte svá nastavení!</string>
+    <string name="error_crypto_provider_ui_required">Nepodařilo se inicializovat šifrování mezi odesílatelem a příjemcem – zkontrolujte svá nastavení</string>
+    <string name="error_sign_only_no_encryption">Šifrování není v režimu podepisování dostupné!</string>
+    <string name="expand_content_description">Rozbalit</string>
+    <string name="expand_folders">Rozbalit složky</string>
+    <string name="expunge_action">Vymazat</string>
+    <string name="fetching_attachment_dialog_message">Stahuji přílohu…</string>
+    <string name="fetching_attachment_dialog_title_save">Ukládám koncept</string>
+    <string name="fetching_attachment_dialog_title_send">Odesílám zprávu</string>
+    <string name="filter_folders_action">Najít složku</string>
+    <string name="flag_action">Přidat ★</string>
+    <string name="folder_list_filter_hint">Název složky obsahuje</string>
+    <string name="folder_list_show_hidden_folders">Zobrazit skryté složky</string>
+    <string name="folder_settings_clear_local_folder_action">Vyčistit místní zprávy</string>
+    <string name="folder_settings_in_top_group_label">Zobrazit v nejvyšší skupině</string>
+    <string name="folder_settings_include_in_integrated_inbox_label">Integrovat</string>
+    <string name="folder_settings_notifications_label">Oznámení</string>
+    <string name="folder_settings_push_label">Povolit Push</string>
+    <string name="folder_settings_sync_label">Zapnout synchronizaci</string>
+    <string name="folder_settings_title">Nastavení složky</string>
+    <string name="folder_settings_visible_label">Zobrazit složku</string>
+    <string name="folders_action">Správa složek</string>
+    <string name="font_size_default">Standardní</string>
+    <string name="font_size_large">Velký</string>
+    <string name="font_size_larger">Největší</string>
+    <string name="font_size_medium">Střední</string>
+    <string name="font_size_message_compose">Psaní zprávy</string>
+    <string name="font_size_message_compose_input">Pole zadávaní textu</string>
+    <string name="font_size_message_list">Seznam zpráv</string>
+    <string name="font_size_message_list_date">Datum</string>
+    <string name="font_size_message_list_preview">Náhled</string>
+    <string name="font_size_message_list_sender">Odesílatel</string>
+    <string name="font_size_message_list_subject">Předmět</string>
+    <string name="font_size_message_view">Zpráva</string>
+    <!-- Displayed in the font size settings screen to configure the font size of the account name in the message view. -->
+    <string name="font_size_message_view_account">Název účtu</string>
+    <string name="font_size_message_view_content">Tělo</string>
+    <string name="font_size_message_view_date">Datum a čas</string>
+    <string name="font_size_message_view_recipients">Příjemci</string>
+    <string name="font_size_message_view_sender">Odesílatel</string>
+    <string name="font_size_message_view_subject">Předmět</string>
+    <string name="font_size_settings_description">Nastavit velikost písma</string>
+    <string name="font_size_settings_title">Velikost písma</string>
+    <string name="font_size_small">Malý</string>
+    <string name="font_size_smaller">Menší</string>
+    <string name="font_size_tiniest">Nejdrobnější</string>
+    <string name="font_size_tiny">Drobný</string>
+    <string name="forward_action">Přeposlat</string>
+    <string name="forward_as_attachment_action">Přeposlat jako přílohu</string>
+    <string name="from_same_sender">Více od tohoto odesílatele</string>
+    <string name="general_no_sender">Bez odesílatele</string>
+    <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
+    <string name="general_no_subject">(Bez předmětu)</string>
+    <string name="general_settings_contact_name_color_label">Barva pro název kontaktu</string>
+    <!-- Name of the setting to configure the left swipe action -->
+    <string name="general_settings_left_swipe_title">Swipe doleva</string>
+    <string name="general_settings_message_list_date_time_format_contextual">Kontextový</string>
+    <string name="general_settings_message_list_date_time_format_full">Plný</string>
+    <string name="general_settings_message_list_date_time_format_iso">ISO</string>
+    <string name="general_settings_message_list_date_time_format_title">Formát data a času</string>
+    <!-- Title of the setting to specify the density of the message list -->
+    <string name="general_settings_message_list_density_title">Hustota zpráv</string>
+    <string name="general_settings_post_mark_as_unread_action_return_to_list">Vrátit se na seznam zpráv</string>
+    <string name="general_settings_post_mark_as_unread_action_stay">Zůstat na současné zprávě</string>
+    <string name="general_settings_post_mark_as_unread_action_title">Po označení zprávy jako nepřečtené</string>
+    <string name="general_settings_post_remove_action_return_to_list">Vrátit se na seznam zpráv</string>
+    <string name="general_settings_post_remove_action_show_next_message">Zobrazit následující zprávu</string>
+    <string name="general_settings_post_remove_action_show_previous_message">Zobrazit předchozí zprávu</string>
+    <string name="general_settings_post_remove_action_title">Po smazání nebo přesunu zprávy</string>
+    <!-- Name of the setting to configure the right swipe action -->
+    <string name="general_settings_right_swipe_title">Swipe doprava</string>
+    <!-- Name of the swipe action to select a message. Try to keep it short. -->
+    <!-- Name of the swipe action to deselect a message. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as read. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as unread. Try to keep it short. -->
+    <!-- Name of the swipe action to add the star to a message. Try to keep it short. -->
+    <!-- Name of the swipe action to remove the star from a message. Try to keep it short. -->
+    <!-- Name of the swipe action to archive a message. Try to keep it short. -->
+    <!-- Name of the swipe action to delete a message. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message to the Spam folder. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message. The ellipsis (…) indicates that there is another step (selecting a folder) before the action is performed. Try to keep it short. -->
+    <!-- Name of setting to configure whether to show a "compose" floating action button on top of the message list -->
+    <string name="general_settings_show_compose_button_title">Zobrazit tlačíko Nová zpráva</string>
+    <!-- Name of the swipe action to archive a message -->
+    <string name="general_settings_swipe_action_archive">Archivovat</string>
+    <!-- Name of the swipe action to delete a message -->
+    <string name="general_settings_swipe_action_delete">Smazat</string>
+    <!-- Name of the swipe action to move a message to another folder -->
+    <string name="general_settings_swipe_action_move">Přesunout</string>
+    <!-- The list item users select to not use a swipe action for a particular direction -->
+    <string name="general_settings_swipe_action_none">Žádné</string>
+    <!-- Name of the swipe action to move a message to the spam folder -->
+    <string name="general_settings_swipe_action_spam">Nevyžádaná</string>
+    <!-- Name of the swipe action to mark as message as read/unread -->
+    <string name="general_settings_swipe_action_toggle_read">Označit jako přečtené/nepřečtené</string>
+    <!-- Name of the swipe action to select/deselect a message -->
+    <string name="general_settings_swipe_action_toggle_selection">Vybrat</string>
+    <!-- Name of the swipe action to add/remove a star -->
+    <string name="general_settings_swipe_action_toggle_star">Přidat/odebrat hvězdičku</string>
+    <!-- Title of the screen to configure swipe actions -->
+    <string name="general_settings_swipe_actions_title">Nastavení gest</string>
+    <string name="general_settings_title">Obecná nastavení</string>
+    <string name="general_settings_ui_density_compact">Kompaktní</string>
+    <string name="general_settings_ui_density_default">Standardní</string>
+    <string name="general_settings_ui_density_relaxed">Volné</string>
+    <string name="generic_loading_error">Nastala chyba při nahrávání dat</string>
+    <string name="get_help_title">Získat pomoc</string>
+    <string name="global_preferences">Globální</string>
+    <string name="global_settings_background_as_unread_indicator_label">Ztmavit zprávy po přečtení</string>
+    <string name="global_settings_background_as_unread_indicator_summary">Jiné pozadí indikuje přečtení zprávy</string>
+    <string name="global_settings_colorize_missing_contact_pictures_label">Obarvit obrázky kontaktů</string>
+    <string name="global_settings_colorize_missing_contact_pictures_summary">Obarví chybějící obrázky u kontaktů</string>
+    <string name="global_settings_confirm_action_delete">Smazat</string>
+    <string name="global_settings_confirm_action_delete_notif">Smazat (z oznámení)</string>
+    <string name="global_settings_confirm_action_delete_starred">Smaž zprávy s hvězdičkou (v zobrazení zpráv)</string>
+    <string name="global_settings_confirm_action_spam">Nevyžádaná</string>
+    <string name="global_settings_confirm_actions_summary">Zobrazit dialog, když provádíte zvolené akce</string>
+    <string name="global_settings_confirm_actions_title">Potvrzování akcí</string>
+    <string name="global_settings_confirm_menu_discard">Zahodit zprávu</string>
+    <string name="global_settings_confirm_menu_mark_all_read">Označit všechny zprávy jako přečtené</string>
+    <string name="global_settings_flag_label">Zprávy s ★</string>
+    <string name="global_settings_flag_summary">Hvězdička indikuje označenou zprávu</string>
+    <string name="global_settings_lock_screen_notification_visibility_app_name">Jméno aplikace</string>
+    <string name="global_settings_lock_screen_notification_visibility_everything">Stejné jako při odemčené obrazovce</string>
+    <string name="global_settings_lock_screen_notification_visibility_message_count">Počet nových zpráv</string>
+    <string name="global_settings_lock_screen_notification_visibility_nothing">Žádná oznámení na uzamčené obrazovce</string>
+    <string name="global_settings_lock_screen_notification_visibility_senders">Počet zpráv a odesilatelů</string>
+    <string name="global_settings_lock_screen_notification_visibility_title">Oznámení na uzamčené obrazovce</string>
+    <string name="global_settings_messageview_autofit_width_label">Automatické přizpůsobení zpráv</string>
+    <string name="global_settings_messageview_autofit_width_summary">Zmenšit zprávy aby se vešly na obrazovku</string>
+    <string name="global_settings_messageview_body_content_type_text_html">HTML (text/html)</string>
+    <string name="global_settings_messageview_body_content_type_text_plain">Pouze text (text/plain)</string>
+    <string name="global_settings_messageview_body_content_type_title">Typ obsahu těla</string>
+    <string name="global_settings_messageview_fixedwidth_label">Písma s pevnou šířkou</string>
+    <string name="global_settings_messageview_fixedwidth_summary">Pro zobrazování neformátovaných textových zpráv použít písmo s pevnou šířkou</string>
+    <string name="global_settings_messageview_visible_refile_actions_summary">Zobrazí vybrané funkce v dolním menu u zpráv</string>
+    <string name="global_settings_messageview_visible_refile_actions_title">Zobrazení funkcí zpráv</string>
+    <string name="global_settings_notification_quick_delete_always">Vždy</string>
+    <string name="global_settings_notification_quick_delete_never">Nikdy</string>
+    <string name="global_settings_notification_quick_delete_title">Zobrazit tlačítko \'Smazat\'</string>
+    <string name="global_settings_notification_quick_delete_when_single_msg">Pro mazaní jedné zprávy</string>
+    <string name="global_settings_preview_lines_label">Počet řádků náhledu</string>
+    <string name="global_settings_privacy_hide_timezone">Skrýt časovou zónu</string>
+    <string name="global_settings_privacy_hide_timezone_detail">Používat v hlavičkách e-mailů a odpovědí univerzální čas (UTC) namísto toho místního</string>
+    <string name="global_settings_privacy_hide_useragent">Skrýt e-mailového klienta</string>
+    <string name="global_settings_privacy_hide_useragent_detail">Odstraňovat z hlaviček e-mailů informaci o user agent</string>
+    <string name="global_settings_privacy_incognito_keyboard">Klávesnice v anonymním režimu</string>
+    <string name="global_settings_privacy_incognito_keyboard_detail">Při psaní zpráv nastavte klávesnici tak, aby se neučila z toho, co píšete</string>
+    <string name="global_settings_registered_name_color_changed">Obarvit jména v seznamu kontaktů</string>
+    <string name="global_settings_registered_name_color_label">Obarvit kontakty</string>
+    <string name="global_settings_sender_above_subject_label">Odesílatel nad předmětem</string>
+    <string name="global_settings_sender_above_subject_summary">Zobraz odesílatele nad řádkem předmětu spíše než pod ním</string>
+    <string name="global_settings_show_contact_name_label">Zobrazit jména kontaktů</string>
+    <string name="global_settings_show_contact_name_summary">Použít jména příjemců ze Seznamu kontaktů, je-li to možné</string>
+    <string name="global_settings_show_contact_picture_label">Zobraz obrázky u kontaktů</string>
+    <string name="global_settings_show_contact_picture_summary">V seznamu zpráv, zobrazovat u kontaktů jejich fotky</string>
+    <string name="global_settings_show_correspondent_names_label">Zobraz jméno odesílatele</string>
+    <string name="global_settings_show_correspondent_names_summary">Zobraz jméno odesílatele raději než adresu</string>
+    <string name="global_settings_splitview_always">Vždy</string>
+    <string name="global_settings_splitview_mode_label">Zobraz rozdělení obrazovky</string>
+    <string name="global_settings_splitview_never">Nikdy</string>
+    <string name="global_settings_splitview_when_in_landscape">Při orientaci na šířku</string>
+    <string name="global_settings_splitview_when_unfolded">Při rozložení zařízení</string>
+    <string name="global_settings_threaded_view_label">Zobrazit vlákna</string>
+    <string name="global_settings_threaded_view_summary">Sjednotit zprávy patřící ke stejnému vláknu</string>
+    <string name="identity_has_no_email">Nelze použít identitu bez e-mailové adresy</string>
+    <string name="idle_refresh_period_12min">Každých 12 minut</string>
+    <string name="idle_refresh_period_24min">Každé 24 minuty</string>
+    <string name="idle_refresh_period_2min">Každé 2 minuty</string>
+    <string name="idle_refresh_period_36min">Každých 36 minut</string>
+    <string name="idle_refresh_period_3min">Každé 3 minuty</string>
+    <string name="idle_refresh_period_48min">Každých 48 minut</string>
+    <string name="idle_refresh_period_60min">Každých 60 minut</string>
+    <string name="idle_refresh_period_6min">Každých 6 minut</string>
+    <string name="idle_refresh_period_label">Obnovit připojení IDLE</string>
+    <string name="integrated_inbox_detail">Všechny zprávy v integrovaných složkách</string>
+    <string name="integrated_inbox_title">Jednotná schránka</string>
+    <string name="interaction_preferences">Ovládání</string>
+    <string name="license">Licence</string>
+    <string name="load_more_messages_fmt">Načíst až <xliff:g id="messages_to_load">%d</xliff:g> dalších</string>
+    <string name="loading_attachment">Nahrávám přílohu…</string>
+    <string name="locked_attach_unencrypted">Tato část nebyla zašifrovaná a nemusí proto být bezpečná.</string>
+    <string name="locked_attach_unlock">Odemknout</string>
+    <string name="manage_identities_context_menu_title">Spravovat identitu</string>
+    <string name="manage_identities_edit_action">Upravit</string>
+    <string name="manage_identities_move_down_action">Posunout dolů</string>
+    <string name="manage_identities_move_top_action">Posunout do čela/nastavit jako výchozí</string>
+    <string name="manage_identities_move_up_action">Posunout nahoru</string>
+    <string name="manage_identities_remove_action">Odstranit</string>
+    <string name="manage_identities_title">Správa identit</string>
+    <string name="mark_all_as_read">Označ vše jako přečtené</string>
+    <string name="mark_as_read_action">Označit jako přečtené</string>
+    <string name="mark_as_unread_action">Označit jako nepřečtené</string>
+    <string name="message_compose_attachments_forward_toast">Zprávu není možné přeposlat, protože nebyly staženy některé přílohy.</string>
+    <string name="message_compose_attachments_skipped_toast">Některé přílohy nelze přeposlat, protože nebyly staženy.</string>
+    <string name="message_compose_content_hint">Text zprávy</string>
+    <string name="message_compose_description_delete_quoted_text">Odstranit citovaný text</string>
+    <string name="message_compose_description_edit_quoted_text">Upravit citovaný text</string>
+    <string name="message_compose_error_no_recipients">Musíte přidat alespoň jednoho příjemce.</string>
+    <string name="message_compose_quote_header_cc">Kopie:</string>
+    <string name="message_compose_quote_header_from">Odesílatel:</string>
+    <string name="message_compose_quote_header_send_date">Odesláno:</string>
+    <string name="message_compose_quote_header_separator">-------- Původní zpráva --------</string>
+    <string name="message_compose_quote_header_subject">Předmět:</string>
+    <string name="message_compose_quote_header_to">Komu:</string>
+    <string name="message_compose_reply_header_fmt"><xliff:g id="sender">%s</xliff:g> napsal(a):</string>
+    <string name="message_compose_reply_header_fmt_with_date"><xliff:g id="sent_date">%1$s</xliff:g>, <xliff:g id="sender">%2$s</xliff:g> napsal:</string>
+    <string name="message_compose_show_quoted_text_action">Zahrnout citovanou zprávu</string>
+    <string name="message_compose_signature_hint">Podpis</string>
+    <string name="message_compose_subject_hint">Předmět</string>
+    <!-- Title of the "Bcc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_bcc'. -->
+    <string name="message_details_bcc_section_title">Skrytá kopie</string>
+    <!-- Title of the "Cc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_cc'. -->
+    <string name="message_details_cc_section_title">Kopie</string>
+    <!-- Title of the "From" section in the message details bottom sheet. This should probably be the same as the string 'recipient_from'. -->
+    <string name="message_details_from_section_title">Odesílatel</string>
+    <!-- Displayed when loading the message details has failed -->
+    <string name="message_details_loading_error">Chyba při načítání informací o zprávě.</string>
+    <!-- Displayed when an email is missing the 'Date' header field and no date can be displayed in the message details bottom sheet. -->
+    <string name="message_details_missing_date">Neznámé datum</string>
+    <!-- Title of the "Reply to" section in the message details bottom sheet. This should probably be the same as the string 'reply_to_label'. -->
+    <string name="message_details_replyto_section_title">Odpovědět komu</string>
+    <!-- Title of the "Sender" section in the message details bottom sheet. This refers to the 'Sender' header. Be careful with translations. -->
+    <string name="message_details_sender_section_title">Odesílatel</string>
+    <!-- Title of the "To" section in the message details bottom sheet. This should probably be the same as the string 'recipient_to'. -->
+    <string name="message_details_to_section_title">Komu</string>
+    <!-- Title of the toolbar that is displayed when the message details bottom sheet has been expanded -->
+    <string name="message_details_toolbar_title">Informace o zprávě</string>
+    <string name="message_discarded_toast">Zpráva byla zrušena</string>
+    <!-- Might be displayed in a notification when deleting an account (in the background) -->
+    <!-- For unread messages the first line of a message list item is modified by this to improve the experience for people with screen readers. -->
+    <string name="message_list_content_description_unread_prefix">nepřečteno, %s</string>
+    <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
+    <string name="message_list_error_folder_not_found">Složka nenalezena</string>
+    <!-- Displayed in the toolbar when there was an error loading the message list, e.g. because the folder no longer exists. -->
+    <string name="message_list_error_title">Chyba</string>
+    <string name="message_list_load_more_messages_action">Načti více zpráv</string>
+    <string name="message_progress_text">Načítání…</string>
+    <string name="message_saved_toast">Zpráva byla uložena jako koncept</string>
+    <string name="message_to_fmt">Komu:<xliff:g id="counterParty">%s</xliff:g></string>
+    <string name="message_to_label">Komu:</string>
+    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
+    <string name="message_view_additional_recipient_prefix">+</string>
+    <plurals name="message_view_attachment_summary">
+            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> příloha (<xliff:g id="size">%2$s</xliff:g>)</item>
+            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> přílohy (<xliff:g id="size">%2$s</xliff:g>)</item>
+            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
+            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
+        </plurals>
+    <string name="message_view_attachments_save_all">Uložit vše</string>
+    <string name="message_view_attachments_title">Přílohy</string>
+    <string name="message_view_attachments_view">Zobrazit</string>
+    <string name="message_view_attachments_view_all">Zobrazit vše</string>
+    <string name="message_view_bcc_label">Skrytá kopie (Bcc):</string>
+    <string name="message_view_cc_label">Kopie:</string>
+    <string name="message_view_download_remainder">Stáhnout úplnou zprávu</string>
+    <string name="message_view_empty">Prosím zvolte zprávu vlevo</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_me_text">Mně</string>
+    <string name="message_view_menu_action_export_eml">Exportovat jako EML</string>
+    <string name="message_view_no_viewer">Nelze nalézt prohlížeč pro <xliff:g id="mimetype">%s</xliff:g>.</string>
+    <!-- Used to display the recipient list in the message view screen. -->
+    <string name="message_view_recipients_format">komu: <xliff:g id="recipients">%s</xliff:g></string>
+    <string name="message_view_sender_label">přes %1$s</string>
+    <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
+    <string name="message_view_show_remote_images_action">Zobrazit vzdálené obrázky</string>
+    <string name="message_view_single_attachment_summary"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="message_view_status_attachment_not_saved">Přílohu se nedaří uložit.</string>
+    <string name="message_view_theme_action_dark">Přepnout na tmavý motiv</string>
+    <string name="message_view_theme_action_light">Přepnout na světlý motiv</string>
+    <string name="messagelist_preferences">Seznam zpráv</string>
+    <string name="messageview_crypto_error_title">Chyba při rozšifrovávání e-mailu</string>
+    <string name="messageview_decrypt_cancelled">Rozšifrování zrušeno.</string>
+    <string name="messageview_decrypt_incomplete">Zašifrovaná zpráva musí být stažena pro dešifrování.</string>
+    <string name="messageview_decrypt_retry">Zkusit znovu</string>
+    <string name="messageview_preferences">Zprávy</string>
+    <string name="move_action">Přesunout</string>
+    <string name="move_copy_cannot_copy_unsynced_message">Nelze kopírovat nebo přesunovat zprávu, která není synchronizována se serverem</string>
+    <string name="move_to_drafts_action">Přesunout do konceptů</string>
+    <string name="navigation_drawer_preferences">Postranní nabídka</string>
+    <string name="network_preferences">Síť</string>
+    <string name="new_identity_action">Nová identita</string>
+    <string name="new_messages_title">Nové zprávy</string>
+    <string name="no_network_message_will_be_sent_later_toast">Jste offline. Zpráva bude odeslána, jakmile bude dostupné připojení</string>
+    <string name="no_removable_identity">Nelze odebrat jedinou zbývající identitu</string>
+    <string name="notification_action_archive">Archivovat</string>
+    <string name="notification_action_archive_all">Archivovat vše</string>
+    <string name="notification_action_delete">Smazat</string>
+    <string name="notification_action_delete_all">Smazat vše</string>
+    <string name="notification_action_mark_all_as_read">Označit vše jako přečtené</string>
+    <string name="notification_action_mark_as_read">Označit jako přečtené</string>
+    <string name="notification_action_reply">Odpovědět</string>
+    <string name="notification_action_spam">Nevyžádaná</string>
+    <string name="notification_action_star">Hvězdička</string>
+    <string name="notification_actions_cutoff_description">Hranice zobrazených akcí</string>
+    <string name="notification_actions_cutoff_state">Akce nad touto linkou budou zobrazeny v oznámení</string>
+    <string name="notification_actions_hidden_state">Nezobrazeno v oznámení</string>
+    <string name="notification_actions_settings_description">Změnit pořadí akcí oznámení.</string>
+    <string name="notification_actions_settings_summary">Vyberte, které akce se zobrazí v oznámeních o e-mailech</string>
+    <string name="notification_actions_settings_title">Akce oznámení</string>
+    <string name="notification_actions_shown_state">Zobrazeno v oznámení</string>
+    <string name="notification_additional_messages">+ <xliff:g id="additional_messages">%1$d</xliff:g> dalších na <xliff:g id="account">%2$s</xliff:g></string>
+    <string name="notification_authentication_error_text">Přihlášení k účtu <xliff:g id="account">%s</xliff:g> se nezdařilo. Aktualizujte svá nastavení pro server.</string>
+    <string name="notification_authentication_error_title">Přihlášení se nezdařilo</string>
+    <string name="notification_bg_send_ticker">Odesílání pošty: <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_bg_send_title">Odesílání pošty</string>
+    <string name="notification_bg_sync_ticker">Kontrola nové pošty: <xliff:g id="account">%1$s</xliff:g>:<xliff:g id="folder">%2$s</xliff:g></string>
+    <string name="notification_bg_sync_title">Kontrola nové pošty</string>
+    <string name="notification_bg_title_separator">:</string>
+    <string name="notification_certificate_error_public">Chyba certifikátu</string>
+    <string name="notification_certificate_error_text">Zkontrolujte nastavení serveru</string>
+    <string name="notification_certificate_error_title">Chyba certifikátu účtu <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_channel_messages_description">Oznámení související se zprávami</string>
+    <string name="notification_channel_messages_title">Zpráva</string>
+    <string name="notification_channel_miscellaneous_description">Různá oznámení, jako chyby atd.</string>
+    <string name="notification_channel_miscellaneous_title">Různé</string>
+    <string name="notification_channel_push_description">Zobrazeno po dobu čekání na nové zprávy</string>
+    <string name="notification_channel_push_title">Synchronizovat (Push)</string>
+    <plurals name="notification_new_messages_title">
+            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nová zpráva</item>
+            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nové zprávy</item>
+            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
+            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
+        </plurals>
+    <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_text">Vyskytla se chyba při vytvoření systémového oznámení pro novou zprávu. Důvodem je nejspíš chybějící zvuk oznámení. \n \nKlepnutím otevřete nastavení oznámení.</string>
+    <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_title">Chyba oznámení</string>
+    <string name="notification_show_contact_picture_summary">Zobrazit avatary odesílatelů v oznámeních o nových zprávách</string>
+    <string name="notification_show_contact_picture_title">Zobrazit obrázky kontaktů v oznámeních</string>
+    <string name="notification_summary_delete_summary">Přidá akci Odstranit k oznámením, které shrnují několik nových zpráv</string>
+    <string name="notification_summary_delete_title">Zobrazit tlačítko Odstranit u oznámeních s vícero zprávami</string>
+    <string name="notifications_title">Oznámení</string>
+    <string name="open_camera">Otevřít fotoaparát</string>
+    <string name="openpgp_description_text1">Šifrování zpráv zajistí, že budou čitelné pouze pro příjemce a nikoho jiného.</string>
+    <string name="openpgp_description_text2">Přepněte šifrování kliknutím na tuto ikonu.</string>
+    <string name="openpgp_description_text3">Šifrování se zobrazí pouze tehdy, pokud je podporováno všemi příjemci a je třeba, aby vám už dříve poslali nějaký e-mail.</string>
+    <string name="openpgp_dialog_sign_only_minus_attach">Podpisy mohou být v některých klientských aplikacích zobrazeny jako soubor přílohy „signature.asc“.</string>
+    <string name="openpgp_dialog_sign_only_minus_break">Při odeslání e-mailu do skupiny může dojít k poškození podpisu.</string>
+    <string name="openpgp_dialog_sign_only_neutral_encsigned">Šifrované zprávy vždy obsahují podpis.</string>
+    <string name="openpgp_dialog_sign_only_plus_verified">Toto nezašifruje text e-mailu, ale poskytne ověření, že byl e-mail podepsán vaším klíčem.</string>
+    <string name="openpgp_dialog_sign_only_text">V tomto režimu bude váš PGP klíč použit k vytvoření kryptografického podpisu nešifrovaného e-mailu.</string>
+    <string name="openpgp_dialog_sign_only_title">Režim podepisování PGP</string>
+    <string name="openpgp_enabled_error_back">Zpět</string>
+    <string name="openpgp_enabled_error_disable">Vypnout šifrování</string>
+    <string name="openpgp_enabled_error_gotit">Rozumím</string>
+    <string name="openpgp_enabled_error_msg">Někteří ze zvolených příjemců nepodporují tuto funkci!</string>
+    <!-- Displayed in the the message list widget when the app hasn't had a chance to send content to it yet -->
+    <!-- Might be displayed in the message list widget when the list is scrolled and new data can't be fetched fast enough -->
+    <string name="openpgp_enabled_error_title">Šifrování není možné</string>
+    <string name="openpgp_encryption">Šifrování OpenGPG</string>
+    <string name="openpgp_inline_disable">Vypnout</string>
+    <string name="openpgp_inline_keep_enabled">Ponechat zapnuté</string>
+    <string name="openpgp_inline_minus_attach">Přílohy nejsou podporovány</string>
+    <string name="openpgp_inline_minus_transit">Může dojít k poškození podpisu v průběhu přenosu</string>
+    <string name="openpgp_inline_ok">Rozumím!</string>
+    <string name="openpgp_inline_plus_compat">Některé klientské aplikace podporují pouze tento formát</string>
+    <string name="openpgp_inline_text">E-mail je odeslán v PGP/INLINE formátu. \nTen má být používán jen z důvodu kompatibility:</string>
+    <string name="openpgp_inline_title">Režim PGP/INLINE</string>
+    <string name="openpgp_sign_only_disable">Vypnout</string>
+    <string name="openpgp_sign_only_keep_enabled">Ponechat zapnuté</string>
+    <string name="openpgp_sign_only_ok">Rozumím!</string>
+    <string name="preference_search_no_results">Nenalezena žádná nastavení</string>
+    <string name="prefs_title">Nastavení</string>
+    <!-- Note: This references message_view_download_remainder -->
+    <string name="preview_encrypted">*Zašifrováno*</string>
+    <string name="print_message_action">Tisk</string>
+    <string name="privacy_preferences">Soukromí</string>
+    <string name="push_info_configure_notification_action">Nastavit oznámení</string>
+    <string name="push_info_configure_notification_text">Nicméně Android vám také umožní toto oznámení skrýt.</string>
+    <string name="push_info_disable_push_action">Vypnout Push</string>
+    <string name="push_info_disable_push_text">Pokud nepotřebujete okamžitá oznámení na nové zprávy, měli byste Push vypnout a použít pravidelné dotazování. To kontroluje nové e-maily v pravidelném intervalu a nepotřebuje oznámení.</string>
+    <string name="push_info_learn_more_text">Zjistit více</string>
+    <string name="push_info_notification_explanation_text">Při používání Push udržuje <xliff:g id="app_name">%1$s</xliff:g> spojení s e-mailovým serverem. Je-li aplikace aktivní na pozadí, Systém Android vyžaduje zobrazení průběžného oznámení. <xliff:g id="optional_extended_explanation">%2$s</xliff:g></string>
+    <string name="push_info_title">Push informace</string>
+    <string name="push_notification_grant_alarm_permission">Klepnutím udělíte oprávnění.</string>
+    <string name="push_notification_info">Klepněte, pokud se chcete dozvědět víc.</string>
+    <string name="push_notification_state_alarm_permission_missing">Chybí oprávnění pro nastavování alarmů</string>
+    <string name="push_notification_state_initializing">Inicializace…</string>
+    <string name="push_notification_state_listening">Čeká se na nové e-maily</string>
+    <string name="push_notification_state_wait_background_sync">Uspáno do doby, než bude umožněna synchronizace na pozadí</string>
+    <string name="push_notification_state_wait_network">Uspáno do doby, než bude k dispozici síť</string>
+    <string name="quiet_time">Doba klidu</string>
+    <string name="quiet_time_description">Zakázat v noci zvonění, vibrace a blikání</string>
+    <string name="quiet_time_ends">Doba klidu končí</string>
+    <string name="quiet_time_notification">Vypnout oznamování</string>
+    <string name="quiet_time_notification_description">Kompletně vypnout oznamování v režimu Doba klidu</string>
+    <string name="quiet_time_starts">Doba klidu začíná</string>
+    <string name="read_receipt">Potvrzení o přečtení</string>
+    <string name="read_receipt_disabled">Potvrzení o přečtení nebude vyžadováno</string>
+    <string name="read_receipt_enabled">Potvrzení o přečtení bude vyžadováno</string>
+    <string name="recipient_bcc">Skrytá kopie</string>
+    <string name="recipient_cc">Kopie</string>
+    <string name="recipient_error_non_ascii">Speciální znaky nejsou momentálně podporovány!</string>
+    <string name="recipient_error_parse_failed">Chyba zpracovávání adresy!</string>
+    <string name="recipient_from">Odesílatel</string>
+    <string name="recipient_to">Komu</string>
+    <string name="refile_action">Přesměrovat…</string>
+    <string name="refresh_folders_action">Obnovit složky</string>
+    <plurals name="remote_search_downloading">
+            <item quantity="one">Načítání %d výsledku</item>
+            <item quantity="few">Načítání %d výsledků</item>
+            <item quantity="many">Načítání %d výsledků</item>
+            <item quantity="other">Načítání %d výsledků</item>
+        </plurals>
+    <plurals name="remote_search_downloading_limited">
+            <item quantity="one">Stahování %1$d z %2$d výsledku</item>
+            <item quantity="few">Stahování %1$d ze %2$d výsledků</item>
+            <item quantity="many">Stahování %1$d z %2$d výsledků</item>
+            <item quantity="other">Stahování %1$d z %2$d výsledků</item>
+        </plurals>
+    <string name="remote_search_error">Vzdálené vyhledávání se nezdařilo</string>
+    <string name="remote_search_sending_query">Odeslání dotazu na server</string>
+    <string name="remote_search_unavailable_no_network">Vzdálené vyhledávání není k dispozici bez připojení k síti.</string>
+    <string name="remove_account_action">Odstranit účet</string>
+    <string name="remove_attachment_action">Odebrat přílohu</string>
+    <string name="reply_action">Odpovědět</string>
+    <string name="reply_all_action">Odpovědět všem</string>
+    <string name="reply_to_label">Odpovědět komu</string>
+    <string name="save_attachment_action">Uložit přílohu</string>
+    <string name="save_draft_action">Uložit jako koncept</string>
+    <string name="save_or_discard_draft_message_changes">Uložit nebo zahodit změny?</string>
+    <string name="save_or_discard_draft_message_dlg_title">Uložit koncept zprávy?</string>
+    <string name="save_or_discard_draft_message_instructions_fmt">Uložit nebo zahodit tuto zprávu?</string>
+    <string name="search_action">Hledat</string>
+    <string name="search_everywhere_action">Hledat všude</string>
+    <string name="search_results">Výsledky hledání</string>
+    <string name="send_action">Odeslat</string>
+    <string name="send_alternate_action">Sdílet</string>
+    <string name="send_alternate_chooser_title">Vybrat odesílatele</string>
+    <string name="send_as">Odeslat jako</string>
+    <string name="send_failed_reason">Odeslání se nezdařilo: %s</string>
+    <string name="send_failure_subject">Selhalo odeslání některých zpráv</string>
+    <string name="send_messages_action">Odeslat zprávy</string>
+    <string name="sent_folder_label">Název složky Odeslaná</string>
+    <string name="set_format_html_action">Použít originální formátování</string>
+    <string name="set_format_html_condensed_action">Zobrazit formátované</string>
+    <string name="set_format_plain_action">Zobrazit nefromátovanou zprávu</string>
+    <string name="set_format_plain_condensed_action">Zobrazit neformátované</string>
+    <string name="setting_language_system">Výchozí nastavení systému</string>
+    <string name="setting_theme_dark">Tmavé</string>
+    <string name="setting_theme_follow_system">Použít systémové výchozí</string>
+    <string name="setting_theme_global">Použít vzhled aplikace</string>
+    <string name="setting_theme_light">Světlé</string>
+    <string name="settings_compose_theme_label">Vzhled psaní zprávy</string>
+    <string name="settings_export_button">Export</string>
+    <string name="settings_export_failure">Export nastavení se nezdařil</string>
+    <string name="settings_export_progress_text">Exportování nastavení…</string>
+    <string name="settings_export_share_button">Sdílet</string>
+    <string name="settings_export_success_generic">Nastavení úspěšně exportována</string>
+    <string name="settings_export_title">Exportovat nastavení</string>
+    <string name="settings_language_label">Jazyk</string>
+    <string name="settings_list_action_support">Podpořte <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="settings_list_backup_category">Záloha</string>
+    <string name="settings_list_miscellaneous_category">Různé</string>
+    <string name="settings_message_theme_label">Vzhled náhledu zprávy</string>
+    <string name="settings_message_theme_selection_label">Neměnný vzhled zpráv</string>
+    <string name="settings_message_theme_selection_summary_off">Lze vybrat vzhled při prohlížení zprávy</string>
+    <string name="settings_message_theme_selection_summary_on">Použít neměnný vzhled při prohlížení zprávy</string>
+    <string name="settings_theme_label">Vzhled</string>
+    <string name="settings_ui_data_collection">Sběr dat</string>
+    <string name="settings_ui_telemetry_description">Sdílí data o výkonu, používání, hardwaru a přizpůsobení této aplikace se společností Mozilla. Umožňuje nám zlepšovat Thunderbird</string>
+    <string name="settings_ui_telemetry_title">Statistika používání a technická data</string>
+    <string name="show_headers_action">Zobrazit hlavičku</string>
+    <string name="show_starred_count_title">Zobrazit počet označených hvězdičkou</string>
+    <string name="show_unified_inbox_title">Ukázat sjednocený pohled na doručenou poštu</string>
+    <string name="size_format_bytes">%d B</string>
+    <string name="size_format_gigabytes">%.1f GB</string>
+    <string name="size_format_kilobytes">%.1f kB</string>
+    <string name="size_format_megabytes">%.1f MB</string>
+    <string name="sort_attach_first">S přílohou první</string>
+    <string name="sort_by">Seřadit podle…</string>
+    <string name="sort_by_arrival">Příchodu</string>
+    <string name="sort_by_attach">Příloha</string>
+    <string name="sort_by_date">Datum</string>
+    <string name="sort_by_flag">Hvězdička</string>
+    <string name="sort_by_indicator">•</string>
+    <string name="sort_by_sender">Odesílatel</string>
+    <string name="sort_by_subject">Předmět</string>
+    <string name="sort_by_then_by">Poté dle…</string>
+    <string name="sort_by_unread">Přečtená/Nepřečtená</string>
+    <string name="sort_earliest_first">Nejstarší zprávy první</string>
+    <string name="sort_flagged_first">S ★ první</string>
+    <string name="sort_flagged_last">Bez ☆ první</string>
+    <string name="sort_latest_first">Nejnovější zprávy první</string>
+    <string name="sort_sender_alpha">Odesílatel A-Z</string>
+    <string name="sort_sender_re_alpha">Odesílatel Z-A</string>
+    <string name="sort_subject_alpha">Předmět abecedně A-Z</string>
+    <string name="sort_subject_re_alpha">Předmět abecedně Z-A</string>
+    <string name="sort_unattached_first">Bez přílohy první</string>
+    <string name="sort_unread_first">Nepřečtené první</string>
+    <string name="sort_unread_last">Přečtené první</string>
+    <string name="source_code">Zdrojový kód</string>
+    <string name="spam_action">Nevyžádaná</string>
+    <string name="spam_folder_label">Název složky Nevyžádaná</string>
+    <string name="status_invalid_id_error">Zpráva nenalezena</string>
+    <string name="status_loading_error">Chyba při načítání zprávy</string>
+    <string name="status_loading_more">Načítání zpráv…</string>
+    <string name="status_network_error">Chyba spojení</string>
+    <string name="switch_off">Vypnuto</string>
+    <string name="switch_on">Zapnuto</string>
+    <string name="toast_account_not_found">Vnitřní chyba: neplatný účet!</string>
+    <string name="toast_openpgp_provider_error">Chyba při připojování k %s!</string>
+    <string name="trash_folder_label">Název složky Koš</string>
+    <string name="unflag_action">Odebrat ☆</string>
+    <string name="unknown_recipient">&<;Neznámý příjemce&>;</string>
+    <string name="unknown_sender">&<;Neznámý odesilatel&>;</string>
+    <string name="unsigned_text_divider_label">Nepodepsaný text</string>
+    <string name="unsubscribe_action">Odhlásit odběr</string>
+    <string name="upgrade_database_format">Přechod na novější verzi databáze účtu „<xliff:g id="account">%s</xliff:g>“</string>
+    <string name="upgrade_databases_title">Aktualizace databází</string>
+    <string name="upgrade_databases_unspecified">Aktualizuji databáze…</string>
+    <string name="user_forum_title">Uživatelské fórum</string>
+    <string name="version">Verze</string>
+    <string name="volume_navigation_summary">Navigovat se mezi zprávami pomocí tlačítek hlasitosti v režimu zobrazení zpráv</string>
+    <string name="volume_navigation_title_short">Navigace pomocí tlačítek hlasitosti</string>
+    <string name="webview_contextmenu_email_clipboard_label">E-mailová adresa</string>
+    <string name="webview_contextmenu_email_copy_action">Zkopírovat e-mailovou adresu do schránky</string>
+    <string name="webview_contextmenu_email_save_action">Uložit do kontaktů</string>
+    <string name="webview_contextmenu_email_send_action">Odeslat zprávu</string>
+    <string name="webview_contextmenu_image_clipboard_label">Adresa obrázku</string>
+    <string name="webview_contextmenu_image_copy_action">Zkopírovat adresu obrázku do schránky</string>
+    <string name="webview_contextmenu_image_download_action">Stáhnout obrázek</string>
+    <string name="webview_contextmenu_image_save_action">Uložit obrázek</string>
+    <string name="webview_contextmenu_image_title">Obrázek</string>
+    <string name="webview_contextmenu_image_view_action">Zobrazit obrázek</string>
+    <string name="webview_contextmenu_link_clipboard_label">Odkaz</string>
+    <string name="webview_contextmenu_link_copy_action">Zkopírovat odkaz do schránky</string>
+    <string name="webview_contextmenu_link_share_action">Sdílet odkaz</string>
+    <string name="webview_contextmenu_link_text_clipboard_label">Text odkazu</string>
+    <string name="webview_contextmenu_link_text_copy_action">Zkopírovat text odkazu do schránky</string>
+    <string name="webview_contextmenu_link_view_action">Otevřít odkaz</string>
+    <string name="webview_contextmenu_phone_call_action">Volat číslo</string>
+    <string name="webview_contextmenu_phone_clipboard_label">Telefonní číslo</string>
+    <string name="webview_contextmenu_phone_copy_action">Zkopírovat číslo do schránky</string>
+    <string name="webview_contextmenu_phone_save_action">Uložit do kontaktů</string>
+    <string name="webview_empty_message">Žádný text</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">Laden e-mailkonfiguraasje mislearre</string>
+    <string name="account_setup_auto_discovery_loading_message">Konfiguraasje sykje…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Ik fertrou dizze konfiguraasje</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Goedkarring fan de konfiguraasje is fereaske.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Wy hawwe de konfiguraasje foar jo e-mailserver fia in ferbining ûntfongen dy’t net sa feilich is as wy graach wolle. Dit betsjut dat der in lytse kâns is dat ien it oanpast hat. Wille jo nochris de opjûne konfiguraasje kontrolearje om hjir wis fan te wêzen?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Konfiguraasje bewurkje</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Hânmjittich konfigurearje</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Automatysk konfigurearje</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Dizze konfiguraasje is net fertroud</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Konfiguraasje net fûn</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Konfiguraasje fûn</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Dit is net as in jildich e-mailadres werkend.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Dit e-mailadres is net tastien.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Dit e-mailadres wurdt net stipe.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">E-mailadres is fereaske.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Wachtwurd is fereaske.</string>
+    <string name="account_setup_create_account_created">Account mei sukses oanmakke</string>
+    <string name="account_setup_create_account_creating">Account oanmeitsje…</string>
+    <string name="account_setup_create_account_error">Der is in flater bard wylst it oanmeitsjen fan in account</string>
+    <string name="account_setup_error_network">Netwurkflater. Kontrolearje jo netwurkferbining en probearje it opnij.</string>
+    <string name="account_setup_error_unknown">Unbekende flater</string>
+    <string name="account_setup_options_account_check_frequency_label">Kontrôlefrekwinsje</string>
+    <string name="account_setup_options_account_name_error_blank">Accountnamme mei net leech wêze.</string>
+    <string name="account_setup_options_account_name_label">Accountnamme</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Elke oere</item>
+            <item quantity="other">Elke %d oeren</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Elke minút</item>
+            <item quantity="other">Elke %d minuten</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Nea</string>
+    <string name="account_setup_options_email_display_count_label">Oantal te toanen berjochten</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 berjocht</item>
+            <item quantity="other">%d berjochten</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">E-mailhantekeningsnamme mei net leech wêze.</string>
+    <string name="account_setup_options_email_signature_label">E-mailhantekening</string>
+    <string name="account_setup_options_section_display_options">Werjefteopsjes</string>
+    <string name="account_setup_options_section_sync_options">Syngronisaasjeopsjes</string>
+    <string name="account_setup_options_show_notifications_label">Meldingen toane</string>
+    <string name="account_setup_options_your_name_error_required">Jo namme is fereaske.</string>
+    <string name="account_setup_options_your_name_label">Jo namme</string>
+    <string name="account_setup_special_folders_archive_folder_label">Argyf</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Konsepten</string>
+    <string name="account_setup_special_folders_error_message">Opheljen mappelist fan de server is mislearre</string>
+    <string name="account_setup_special_folders_folder_automatic">Automatysk (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Gjin</string>
+    <string name="account_setup_special_folders_form_description">Spesifisearje de spesjale mappen foar jo account.</string>
+    <string name="account_setup_special_folders_form_description_automatic">De ynfier ‘Automatysk’ sil de wizigingen makke troch de server automatysk folgje. De aktuele serverwearde wurdt tusken heakjes toand.</string>
+    <string name="account_setup_special_folders_loading_message">Mappelist ophelje…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Ferstjoerd</string>
+    <string name="account_setup_special_folders_spam_folder_label">Net-winske</string>
+    <string name="account_setup_special_folders_success_message">Alle spesjale mappen binne automatysk troch de server konfigurearre.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Jiskefet</string>
+</resources>

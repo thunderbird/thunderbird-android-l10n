@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">მონახაზები</string>
+    <string name="special_mailbox_name_inbox">შემავალი</string>
+    <string name="special_mailbox_name_outbox">გამავალი</string>
+    <string name="special_mailbox_name_sent">გაგზავნილი</string>
+    <string name="special_mailbox_name_trash">ნაგავი</string>
+</resources>

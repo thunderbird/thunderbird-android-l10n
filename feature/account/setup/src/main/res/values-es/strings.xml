@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">No se han podido encontrar ajustes para este servicio</string>
+    <string name="account_setup_auto_discovery_loading_message">Buscando la configuración…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Me fío de los ajustes</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Es necesario que primero apruebes los ajustes recibidos.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Hemos recibido la configuración de tu servidor de correo electrónico a través de una conexión que no es tan segura como nos gustaría. Esto significa que existe una pequeña posibilidad de que alguien la haya alterado. Por favor, ¿podrías volver a comprobar la configuración proporcionada para asegurarte de que es como debería ser?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Editar los ajustes</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Configurar a mano</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Configurar de forma automática</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Estos ajustes no han sido validados</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Configuración no encontrada</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Configuración detectada</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">No se reconoce como una dirección de correo electrónico válida.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Esta dirección de correo electrónico no está permitida.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Esta dirección de correo electrónico no es compatible.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">Es necesario proporcionar al menos una dirección de correo.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">La contraseña es obligatoria.</string>
+    <string name="account_setup_create_account_created">Cuenta creada correctamente</string>
+    <string name="account_setup_create_account_creating">Creando la cuenta…</string>
+    <string name="account_setup_create_account_error">Se ha producido un error al intentar crear la cuenta</string>
+    <string name="account_setup_error_network">Error en la red. Comprueba el estado de tu conexión e inténtalo de nuevo.</string>
+    <string name="account_setup_error_unknown">Error desconocido</string>
+    <string name="account_setup_options_account_check_frequency_label">Frecuencia de comprobación</string>
+    <string name="account_setup_options_account_name_error_blank">El nombre de cuenta no puede quedar en blanco.</string>
+    <string name="account_setup_options_account_name_label">Nombre de cuenta</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Cada hora</item>
+            <item quantity="many">Cada %d horas</item>
+            <item quantity="other">Cada %d horas</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Cada minuto</item>
+            <item quantity="many">Cada %d minutos</item>
+            <item quantity="other">Cada %d minutos</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Nunca</string>
+    <string name="account_setup_options_email_display_count_label">Cantidad de correos a mostrar</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 mensaje</item>
+            <item quantity="many">%d mensajes</item>
+            <item quantity="other">%d mensajes</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">La firma del correo no puede quedar en blanco.</string>
+    <string name="account_setup_options_email_signature_label">Firma del correo</string>
+    <string name="account_setup_options_section_display_options">Ajustes de pantalla</string>
+    <string name="account_setup_options_section_sync_options">Ajustes de sincronización</string>
+    <string name="account_setup_options_show_notifications_label">Mostrar notificaciones</string>
+    <string name="account_setup_options_your_name_error_required">Tienes que poner tu nombre.</string>
+    <string name="account_setup_options_your_name_label">Tu nombre</string>
+    <string name="account_setup_special_folders_archive_folder_label">Carpeta de archivo</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Carpeta de borradores</string>
+    <string name="account_setup_special_folders_error_message">Error al recuperar la lista de carpetas del servidor</string>
+    <string name="account_setup_special_folders_folder_automatic">Automático (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Ninguno</string>
+    <string name="account_setup_special_folders_form_description">Por favor, especifique las carpetas especiales de su cuenta.</string>
+    <string name="account_setup_special_folders_form_description_automatic">La entrada \"Automática\" seguirá automáticamente los cambios realizados por el servidor. El valor actual del servidor se muestra entre paréntesis.</string>
+    <string name="account_setup_special_folders_loading_message">Obtención de la lista de carpetas…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Carpeta enviada</string>
+    <string name="account_setup_special_folders_spam_folder_label">Carpeta de spam</string>
+    <string name="account_setup_special_folders_success_message">Todas las carpetas especiales han sido configuradas automáticamente por el servidor.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Papelera</string>
+</resources>

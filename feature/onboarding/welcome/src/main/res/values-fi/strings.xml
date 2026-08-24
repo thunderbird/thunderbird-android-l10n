@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Kehitetty omistautuneen MZLA Technologies -tiimin ja vapaaehtoisten toimesta. Osa Mozilla-perhettä.</string>
+    <string name="onboarding_welcome_import_button">Tuo asetukset</string>
+    <string name="onboarding_welcome_start_button">Aloitetaan</string>
+    <string name="onboarding_welcome_text">Avoimeen lähdekoodiin ja yksityisyyteen perustuva mainosvapaa Android-sähköpostisovellus.</string>
+</resources>

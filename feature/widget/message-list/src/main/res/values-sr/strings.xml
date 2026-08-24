@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Састави</string>
+    <string name="message_list_widget_inbox_title">Обједињено сандуче</string>
+    <string name="message_list_widget_initializing">Учитавање…</string>
+    <string name="message_list_widget_label">Листа порука</string>
+    <string name="message_list_widget_list_item_loading">Учитавање…</string>
+</resources>

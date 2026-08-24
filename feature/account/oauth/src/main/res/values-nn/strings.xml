@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_oauth_error_browser_not_available">Appen klarte ikkje å finne nokon nettlesar å bruke for å innvilge tilgang til kontoen din.</string>
+    <string name="account_oauth_error_canceled">Godkjenning avbroten</string>
+    <string name="account_oauth_error_failed">Mislykka godkjenning med følgjande feil: <xliff:g id="error">%s</xliff:g></string>
+    <string name="account_oauth_error_not_supported">OAuth 2.0 er ikkje støtta med denne tilbydaren.</string>
+    <string name="account_oauth_google_sign_in_support_text">Om du opplever problem med å logge inn med Google, konsulter {placeHolder}.</string>
+    <string name="account_oauth_google_sign_in_support_text_link_text">artikkelen i brukarstønaden vår</string>
+    <string name="account_oauth_loading_error">Innlogging med OAuth feila</string>
+    <string name="account_oauth_loading_message">Logg inn med OAuth</string>
+    <string name="account_oauth_sign_in_button">Logg inn</string>
+    <string name="account_oauth_sign_in_description">Me vidaeresender deg til e-posttilbydaren din for å logge inn. Du må gje appen tilgang til e-postkontoen din.</string>
+    <string name="account_oauth_sign_in_with_google_button">Logg inn med Google</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Ysgrifennu</string>
+    <string name="message_list_widget_inbox_title">Blwch Derbyn Cyfun</string>
+    <string name="message_list_widget_initializing">Yn llwytho…</string>
+    <string name="message_list_widget_label">Rhestr Negeseuon</string>
+    <string name="message_list_widget_list_item_loading">Yn llwytho…</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Написати</string>
+    <string name="message_list_widget_inbox_title">Об\'єднані Вхідні</string>
+    <string name="message_list_widget_initializing">Завантаження…</string>
+    <string name="message_list_widget_label">Список повідомлень</string>
+    <string name="message_list_widget_list_item_loading">Завантаження…</string>
+</resources>

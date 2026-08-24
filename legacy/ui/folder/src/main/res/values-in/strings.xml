@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Draf</string>
+    <string name="special_mailbox_name_inbox">Kotak Masuk</string>
+    <string name="special_mailbox_name_outbox">Kotak Keluar</string>
+    <string name="special_mailbox_name_sent">Terkirim</string>
+    <string name="special_mailbox_name_trash">Tong Sampah</string>
+</resources>

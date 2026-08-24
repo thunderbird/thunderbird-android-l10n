@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_server_validation_error_authentication">Błąd autoryzacji</string>
+    <string name="account_server_validation_error_client_certificate_expired">Certyfikat klienta nie jest już ważny</string>
+    <string name="account_server_validation_error_client_certificate_retrieval_failure">Nie można uzyskać dostępu do certyfikatu klienta</string>
+    <string name="account_server_validation_error_details">Szczegóły: \n%s</string>
+    <string name="account_server_validation_error_missing_server_capability">Brak możliwości serwera</string>
+    <string name="account_server_validation_error_missing_server_capability_details">Serwerowi brakuje tej możliwości: \n%s</string>
+    <string name="account_server_validation_error_network">Błąd sieci</string>
+    <string name="account_server_validation_error_server">Błąd serwera</string>
+    <string name="account_server_validation_error_unknown">Nieznany błąd</string>
+    <string name="account_server_validation_incoming_loading_error">Sprawdzanie ustawień serwera poczty przychodzącej nie powiodło się</string>
+    <string name="account_server_validation_incoming_loading_message">Sprawdzanie ustawień serwera poczty przychodzącej…</string>
+    <string name="account_server_validation_incoming_success">Zweryfikowano ustawienia serwera poczty przychodzącej</string>
+    <string name="account_server_validation_outgoing_loading_error">Sprawdzanie ustawień serwera poczty wychodzącej nie powiodło się</string>
+    <string name="account_server_validation_outgoing_loading_message">Sprawdzanie ustawień serwera poczty wychodzącej…</string>
+    <string name="account_server_validation_outgoing_success">Zweryfikowano ustawienia serwera poczty wychodzącej</string>
+    <string name="account_server_validation_sign_in">Zaloguj się</string>
+</resources>

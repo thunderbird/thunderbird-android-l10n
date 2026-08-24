@@ -1,0 +1,1 @@
+A Thunderbird 100%-ban nyílt forráskódú, adatvédelemre fókuszáló alkalmazás.

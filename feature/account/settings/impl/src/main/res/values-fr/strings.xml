@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_settings_account_delete_dlg_instructions_fmt">Le compte « <xliff:g id="account">%1$s</xliff:g> » sera supprimé de <xliff:g id="app_name">%2$s</xliff:g>.</string>
+    <string name="account_settings_account_delete_dlg_title">Supprimer le compte</string>
+    <string name="account_settings_avatar_error_unsupported_format">Seules les images JPEG sont prises en charge.</string>
+    <string name="account_settings_avatar_hint_jpeg_only">JPEG seulement</string>
+    <string name="account_settings_cancel_action">Annuler</string>
+    <string name="account_settings_general_avatar_description">Choisissez comment votre avatar de compte est affiché.</string>
+    <string name="account_settings_general_avatar_icon_description">Choisissez l’une des icônes pour l’utiliser comme avatar.</string>
+    <string name="account_settings_general_avatar_icon_title">Icône de l’avatar</string>
+    <string name="account_settings_general_avatar_image_description">Choisissez une image pour représenter votre compte.</string>
+    <string name="account_settings_general_avatar_image_select">Choisir une image</string>
+    <string name="account_settings_general_avatar_image_title">Image de l’avatar</string>
+    <string name="account_settings_general_avatar_monogram_description">Le monogramme utilisé comme avatar.</string>
+    <string name="account_settings_general_avatar_monogram_error_empty">Le monogramme ne peut pas être vide</string>
+    <string name="account_settings_general_avatar_monogram_error_too_long">Le monogramme est trop long</string>
+    <string name="account_settings_general_avatar_monogram_title">Monogramme de l’avatar</string>
+    <string name="account_settings_general_avatar_option_icon">Icône</string>
+    <string name="account_settings_general_avatar_option_image">Image</string>
+    <string name="account_settings_general_avatar_option_monogram">Monogramme</string>
+    <string name="account_settings_general_avatar_title">Avatar</string>
+    <string name="account_settings_general_color_description">La couleur d’accentuation de ce compte, utilisée dans les dossiers et les listes de comptes.</string>
+    <string name="account_settings_general_color_title">Couleur du compte</string>
+    <string name="account_settings_general_name_description">Le nom associé à votre compte.</string>
+    <string name="account_settings_general_name_error_empty">Le nom ne peut pas être vide</string>
+    <string name="account_settings_general_name_error_too_long">Le nom est trop long</string>
+    <string name="account_settings_general_name_title">Nom du compte</string>
+    <string name="account_settings_general_title">Paramètres généraux</string>
+    <string name="account_settings_mark_message_as_read_on_view_label">Marquer comme lu à l’ouverture</string>
+    <string name="account_settings_mark_message_as_read_on_view_summary">Marquer un courriel comme lu après ouverture pour consultation</string>
+    <string name="account_settings_okay_action">Valider</string>
+    <string name="account_settings_reading_mail">Lecture du courriel</string>
+    <string name="account_settings_remote_search_num_label">Limite de recherche sur le serveur</string>
+    <string name="account_settings_remote_search_num_results_entries_10">10</string>
+    <string name="account_settings_remote_search_num_results_entries_100">100</string>
+    <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
+    <string name="account_settings_remote_search_num_results_entries_25">25</string>
+    <string name="account_settings_remote_search_num_results_entries_250">250</string>
+    <string name="account_settings_remote_search_num_results_entries_50">50</string>
+    <string name="account_settings_remote_search_num_results_entries_500">500</string>
+    <string name="account_settings_remote_search_num_results_entries_all">Tout</string>
+    <string name="account_settings_remove_account_action">Supprimer le compte</string>
+    <string name="account_settings_search_action">Chercher</string>
+    <string name="account_settings_show_pictures_always">De n’importe qui</string>
+    <string name="account_settings_show_pictures_label">Toujours afficher les images</string>
+    <string name="account_settings_show_pictures_never">Non</string>
+    <string name="account_settings_show_pictures_only_from_contacts">Des contacts</string>
+</resources>

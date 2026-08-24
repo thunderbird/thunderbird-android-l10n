@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">बनाएं</string>
+    <string name="message_list_widget_initializing">लोड हो रहा है…</string>
+    <string name="message_list_widget_list_item_loading">लोड हो रहा है…</string>
+</resources>

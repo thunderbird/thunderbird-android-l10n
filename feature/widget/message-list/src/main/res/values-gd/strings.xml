@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Sgrìobh</string>
+    <string name="message_list_widget_inbox_title">An t-oll-bhogsa</string>
+    <string name="message_list_widget_initializing">’Ga luchdadh…</string>
+    <string name="message_list_widget_label">Liosta nan teachdaireachdan</string>
+    <string name="message_list_widget_list_item_loading">’Ga luchdadh…</string>
+</resources>

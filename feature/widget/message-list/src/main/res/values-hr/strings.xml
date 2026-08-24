@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Nova poruka</string>
+    <string name="message_list_widget_inbox_title">Objedinjena dolazna pošta</string>
+    <string name="message_list_widget_initializing">Učitavanje…</string>
+    <string name="message_list_widget_label">Popis poruka</string>
+    <string name="message_list_widget_list_item_loading">Učitavanje…</string>
+</resources>

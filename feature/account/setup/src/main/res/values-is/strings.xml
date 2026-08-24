@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">Mistókst að hlaða inn tölvupóststillingum</string>
+    <string name="account_setup_auto_discovery_loading_message">Skoða grunnstillingar…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Ég treysti þessari uppsetningu</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Þetta er nauðsynlegt til að samþykkja uppsetninguna.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Við höfum tekið við uppsetningunni fyrir póstþjóninn um tengingu sem ekki er eins örugg og við myndum vilja. Þetta þýðir að það eru einhverjar líkur á að einhver hafi komist í upplýsingarnar og breytt þeim. Geturðu yfirfarið þessar upplýsingar og gengið úr skugga um að allt sé eins og það á að vera?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Breyta uppsetningu</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Stilla handvirkt</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Stilla sjálfvirkt</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Þessari uppsetningu er ekki treyst</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Uppsetning fannst ekki</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Uppsetning fannst</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Þetta telst ekki vera gilt tölvupóstfang.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Þetta tölvupóstfang er ekki leyfilegt.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Þetta tölvupóstfang er ekki stutt.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">Tölvupóstfang er nauðsynlegt.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Lykilorð er nauðsynlegt.</string>
+    <string name="account_setup_create_account_created">Tókst að útbúa aðganginn</string>
+    <string name="account_setup_create_account_creating">Útbý aðgang…</string>
+    <string name="account_setup_create_account_error">Villa kom upp við að útbúa aðganginn</string>
+    <string name="account_setup_error_network">Villa í netkerfi. Athugaðu tenginguna þína og prófaðu aftur.</string>
+    <string name="account_setup_error_unknown">Óþekkt villa</string>
+    <string name="account_setup_options_account_check_frequency_label">Tíðni athugana</string>
+    <string name="account_setup_options_account_name_error_blank">Heiti notandaaðgangs má ekki vera tómt.</string>
+    <string name="account_setup_options_account_name_label">Heiti notandaaðgangs</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Á %d klukkustundar fresti</item>
+            <item quantity="other">Á %d klukkustunda fresti</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Á mínútu fresti</item>
+            <item quantity="other">Á %d mínútna fresti</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Aldrei</string>
+    <string name="account_setup_options_email_display_count_label">Fjöldi skilaboða sem á að birta</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">%d skilaboð</item>
+            <item quantity="other">%d skilaboð</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">Undirritun tölvupósts má ekki vera tóm.</string>
+    <string name="account_setup_options_email_signature_label">Undirskrift tölvupósts</string>
+    <string name="account_setup_options_section_display_options">Valkostir birtingar</string>
+    <string name="account_setup_options_section_sync_options">Valkostir samstillinga</string>
+    <string name="account_setup_options_show_notifications_label">Birta tilkynningar</string>
+    <string name="account_setup_options_your_name_error_required">Nafn þitt er nauðsynlegt.</string>
+    <string name="account_setup_options_your_name_label">Nafnið þitt</string>
+    <string name="account_setup_special_folders_archive_folder_label">Safnmappa</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Drög-mappa</string>
+    <string name="account_setup_special_folders_error_message">Mistókst að sækja lista yfir möppur af póstþjóninum</string>
+    <string name="account_setup_special_folders_folder_automatic">Sjálfvirkt (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Ekkert</string>
+    <string name="account_setup_special_folders_form_description">Skilgreindu sérmöppurnar fyrir aðganginn þinn.</string>
+    <string name="account_setup_special_folders_form_description_automatic">\"Sjálfvirkt\" færslan mun fylgja sjálfkrafa þeim breytingum sem póstþjónninn gerir. Fyrirliggjandi gildi þjónsins eru birt innan sviga.</string>
+    <string name="account_setup_special_folders_loading_message">Sæki lista yfir möppur…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Sent-mappa</string>
+    <string name="account_setup_special_folders_spam_folder_label">Ruslpóstmappa</string>
+    <string name="account_setup_special_folders_success_message">Allar sérmöppur hafa verið stilltar sjálfkrafa af póstþjóninum.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Rusl-mappa</string>
+</resources>

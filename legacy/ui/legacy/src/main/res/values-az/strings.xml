@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_action">Haqqında</string>
+    <!-- === App-specific strings ============================================================= -->
+    <!-- This should make it easier for forks to change the branding -->
+    <!-- Used in AndroidManifest.xml -->
+    <!-- Used in the about dialog -->
+    <string name="about_app_authors_k9">K-9 İt Gəzdirənlər</string>
+    <string name="about_app_authors_thunderbird">Thunderbird Mobile Komandası</string>
+    <string name="about_libraries">Kitabxanalar</string>
+    <string name="about_project_title">Açıq Mənbə Layihəsi</string>
+    <string name="about_title"><xliff:g id="app_name">%s</xliff:g> haqqında</string>
+    <string name="about_website_title">Veb sayt</string>
+    <string name="account_delete_dlg_instructions_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" hesabı <xliff:g id="app_name">%2$s</xliff:g>-dan silinəcək.</string>
+    <string name="account_settings_action">Hesab tənzimləmələri</string>
+    <!-- Name of the swipe action to move a message to another folder -->
+    <!-- Title of the setting to specify the density of the message list -->
+    <!-- Please use the same translation for "screen lock" as is used in the 'Security' section in Android's settings app -->
+    <string name="account_settings_push_advanced_title">Qabaqcıl</string>
+    <string name="accounts_title">Hesablar</string>
+    <string name="add_account_action">Hesab əlavə et</string>
+    <string name="add_attachment_action">Fayl əlavə et</string>
+    <string name="app_license">Apache Lisenziyası, Versiya 2.0</string>
+    <string name="archive_action">Arxiv</string>
+    <!-- Button text of the "snack bar" that is displayed when the app was updated. -->
+    <!-- Default signature -->
+    <!-- General strings that include the app name -->
+    <!-- === General strings ================================================================== -->
+    <string name="authors">Müəlliflər</string>
+    <string name="changelog_loading_error">Dəyişiklik jurnalın yükləmək alınmadı.</string>
+    <string name="changelog_recent_changes_title">Nə yenidir</string>
+    <string name="changelog_show_recent_changes">Tətbiq yeniləndisə son dəyişiklikləri göstər</string>
+    <string name="changelog_snackbar_button_text">Baxın</string>
+    <!-- Displayed in a "snack bar" at the bottom of the screen when the app was updated. -->
+    <string name="changelog_snackbar_text">Bu buraxılışda nə yenidir bil</string>
+    <string name="changelog_title">Dəyişiklik jurnalı</string>
+    <string name="changelog_version_title">Versiya %s</string>
+    <string name="check_mail_action">Poçtu yoxla</string>
+    <string name="choose_folder_copy_title">Bura Yapışdır…</string>
+    <string name="choose_folder_move_title">Bura Köçür…</string>
+    <string name="choose_folder_title">Qovluq seç</string>
+    <string name="compose_action">Tərtib et</string>
+    <string name="compose_title_compose">Tərtib et</string>
+    <string name="compose_title_forward">Göndər</string>
+    <string name="compose_title_forward_as_attachment">Əlavə kimi göndər</string>
+    <string name="compose_title_reply">Cavab ver</string>
+    <string name="compose_title_reply_all">Hamısın cavabla</string>
+    <string name="copy_action">Köçür</string>
+    <plurals name="copy_address_to_clipboard">
+            <item quantity="one">Ünvan buferə köçürüldü</item>
+            <item quantity="other">Ünvanlar buferə köçürüldü</item>
+        </plurals>
+    <string name="copy_subject_to_clipboard">Mövzu mətni buferə köçürüldü</string>
+    <string name="delete_action">Sil</string>
+    <string name="discard_action">İmtina</string>
+    <string name="done_action">Bitir</string>
+    <string name="edit_as_new_message_action">Yeni mesaj ikən düzəliş et</string>
+    <string name="empty_subject">Mövzu boşdur, yenə də göndərmək üçün təkrar kliklə</string>
+    <string name="empty_trash_action">Zibil qutusunu boşalt</string>
+    <string name="expunge_action">Təmizlə</string>
+    <string name="filter_folders_action">Qovluğu tap</string>
+    <string name="flag_action">Ulduz əlavə et</string>
+    <string name="folders_action">Qovluqları idarə et</string>
+    <string name="forward_action">Göndər</string>
+    <string name="forward_as_attachment_action">Qoşma fayl kimi göndər</string>
+    <string name="general_no_sender">Göndərən yoxdur</string>
+    <string name="general_no_subject">(Mövzu yoxdur)</string>
+    <!-- Title of the screen to configure swipe actions -->
+    <!-- Name of the setting to configure the right swipe action -->
+    <!-- Name of the setting to configure the left swipe action -->
+    <!-- The list item users select to not use a swipe action for a particular direction -->
+    <!-- Name of the swipe action to select/deselect a message -->
+    <!-- Name of the swipe action to mark as message as read/unread -->
+    <!-- Name of the swipe action to add/remove a star -->
+    <!-- Name of the swipe action to archive a message -->
+    <string name="general_settings_swipe_action_archive">Arxiv</string>
+    <!-- Name of the swipe action to delete a message -->
+    <string name="general_settings_swipe_action_delete">Sil</string>
+    <!-- Name of the swipe action to move a message to the spam folder -->
+    <string name="general_settings_swipe_action_spam">Spam</string>
+    <string name="get_help_title">Kömək al</string>
+    <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
+    <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
+    <!-- Used to display the recipient list in the message view screen. -->
+    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
+    <!-- Name of the setting to configure the navigation action to perform after the user has deleted or moved a message from the message view screen -->
+    <string name="global_settings_confirm_action_delete">Sil</string>
+    <string name="global_settings_confirm_action_spam">Spam</string>
+    <string name="license">Lisenziya</string>
+    <string name="mark_as_read_action">Oxunmuş olaraq işarələ</string>
+    <string name="mark_as_unread_action">Oxunmamış olaraq işarələ</string>
+    <string name="message_view_theme_action_dark">Qaranlıq fona keç</string>
+    <!-- Displayed in the the message list widget when the app hasn't had a chance to send content to it yet -->
+    <!-- Might be displayed in the message list widget when the list is scrolled and new data can't be fetched fast enough -->
+    <!-- permissions -->
+    <!-- Name of the swipe action to select a message. Try to keep it short. -->
+    <!-- Name of the swipe action to deselect a message. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as read. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as unread. Try to keep it short. -->
+    <!-- Name of the swipe action to add the star to a message. Try to keep it short. -->
+    <!-- Name of the swipe action to remove the star from a message. Try to keep it short. -->
+    <!-- Name of the swipe action to archive a message. Try to keep it short. -->
+    <!-- Name of the swipe action to delete a message. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message to the Spam folder. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message. The ellipsis (…) indicates that there is another step (selecting a folder) before the action is performed. Try to keep it short. -->
+    <!-- Name of setting to configure whether to show a "compose" floating action button on top of the message list -->
+    <!-- Displayed in the toolbar when there was an error loading the message list, e.g. because the folder no longer exists. -->
+    <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
+    <!-- Title of the toolbar that is displayed when the message details bottom sheet has been expanded -->
+    <!-- Displayed when an email is missing the 'Date' header field and no date can be displayed in the message details bottom sheet. -->
+    <!-- Title of the "From" section in the message details bottom sheet. This should probably be the same as the string 'recipient_from'. -->
+    <!-- Title of the "Sender" section in the message details bottom sheet. This refers to the 'Sender' header. Be careful with translations. -->
+    <!-- Title of the "Reply to" section in the message details bottom sheet. This should probably be the same as the string 'reply_to_label'. -->
+    <!-- Title of the "To" section in the message details bottom sheet. This should probably be the same as the string 'recipient_to'. -->
+    <!-- Title of the "Cc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_cc'. -->
+    <!-- Title of the "Bcc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_bcc'. -->
+    <!-- Displayed when loading the message details has failed -->
+    <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to compose a new message to a particular address. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to copy an email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to copy a name and email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- A user visible label for the email address copied to the clipboard -->
+    <!-- A user visible label for the name and email address copied to the clipboard -->
+    <!-- Might be displayed in a notification when deleting an account (in the background) -->
+    <!-- For unread messages the first line of a message list item is modified by this to improve the experience for people with screen readers. -->
+    <string name="message_view_theme_action_light">İşıqlı fona keçin</string>
+    <string name="move_action">Köçür</string>
+    <string name="move_to_drafts_action">Qaralamalara köçür</string>
+    <string name="new_messages_title">Yeni mesaj</string>
+    <string name="notification_action_archive">Arxiv</string>
+    <string name="notification_action_delete">Sil</string>
+    <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
+    <string name="notification_action_reply">Cavab ver</string>
+    <string name="notification_action_spam">Spam</string>
+    <string name="prefs_title">Tənzimləmələr</string>
+    <string name="read_receipt">Oxunma bildirişləri</string>
+    <string name="read_receipt_disabled">Oxunma bildirişi alınmayacaq</string>
+    <string name="read_receipt_enabled">Oxunma bildirişi alınacaq</string>
+    <string name="refresh_folders_action">Qovluq siyahısını yenilə</string>
+    <string name="remove_account_action">Hesabı sil</string>
+    <string name="reply_action">Cavab ver</string>
+    <string name="reply_all_action">Hamısına cavab ver</string>
+    <string name="save_draft_action">Qaralama olaraq saxla</string>
+    <string name="search_action">Axtar</string>
+    <string name="search_everywhere_action">Hər yerdə axtar</string>
+    <string name="search_results">Axtarış nəticələri</string>
+    <string name="send_action">Göndər</string>
+    <string name="send_alternate_action">Paylaş</string>
+    <string name="send_alternate_chooser_title">Göndəricini seç</string>
+    <string name="send_messages_action">Mesajları göndər</string>
+    <string name="show_headers_action">Başlıqları göstər</string>
+    <string name="source_code">Mənbə kodu</string>
+    <string name="spam_action">Spam</string>
+    <string name="status_invalid_id_error">Mesaj tapılmadı</string>
+    <string name="status_loading_error">Mesaj yükləmə xətası</string>
+    <string name="status_loading_more">Mesajlar yüklənir…</string>
+    <string name="status_network_error">Bağlantı xətası</string>
+    <string name="unflag_action">Ulduzu sil</string>
+    <string name="unsubscribe_action">Abunəlikdən çıx</string>
+    <string name="user_forum_title">İstifadəçi mərkəzi</string>
+</resources>

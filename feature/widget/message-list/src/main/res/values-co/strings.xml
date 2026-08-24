@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Cumpone</string>
+    <string name="message_list_widget_inbox_title">Ricezzione cuncolta</string>
+    <string name="message_list_widget_initializing">Caricamentu…</string>
+    <string name="message_list_widget_label">Lista di i messaghji</string>
+    <string name="message_list_widget_list_item_loading">Caricamentu…</string>
+</resources>

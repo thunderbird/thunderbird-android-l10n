@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_oauth_error_browser_not_available">L\'app non è riuscita a trovare un browser per concedere l\'accesso al tuo account</string>
+    <string name="account_oauth_error_canceled">Autorizzazione annullata</string>
+    <string name="account_oauth_error_failed">Autorizzazione non riuscita con il seguente errore: <xliff:g id="error">%s</xliff:g></string>
+    <string name="account_oauth_error_not_supported">OAuth 2.0 non è supportato con questo provider</string>
+    <string name="account_oauth_google_sign_in_support_text">Se riscontri problemi durante l\'accesso con Google, consulta il nostro {placeHolder}.</string>
+    <string name="account_oauth_google_sign_in_support_text_link_text">Articolo di supporto</string>
+    <string name="account_oauth_loading_error">Accesso OAuth non riuscito</string>
+    <string name="account_oauth_loading_message">Accedi tramite OAuth</string>
+    <string name="account_oauth_sign_in_button">Accedi</string>
+    <string name="account_oauth_sign_in_description">Sarai reindirizzato al tuo provider di posta elettronica per accedere. Autorizza l\'app ad accedere al tuo account di posta elettronica.</string>
+    <string name="account_oauth_sign_in_with_google_button">Accedi con Google</string>
+</resources>

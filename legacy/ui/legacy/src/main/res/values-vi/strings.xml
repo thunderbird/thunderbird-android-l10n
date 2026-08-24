@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_action">Giới thiệu</string>
+    <!-- === App-specific strings ============================================================= -->
+    <!-- This should make it easier for forks to change the branding -->
+    <!-- Used in AndroidManifest.xml -->
+    <!-- Used in the about dialog -->
+    <string name="about_app_authors_k9">Người dắt chó K-9</string>
+    <string name="about_app_authors_thunderbird">Đội ngũ Thunderbird cho Di Động</string>
+    <string name="about_libraries">Thư viện</string>
+    <string name="about_project_title">Dự án mã nguồn mở</string>
+    <string name="about_title">Giới thiệu về <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="about_website_title">Trang chủ</string>
+    <string name="ac_transfer_button_send">Gửi Tin nhắn Thiết lập</string>
+    <string name="ac_transfer_error_send">Có lỗi xảy ra khi gửi tin nhắn. Hãy kiểm tra kết nối mạng và cấu hình máy chủ thư đi.</string>
+    <string name="ac_transfer_finish">Để hoàn tất, mở tin nhắn trên thiết bị kia của bạn và nhập mã thiết lập.</string>
+    <string name="ac_transfer_generating">Đang tạo tin nhắn thiết lập…</string>
+    <string name="ac_transfer_intro">Một Tin nhắn Thiết lập Tự động mã hóa chia sẻ hai đầu đến các thiết bị khác.</string>
+    <string name="ac_transfer_msg_body">Tin nhắn này chứa tất cả thông tin để chuyển cài đặt Tự động mã hóa kèm với chìa khóa mật từ thiết bị ban đầu của bạn. Để thiết lập thiết bị mới cho Tự động mã hóa, hãy làm theo hướng dẫn hiển thị trên thiết bị mới. Bạn có thể giữ tin nhắn này làm dự phòng cho chìa khóa mật. Nếu bạn làm vạy, bạn nên viết lại mật khẩu và lưu giữ an toàn.</string>
+    <string name="ac_transfer_msg_subject">Tin nhắn thiết lập tự động mã hóa</string>
+    <string name="ac_transfer_sending_to">Đang gửi tin nhắn đến:</string>
+    <string name="ac_transfer_setting_summary">An toàn chia sẻ thiết lập hai đầu với các thiết bị khác</string>
+    <string name="ac_transfer_setting_title">Gửi Tin nhắn Thiết lập Tự động mã hóa</string>
+    <string name="ac_transfer_show_code">Hiển thị Mã Thiết lập</string>
+    <string name="ac_transfer_title">Tin nhắn Thiết lập Mã hóa tự động</string>
+    <string name="ac_transfer_will_be_sent">Tin nhắn này sẽ được gửi đến địa chỉ của bạn:</string>
+    <string name="account_delete_dlg_instructions_fmt">Tài khoản \"<xliff:g id="account">%1$s</xliff:g>\" sẽ bị loại khỏi <xliff:g id="app_name">%2$s</xliff:g>.</string>
+    <string name="account_delete_dlg_title">Loại bỏ tài khoản</string>
+    <string name="account_notify_contacts_mail_only_label">Chỉ các liên hệ</string>
+    <string name="account_notify_contacts_mail_only_summary">Chỉ hiển thị thông báo cho tin nhắn từ các liên hệ đã biết</string>
+    <string name="account_settings_action">Thiết đặt tài khoản thư</string>
+    <string name="account_settings_always_bcc_label">Bcc toàn bộ tin nhắn đến</string>
+    <string name="account_settings_always_show_cc_bcc_label">Luôn hiển thị Cc/Bcc</string>
+    <string name="account_settings_autodownload_message_size_1">1 KiB</string>
+    <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
+    <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
+    <string name="account_settings_autodownload_message_size_128">128 KiB</string>
+    <string name="account_settings_autodownload_message_size_16">16 KiB</string>
+    <string name="account_settings_autodownload_message_size_2">2 KiB</string>
+    <string name="account_settings_autodownload_message_size_2048">2 MiB</string>
+    <string name="account_settings_autodownload_message_size_256">256 KiB</string>
+    <string name="account_settings_autodownload_message_size_32">32 KiB</string>
+    <string name="account_settings_autodownload_message_size_4">4 KiB</string>
+    <string name="account_settings_autodownload_message_size_512">512 KiB</string>
+    <string name="account_settings_autodownload_message_size_5120">5 MiB</string>
+    <string name="account_settings_autodownload_message_size_64">64 KiB</string>
+    <string name="account_settings_autodownload_message_size_8">8 KiB</string>
+    <string name="account_settings_autodownload_message_size_any">mọi kích thước (không giới hạn)</string>
+    <string name="account_settings_autodownload_message_size_label">Tìm nạp tin nhắn lên đến</string>
+    <string name="account_settings_automatic_special_folder">Tự động (%s)</string>
+    <string name="account_settings_composition">Gửi thư</string>
+    <string name="account_settings_composition_label">Cấu tạo mặc định</string>
+    <string name="account_settings_composition_summary">Đặt Gửi đi, Bcc và chữ ký mặc định</string>
+    <string name="account_settings_composition_title">Tùy chọn soạn tin nhắn</string>
+    <string name="account_settings_crypto">Mã hóa đầu cuối</string>
+    <string name="account_settings_crypto_app">Kích hoạt hỗ trợ OpenPGP</string>
+    <string name="account_settings_crypto_app_select_title">Chọn ứng dụng OpenPGP</string>
+    <string name="account_settings_crypto_encrypt_all_drafts">Lưu trữ tất cả các bản nháp được mã hóa</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_off">Chỉ mã hóa bản nháp nếu bật mã hóa</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_on">Tất cả các bản nháp sẽ được lưu trữ dưới dạng mã hóa</string>
+    <string name="account_settings_crypto_encrypt_subject">Mã hóa chủ đề tin nhắn</string>
+    <string name="account_settings_crypto_encrypt_subject_subtitle">Có thể không được một số người nhận hỗ trợ</string>
+    <string name="account_settings_crypto_hide_sign_only">Ẩn chữ ký không mã hóa</string>
+    <string name="account_settings_crypto_hide_sign_only_off">Hiển thị tất cả chữ ký</string>
+    <string name="account_settings_crypto_hide_sign_only_on">Chỉ chữ ký mã hóa mới được hiển thị</string>
+    <string name="account_settings_crypto_key">Định cấu hình khóa đầu cuối</string>
+    <string name="account_settings_crypto_prefer_encrypt">Chế độ tự động mã hóa song phương</string>
+    <string name="account_settings_crypto_summary_config">Đang định cấu hình…</string>
+    <string name="account_settings_crypto_summary_off">Không có ứng dụng OpenPGP nào được định cấu hình</string>
+    <string name="account_settings_crypto_summary_on">Đã kết nối với %s</string>
+    <string name="account_settings_default_quoted_text_shown_label">Trích dẫn tin nhắn khi trả lời</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Bao gồm tin nhắn gốc trong thư trả lời của bạn.</string>
+    <string name="account_settings_email_label">Địa chỉ email của bạn</string>
+    <string name="account_settings_folders">Thư mục</string>
+    <string name="account_settings_general_title">Thiết lập tổng quan</string>
+    <string name="account_settings_identities_label">Quản lý danh tính</string>
+    <string name="account_settings_identities_summary">Thiết lập địa chỉ và chữ ký \'Từ\' thay thế</string>
+    <string name="account_settings_ignore_chat_messages_label">Bỏ qua tin nhắn trò chuyện</string>
+    <string name="account_settings_ignore_chat_messages_summary">Không hiển thị thông báo cho các tin nhắn thuộc cuộc trò chuyện qua email</string>
+    <string name="account_settings_incoming_label">Máy chủ đến</string>
+    <string name="account_settings_incoming_summary">Cấu hình máy chủ thư đến</string>
+    <string name="account_settings_mail_check_frequency_label">Tần suất thăm dò thư mục</string>
+    <string name="account_settings_mail_display_count_label">Kích thước thư mục cục bộ</string>
+    <string name="account_settings_mark_message_as_read_on_delete_label">Đánh dấu là đã đọc khi xóa</string>
+    <string name="account_settings_mark_message_as_read_on_delete_summary">Đánh dấu thư là đã đọc khi nó bị xóa</string>
+    <string name="account_settings_mark_message_as_read_on_view_label">Đánh dấu là đã đọc khi mở</string>
+    <string name="account_settings_mark_message_as_read_on_view_summary">Đánh dấu tin nhắn là đã đọc khi nó được mở để xem</string>
+    <string name="account_settings_message_age_0">hôm nay</string>
+    <string name="account_settings_message_age_1">2 ngày qua</string>
+    <string name="account_settings_message_age_14">2 tuần qua</string>
+    <string name="account_settings_message_age_1_month">tháng trước</string>
+    <string name="account_settings_message_age_1_year">năm ngoái</string>
+    <string name="account_settings_message_age_2">3 ngày qua</string>
+    <string name="account_settings_message_age_21">3 tuần qua</string>
+    <string name="account_settings_message_age_2_months">2 tháng qua</string>
+    <string name="account_settings_message_age_3_months">3 tháng qua</string>
+    <string name="account_settings_message_age_6_months">6 tháng qua</string>
+    <string name="account_settings_message_age_7">tuần trước</string>
+    <string name="account_settings_message_age_any">bất cứ lúc nào (không giới hạn)</string>
+    <string name="account_settings_message_age_label">Đồng bộ tin nhắn từ</string>
+    <string name="account_settings_message_format_auto">Tự động</string>
+    <string name="account_settings_message_format_html">HTML (giữ hình ảnh và định dạng)</string>
+    <string name="account_settings_message_format_label">Định dạng tin nhắn</string>
+    <string name="account_settings_message_format_text">Văn bản thuần túy (loại bỏ hình ảnh và định dạng)</string>
+    <string name="account_settings_message_read_receipt_label">Xác nhận đã đọc</string>
+    <string name="account_settings_message_read_receipt_summary">Luôn yêu cầu biên nhận đã đọc</string>
+    <string name="account_settings_name_label">Tên của bạn</string>
+    <string name="account_settings_no_folder_selected">Không thiết đặt</string>
+    <string name="account_settings_notification_channels_label">Danh mục thông báo</string>
+    <string name="account_settings_notification_light_account_color">Màu tài khoản</string>
+    <string name="account_settings_notification_light_blue">Lam</string>
+    <string name="account_settings_notification_light_cyan">Lục lam</string>
+    <string name="account_settings_notification_light_default_color">Màu mặc định của hệ thống</string>
+    <string name="account_settings_notification_light_disabled">Đã tắt</string>
+    <string name="account_settings_notification_light_green">Lục</string>
+    <string name="account_settings_notification_light_label">Đèn thông báo</string>
+    <string name="account_settings_notification_light_magenta">Đỏ tươi</string>
+    <string name="account_settings_notification_light_red">Đỏ</string>
+    <string name="account_settings_notification_light_white">Trắng</string>
+    <string name="account_settings_notification_light_yellow">Vàng</string>
+    <string name="account_settings_notify_label">Thông báo thư mới</string>
+    <string name="account_settings_notify_self_label">Bao gồm thư đi</string>
+    <string name="account_settings_notify_self_summary">Hiển thị thông báo cho tin nhắn tôi đã gửi</string>
+    <string name="account_settings_notify_summary">Thông báo trên thanh trạng thái khi có thư đến</string>
+    <string name="account_settings_notify_sync_label">Đồng bộ hóa thông báo</string>
+    <string name="account_settings_notify_sync_summary">Thông báo trên thanh trạng thái khi thư được kiểm tra</string>
+    <string name="account_settings_open_notification_settings_messages_summary">Định cấu hình thông báo cho tin nhắn mới</string>
+    <string name="account_settings_open_notification_settings_miscellaneous_summary">Định cấu hình thông báo lỗi và trạng thái</string>
+    <string name="account_settings_openpgp_missing">Thiếu ứng dụng OpenPGP - nó đã được gỡ cài đặt chưa?</string>
+    <string name="account_settings_outgoing_label">Máy chủ thư đi</string>
+    <string name="account_settings_outgoing_summary">Định cấu hình máy chủ thư đi (SMTP)</string>
+    <string name="account_settings_push_advanced_title">Nâng cao</string>
+    <string name="account_settings_quote_prefix_label">Tiền tố văn bản được trích dẫn</string>
+    <string name="account_settings_quote_style_header">Tiêu đề (như Outlook)</string>
+    <string name="account_settings_quote_style_label">Trả lời kiểu trích dẫn</string>
+    <string name="account_settings_quote_style_prefix">Tiền tố (như Gmail)</string>
+    <string name="account_settings_reading_mail">Đọc thư</string>
+    <string name="account_settings_remote_search_num_label">Giới hạn tìm kiếm của máy chủ</string>
+    <string name="account_settings_remote_search_num_results_entries_10">10</string>
+    <string name="account_settings_remote_search_num_results_entries_100">100</string>
+    <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
+    <string name="account_settings_remote_search_num_results_entries_25">25</string>
+    <string name="account_settings_remote_search_num_results_entries_250">250</string>
+    <string name="account_settings_remote_search_num_results_entries_50">50</string>
+    <string name="account_settings_remote_search_num_results_entries_500">500</string>
+    <string name="account_settings_remote_search_num_results_entries_all">Tất cả</string>
+    <string name="account_settings_reply_after_quote_label">Trả lời sau văn bản được trích dẫn</string>
+    <string name="account_settings_reply_after_quote_summary">Tin nhắn gốc sẽ xuất hiện phía trên thư trả lời của bạn.</string>
+    <string name="account_settings_ringtone">Nhạc chuông thư mới</string>
+    <string name="account_settings_search">Tìm kiếm</string>
+    <string name="account_settings_show_pictures_always">Từ bất cứ ai</string>
+    <string name="account_settings_show_pictures_label">Luôn hiển thị hình ảnh</string>
+    <string name="account_settings_show_pictures_never">Không</string>
+    <string name="account_settings_show_pictures_only_from_contacts">Từ danh bạ</string>
+    <string name="account_settings_signature__location_after_quoted_text">Sau tin nhắn được trích</string>
+    <string name="account_settings_signature__location_before_quoted_text">Trước tin nhắn được trích</string>
+    <string name="account_settings_signature__location_label">Vị trí chữ ký</string>
+    <string name="account_settings_signature_label">Chữ ký</string>
+    <string name="account_settings_signature_use_label">Sử dụng chữ ký</string>
+    <string name="account_settings_strip_signature_label">Bỏ chữ ký khi trả lời</string>
+    <string name="account_settings_strip_signature_summary">Chữ ký sẽ bị xóa khỏi tin nhắn được trích dẫn</string>
+    <string name="account_settings_sync">Đang tìm nạp thư</string>
+    <string name="account_settings_sync_remote_deletetions_label">Đồng bộ hóa việc xóa máy chủ</string>
+    <string name="account_settings_sync_remote_deletetions_summary">Loại bỏ tin nhắn khi bị xóa trên máy chủ</string>
+    <string name="account_settings_title_fmt">Thiết lập tài khoản thư</string>
+    <string name="account_settings_upload_sent_messages_label">Tải lên tin nhắn đã gửi</string>
+    <string name="account_settings_upload_sent_messages_summary">Tải tin nhắn lên thư mục Đã gửi sau khi gửi</string>
+    <string name="account_settings_vibrate_enable">Rung</string>
+    <string name="account_settings_vibrate_pattern_1">Kiểu mẫu 1</string>
+    <string name="account_settings_vibrate_pattern_2">Kiểu mẫu 2</string>
+    <string name="account_settings_vibrate_pattern_3">Kiểu mẫu 3</string>
+    <string name="account_settings_vibrate_pattern_4">Kiểu mẫu 4</string>
+    <string name="account_settings_vibrate_pattern_5">Kiểu mẫu 5</string>
+    <string name="account_settings_vibrate_pattern_default">Mặc định</string>
+    <string name="account_settings_vibrate_pattern_label">Kiểu rung</string>
+    <string name="account_settings_vibrate_summary_disabled">Đã tắt</string>
+    <string name="account_settings_vibrate_times">Rung lặp lại</string>
+    <string name="account_settings_vibration">Rung</string>
+    <string name="account_setup_basics_title">Tạo tài khoản mới</string>
+    <string name="account_setup_expunge_policy_immediately">Ngay lập tức</string>
+    <string name="account_setup_expunge_policy_label">Xóa tin nhắn đã xóa trên máy chủ</string>
+    <string name="account_setup_expunge_policy_manual">Thủ công</string>
+    <string name="account_setup_expunge_policy_on_poll">Khi đang thăm dò</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Xóa khỏi máy chủ</string>
+    <string name="account_setup_incoming_delete_policy_label">Khi tôi xóa một tin nhắn</string>
+    <string name="account_setup_incoming_delete_policy_markread_label">Đánh dấu là đã đọc trên máy chủ</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Không xóa trên máy chủ</string>
+    <string name="account_setup_incoming_subscribed_folders_only_label">Chỉ hiển thị các thư mục đã đăng ký</string>
+    <string name="account_setup_options_mail_check_frequency_12hour">Mỗi 12 giờ</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Mỗi 15 phút</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Mỗi giờ</string>
+    <string name="account_setup_options_mail_check_frequency_24hour">Mỗi 24 giờ</string>
+    <string name="account_setup_options_mail_check_frequency_2hour">Mỗi 2 giờ</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Mỗi 30 phút</string>
+    <string name="account_setup_options_mail_check_frequency_3hour">Mỗi 3 giờ</string>
+    <string name="account_setup_options_mail_check_frequency_6hour">Mỗi 6 giờ</string>
+    <string name="account_setup_options_mail_check_frequency_never">Không bao giờ</string>
+    <string name="account_setup_options_mail_display_count_10">10 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_100">100 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_1000">1000 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_10000">10000 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_25">25 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_250">250 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_2500">2500 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_50">50 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_500">500 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_5000">5000 tin nhắn</string>
+    <string name="account_setup_options_mail_display_count_all">all tin nhắn</string>
+    <string name="account_setup_push_limit_10">10 thư mục</string>
+    <string name="account_setup_push_limit_100">100 thư mục</string>
+    <string name="account_setup_push_limit_1000">1000 thư mục</string>
+    <string name="account_setup_push_limit_25">25 thư mục</string>
+    <string name="account_setup_push_limit_250">250 thư mục</string>
+    <string name="account_setup_push_limit_5">5 thư mục</string>
+    <string name="account_setup_push_limit_50">50 thư mục</string>
+    <string name="account_setup_push_limit_500">500 thư mục</string>
+    <string name="account_setup_push_limit_label">Thư mục tối đa để kiểm tra bằng cách đẩy</string>
+    <string name="accountlist_preferences">Danh sách tài khoản</string>
+    <string name="accounts_title">Tài khoản</string>
+    <string name="action_add_to_contacts">Thêm vào danh bạ</string>
+    <string name="action_compose_message_to">Soạn tin nhắn tới</string>
+    <string name="action_copy_email_address">Sao chép địa chỉ email</string>
+    <string name="action_copy_name_and_email_address">Sao chép tên và địa chỉ email</string>
+    <string name="action_remote_search">Tìm tin nhắn trên máy chủ</string>
+    <string name="add_account_action">Thêm tài khoản thư</string>
+    <string name="add_attachment_action">Thêm tệp đính kèm</string>
+    <string name="add_from_contacts">Thêm từ Danh bạ</string>
+    <string name="address_type_home">Nhà</string>
+    <string name="address_type_mobile">Điện thoại</string>
+    <string name="address_type_other">Khác</string>
+    <string name="address_type_work">Công sở</string>
+    <string name="animations_title">Hình ảnh động</string>
+    <string name="app_license">Giấy phép Apache, phiên bản 2.0</string>
+    <string name="archive_action">Lưu trữ</string>
+    <string name="archive_folder_label">Thư mục lưu trữ</string>
+    <!-- Default signature -->
+    <!-- General strings that include the app name -->
+    <!-- === General strings ================================================================== -->
+    <string name="authors">Người viết</string>
+    <string name="background_ops_always">Luôn luôn</string>
+    <string name="background_ops_auto_sync_only">Khi \'Tự động đồng bộ\' được chọn</string>
+    <string name="background_ops_label">Đồng bộ nền</string>
+    <string name="background_ops_never">Không bao giờ</string>
+    <string name="background_work_notification_remove_account">Đang loại bỏ tài khoản…</string>
+    <string name="batch_select_all">Chọn tất cả</string>
+    <string name="changelog_loading_error">Không thể mở nhật kí sửa đổi.</string>
+    <string name="changelog_recent_changes_title">Thông tin mới</string>
+    <string name="changelog_show_recent_changes">Hiển thị những thay đổi gần đây khi ứng dụng được cập nhật</string>
+    <!-- Button text of the "snack bar" that is displayed when the app was updated. -->
+    <string name="changelog_snackbar_button_text">Hiển thị</string>
+    <!-- Displayed in a "snack bar" at the bottom of the screen when the app was updated. -->
+    <string name="changelog_snackbar_text">Xem thay đổi trong bản cập nhật mới</string>
+    <string name="changelog_title">Nhật kí sửa đổi</string>
+    <string name="changelog_version_title">Phiên bản %s</string>
+    <string name="check_mail_action">Kiểm tra thư</string>
+    <string name="choose_folder_copy_title">Sao chép đến…</string>
+    <string name="choose_folder_move_title">Chuyển đến…</string>
+    <string name="choose_folder_title">Chọn thư mục</string>
+    <string name="choose_identity_title">Chọn bản sắc</string>
+    <!-- Displayed in the the message list widget when the app hasn't had a chance to send content to it yet -->
+    <!-- Might be displayed in the message list widget when the list is scrolled and new data can't be fetched fast enough -->
+    <!-- permissions -->
+    <!-- Name of the swipe action to select a message. Try to keep it short. -->
+    <!-- Name of the swipe action to deselect a message. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as read. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as unread. Try to keep it short. -->
+    <!-- Name of the swipe action to add the star to a message. Try to keep it short. -->
+    <!-- Name of the swipe action to remove the star from a message. Try to keep it short. -->
+    <!-- Name of the swipe action to archive a message. Try to keep it short. -->
+    <!-- Name of the swipe action to delete a message. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message to the Spam folder. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message. The ellipsis (…) indicates that there is another step (selecting a folder) before the action is performed. Try to keep it short. -->
+    <!-- Name of setting to configure whether to show a "compose" floating action button on top of the message list -->
+    <!-- Displayed in the toolbar when there was an error loading the message list, e.g. because the folder no longer exists. -->
+    <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
+    <!-- Title of the toolbar that is displayed when the message details bottom sheet has been expanded -->
+    <!-- Displayed when an email is missing the 'Date' header field and no date can be displayed in the message details bottom sheet. -->
+    <!-- Title of the "From" section in the message details bottom sheet. This should probably be the same as the string 'recipient_from'. -->
+    <!-- Title of the "Sender" section in the message details bottom sheet. This refers to the 'Sender' header. Be careful with translations. -->
+    <!-- Title of the "Reply to" section in the message details bottom sheet. This should probably be the same as the string 'reply_to_label'. -->
+    <!-- Title of the "To" section in the message details bottom sheet. This should probably be the same as the string 'recipient_to'. -->
+    <!-- Title of the "Cc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_cc'. -->
+    <!-- Title of the "Bcc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_bcc'. -->
+    <!-- Displayed when loading the message details has failed -->
+    <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to compose a new message to a particular address. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to copy an email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- Name of the action to copy a name and email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <!-- A user visible label for the email address copied to the clipboard -->
+    <string name="clipboard_label_email_address">Địa chỉ email</string>
+    <string name="clipboard_label_name_and_email_address">Tên và địa chỉ email</string>
+    <string name="compose_action">Soạn thư</string>
+    <string name="compose_error_incomplete_recipient">Trường người nhận chứa thông tin chưa đủ!</string>
+    <string name="compose_error_no_draft_folder">Không có Thư mục nháp được cấu hình cho tài khoản này!</string>
+    <string name="compose_error_no_key_configured">Không có chìa khóa được cấu hình cho tài khoản này! Hãy kiểm tra thiết đặt.</string>
+    <string name="compose_title_compose">Soạn thư</string>
+    <string name="compose_title_forward">Chuyển tiếp</string>
+    <string name="compose_title_forward_as_attachment">Chuyển tiếp ở dạng tệp đính kèm</string>
+    <string name="compose_title_reply">Trả lời</string>
+    <string name="compose_title_reply_all">Trả lời tất cả</string>
+    <string name="confirm_discard_draft_message">Bạn có muốn hủy tin nhắn này?</string>
+    <string name="confirm_discard_draft_message_title">Hủy tin nhắn?</string>
+    <string name="copy_action">Sao chép</string>
+    <plurals name="copy_address_to_clipboard">
+            <item quantity="other">Đã sao chép các địa chỉ vào bộ nhớ đệm</item>
+        </plurals>
+    <string name="copy_subject_to_clipboard">Đã sao chép văn bản chủ đề vào clipboard</string>
+    <string name="crypto_msg_cancelled">Tin nhắn được mã hóa, nhưng việc giải mã bị hủy bỏ.</string>
+    <string name="crypto_msg_encrypted_error">nhưng có một lỗi giải mã</string>
+    <string name="crypto_msg_encrypted_incomplete">bắt buộc phải tải toàn bộ tin nhắn để giải mã</string>
+    <string name="crypto_msg_encrypted_insecure">nhưng mã hóa không an toàn</string>
+    <string name="crypto_msg_encrypted_no_provider">knhưng không có ứng dụng mã hóa được cài đặt</string>
+    <string name="crypto_msg_encrypted_sign_error">nhưng hai đầu có lỗi</string>
+    <string name="crypto_msg_encrypted_sign_expired">nhưng khóa hai đầu đã hết hạn</string>
+    <string name="crypto_msg_encrypted_sign_insecure">nhưng khóa hai đầu không an toàn</string>
+    <string name="crypto_msg_encrypted_sign_mismatch">nhưng khóa đầu cuối không khớp với người gửi</string>
+    <string name="crypto_msg_encrypted_sign_revoked">nhưng khóa hai đầu bị hủy</string>
+    <string name="crypto_msg_encrypted_sign_unknown">từ một khóa hai đầu không rõ nguồn gốc</string>
+    <string name="crypto_msg_encrypted_sign_verified">từ người gửi đã được xác minh</string>
+    <string name="crypto_msg_encrypted_unsigned">nhưng không phải hai đầu</string>
+    <string name="crypto_msg_incomplete_signed">bắt buộc tải tin nhắn để xử lý chữ ký</string>
+    <string name="crypto_msg_title_encrypted_signed">Đã mã hóa</string>
+    <string name="crypto_msg_title_encrypted_signed_e2e">Đã mã hóa hai đầu</string>
+    <string name="crypto_msg_title_encrypted_unknown">Đã mã hóa</string>
+    <string name="crypto_msg_title_encrypted_unsigned">Đã mã hóa</string>
+    <string name="crypto_msg_title_plaintext">Văn bản thuần túy</string>
+    <string name="crypto_msg_title_unencrypted_signed">Văn bản thuần túy đã được ký</string>
+    <string name="crypto_msg_title_unencrypted_signed_e2e">Chữ ký văn bản thuần túy hai đầu</string>
+    <string name="crypto_msg_unencrypted_sign_error">chữ ký hai đầu có chứa một lỗi</string>
+    <string name="crypto_msg_unencrypted_sign_expired">nhưng khóa hai đầu đã hết hạn</string>
+    <string name="crypto_msg_unencrypted_sign_insecure">nhưng khóa hai đầu không an toàn</string>
+    <string name="crypto_msg_unencrypted_sign_mismatch">nhưng khóa đầu cuối không khớp với người gửi</string>
+    <string name="crypto_msg_unencrypted_sign_revoked">nhưng khóa hai đầu bị hủy</string>
+    <string name="crypto_msg_unencrypted_sign_unknown">từ một khóa hai đầu không rõ nguồn gốc</string>
+    <string name="crypto_msg_unencrypted_sign_verified">từ người ký đã được xác thực</string>
+    <string name="crypto_msg_unsupported_encrypted">Tin nhắn được mã hóa, nhưng là định dạng không hỗ trợ.</string>
+    <string name="crypto_msg_unsupported_signed">có chứa một chữ ký mã hóa hai đầu không hỗ trợ</string>
+    <string name="crypto_no_provider_button">Đi đến Cài đặt</string>
+    <string name="crypto_no_provider_message">Email này được mã hóa bằng PGP. \nĐể đọc nó, bạn cần cài đặt một ứng dụng tương thích với OpenPGP.</string>
+    <string name="crypto_no_provider_title">Email này được mã hóa</string>
+    <string name="debug_enable_debug_logging_summary">Lưu thông tin chuẩn đoán mở rộng vào nhật ký</string>
+    <string name="debug_enable_debug_logging_title">Bật tính năng lưu nhật ký sửa lỗi</string>
+    <string name="debug_enable_sensitive_logging_summary">Có thể hiển thị mật khẩu trong nhật ký.</string>
+    <string name="debug_enable_sensitive_logging_title">Lưu thông tin nhạy cảm vào nhật ký</string>
+    <string name="debug_export_logs_failure">Xuất thất bại.</string>
+    <string name="debug_export_logs_success">Xuất thành công. Nhật ký có thể chứa thông tin nhạy cảm. Hãy cẩn thận khi gửi cho người khác.</string>
+    <string name="debug_export_logs_title">Xuất nhật ký hệ thống</string>
+    <string name="debug_preferences">Tìm lỗi</string>
+    <string name="default_identity_description">Bản sắc ban đầu</string>
+    <string name="delete_action">Xóa</string>
+    <string name="dialog_attachment_progress_title">Đang tải xuống tệp đính kèm</string>
+    <string name="dialog_autocrypt_mutual_description_1">Tin nhắn thường sẽ được mã hóa do lựa chọn, hoặc khi trả lời tin nhắn đã được mã hóa.</string>
+    <string name="dialog_autocrypt_mutual_description_2">Nếu cả người gửi và người nhận đều bật chế độ chung thì mã hóa sẽ được bật theo mặc định.</string>
+    <string name="dialog_autocrypt_mutual_learn_more">Bạn có thể <a href="https://k9mail.app/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html">nhấn vào đây</a> để đọc thêm.</string>
+    <string name="dialog_autocrypt_mutual_title">Chế độ tự động mã hóa song phương</string>
+    <string name="dialog_confirm_clear_local_folder_action">Xóa tin nhắn</string>
+    <string name="dialog_confirm_clear_local_folder_message">Thao tác này sẽ loại bỏ tất cả tin nhắn cục bộ khỏi thư mục. Không có tin nhắn nào sẽ bị xóa khỏi máy chủ.</string>
+    <string name="dialog_confirm_clear_local_folder_title">Xóa tin nhắn nội vùng?</string>
+    <string name="dialog_confirm_delete_cancel_button">Không</string>
+    <string name="dialog_confirm_delete_confirm_button">Có</string>
+    <string name="dialog_confirm_delete_message">Bạn có muốn xóa tin nhắn này?</string>
+    <plurals name="dialog_confirm_delete_messages">
+            <item quantity="other">Bạn có thực sự muốn xóa <xliff:g id="message_count">%1$d</xliff:g> tin nhắn?</item>
+        </plurals>
+    <string name="dialog_confirm_delete_title">Xác nhận xóa</string>
+    <string name="dialog_confirm_empty_trash_message">Bạn có muốn làm trống thùng rác?</string>
+    <string name="dialog_confirm_empty_trash_title">Xác nhận làm trống thùng rác</string>
+    <string name="dialog_confirm_mark_all_as_read_cancel_button">Không</string>
+    <string name="dialog_confirm_mark_all_as_read_confirm_button">Có</string>
+    <string name="dialog_confirm_mark_all_as_read_message">Bạn có muốn đánh dấu tất cả thư là đã đọc không?</string>
+    <string name="dialog_confirm_mark_all_as_read_title">Xác nhận đánh dấu tất cả là đã đọc</string>
+    <string name="dialog_confirm_spam_cancel_button">Không</string>
+    <string name="dialog_confirm_spam_confirm_button">Có</string>
+    <plurals name="dialog_confirm_spam_message">
+            <item quantity="other">Bạn có thực sự muốn chuyển <xliff:g id="message_count">%1$d</xliff:g> tin nhắn đến thư mục spam?</item>
+        </plurals>
+    <string name="dialog_confirm_spam_title">Xác nhận chuyển đến thư mục spam</string>
+    <string name="dialog_openkeychain_info_install">Cài đặt</string>
+    <string name="dialog_openkeychain_info_text">Cần có ứng dụng OpenKeychain để hỗ trợ mã hóa đầu cuối.</string>
+    <string name="dialog_openkeychain_info_title">Không có ứng dụng OpenPGP được cài đặt</string>
+    <string name="disable_encryption">Hủy kích hoạt Mã hóa</string>
+    <string name="disable_inline_pgp">Không cho phép PGP/INLINE</string>
+    <string name="disable_sign_only">Không cho phép \"PGP chỉ ký\"</string>
+    <string name="discard_action">Hủy bỏ</string>
+    <string name="display_preferences">Hiển thị</string>
+    <string name="done_action">Đã thực hiện</string>
+    <string name="drafts_folder_label">Thư mục bản nháp</string>
+    <string name="edit_as_new_message_action">Chỉnh sửa ở dạng tin nhắn mới</string>
+    <string name="edit_identity_description_hint">(Không bắt buộc)</string>
+    <string name="edit_identity_description_label">Mô tả bản sắc</string>
+    <string name="edit_identity_email_hint">(Bắt buộc)</string>
+    <string name="edit_identity_email_label">Địa chỉ email</string>
+    <string name="edit_identity_name_hint">(Không bắt buộc)</string>
+    <string name="edit_identity_name_label">Tên của bạn</string>
+    <string name="edit_identity_reply_to_hint">(Không bắt buộc)</string>
+    <string name="edit_identity_reply_to_label">Địa chỉ trả lời</string>
+    <string name="edit_identity_save">Lưu lại</string>
+    <string name="edit_identity_signature_hint">(Không bắt buộc)</string>
+    <string name="edit_identity_signature_label">Chữ ký</string>
+    <string name="edit_identity_title">Chỉnh sửa danh tính</string>
+    <string name="empty_subject">Chủ đề trống, bấm lại để gửi bất chấp</string>
+    <string name="empty_trash_action">Dọn sạch thùng rác</string>
+    <string name="enable_encryption">Kích hoạt Mã hóa</string>
+    <string name="enable_inline_pgp">Cho phép PGP/INLINE</string>
+    <string name="enable_sign_only">Cho phép \"PGP chỉ ký\"</string>
+    <string name="error_activity_not_found">Không ứng dụng phù hợp cho hành động này.</string>
+    <string name="error_contact_address_not_found">Không tìm thấy địa chỉ thư nào trong Sổ địa chỉ.</string>
+    <string name="error_crypto_inline_attach">Chế độ PGP/INLINE không hỗ trợ tệp đính kèm!</string>
+    <string name="error_crypto_provider_connect">Không thể kết nối với bên mã hóa, hay kiểm tra thiết đặt hoặc ấn vào biểu tượng mã hóa để thử lại!</string>
+    <string name="error_crypto_provider_incompatible">Bên mã khóa sử dụng phiên bản không tương thích. Hãy kiểm tra thiết đặt!</string>
+    <string name="error_crypto_provider_ui_required">Khởi tạo mã hóa hai đầu thất bại, hãy kiểm tra thiết đặt</string>
+    <string name="error_sign_only_no_encryption">Mã hóa không hiện có trong chế độ \"chỉ ký\"!</string>
+    <string name="expunge_action">Bôi đen</string>
+    <string name="fetching_attachment_dialog_message">Đang tìm nạp tệp đính kèm…</string>
+    <string name="fetching_attachment_dialog_title_save">Đang lưu bản nháp</string>
+    <string name="fetching_attachment_dialog_title_send">Đang gửi tin nhắn</string>
+    <string name="filter_folders_action">Tìm thư mục</string>
+    <string name="flag_action">Thêm sao</string>
+    <string name="folder_list_filter_hint">Tên thư mục có chứa</string>
+    <string name="folder_list_show_hidden_folders">Hiện những thư mục ẩn</string>
+    <string name="folder_settings_clear_local_folder_action">Xóa sạch thư lưu cục bộ</string>
+    <string name="folder_settings_in_top_group_label">Hiển thị ở nhóm trên cùng</string>
+    <string name="folder_settings_include_in_integrated_inbox_label">Đồng nhất</string>
+    <string name="folder_settings_notifications_label">Thông báo</string>
+    <string name="folder_settings_push_label">Bật đẩy</string>
+    <string name="folder_settings_sync_label">Bật đồng bộ</string>
+    <string name="folder_settings_title">Cấu hình thư mục</string>
+    <string name="folder_settings_visible_label">Hiện thư mục</string>
+    <string name="folders_action">Quản lý thư mục</string>
+    <string name="font_size_default">Mặc định</string>
+    <string name="font_size_large">Lớn</string>
+    <string name="font_size_larger">Lớn nhất</string>
+    <string name="font_size_medium">Trung bình</string>
+    <string name="font_size_message_compose">Trình soạn nội dung thư</string>
+    <string name="font_size_message_compose_input">Các trường văn bản nhập vào</string>
+    <string name="font_size_message_list">Danh sách tin nhắn</string>
+    <string name="font_size_message_list_date">Ngày</string>
+    <string name="font_size_message_list_preview">Xem qua</string>
+    <string name="font_size_message_list_sender">Người gửi</string>
+    <string name="font_size_message_list_subject">Chủ đề</string>
+    <string name="font_size_message_view">Tin nhắn</string>
+    <string name="font_size_message_view_account">Tên tài khoản</string>
+    <string name="font_size_message_view_content">Nội dung tin nhắn</string>
+    <string name="font_size_message_view_date">Ngày và giờ</string>
+    <string name="font_size_message_view_recipients">Người nhận</string>
+    <string name="font_size_message_view_sender">Người gửi</string>
+    <!-- Displayed in the font size settings screen to configure the font size of the account name in the message view. -->
+    <string name="font_size_message_view_subject">Chủ đề</string>
+    <string name="font_size_settings_description">Phông chữ có thể tùy chỉnh</string>
+    <string name="font_size_settings_title">Cơ phông chữ</string>
+    <string name="font_size_small">Nhỏ</string>
+    <string name="font_size_smaller">Hơi nhỏ</string>
+    <string name="font_size_tiniest">Siêu nhỏ</string>
+    <string name="font_size_tiny">Khá nhỏ</string>
+    <string name="forward_action">Chuyển tiếp</string>
+    <string name="forward_as_attachment_action">Chuyển tiếp ở dạng tệp đính kèm</string>
+    <string name="from_same_sender">Nhiều hơn từ người gửi này</string>
+    <string name="general_no_sender">Không có người gửi</string>
+    <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
+    <string name="general_no_subject">(Không chủ đề)</string>
+    <string name="general_settings_contact_name_color_label">Màu Sổ địa chỉ</string>
+    <!-- Name of the setting to configure the left swipe action -->
+    <string name="general_settings_left_swipe_title">Kéo qua Trái</string>
+    <!-- Title of the setting to specify the density of the message list -->
+    <string name="general_settings_message_list_density_title">Mật độ</string>
+    <string name="general_settings_post_mark_as_unread_action_return_to_list">Quay lại danh sách tin nhắn</string>
+    <string name="general_settings_post_mark_as_unread_action_stay">Ở lại tin nhắn hiện tại</string>
+    <string name="general_settings_post_mark_as_unread_action_title">Sau khi đánh dấu tin nhắn là chưa đọc</string>
+    <string name="general_settings_post_remove_action_return_to_list">Quay lại danh sách tin nhắn</string>
+    <string name="general_settings_post_remove_action_show_next_message">Hiển thị tin nhắn tiếp theo</string>
+    <string name="general_settings_post_remove_action_show_previous_message">Hiển thị tin nhắn trước đó</string>
+    <string name="general_settings_post_remove_action_title">Sau khi xóa hoặc di chuyển tin nhắn</string>
+    <!-- Name of the setting to configure the right swipe action -->
+    <string name="general_settings_right_swipe_title">Kéo qua Phải</string>
+    <string name="general_settings_show_compose_button_title">Hiển thị nút viết thư</string>
+    <!-- Name of the swipe action to archive a message -->
+    <string name="general_settings_swipe_action_archive">Lưu trữ</string>
+    <!-- Name of the swipe action to delete a message -->
+    <string name="general_settings_swipe_action_delete">Xóa</string>
+    <!-- Name of the swipe action to move a message to another folder -->
+    <string name="general_settings_swipe_action_move">Di chuyển</string>
+    <!-- The list item users select to not use a swipe action for a particular direction -->
+    <string name="general_settings_swipe_action_none">Không thiết đặt</string>
+    <!-- Name of the swipe action to move a message to the spam folder -->
+    <string name="general_settings_swipe_action_spam">Thư rác</string>
+    <!-- Name of the swipe action to mark as message as read/unread -->
+    <string name="general_settings_swipe_action_toggle_read">Đánh dấu là đã đọc/chưa đọc</string>
+    <!-- Name of the swipe action to select/deselect a message -->
+    <string name="general_settings_swipe_action_toggle_selection">Trượt để chọn</string>
+    <!-- Name of the swipe action to add/remove a star -->
+    <string name="general_settings_swipe_action_toggle_star">Thêm/loại bỏ sao</string>
+    <!-- Title of the screen to configure swipe actions -->
+    <string name="general_settings_swipe_actions_title">Hành động kéo ngang</string>
+    <string name="general_settings_title">Cài đặt chung</string>
+    <string name="general_settings_ui_density_compact">Gọn nhẹ</string>
+    <string name="general_settings_ui_density_default">Mặc định</string>
+    <string name="general_settings_ui_density_relaxed">Thư giãn</string>
+    <string name="generic_loading_error">Có lỗi xảy ra khi đang tải dữ liệu</string>
+    <string name="get_help_title">Trợ giúp</string>
+    <string name="global_preferences">Toàn diện</string>
+    <string name="global_settings_background_as_unread_indicator_label">Đổi màu khi đã đọc</string>
+    <string name="global_settings_background_as_unread_indicator_summary">Màu nền khác sẽ hiển thị khi tin nhắn đã được đọc</string>
+    <string name="global_settings_colorize_missing_contact_pictures_label">Tô màu ảnh liên lạc</string>
+    <string name="global_settings_colorize_missing_contact_pictures_summary">Tô màu người liên lạc không có ảnh</string>
+    <string name="global_settings_confirm_action_delete">Xóa</string>
+    <string name="global_settings_confirm_action_delete_notif">Xóa (từ thông báo)</string>
+    <string name="global_settings_confirm_action_delete_starred">Xóa được gắn dấu sao (trong chế độ xem tin nhắn)</string>
+    <string name="global_settings_confirm_action_spam">Thư rác</string>
+    <string name="global_settings_confirm_actions_summary">Hiển thị hộp thoại khi bạn thực hiện hành động đã thiết đặt</string>
+    <!-- Name of the setting to configure the navigation action to perform after the user has deleted or moved a message from the message view screen -->
+    <string name="global_settings_confirm_actions_title">Xác nhận hành động</string>
+    <string name="global_settings_confirm_menu_discard">Tin nhắn đã hủy</string>
+    <string name="global_settings_confirm_menu_mark_all_read">Đánh dấu tất cả tin nhắn là đã đọc</string>
+    <string name="global_settings_flag_label">Hiển thị sao</string>
+    <string name="global_settings_flag_summary">Sao các thư được đánh dấu</string>
+    <string name="global_settings_lock_screen_notification_visibility_app_name">Tên ứng dụng</string>
+    <string name="global_settings_lock_screen_notification_visibility_everything">Giống với khi màn hình đã mở khóa</string>
+    <string name="global_settings_lock_screen_notification_visibility_message_count">Số tin nhắn mới</string>
+    <string name="global_settings_lock_screen_notification_visibility_nothing">Không thông báo trong màn hình khóa</string>
+    <string name="global_settings_lock_screen_notification_visibility_senders">Số tin nhắn và người gửi</string>
+    <string name="global_settings_lock_screen_notification_visibility_title">Thông báo trong màn hình khóa</string>
+    <string name="global_settings_messageview_autofit_width_label">Tin nhắn tự điều chỉnh kích thước</string>
+    <string name="global_settings_messageview_autofit_width_summary">Điều chỉnh kích thước tin nhắn vừa màn hình</string>
+    <string name="global_settings_messageview_fixedwidth_label">Phông chữ cách đều</string>
+    <string name="global_settings_messageview_fixedwidth_summary">Sử dụng phông chữ cách đều khi hiển thị tin nhắn chữ</string>
+    <string name="global_settings_messageview_visible_refile_actions_summary">Hiển thị hành động được chọn trong menu đọc tin nhắn</string>
+    <string name="global_settings_messageview_visible_refile_actions_title">Hành động tin nhắn thấy được</string>
+    <string name="global_settings_notification_quick_delete_always">Luôn luôn</string>
+    <string name="global_settings_notification_quick_delete_never">Không bao giờ</string>
+    <string name="global_settings_notification_quick_delete_title">Hiển thị nút \'Xóa\'</string>
+    <string name="global_settings_notification_quick_delete_when_single_msg">Cho thông báo tin nhắn đơn</string>
+    <string name="global_settings_preview_lines_label">Số dòng xem trước</string>
+    <string name="global_settings_privacy_hide_timezone">Ẩn múi giờ</string>
+    <string name="global_settings_privacy_hide_timezone_detail">Dùng UTC thay múi giờ địa phương trong tiêu đề thư và tiêu đề thư trả lời</string>
+    <string name="global_settings_privacy_hide_useragent">Ẩn hiển thị</string>
+    <string name="global_settings_privacy_hide_useragent_detail">Xóa User-Agent khỏi tiêu đề thư</string>
+    <string name="global_settings_registered_name_color_changed">Màu hóa tên trong Sổ địa chỉ</string>
+    <string name="global_settings_registered_name_color_label">Màu hóa địa chỉ</string>
+    <string name="global_settings_sender_above_subject_label">Tương ứng với chủ đề phía trên</string>
+    <string name="global_settings_sender_above_subject_summary">Hiển thị các tên tương ứng phía trên dòng chủ đề, thay vì ở dưới nó</string>
+    <string name="global_settings_show_contact_name_label">Hiển thị tên địa chỉ</string>
+    <string name="global_settings_show_contact_name_summary">Sử dụng tên người nhận từ Sổ địa chỉ nếu có</string>
+    <string name="global_settings_show_contact_picture_label">Hiển thị ảnh người liên lạc</string>
+    <string name="global_settings_show_contact_picture_summary">Hiển thị ảnh người liên lạc trong danh sách tin nhắn</string>
+    <string name="global_settings_show_correspondent_names_label">Hiển thị tên tương ứng</string>
+    <string name="global_settings_show_correspondent_names_summary">Hiển thị các tên người nhận thay vì địa chỉ thư của họ</string>
+    <string name="global_settings_splitview_always">Luôn luôn</string>
+    <string name="global_settings_splitview_mode_label">Hiển thị màn hình chia đôi</string>
+    <string name="global_settings_splitview_never">Không bao giờ</string>
+    <string name="global_settings_splitview_when_in_landscape">Khi ở màn hình ở chế độ ngang</string>
+    <string name="global_settings_threaded_view_label">Xem theo luồng</string>
+    <string name="global_settings_threaded_view_summary">Gộp tin nhắn theo cuộc trò chuyện</string>
+    <string name="identity_has_no_email">Bạn không thể sử dụng bản sắc nếu không có địa chỉ email</string>
+    <string name="idle_refresh_period_12min">Mỗi 12 phút</string>
+    <string name="idle_refresh_period_24min">Mỗi 24 phút</string>
+    <string name="idle_refresh_period_2min">Mỗi 2 phút</string>
+    <string name="idle_refresh_period_36min">Mỗi 36 phút</string>
+    <string name="idle_refresh_period_3min">Mỗi 3 phút</string>
+    <string name="idle_refresh_period_48min">Mỗi 48 phút</string>
+    <string name="idle_refresh_period_60min">Mỗi 60 phút</string>
+    <string name="idle_refresh_period_6min">Mỗi 6 phút</string>
+    <string name="idle_refresh_period_label">Làm mới kết nối IDLE</string>
+    <string name="integrated_inbox_detail">Tất cả tin nhắn trong thư mục đồng nhất</string>
+    <string name="integrated_inbox_title">Hộp thư đồng nhất</string>
+    <string name="interaction_preferences">Tương tác</string>
+    <string name="license">Giấy phép</string>
+    <string name="load_more_messages_fmt">Tải thêm tới <xliff:g id="messages_to_load">%d</xliff:g> thư nữa</string>
+    <string name="loading_attachment">Đang tải tệp đính kèm…</string>
+    <string name="locked_attach_unencrypted">Phần này không được mã hóa, có thể không an toàn.</string>
+    <string name="locked_attach_unlock">Mở khóa</string>
+    <string name="manage_identities_context_menu_title">Quản lý danh tính</string>
+    <string name="manage_identities_edit_action">Chỉnh sửa</string>
+    <string name="manage_identities_move_down_action">Chuyển xuống</string>
+    <string name="manage_identities_move_top_action">Chuyển lên đầu/ làm mặc định</string>
+    <string name="manage_identities_move_up_action">Chuyển lên</string>
+    <string name="manage_identities_remove_action">Loại bỏ</string>
+    <string name="manage_identities_title">Quản lý danh tính</string>
+    <string name="mark_all_as_read">Đánh dấu tất cả là đã đọc</string>
+    <string name="mark_as_read_action">Đánh dấu đã đọc</string>
+    <string name="mark_as_unread_action">Đánh dấu chưa đọc</string>
+    <string name="message_compose_attachments_forward_toast">Tin nhắn không thể chuyển tiếp vì có một số tệp đính kèm chưa được tải.</string>
+    <string name="message_compose_attachments_skipped_toast">Một số tệp đính kèm không thể chuyển tiếp bởi chúng chưa được tải về.</string>
+    <string name="message_compose_content_hint">Nội dung thư</string>
+    <string name="message_compose_description_delete_quoted_text">Loại bỏ văn bản được trích dẫn</string>
+    <string name="message_compose_description_edit_quoted_text">Sửa nội dung trích dẫn</string>
+    <string name="message_compose_error_no_recipients">Bạn phải nhập vào ít nhất một người nhận.</string>
+    <string name="message_compose_quote_header_cc">Cc:</string>
+    <string name="message_compose_quote_header_from">Từ:</string>
+    <string name="message_compose_quote_header_send_date">Đã gửi:</string>
+    <string name="message_compose_quote_header_separator">-------- Thư gốc --------</string>
+    <string name="message_compose_quote_header_subject">Chủ đề:</string>
+    <string name="message_compose_quote_header_to">Tới:</string>
+    <string name="message_compose_reply_header_fmt"><xliff:g id="sender">%s</xliff:g> đã viết:</string>
+    <string name="message_compose_reply_header_fmt_with_date">Vào <xliff:g id="sent_date">%1$s</xliff:g>, <xliff:g id="sender">%2$s</xliff:g> đã viết:</string>
+    <string name="message_compose_show_quoted_text_action">Thêm nội dung trích dẫn</string>
+    <string name="message_compose_signature_hint">Chữ ký</string>
+    <string name="message_compose_subject_hint">Chủ đề</string>
+    <string name="message_details_bcc_section_title">Người nhận ẩn</string>
+    <string name="message_details_cc_section_title">Cc</string>
+    <string name="message_details_from_section_title">Từ</string>
+    <string name="message_details_loading_error">Đã xảy ra lỗi khi tải chi tiết tin nhắn.</string>
+    <string name="message_details_missing_date">Thiếu tiêu đề \'Ngày\'</string>
+    <string name="message_details_replyto_section_title">Trả lời đến</string>
+    <string name="message_details_sender_section_title">Người gửi</string>
+    <string name="message_details_to_section_title">Đến</string>
+    <string name="message_details_toolbar_title">Chi tiết tin nhắn</string>
+    <string name="message_discarded_toast">Đã loại bỏ thư</string>
+    <string name="message_list_content_description_unread_prefix">chưa đọc, %s</string>
+    <string name="message_list_error_folder_not_found">Không tìm thấy thư mục</string>
+    <string name="message_list_error_title">Lỗi</string>
+    <string name="message_list_load_more_messages_action">Tải thêm thư</string>
+    <string name="message_progress_text">Đang tải…</string>
+    <string name="message_saved_toast">Đã lưu thư vào thư mục Thư soạn dở</string>
+    <string name="message_to_fmt">Đến:<xliff:g id="counterParty">%s</xliff:g></string>
+    <string name="message_to_label">Tới:</string>
+    <string name="message_view_additional_recipient_prefix">+</string>
+    <string name="message_view_bcc_label">Bcc:</string>
+    <string name="message_view_cc_label">Cc:</string>
+    <string name="message_view_download_remainder">Tải xuống tin nhắn hoàn chỉnh</string>
+    <string name="message_view_empty">Hãy chọn một tin nhắn ở bên trái</string>
+    <!-- Used to display the recipient list in the message view screen. -->
+    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_me_text">tôi</string>
+    <string name="message_view_no_viewer">Không tìm thấy trình hiển thị cho <xliff:g id="mimetype">%s</xliff:g>.</string>
+    <string name="message_view_recipients_format">đến <xliff:g id="recipients">%s</xliff:g></string>
+    <string name="message_view_sender_label">qua %1$s</string>
+    <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
+    <string name="message_view_show_remote_images_action">Hiển thị hình ảnh từ xa</string>
+    <string name="message_view_status_attachment_not_saved">Không thể lưu tệp đính kèm.</string>
+    <string name="message_view_theme_action_dark">Chuyển sang giao diện tối</string>
+    <string name="message_view_theme_action_light">Chuyển sang giao diện sáng</string>
+    <string name="messagelist_preferences">Danh sách tin nhắn</string>
+    <string name="messageview_crypto_error_title">Lỗi giải mã email</string>
+    <string name="messageview_decrypt_cancelled">Quá trình giải mã bị hủy.</string>
+    <string name="messageview_decrypt_incomplete">Tin nhắn mã hóa bắt buộc tải xuống để giải mã.</string>
+    <string name="messageview_decrypt_retry">Thử lại</string>
+    <string name="messageview_preferences">Tin nhắn</string>
+    <string name="move_action">Di chuyển</string>
+    <string name="move_copy_cannot_copy_unsynced_message">Không thể sao chép hoặc di chuyển tin nhắn không được đồng bộ với máy chủ</string>
+    <string name="move_to_drafts_action">Chuyển đến thư nháp</string>
+    <string name="network_preferences">Mạng</string>
+    <string name="new_identity_action">Đánh tính mới</string>
+    <string name="new_messages_title">Tin nhắn mới</string>
+    <string name="no_removable_identity">Bạn không thể loại bỏ danh tính duy nhất của mình</string>
+    <string name="notification_action_archive">Lưu trữ</string>
+    <string name="notification_action_archive_all">Lưu trữ tất cả</string>
+    <string name="notification_action_delete">Xóa</string>
+    <string name="notification_action_delete_all">Xóa tất cả</string>
+    <string name="notification_action_mark_all_as_read">Đánh Dấu Tất Cả Đã Đọc</string>
+    <string name="notification_action_mark_as_read">Đánh dấu đã đọc</string>
+    <string name="notification_action_reply">Trả lời</string>
+    <string name="notification_action_spam">Thư rác</string>
+    <string name="notification_additional_messages">+ <xliff:g id="additional_messages">%1$d</xliff:g> thêm cho <xliff:g id="account">%2$s</xliff:g></string>
+    <string name="notification_authentication_error_text">Xác thực không thành công với <xliff:g id="account">%s</xliff:g>. Hãy cập nhật lại thiết đặt cho máy chủ thư.</string>
+    <string name="notification_authentication_error_title">Xác thực không thành công</string>
+    <string name="notification_bg_send_ticker">Đang gửi thư: <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_bg_send_title">Đang gửi thư</string>
+    <string name="notification_bg_sync_ticker">Đang kiểm tra thư cho: <xliff:g id="account">%1$s</xliff:g>:<xliff:g id="folder">%2$s</xliff:g></string>
+    <string name="notification_bg_sync_title">Kiểm tra thư</string>
+    <string name="notification_bg_title_separator">:</string>
+    <string name="notification_certificate_error_public">Lỗi xác thực</string>
+    <string name="notification_certificate_error_text">Kiểm tra các thiết đặt máy chủ bạn đã nhập</string>
+    <string name="notification_certificate_error_title">Lỗi xác thực đối với <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_channel_messages_description">Thông báo liên quan đến tin nhắn</string>
+    <string name="notification_channel_messages_title">Tin nhắn</string>
+    <string name="notification_channel_miscellaneous_description">Thông báo khác như lỗi, v.v.</string>
+    <string name="notification_channel_miscellaneous_title">Khác</string>
+    <string name="notification_channel_push_description">Hiển thị khi chờ tin nhắn mới</string>
+    <string name="notification_channel_push_title">Đồng bộ hóa (Push)</string>
+    <plurals name="notification_new_messages_title">
+            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> thư mới</item>
+        </plurals>
+    <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_text">Có lỗi xảy ra khi tạo thông báo hệ thống cho tin nhắn mới. Nguyên nhân có thể do thiếu âm thanh thông báo. \n \nNhấn để mở thiết đặt thông báo.</string>
+    <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_title">Thông báo lỗi</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="openpgp_description_text1">Việc mã hóa tin nhắn đảm bảo chúng chỉ được đọc bởi đúng người nhận, và không một ai khác.</string>
+    <string name="openpgp_description_text2">Nhấn biểu tượng này để kích hoạt mã hóa.</string>
+    <string name="openpgp_description_text3">Việc mã hóa chỉ khả thi nếu tất cả người nhận đều hỗ trợ, và họ phải gửi bạn một email trước đó.</string>
+    <string name="openpgp_dialog_sign_only_minus_attach">Chữ ký có thể được hiển thị dưới dạng tệp đính kèm \'signature.asc\' trong một số ứng dụng khách.</string>
+    <string name="openpgp_dialog_sign_only_minus_break">Chữ ký có thể hỏng khi được gửi đến danh sách thư.</string>
+    <string name="openpgp_dialog_sign_only_neutral_encsigned">Tin nhắn được mã hóa luôn đi kèm chữ ký.</string>
+    <string name="openpgp_dialog_sign_only_plus_verified">Điều này không mã hóa email, nhưng sẽ xác nhận rằng nó được gửi từ khóa của bạn.</string>
+    <string name="openpgp_dialog_sign_only_text">Trong chế độ này, chìa khóa PGP sẽ được sử dụng để tạo chữ ký mã hóa của một email không mã hóa.</string>
+    <string name="openpgp_dialog_sign_only_title">Chế độ \"PGP chỉ ký\"</string>
+    <string name="openpgp_enabled_error_back">Quay lại</string>
+    <string name="openpgp_enabled_error_disable">Hủy kích hoạt Mã hóa</string>
+    <string name="openpgp_enabled_error_gotit">Đã rõ</string>
+    <string name="openpgp_enabled_error_msg">Một số người nhận không hỗ trợ tích năng này!</string>
+    <string name="openpgp_enabled_error_title">Không thể mã hóa</string>
+    <string name="openpgp_encryption">Mã hóa OpenPGP</string>
+    <string name="openpgp_inline_disable">Hủy kích hoạt</string>
+    <string name="openpgp_inline_keep_enabled">Giữ kích hoạt</string>
+    <string name="openpgp_inline_minus_attach">Tệp đính kèm không được hỗ trợ</string>
+    <string name="openpgp_inline_minus_transit">Chữ ký có thể hỏng trong quá trình lưu chuyển</string>
+    <string name="openpgp_inline_ok">Đã rõ!</string>
+    <string name="openpgp_inline_plus_compat">Chỉ một số máy trạm hỗ trợ tiêu chuẩn này</string>
+    <string name="openpgp_inline_text">Email này được gửi bằng tiêu chuẩn PGP/INLINE. \nĐiều này chỉ nên sử dụng cho việc tương thích ngược:</string>
+    <string name="openpgp_inline_title">Chế độ PGP/INLINE</string>
+    <string name="openpgp_sign_only_disable">Hủy kích hoạt</string>
+    <string name="openpgp_sign_only_keep_enabled">Giữ kích hoạt</string>
+    <string name="openpgp_sign_only_ok">Đã rõ!</string>
+    <string name="preference_search_no_results">Không tìm thấy cài đặt</string>
+    <string name="prefs_title">Thiết đặt</string>
+    <string name="preview_encrypted">*Được mã hóa*</string>
+    <string name="privacy_preferences">Riêng tư</string>
+    <string name="push_info_configure_notification_action">Cấu hình thông báo</string>
+    <string name="push_info_configure_notification_text">Dù vậy, Android cũng cho phép bạn ẩn thông báo.</string>
+    <string name="push_info_disable_push_action">Vô hiệu hóa Đẩy</string>
+    <string name="push_info_disable_push_text">Nếu bạn không cần thông báo tức thì về tin nhắn mới, bạn nên tắt tính năng Đẩy và sử dụng Thăm dò. Thăm dò kiểm tra thư mới theo định kỳ và không cần thông báo.</string>
+    <string name="push_info_learn_more_text">Tìm hiểu thêm</string>
+    <string name="push_info_notification_explanation_text">Khi sử dụng Push, <xliff:g id="app_name">%1$s</xliff:g> duy trì kết nối với máy chủ thư. Android yêu cầu hiển thị thông báo liên tục trong khi ứng dụng đang hoạt động ở chế độ nền. <xliff:g id="Optional_extends_explanation">%2$s</xliff:g></string>
+    <string name="push_info_title">Thông tin Đẩy</string>
+    <string name="push_notification_grant_alarm_permission">Nhấn để cấp quyền.</string>
+    <string name="push_notification_info">Nhấn để đọc thêm.</string>
+    <string name="push_notification_state_alarm_permission_missing">Thiếu quyền cho phép đặt báo thức</string>
+    <string name="push_notification_state_initializing">Đang hình thành…</string>
+    <string name="push_notification_state_listening">Đang đợi email mới</string>
+    <string name="push_notification_state_wait_background_sync">Đang ngủ cho đến khi đồng bộ nền được cho phép</string>
+    <string name="push_notification_state_wait_network">Đang ngủ đến khi có kết nối mạng</string>
+    <string name="quiet_time">Không làm phiền</string>
+    <string name="quiet_time_description">Tắt chuông, rung và nháy đèn vào buổi tối</string>
+    <string name="quiet_time_ends">Kết thúc Không làm phiền</string>
+    <string name="quiet_time_notification">Tắt thông báo</string>
+    <string name="quiet_time_notification_description">Tắt hoàn toàn thông báo trong Thời gian không làm phiền</string>
+    <string name="quiet_time_starts">Bắt đầu Không làm phiền</string>
+    <string name="read_receipt">Xác nhận đã đọc</string>
+    <string name="read_receipt_disabled">Sẽ không yêu cầu việc xác nhận đã đọc</string>
+    <string name="read_receipt_enabled">Sẽ yêu cầu việc xác nhận đã đọc</string>
+    <string name="recipient_bcc">Người nhận ẩn</string>
+    <string name="recipient_cc">Cc</string>
+    <string name="recipient_error_non_ascii">Ký tự đặc biệt không được hỗ trợ!</string>
+    <string name="recipient_error_parse_failed">Lỗi xử lý địa chỉ!</string>
+    <string name="recipient_from">Từ</string>
+    <string name="recipient_to">Đến</string>
+    <string name="refile_action">Chọn lại tệp…</string>
+    <string name="refresh_folders_action">Cập nhật thư mục</string>
+    <plurals name="remote_search_downloading">
+            <item quantity="other">Đang lấy %d kết quả</item>
+        </plurals>
+    <plurals name="remote_search_downloading_limited">
+            <item quantity="other">Đang lấy %1$d của %2$d kết quả</item>
+        </plurals>
+    <string name="remote_search_error">Tìm kiếm từ xa thất bại</string>
+    <string name="remote_search_sending_query">Đang gửi yêu cầu đến máy chủ</string>
+    <string name="remote_search_unavailable_no_network">Cần kết nối mạng để tìm kiếm trên máy chủ.</string>
+    <string name="remove_account_action">Loại bỏ tài khoản</string>
+    <string name="remove_attachment_action">Loại bỏ tệp đính kèm</string>
+    <string name="reply_action">Trả lời</string>
+    <string name="reply_all_action">Trả lời tất cả</string>
+    <string name="reply_to_label">Trả lời đến</string>
+    <string name="save_attachment_action">Lưu đính kèm</string>
+    <string name="save_draft_action">Lưu thành thư nháp</string>
+    <string name="save_or_discard_draft_message_changes">Lưu hay Hủy thay đổi?</string>
+    <string name="save_or_discard_draft_message_dlg_title">Lưu tin nhắn nháp?</string>
+    <string name="save_or_discard_draft_message_instructions_fmt">Lưu hay Hủy tin nhắn này?</string>
+    <string name="search_action">Tìm kiếm</string>
+    <string name="search_everywhere_action">Tìm kiếm tất cả</string>
+    <string name="search_results">Kiết quả tìm kiếm</string>
+    <string name="send_action">Gửi</string>
+    <string name="send_alternate_action">Chia sẻ</string>
+    <string name="send_alternate_chooser_title">Chọn người gửi</string>
+    <string name="send_as">Gửi dưới dạng</string>
+    <string name="send_failed_reason">Gửi thất bại: %s</string>
+    <string name="send_failure_subject">Không gửi được một số tin nhắn</string>
+    <string name="send_messages_action">Gửi thư</string>
+    <string name="sent_folder_label">Thư mục đã gửi</string>
+    <string name="setting_language_system">Mặc định hệ thống</string>
+    <string name="setting_theme_dark">Tối</string>
+    <string name="setting_theme_follow_system">Sử dụng mặc định hệ thống</string>
+    <string name="setting_theme_global">Sử dụng giao diện ứng dụng</string>
+    <string name="setting_theme_light">Sáng</string>
+    <string name="settings_compose_theme_label">Giao diện người soạn</string>
+    <string name="settings_export_button">Xuất</string>
+    <string name="settings_export_failure">Xuất cài đặt thất bại</string>
+    <string name="settings_export_progress_text">Đang xuất cài đặt…</string>
+    <string name="settings_export_share_button">Chia sẻ</string>
+    <string name="settings_export_success_generic">Xuất cài đặt thành công</string>
+    <string name="settings_export_title">Xuất cài đặt</string>
+    <string name="settings_language_label">Ngôn ngữ</string>
+    <string name="settings_list_action_support">Hỗ trợ <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="settings_list_backup_category">Dự phòng</string>
+    <string name="settings_list_miscellaneous_category">Khác</string>
+    <string name="settings_message_theme_label">Giao diện đọc tin nhắn</string>
+    <string name="settings_message_theme_selection_label">Đã sửa giao diện tin nhắn</string>
+    <string name="settings_message_theme_selection_summary_off">Chọn giao diện đọc tin nhắn trong khi đọc tin nhắn</string>
+    <string name="settings_message_theme_selection_summary_on">Sử dụng giao diện đọc tin nhắn cố định</string>
+    <string name="settings_theme_label">Giao diện</string>
+    <string name="settings_ui_data_collection">Thu thập dữ liệu</string>
+    <string name="settings_ui_telemetry_description">Chia sẻ hiệu suất, việc sử dụng, phần cứng và dữ liệu tinh chỉnh về ứng dụng này với Mozilla để giúp chúng tôi cải thiện Thunderbird</string>
+    <string name="settings_ui_telemetry_title">Mục đích sử dụng và dữ liệu chuyên sâu</string>
+    <string name="show_headers_action">Hiển thị phần đầu thư</string>
+    <string name="show_starred_count_title">Hiển thị số lượng gắn dấu sao</string>
+    <string name="show_unified_inbox_title">Hiển thị hộp thư đồng nhất</string>
+    <string name="size_format_bytes">%dB</string>
+    <string name="size_format_gigabytes">%.1f GB</string>
+    <string name="size_format_kilobytes">%.1fkB</string>
+    <string name="size_format_megabytes">%.1fMB</string>
+    <string name="sort_attach_first">Tin nhắn có tệp đính kèm trước tiên</string>
+    <string name="sort_by">Sắp xếp theo…</string>
+    <string name="sort_by_arrival">Đến</string>
+    <string name="sort_by_attach">Tệp đính kèm</string>
+    <string name="sort_by_date">Ngày</string>
+    <string name="sort_by_flag">Sao</string>
+    <string name="sort_by_sender">Người gửi</string>
+    <string name="sort_by_subject">Chủ đề</string>
+    <string name="sort_by_unread">Đã đọc/chưa đọc</string>
+    <string name="sort_earliest_first">Tin nhắn sớm nhất trước</string>
+    <string name="sort_flagged_first">Tin nhắn đã gắn dấu sao trước</string>
+    <string name="sort_flagged_last">Tin nhắn đã bỏ gắn sao trước</string>
+    <string name="sort_latest_first">Tin nhắn muộn nhất trước</string>
+    <string name="sort_sender_alpha">Người gửi theo thứ tự bảng chữ cái</string>
+    <string name="sort_sender_re_alpha">Người gửi đảo ngược bảng chữ cái</string>
+    <string name="sort_subject_alpha">Chủ đề theo bảng chữ cái</string>
+    <string name="sort_subject_re_alpha">Chủ đề đảo ngược bảng chữ cái</string>
+    <string name="sort_unattached_first">Tin nhắn không có tệp đính kèm trước</string>
+    <string name="sort_unread_first">Tin nhắn chưa đọc trước</string>
+    <string name="sort_unread_last">Tin nhắn đã đọc trước</string>
+    <string name="source_code">Mã nguồn</string>
+    <string name="spam_action">Thư rác</string>
+    <string name="spam_folder_label">Thư mục thư rác</string>
+    <string name="status_invalid_id_error">Không tìm thấy thư nào</string>
+    <string name="status_loading_error">Lỗi tải thư</string>
+    <string name="status_loading_more">Đang tải thư…</string>
+    <string name="status_network_error">Lỗi kết nối</string>
+    <string name="switch_off">Tắt</string>
+    <string name="switch_on">Bật</string>
+    <string name="toast_account_not_found">Lỗi nội bộ: Tài khoản không hợp lệ!</string>
+    <string name="toast_openpgp_provider_error">Lỗi kết nối đến %s!</string>
+    <string name="trash_folder_label">Thư mục thùng rác</string>
+    <string name="unflag_action">Loại bỏ sao</string>
+    <string name="unknown_recipient">&<;Người nhận không rõ&>;</string>
+    <string name="unknown_sender">&<;Người gửi không xác định&>;</string>
+    <string name="unsigned_text_divider_label">Chữ không ký</string>
+    <string name="unsubscribe_action">Huỷ đăng ký</string>
+    <string name="upgrade_database_format">Đang nâng cấp cơ sở dữ liệu của tài khoản \"<xliff:g id="account">%s</xliff:g>\"</string>
+    <string name="upgrade_databases_title">Đang nâng cấp cơ sở dữ liệu</string>
+    <string name="upgrade_databases_unspecified">Đang nâng cấp cơ sở dữ liệu…</string>
+    <string name="user_forum_title">Diễn đàn người dùng</string>
+    <string name="version">Phiên bản</string>
+    <string name="volume_navigation_summary">Điều hướng giữa các tin nhắn bằng cách sử dụng các nút âm lượng trong phần xem tin nhắn</string>
+    <string name="volume_navigation_title_short">Điều hướng bằng nút âm lượng</string>
+    <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
+    <!-- Displayed after importing accounts when one or multiple accounts require to use the OAuth authorization flow -->
+    <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
+    <!-- Content description for the icon that is displayed next to an imported account that requires sign-in -->
+    <string name="webview_contextmenu_email_clipboard_label">Địa chỉ email</string>
+    <string name="webview_contextmenu_email_copy_action">Sao chép địa chỉ vào bảng nhớ tạm</string>
+    <string name="webview_contextmenu_email_save_action">Lưu vào Danh bạ</string>
+    <string name="webview_contextmenu_email_send_action">Gửi thư</string>
+    <string name="webview_contextmenu_image_clipboard_label">URL ảnh</string>
+    <string name="webview_contextmenu_image_copy_action">Sao chép URL ảnh vào bảng nhớ tạm</string>
+    <string name="webview_contextmenu_image_download_action">Tải hình ảnh</string>
+    <string name="webview_contextmenu_image_save_action">Lưu hình ảnh</string>
+    <string name="webview_contextmenu_image_title">Hình ảnh</string>
+    <string name="webview_contextmenu_image_view_action">Xem ảnh</string>
+    <string name="webview_contextmenu_link_clipboard_label">Đường dẫn</string>
+    <string name="webview_contextmenu_link_copy_action">Sao chép đường dẫn vào bảng nhớ tạm</string>
+    <string name="webview_contextmenu_link_share_action">Chia sẻ đường dẫn</string>
+    <string name="webview_contextmenu_link_text_clipboard_label">Nội dung đường dẫn</string>
+    <string name="webview_contextmenu_link_text_copy_action">Sao chép chữ của đường dẫn vào bảng nhớ tạm</string>
+    <string name="webview_contextmenu_link_view_action">Mở đường dẫn</string>
+    <string name="webview_contextmenu_phone_call_action">Số gọi</string>
+    <string name="webview_contextmenu_phone_clipboard_label">Số điện thoại</string>
+    <string name="webview_contextmenu_phone_copy_action">Sao chép số vào bảng nhớ tạm</string>
+    <string name="webview_contextmenu_phone_save_action">Lưu vào Danh bạ</string>
+    <string name="webview_empty_message">Không có chữ</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">Klarte ikke å laste inn e-postoppsett</string>
+    <string name="account_setup_auto_discovery_loading_message">Finner oppsett …</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Jeg stoler på dette oppsettet</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Det kreves for å godkjenne oppsettet.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Vi mottok oppsettet for din e-posttjener på en tilkobling som ikke er så sikker som vi hadde ønske. Dette betyr at det er en mikroskopisk sjanse for at noen kan ha endret den. Kan du dobbeltsjekke at det angitte oppsettet er slik det skal være?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Rediger oppsett</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Sett opp manuelt</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Sett opp automatisk</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Dette oppsettet er ikke tiltrodd</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Fant ikke noe oppsett</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Fant et oppsett</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Dette gjenkjennes ikke som en gyldig e-postadresse.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Denne e-postadressen tillates ikke.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Denne e-postadressen støttes ikke.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">E-postadresse kreves.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Passord kreves.</string>
+    <string name="account_setup_create_account_created">Kontoen ble vellykket opprettet</string>
+    <string name="account_setup_create_account_creating">Oppretter konto …</string>
+    <string name="account_setup_create_account_error">En feil oppstod under opprettelse av kontoen</string>
+    <string name="account_setup_error_network">Nettverksfeil. Vennligst sjekk tilkoblingen din og prøv på nytt.</string>
+    <string name="account_setup_error_unknown">Ukjent feil</string>
+    <string name="account_setup_options_account_check_frequency_label">Sjekkfrekvens</string>
+    <string name="account_setup_options_account_name_error_blank">Kontonavn må fylles ut.</string>
+    <string name="account_setup_options_account_name_label">Kontonavn</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Hver time</item>
+            <item quantity="other">Hver %d. time</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Hvert minutt</item>
+            <item quantity="other">Hvert %d. minutt</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Aldri</string>
+    <string name="account_setup_options_email_display_count_label">Antall meldinger å vise</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 melding</item>
+            <item quantity="other">%d meldinger</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">E-postsignatur må fylles ut.</string>
+    <string name="account_setup_options_email_signature_label">E-postsignatur</string>
+    <string name="account_setup_options_section_display_options">Visningsalternativer</string>
+    <string name="account_setup_options_section_sync_options">Synkroniseringsalternativer</string>
+    <string name="account_setup_options_show_notifications_label">Vis merknader</string>
+    <string name="account_setup_options_your_name_error_required">Du må skrive inn navnet ditt.</string>
+    <string name="account_setup_options_your_name_label">Navnet ditt</string>
+    <string name="account_setup_special_folders_archive_folder_label">Arkivmappe</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Kladdmappe</string>
+    <string name="account_setup_special_folders_error_message">Klarte ikke å hente mappeliste fra tjeneren</string>
+    <string name="account_setup_special_folders_folder_automatic">Automatisk (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Ingen</string>
+    <string name="account_setup_special_folders_form_description">Angi spesialmapper for din konto.</string>
+    <string name="account_setup_special_folders_form_description_automatic">«Automatisk»-oppføringen følger endringer gjort av tjeneren automatisk. Nåværende tjenerverdi vises i parenteser.</string>
+    <string name="account_setup_special_folders_loading_message">Henter mappeliste …</string>
+    <string name="account_setup_special_folders_sent_folder_label">«Sendt»-mappe</string>
+    <string name="account_setup_special_folders_spam_folder_label">Søppelpostmappe</string>
+    <string name="account_setup_special_folders_success_message">Alle spesialmapper har blitt satt opp automatisk av tjeneren.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Papirkurvsmappe</string>
+</resources>

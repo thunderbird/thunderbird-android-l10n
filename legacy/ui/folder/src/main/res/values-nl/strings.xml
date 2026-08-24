@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Concepten</string>
+    <string name="special_mailbox_name_inbox">Postvak IN</string>
+    <string name="special_mailbox_name_outbox">Postvak UIT</string>
+    <string name="special_mailbox_name_sent">Verzonden</string>
+    <string name="special_mailbox_name_trash">Prullenbak</string>
+</resources>

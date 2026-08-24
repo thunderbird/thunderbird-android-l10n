@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel_action">Abbandunà</string>
+    <string name="okay_action">Vai</string>
+    <string name="star_button_description">Aghjunghje una stella</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Entwürfe</string>
+    <string name="special_mailbox_name_inbox">Posteingang</string>
+    <string name="special_mailbox_name_outbox">Postausgang</string>
+    <string name="special_mailbox_name_sent">Gesendet</string>
+    <string name="special_mailbox_name_trash">Papierkorb</string>
+</resources>

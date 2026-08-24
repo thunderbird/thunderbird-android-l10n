@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Съставяне</string>
+    <string name="message_list_widget_inbox_title">Обединена кутия</string>
+    <string name="message_list_widget_initializing">Зареждане…</string>
+    <string name="message_list_widget_label">Списък със съобщения</string>
+    <string name="message_list_widget_list_item_loading">Зареждане…</string>
+</resources>

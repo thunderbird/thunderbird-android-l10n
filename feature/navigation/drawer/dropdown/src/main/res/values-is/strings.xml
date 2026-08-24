@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_dropdown_action_add_account">Bæta við aðgangi</string>
+    <string name="navigation_drawer_dropdown_action_manage_folders">Sýsla með möppur</string>
+    <string name="navigation_drawer_dropdown_action_settings">Stillingar</string>
+    <string name="navigation_drawer_dropdown_action_sync_account">Samstilla aðgang</string>
+    <string name="navigation_drawer_dropdown_action_sync_all_accounts">Samstilla alla reikninga</string>
+    <string name="navigation_drawer_dropdown_avount_view_selection_title">Aðgangalisti</string>
+    <string name="navigation_drawer_dropdown_folder_item_badge_count_greater_than_1_000">&>;1.000</string>
+    <string name="navigation_drawer_dropdown_folder_item_badge_count_greater_than_99">&>;99</string>
+    <string name="navigation_drawer_dropdown_unified_account_title">Sameinaður aðgangur</string>
+    <string name="navigation_drawer_dropdown_unified_inbox_title">Innhólf</string>
+</resources>

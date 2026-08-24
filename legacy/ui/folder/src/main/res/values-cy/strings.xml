@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Drafftiau</string>
+    <string name="special_mailbox_name_inbox">Blwch Derbyn</string>
+    <string name="special_mailbox_name_outbox">Blwch Anfon</string>
+    <string name="special_mailbox_name_sent">Anfonwyd</string>
+    <string name="special_mailbox_name_trash">Sbwriel</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">Sähköpostin määrityksen lataaminen epäonnistui</string>
+    <string name="account_setup_auto_discovery_loading_message">Etsitään määritystä…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Luotan tähän määritykseen</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Vaaditaan tämän määrityksen hyväksymiseksi.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Vastaanotimme sähköpostipalvelimesi asetukset yhteydellä, joka ei ollut aivan niin turvallinen kuin haluaisimme. Tämä tarkoittaa, että on pieni mahdollisuus, että joku on muuttanut niitä. Voisitko vielä tarkistaa ne, jotta ne ovat varmasti oikein?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Muokkaa määritystä</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Määritä manuaalisesti</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Määritä automaattisesti</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Tähän määritykseen ei luoteta</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Määritystä ei löytynyt</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Määritys löytyi</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Tätä ei tunnistettu kelvolliseksi sähköpostiosoitteeksi.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Tämä sähköpostiosoite ei ole sallittu.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Tämä sähköpostiosoite ei ole tuettu.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">Sähköpostiosoite vaaditaan.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Salasana on pakollinen.</string>
+    <string name="account_setup_create_account_created">Tili luotu onnistuneesti</string>
+    <string name="account_setup_create_account_creating">Luodaan tiliä…</string>
+    <string name="account_setup_create_account_error">Tiliä luotaessa tapahtui virhe</string>
+    <string name="account_setup_error_network">Verkkovirhe. Tarkista verkkoyhteyden tila ja yritä uudelleen.</string>
+    <string name="account_setup_error_unknown">Tuntematon virhe</string>
+    <string name="account_setup_options_account_check_frequency_label">Tarkistusväli</string>
+    <string name="account_setup_options_account_name_error_blank">Tilin nimi ei voi olla tyhjä.</string>
+    <string name="account_setup_options_account_name_label">Tilin nimi</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Tunnin välein</item>
+            <item quantity="other">%d tunnin välein</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Minuutin välein</item>
+            <item quantity="other">%d minuutin välein</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Ei koskaan</string>
+    <string name="account_setup_options_email_display_count_label">Näytettävien viestien määrä</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 message</item>
+            <item quantity="other">%d messages</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">Sähköpostin allekirjoituksen nimi ei voi olla tyhjä.</string>
+    <string name="account_setup_options_email_signature_label">Sähköpostin allekirjoitus</string>
+    <string name="account_setup_options_section_display_options">Näkymäasetukset</string>
+    <string name="account_setup_options_section_sync_options">Synkronointiasetukset</string>
+    <string name="account_setup_options_show_notifications_label">Näytä ilmoitukset</string>
+    <string name="account_setup_options_your_name_error_required">Nimi on pakollinen tieto.</string>
+    <string name="account_setup_options_your_name_label">Nimesi</string>
+    <string name="account_setup_special_folders_archive_folder_label">Arkistokansio</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Luonnoskansio</string>
+    <string name="account_setup_special_folders_error_message">Listan kansoista hakeminen palvelimelta epäonnistui</string>
+    <string name="account_setup_special_folders_folder_automatic">Automaattinen(%s)</string>
+    <string name="account_setup_special_folders_folder_none">Ei mitään</string>
+    <string name="account_setup_special_folders_form_description">Määrittele tilisi erityiset kansiot</string>
+    <string name="account_setup_special_folders_form_description_automatic">\"Automaattinen\" seuraa palvelimella tehtyjä muutoksia automaattisesti. Nykyisen palvelimen arvo näytetään suluissa.</string>
+    <string name="account_setup_special_folders_loading_message">Haetaan listaa kansioista…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Lähetetyt-kansio</string>
+    <string name="account_setup_special_folders_spam_folder_label">Roskapostikansio</string>
+    <string name="account_setup_special_folders_success_message">Palvelin määritti kaikki erityiset kansiot automaattisesti.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Roskakorikansio</string>
+</resources>

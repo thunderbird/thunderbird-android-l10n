@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Vyvinuté špecializovaným tímom v MZLA Technologies a globálnou komunitou dobrovoľníkov. Súčasť rodiny Mozilla.</string>
+    <string name="onboarding_welcome_import_button">Importovať nastavenia</string>
+    <string name="onboarding_welcome_start_button">Začnime</string>
+    <string name="onboarding_welcome_text">Open source e-mail klient pre Android zo zamerením na súkromie a bez reklám.</string>
+</resources>

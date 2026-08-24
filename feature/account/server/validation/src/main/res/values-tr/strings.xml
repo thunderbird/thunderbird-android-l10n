@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_server_validation_error_authentication">Kimlik doğrulama hatası</string>
+    <string name="account_server_validation_error_client_certificate_expired">İstemci sertifikası artık geçerli değil</string>
+    <string name="account_server_validation_error_client_certificate_retrieval_failure">İstemci sertifikasına erişilemedi</string>
+    <string name="account_server_validation_error_details">Ayrıntılar: \n%s</string>
+    <string name="account_server_validation_error_missing_server_capability">Eksik sunucu özelliği</string>
+    <string name="account_server_validation_error_missing_server_capability_details">Sunucuda aşağıdaki özellik eksik: \n%s</string>
+    <string name="account_server_validation_error_network">Ağ hatası</string>
+    <string name="account_server_validation_error_server">Sunucu hatası</string>
+    <string name="account_server_validation_error_unknown">Bilinmeyen hata</string>
+    <string name="account_server_validation_incoming_loading_error">Gelen sunucusu ayarlarının denetlenmesi başarısız oldu</string>
+    <string name="account_server_validation_incoming_loading_message">Gelen sunucusu ayarları denetleniyor…</string>
+    <string name="account_server_validation_incoming_success">Gelen sunucusu ayarları doğrulandı</string>
+    <string name="account_server_validation_outgoing_loading_error">Giden sunucusu ayarlarının denetlenmesi başarısız oldu</string>
+    <string name="account_server_validation_outgoing_loading_message">Giden sunucusu ayarları denetleniyor…</string>
+    <string name="account_server_validation_outgoing_success">Giden sunucusu ayarları doğrulandı</string>
+    <string name="account_server_validation_sign_in">Lütfen oturum açın</string>
+</resources>

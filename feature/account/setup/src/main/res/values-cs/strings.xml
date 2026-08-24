@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">Nastavení e-mailu se nepodařilo nahrát</string>
+    <string name="account_setup_auto_discovery_loading_message">Zjišťování konfigurace…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Tomuto nastavení důvěřuji</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Nastavení je potřeba schválit.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Nastavení pro váš e-mailový server bylo získáno prostřednictvím spojení, které není tak bezpečné, jak bychom si přáli. Existuje malá pravděpodobnost, že ho někdo změnil. Zkontrolujte prosím, zda je nabízené nastavení opravdu v pořádku.</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Upravit nastavení</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Nastavit ručně</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Nastavit automaticky</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Toto nastavení není důvěryhodné</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Nastavení nenalezeno</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Nastavení nalezeno</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Toto není rozeznáno jako platná e-mailová adresa.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Tato e-mailová adresa není dovolena.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Tato e-mailová adresa není podporována.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">E-mailová adresa je vyžadována.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Heslo je vyžadováno.</string>
+    <string name="account_setup_create_account_created">Účet úspěšně vytvořen</string>
+    <string name="account_setup_create_account_creating">Vytváření účtu…</string>
+    <string name="account_setup_create_account_error">Při vytváření účtu nastala chyba</string>
+    <string name="account_setup_error_network">Chyba sítě. Zkontrolujte prosím stav svého připojení a zkuste to znovu.</string>
+    <string name="account_setup_error_unknown">Neznámá chyba</string>
+    <string name="account_setup_options_account_check_frequency_label">Četnost kontroly</string>
+    <string name="account_setup_options_account_name_error_blank">Název účtu nemůže být prázdný.</string>
+    <string name="account_setup_options_account_name_label">Název účtu</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Každou hodinu</item>
+            <item quantity="few">Každé %d hodiny</item>
+            <item quantity="many">Každých %d hodin</item>
+            <item quantity="other">Každých %d hodin</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Každou minutu</item>
+            <item quantity="few">Každé %d minuty</item>
+            <item quantity="many">Každých %d minut</item>
+            <item quantity="other">Každých %d minut</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Nikdy</string>
+    <string name="account_setup_options_email_display_count_label">Počet zobrazovaných zpráv</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 zpráva</item>
+            <item quantity="few">%d zprávy</item>
+            <item quantity="many">%d zpráv</item>
+            <item quantity="other">%d zpráv</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">Název podpisu e-mailu nemůže být prázdný.</string>
+    <string name="account_setup_options_email_signature_label">Podpis e-mailů</string>
+    <string name="account_setup_options_section_display_options">Nastavení zobrazení</string>
+    <string name="account_setup_options_section_sync_options">Nastavení synchronizace</string>
+    <string name="account_setup_options_show_notifications_label">Zobrazovat oznámení</string>
+    <string name="account_setup_options_your_name_error_required">Vaše jméno je vyžadováno.</string>
+    <string name="account_setup_options_your_name_label">Vaše jméno</string>
+    <string name="account_setup_special_folders_archive_folder_label">Archiv</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Koncepty</string>
+    <string name="account_setup_special_folders_error_message">Nepodařilo se získat seznam složek ze serveru</string>
+    <string name="account_setup_special_folders_folder_automatic">Automaticky (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Žádný</string>
+    <string name="account_setup_special_folders_form_description">Zvolte prosím speciální složky pro svůj účet.</string>
+    <string name="account_setup_special_folders_form_description_automatic">Volba \"Automaticky\" sleduje změny provedené na serveru. Aktuální hodnota je zobrazena v závorkách.</string>
+    <string name="account_setup_special_folders_loading_message">Získávání seznamu složek…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Odeslané</string>
+    <string name="account_setup_special_folders_spam_folder_label">Spam</string>
+    <string name="account_setup_special_folders_success_message">Všechny speciální složky byly nastaveny automaticky na serveru.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Koš</string>
+</resources>

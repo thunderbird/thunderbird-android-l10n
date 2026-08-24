@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_inline_notification_check_error_notifications">Verificar Notificações de Erro</string>
+    <string name="banner_inline_notification_learn_more">Saiba mais</string>
+    <string name="banner_inline_notification_open_notifications">Abrir notificações</string>
+    <string name="banner_inline_notification_some_messages_need_attention">Algumas mensagens requerem sua atenção.</string>
+    <string name="banner_inline_notification_view_support_article">Ver artigo de ajuda</string>
+    <string name="notification_action_archive">Arquivar</string>
+    <string name="notification_action_archive_all">Arquivar todas</string>
+    <string name="notification_action_assign_sent_folder">Atribuir pasta</string>
+    <string name="notification_action_delete">Excluir</string>
+    <string name="notification_action_delete_all">Excluir todas</string>
+    <string name="notification_action_mark_all_as_read">Marcar todas como lidas</string>
+    <string name="notification_action_mark_as_read">Marcar como lida</string>
+    <string name="notification_action_reply">Responder</string>
+    <string name="notification_action_retry">Tentar novamente</string>
+    <string name="notification_action_spam">Spam</string>
+    <string name="notification_action_update_server_settings">Atualizar Configurações de Servidor</string>
+    <string name="notification_additional_messages">+ %1$d a mais em %2$s</string>
+    <string name="notification_authentication_error_title">Falha na autenticação</string>
+    <string name="notification_authentication_incoming_server_error_text">A autenticação falhou para %1$s. Atualize as configurações do seu servidor de entrada.</string>
+    <string name="notification_authentication_outgoing_server_error_text">Autenticação falhou por %1$s. Atualize as suas configurações de servidor de saída.</string>
+    <string name="notification_bg_send_ticker">Enviando mensagem: %1$s</string>
+    <string name="notification_bg_send_title">Enviando mensagem</string>
+    <string name="notification_bg_sync_text">%1$s: %2$s</string>
+    <string name="notification_bg_sync_ticker">Verificando e-mail: %1$s:%2$s</string>
+    <string name="notification_bg_sync_title">Verificando e-mail</string>
+    <string name="notification_certificate_error_public">Erro no certificado</string>
+    <string name="notification_certificate_error_text">Verifique suas configurações de servidor</string>
+    <string name="notification_certificate_error_title">Erro no certificado de %1$s</string>
+    <string name="notification_channel_messages_description">Notificações relacionadas a mensagens</string>
+    <string name="notification_channel_messages_title">Mensagens</string>
+    <string name="notification_channel_miscellaneous_description">Notificações diversas, como erros, etc.</string>
+    <string name="notification_channel_miscellaneous_title">Diversos</string>
+    <string name="notification_channel_push_description">Exibido enquanto aguarda por novas mensagens</string>
+    <string name="notification_channel_push_title">Sincronizar (Push)</string>
+    <plurals name="notification_new_messages_title">
+            <item quantity="one">%1$d nova mensagem</item>
+            <item quantity="many">%1$d novas mensagens</item>
+            <item quantity="other">%1$d nova mensagem</item>
+        </plurals>
+    <string name="notification_notify_error_text">Ocorreu um erro ao tentar criar uma notificação de sistema para uma nova mensagem. O provável motivo é a ausência de um som de notificação.\n\nToque para abrir as configurações de notificação.</string>
+    <string name="notification_notify_error_title">Notificação de erro</string>
+    <string name="push_info_disable_push_action">Desativar Push</string>
+    <string name="push_notification_grant_alarm_permission">Toque para conceder a permissão.</string>
+    <string name="push_notification_info">Toque para aprender mais.</string>
+    <string name="push_notification_state_alarm_permission_missing">Falta permissão para agendar alarmes</string>
+    <string name="push_notification_state_initializing">Inicializando…</string>
+    <string name="push_notification_state_listening">Aguardando novas mensagens</string>
+    <string name="push_notification_state_wait_background_sync">Suspenso até que a sincronização em segundo plano seja permitida</string>
+    <string name="push_notification_state_wait_network">Suspenso até que a rede esteja disponível</string>
+    <string name="send_failure_subject">Não foi possível enviar algumas mensagens</string>
+    <string name="sent_folder_not_found_title">Pasta Enviados indisponível.</string>
+</resources>

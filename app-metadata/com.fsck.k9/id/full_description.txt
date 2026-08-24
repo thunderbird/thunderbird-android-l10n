@@ -1,0 +1,24 @@
+Surel K-9 adalah klien surel bersumber terbuka yang pada dasarnya dapat dipakai dengan semua penyedia surel.
+
+<b>Fitur </b>
+
+* Banyak akun surel dalam satu aplikasi
+* Semua akun surel dapat dimasukkan dalam satu kotak masuk terpadu
+* Ramah privasi (tidak ada pelacakan apa pun; hanya terhubung ke penyedia surel Anda)
+* Penyinkronan di latar secara otomatis atau notifikasi push otomatis
+* Pencarian lokal dan pencarian dari sisi peladen
+* Enkripsi surel OpenPGP (PGP/MIME)
+
+Instal aplikasi <a href="https://f-droid.org/packages/org.sufficientlysecure.keychain">OpenKeychain: Easy PGP</a> untuk mengenkripsi/mendekripsi surel Anda menggunakan OpenPGP.
+
+
+<b>Bantuan</b>
+
+Jika Anda mengalami kendala dengan Surel K-9, mintalah bantuan di forum bantuan <a href="https://forum.k9mail.app"> kami </a>.
+
+
+<b> Ingin membantu?</b>
+
+Surel K-9 adalah sebuah proyek urun daya. Jika Anda tertarik untuk membantu meningkatkan aplikasi ini, silakan bergabung dengan kami!
+Anda dapat menemukan pelacakan masalah, kode sumber, dan wiki kami di <a href="https://github.com/thunderbird/thunderbird-android">https://github.com/thunderbird/thunderbird-android</a>.
+Dengan senang hati selalu kami sambut para pengembang, desainer, dokumenter, penerjemah, pengidentifikasi masalah, dan teman-teman baru pada proyek kami.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Melnraksti</string>
+    <string name="special_mailbox_name_inbox">Iesūtne</string>
+    <string name="special_mailbox_name_outbox">Nosūtne</string>
+    <string name="special_mailbox_name_sent">Nosūtīts</string>
+    <string name="special_mailbox_name_trash">Papīrkurvis</string>
+</resources>
