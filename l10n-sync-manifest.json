@@ -3103,15 +3103,15 @@
                     "app_name",
                     "brand_name"
                 ],
-                "core/ui/compose/designsystem/src/commonMain/composeResources/values/strings.xml": [
-                    "designsystem_atom_password_textfield_hide_password",
-                    "designsystem_atom_password_textfield_show_password",
-                    "designsystem_molecule_email_address_input_label",
-                    "designsystem_molecule_error_view_button_retry",
-                    "designsystem_molecule_password_input_label",
-                    "designsystem_molecule_swipeable_row_end_to_start_accessibility_description",
-                    "designsystem_molecule_swipeable_row_start_to_end_accessibility_description",
-                    "designsystem_organism_subtitle_top_app_bar_up_description"
+                "components/ui/bolt/src/commonMain/composeResources/values/strings.xml": [
+                    "bolt_atom_password_textfield_hide_password",
+                    "bolt_atom_password_textfield_show_password",
+                    "bolt_molecule_email_address_input_label",
+                    "bolt_molecule_error_view_button_retry",
+                    "bolt_molecule_password_input_label",
+                    "bolt_molecule_swipeable_row_end_to_start_accessibility_description",
+                    "bolt_molecule_swipeable_row_start_to_end_accessibility_description",
+                    "bolt_organism_subtitle_top_app_bar_up_description"
                 ],
                 "core/ui/setting/impl-dialog/src/main/res/values/strings.xml": [
                     "core_ui_setting_dialog_button_accept",
@@ -3178,6 +3178,7 @@
                     "account_server_settings_password_authentication_subtitle",
                     "account_server_settings_password_authentication_title",
                     "account_server_settings_password_authentication_unable_to_start",
+                    "account_server_settings_password_input_label",
                     "account_server_settings_port_label",
                     "account_server_settings_protocol_type_label",
                     "account_server_settings_security_label",
@@ -3700,11 +3701,15 @@
                     "feature_thundermail_button_panel_sign_in_or"
                 ],
                 "feature/thundermail/internal/common/src/main/res/values/strings.xml": [
+                    "thundermail_add_account",
+                    "thundermail_add_an_email_account",
                     "thundermail_browser_is_not_available",
                     "thundermail_operation_was_canceled",
+                    "thundermail_or_divider",
                     "thundermail_redirecting",
                     "thundermail_something_went_wrong",
-                    "thundermail_unknown_error_please_consider_reporting"
+                    "thundermail_unknown_error_please_consider_reporting",
+                    "thundermail_what_is_thundermail"
                 ],
                 "feature/widget/message-list-glance/src/main/res/values/strings.xml": [
                     "message_list_glance_widget_compose_action",
@@ -4270,6 +4275,8 @@
                     "global_settings_privacy_hide_timezone_detail",
                     "global_settings_privacy_hide_useragent",
                     "global_settings_privacy_hide_useragent_detail",
+                    "global_settings_privacy_incognito_keyboard",
+                    "global_settings_privacy_incognito_keyboard_detail",
                     "global_settings_registered_name_color_changed",
                     "global_settings_registered_name_color_label",
                     "global_settings_sender_above_subject_label",
@@ -4556,6 +4563,7 @@
                     "sort_by_attach",
                     "sort_by_date",
                     "sort_by_flag",
+                    "sort_by_indicator",
                     "sort_by_sender",
                     "sort_by_subject",
                     "sort_by_then_by",
