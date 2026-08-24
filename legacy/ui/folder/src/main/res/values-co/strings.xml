@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Bruttacopie</string>
+    <string name="special_mailbox_name_inbox">Currieru ricevutu</string>
+    <string name="special_mailbox_name_outbox">In attesa d’inviu</string>
+    <string name="special_mailbox_name_sent">Currieru mandatu</string>
+    <string name="special_mailbox_name_trash">Curbella</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">E-posti konto seadistuste tuvastamine ei õnnestunud</string>
+    <string name="account_setup_auto_discovery_loading_message">Tuvastame e-posti konto seadistusi…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">Ma usaldan neid seadistusi</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">On nõutav, et saa nõustud nende seadistustega.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">Me laadisime sinu e-postikonto seadistused üle võrguühenduse, mis pole meie arvates piisavalt turvaline. See tähendab, et on pisikene võimalus, et väline osapool on neid muutnud. Palun topeltkontrolli, et näidatud seadistused on sellised, nagu nad peaksid olema, eksole?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Muuda seadistusi</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Seadista käsitsi</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Seadista automaatselt</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">See seadistus ei ole usaldusväärne</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Seadistusi ei õnnestunud leida</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">Seadistused on tuvastatud</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">See e-posti aadress ei tundu olema korrektne.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Sellise e-posti aadressi kasutamine pole lubatud.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Sellise e-posti aadressi kasutamine pole toetatud.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">E-posti aadressi sisestamine on kohustuslik.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Salasõna on vajalik.</string>
+    <string name="account_setup_create_account_created">Kasutajakonto loomine õnnestus</string>
+    <string name="account_setup_create_account_creating">Kasutajakonto on loomisel…</string>
+    <string name="account_setup_create_account_error">Kasutajakonto loomisel tekkis viga</string>
+    <string name="account_setup_error_network">Võrguühenduse viga. Palun kontrolli sinu nutiseadme võrguühenduse toimivust ja proovi siis uuesti.</string>
+    <string name="account_setup_error_unknown">Tundmatu viga</string>
+    <string name="account_setup_options_account_check_frequency_label">Kirjade kontrollimise sagedus</string>
+    <string name="account_setup_options_account_name_error_blank">Kasutajakonto nimi ei saa olla tühi.</string>
+    <string name="account_setup_options_account_name_label">Kasutajakonto nimi</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Kord tunnis</item>
+            <item quantity="other">Iga %d tunni järel</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Kord minutis</item>
+            <item quantity="other">Iga %d minuti järel</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Mitte kunagi</string>
+    <string name="account_setup_options_email_display_count_label">Kuvatavate kirjade arv</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 sõnum</item>
+            <item quantity="other">%d sõnumit</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">E-kirja allkiri ei saa olla tühi.</string>
+    <string name="account_setup_options_email_signature_label">E-kirja allkiri</string>
+    <string name="account_setup_options_section_display_options">Kuvatavad valikud</string>
+    <string name="account_setup_options_section_sync_options">Sünkroniseerimisvalikud</string>
+    <string name="account_setup_options_show_notifications_label">Näita teavitusi</string>
+    <string name="account_setup_options_your_name_error_required">Sinu nimi peab olema sisestatud.</string>
+    <string name="account_setup_options_your_name_label">Sinu nimi</string>
+    <string name="account_setup_special_folders_archive_folder_label">Arhiivi kaust</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Mustandite kaust</string>
+    <string name="account_setup_special_folders_error_message">Kaustade loendi laadimine ei õnnestunud</string>
+    <string name="account_setup_special_folders_folder_automatic">Määratud automaatselt (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Määratlemata</string>
+    <string name="account_setup_special_folders_form_description">Palun seadista oma kasutajakonto jaoks määratud kaustad.</string>
+    <string name="account_setup_special_folders_form_description_automatic">Märge „Automaatne“ näitab serveri poolt tehtud muudatusi. Hetkel serveri poolt määratud väärtus on kuvatud sulgudes.</string>
+    <string name="account_setup_special_folders_loading_message">Laadime kaustade loendit…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Saadetud kirjade kaust</string>
+    <string name="account_setup_special_folders_spam_folder_label">Spämmi kaust</string>
+    <string name="account_setup_special_folders_success_message">Kõik määratud kaustad on nimetatud serveri poolt.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Prügikasti kaust</string>
+</resources>

@@ -165,7 +165,12 @@
     <string name="account_settings_signature__location_after_quoted_text">After quoted message</string>
     <string name="account_settings_signature__location_before_quoted_text">Before quoted message</string>
     <string name="account_settings_signature__location_label">Signature position</string>
+    <string name="account_settings_signature_clear_label">Clear Signature</string>
+    <string name="account_settings_signature_html_label">HTML Signature</string>
+    <string name="account_settings_signature_is_html_label">Save signature as HTML</string>
+    <string name="account_settings_signature_is_html_summary">Interpret the signature as HTML. Scripts and event handlers will be removed for security.</string>
     <string name="account_settings_signature_label">Signature</string>
+    <string name="account_settings_signature_preview">Signature preview</string>
     <string name="account_settings_signature_use_label">Use Signature</string>
     <string name="account_settings_strip_signature_label">Strip signatures on reply</string>
     <string name="account_settings_strip_signature_summary">Signatures will be removed from quoted messages</string>
@@ -262,6 +267,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Removing account…</string>
     <string name="batch_select_all">Select all</string>
+    <string name="camera_capture_lost">Captured image was lost because the app was closed. Please try again.</string>
     <string name="camera_permission_denied">Camera Permission Denied! Unable to take photo</string>
     <string name="changelog_latest_label_text">LATEST</string>
     <string name="changelog_loading_error">Couldn\'t load the changelog.</string>

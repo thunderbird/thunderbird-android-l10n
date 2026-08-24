@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Развијено од стране посвећеног тима у MZLA Technologies и глобалне заједнице волонтера. Део је Mozilla породице.</string>
+    <string name="onboarding_welcome_import_button">Увези подешавања</string>
+    <string name="onboarding_welcome_start_button">Започни</string>
+    <string name="onboarding_welcome_text">Имејл апликација отвореног кода, фокусирана на приватност и без огласа, за Android.</string>
+</resources>

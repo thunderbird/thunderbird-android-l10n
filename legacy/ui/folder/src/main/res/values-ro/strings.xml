@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Ciorne</string>
+    <string name="special_mailbox_name_inbox">Mesaje primite</string>
+    <string name="special_mailbox_name_outbox">De trimis</string>
+    <string name="special_mailbox_name_sent">Trimise</string>
+    <string name="special_mailbox_name_trash">Coș de gunoi</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Osnutki</string>
+    <string name="special_mailbox_name_inbox">Prejeto</string>
+    <string name="special_mailbox_name_outbox">Odpremni predal</string>
+    <string name="special_mailbox_name_sent">Poslano</string>
+    <string name="special_mailbox_name_trash">Koš</string>
+</resources>

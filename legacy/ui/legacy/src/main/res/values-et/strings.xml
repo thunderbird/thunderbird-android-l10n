@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_action">Teave</string>
+    <!-- === App-specific strings ============================================================= -->
+    <!-- This should make it easier for forks to change the branding -->
+    <!-- Used in AndroidManifest.xml -->
+    <!-- Used in the about dialog -->
+    <string name="about_app_authors_k9">K-9 Autorid</string>
+    <string name="about_app_authors_thunderbird">Thunderbirdi mobiilirakenduse arendustiim</string>
+    <string name="about_libraries">Teegid</string>
+    <string name="about_project_title">Avatud lähtekoodiga projekt</string>
+    <string name="about_title">Teave <xliff:g id="app_name">%s</xliff:g>i kohta</string>
+    <string name="about_website_title">Veebisait</string>
+    <string name="ac_transfer_button_send">Saada seadistuskiri</string>
+    <string name="ac_transfer_error_send">Kirja saatmisel tekkis viga. Palun kontrolli võrguühenduse olemasolu ning väljuva e-postiserveri seadistusi.</string>
+    <string name="ac_transfer_finish">Seadistuse lõpetamiseks ava kiri oma muus seadmes ning sisesta seadistuskood.</string>
+    <string name="ac_transfer_generating">Loome seadistuskirja…</string>
+    <string name="ac_transfer_intro">Autocrypt-standardi järgne seadistuskiri jagab läbiva krüptimise seadistusi turvalisel viisil teiste seadmetega.</string>
+    <string name="ac_transfer_msg_body">Selles kirjas on kõik vajalik teave Autocrypt-standardi ja sellega seotud krüptovõtme edastamiseks turvalisel viisil oma algsest seadmest. Seadistamaks uut nutiseadet kasutama Autocrypt\'i palun järgi seal kuvatud juhtnööre. Palun jäta see kiri alles ning kasuta seda muu hulgas oma krüptovõtme varundamiseks. Soovitame, et teed seda välises kanalis või andmekandjal ning turvalisel viisil.</string>
+    <string name="ac_transfer_msg_subject">Autocrypt-standardi järgne seadistuskiri</string>
+    <string name="ac_transfer_sending_to">Kirja saatmine adressaadile:</string>
+    <string name="ac_transfer_setting_summary">Jaga turvaliselt läbiva krüptimise seadistusi muude seadmetega</string>
+    <string name="ac_transfer_setting_title">Saada Autocrypt-standardi järgne seadistuskiri</string>
+    <string name="ac_transfer_show_code">Näita seadistuskoodi</string>
+    <string name="ac_transfer_title">Autocrypt-standardi järgne seadistuskiri</string>
+    <string name="ac_transfer_will_be_sent">Kiri saadetakse sinu aadressile:</string>
+    <string name="accessibility_move_cutoff_down">Tõsta näidatud tegevuste vaheltlõige allapoole</string>
+    <string name="accessibility_move_cutoff_up">Tõsta näidatud tegevuste vaheltlõige ülespoole</string>
+    <string name="accessibility_move_down">Tõsta allapoole</string>
+    <string name="accessibility_move_item_down">Tõsta <xliff:g id="item">%1$s</xliff:g> allapoole</string>
+    <string name="accessibility_move_item_up">Tõsta <xliff:g id="item">%1$s</xliff:g> ülespoole</string>
+    <string name="accessibility_move_up">Tõsta ülespoole</string>
+    <string name="account_delete_dlg_instructions_fmt">Kasutajakonto \"<xliff:g id="account">%1$s</xliff:g>\" kustutatakse <xliff:g id="app_name">%2$s</xliff:g>ist.</string>
+    <string name="account_delete_dlg_title">Eemalda konto</string>
+    <string name="account_notify_contacts_mail_only_label">Ainult kontaktide</string>
+    <string name="account_notify_contacts_mail_only_summary">Näita teateid ainult tuntud kontaktidelt saabunud kirjade kohta</string>
+    <string name="account_settings_action">Konto seadistused</string>
+    <string name="account_settings_always_bcc_label">Kõikide kirjade Bcc saata</string>
+    <string name="account_settings_always_show_cc_bcc_label">Näita alati Cc/Bcc</string>
+    <string name="account_settings_autodownload_message_size_1">1 KiB</string>
+    <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
+    <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
+    <string name="account_settings_autodownload_message_size_128">128 KiB</string>
+    <string name="account_settings_autodownload_message_size_16">16 KiB</string>
+    <string name="account_settings_autodownload_message_size_2">2 KiB</string>
+    <string name="account_settings_autodownload_message_size_2048">2 MiB</string>
+    <string name="account_settings_autodownload_message_size_256">256 KiB</string>
+    <string name="account_settings_autodownload_message_size_32">32 KiB</string>
+    <string name="account_settings_autodownload_message_size_4">4 KiB</string>
+    <string name="account_settings_autodownload_message_size_512">512 KiB</string>
+    <string name="account_settings_autodownload_message_size_5120">5 MiB</string>
+    <string name="account_settings_autodownload_message_size_64">64 KiB</string>
+    <string name="account_settings_autodownload_message_size_8">8 KiB</string>
+    <string name="account_settings_autodownload_message_size_any">ilma mahupiiranguta</string>
+    <string name="account_settings_autodownload_message_size_label">Laadi kirjad mahuga kuni</string>
+    <string name="account_settings_automatic_special_folder">Automaatne (%s)</string>
+    <string name="account_settings_composition">E-kiri on saatmisel</string>
+    <string name="account_settings_composition_label">Sõnumi koostamise vaikeseadistused</string>
+    <string name="account_settings_composition_summary">Määra vaikimisi kasutatavad saatja, pimekoopia ja allkiri</string>
+    <string name="account_settings_composition_title">Kirja koostamise valikud</string>
+    <string name="account_settings_crypto">Otspunktkrüpteerimine</string>
+    <string name="account_settings_crypto_app">Võimalda OpenPGP tugi</string>
+    <string name="account_settings_crypto_app_select_title">Vali OpenPGP rakendus</string>
+    <string name="account_settings_crypto_encrypt_all_drafts">Salvesta kõik mustandid krüpteeritult</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_off">Krüpteeri mustandid vaid siis, kui krüpteerimine on lubatud</string>
+    <string name="account_settings_crypto_encrypt_all_drafts_on">Kõik mustandid salvestatakse krüpteeritult</string>
+    <string name="account_settings_crypto_encrypt_subject">Krüpti ka kirja pealkiri</string>
+    <string name="account_settings_crypto_encrypt_subject_subtitle">Selline funktsionaalsus ei pruugi kõikide kirjasaajate puhul olla toetatud</string>
+    <string name="account_settings_crypto_hide_sign_only">Peida krüpteerimata allkirjad</string>
+    <string name="account_settings_crypto_hide_sign_only_off">Näita kõiki allkirju</string>
+    <string name="account_settings_crypto_hide_sign_only_on">Näita vaid krüptitud allkirju</string>
+    <string name="account_settings_crypto_key">Seadista otspunktide võti</string>
+    <string name="account_settings_crypto_prefer_encrypt">Autocrypt-standardi kahepoolne režiim</string>
+    <string name="account_settings_crypto_summary_config">Seadistamine…</string>
+    <string name="account_settings_crypto_summary_off">OpenPGP rakendus seadistamata</string>
+    <string name="account_settings_crypto_summary_on">%s ühendatud</string>
+    <string name="account_settings_default_quoted_text_shown_label">Vastamisel tsiteeri algset kirja</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Lisa oma vastusesse algne kiri.</string>
+    <string name="account_settings_email_label">Sinu e-posti aadress</string>
+    <string name="account_settings_folders">Kaustad</string>
+    <string name="account_settings_general_title">Üldseadistused</string>
+    <string name="account_settings_identities_label">Halda identiteete</string>
+    <string name="account_settings_identities_summary">Seadista alternatiivsed \'Kellelt\'-aadressid ja allkirjad</string>
+    <string name="account_settings_ignore_chat_messages_label">Eira vestlusega seotud kirju</string>
+    <string name="account_settings_ignore_chat_messages_summary">Ära näita teavitusi kirjade puhul, mis on vestluse osa</string>
+    <string name="account_settings_incoming_label">Sissetulevate kirjade server</string>
+    <string name="account_settings_incoming_summary">Seadista saabuvate kirjade server</string>
+    <string name="account_settings_mail_check_frequency_label">Kaustade pollimise sagedus</string>
+    <string name="account_settings_mail_display_count_label">Kohaliku kausta andmemaht</string>
+    <string name="account_settings_mark_message_as_read_on_delete_label">Kustutamisel märgi loetuks</string>
+    <string name="account_settings_mark_message_as_read_on_delete_summary">Kustutamisel märgi kirjad loetuks</string>
+    <string name="account_settings_mark_message_as_read_on_view_label">Avamisel märgi loetuks</string>
+    <string name="account_settings_mark_message_as_read_on_view_summary">Vaatamiseks avamisel märgi kiri loetuks</string>
+    <string name="account_settings_message_age_0">täna</string>
+    <string name="account_settings_message_age_1">viimased 2 päeva</string>
+    <string name="account_settings_message_age_14">viimased 2 nädalat</string>
+    <string name="account_settings_message_age_1_month">viimane kuu</string>
+    <string name="account_settings_message_age_1_year">viimane aasta</string>
+    <string name="account_settings_message_age_2">viimased 3 päeva</string>
+    <string name="account_settings_message_age_21">viimased 3 nädalat</string>
+    <string name="account_settings_message_age_2_months">viimased 2 kuud</string>
+    <string name="account_settings_message_age_3_months">viimased 3 kuud</string>
+    <string name="account_settings_message_age_6_months">viimased 6 kuud</string>
+    <string name="account_settings_message_age_7">viimane nädal</string>
+    <string name="account_settings_message_age_any">piiranguta</string>
+    <string name="account_settings_message_age_label">Sünkrooni kirjad ajavahemikust</string>
+    <string name="account_settings_message_format_auto">Automaatne</string>
+    <string name="account_settings_message_format_html">HTML (näitab pilte ja vorminguid)</string>
+    <string name="account_settings_message_format_label">Kirja vorming</string>
+    <string name="account_settings_message_format_text">Lihttekst (ei näidata pilte ja vorminguid)</string>
+    <string name="account_settings_message_read_receipt_label">Lugemise kinnitus</string>
+    <string name="account_settings_message_read_receipt_summary">Taotle alati lugemise kinnitust</string>
+    <string name="account_settings_name_label">Sinu nimi</string>
+    <string name="account_settings_no_folder_selected">Mitte ükski</string>
+    <string name="account_settings_notification_channels_label">Teavituste kategooriad</string>
+    <string name="account_settings_notification_light_account_color">Konto värv</string>
+    <string name="account_settings_notification_light_blue">sinine</string>
+    <string name="account_settings_notification_light_cyan">rohekassinine</string>
+    <string name="account_settings_notification_light_default_color">süsteemi vaikimisi värv</string>
+    <string name="account_settings_notification_light_disabled">ei ole kasutusel</string>
+    <string name="account_settings_notification_light_green">roheline</string>
+    <string name="account_settings_notification_light_label">Teavitustule värv</string>
+    <string name="account_settings_notification_light_magenta">fuksia</string>
+    <string name="account_settings_notification_light_red">punane</string>
+    <string name="account_settings_notification_light_white">valge</string>
+    <string name="account_settings_notification_light_yellow">kollane</string>
+    <string name="account_settings_notify_label">Uue sõnumi teated</string>
+    <string name="account_settings_notify_self_label">Kaasa väljuvad sõnumid</string>
+    <string name="account_settings_notify_self_summary">Näita teadet minu saadetud kirjade kohta</string>
+    <string name="account_settings_notify_summary">Teata uue sõnumi saabumisest olekuribal</string>
+    <string name="account_settings_notify_sync_label">Sünkroniseerimise teated</string>
+    <string name="account_settings_notify_sync_summary">Teata sõnumite kontrollimisest olekuribal</string>
+    <string name="account_settings_open_notification_settings_messages_summary">Seadista uute kirjade teavitusi</string>
+    <string name="account_settings_open_notification_settings_miscellaneous_summary">Seadista vigade ja olekute teavitusi</string>
+    <string name="account_settings_openpgp_missing">OpenPGP rakendus puudub - kas see on eemaldatud?</string>
+    <string name="account_settings_outgoing_label">Saadetud kirjade server</string>
+    <string name="account_settings_outgoing_summary">Seadista saadetud e-kirjade server (SMTP)</string>
+    <string name="account_settings_push_advanced_title">Tõuketeenuste täiendavad seadistused</string>
+    <string name="account_settings_quote_prefix_label">Tsiteeritud teksti eesliide</string>
+    <string name="account_settings_quote_style_header">Päis (nagu Outlook)</string>
+    <string name="account_settings_quote_style_label">Vastuse tsitaadi stiil</string>
+    <string name="account_settings_quote_style_prefix">Eesliide (nagu Gmail)</string>
+    <string name="account_settings_reading_mail">E-kirjade lugemine</string>
+    <string name="account_settings_remote_search_num_label">Järgi serveri otsingupiirangut</string>
+    <string name="account_settings_remote_search_num_results_entries_10">10</string>
+    <string name="account_settings_remote_search_num_results_entries_100">100</string>
+    <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
+    <string name="account_settings_remote_search_num_results_entries_25">25</string>
+    <string name="account_settings_remote_search_num_results_entries_250">250</string>
+    <string name="account_settings_remote_search_num_results_entries_50">50</string>
+    <string name="account_settings_remote_search_num_results_entries_500">500</string>
+    <string name="account_settings_remote_search_num_results_entries_all">Kõik</string>
+    <string name="account_settings_reply_after_quote_label">Vasta peale algset sõnumit</string>
+    <string name="account_settings_reply_after_quote_summary">Algne kiri on Sinu vastusest ülevalpool.</string>
+    <string name="account_settings_ringtone">Uue e-kirja helin</string>
+    <string name="account_settings_search">Otsi</string>
+    <string name="account_settings_show_pictures_always">Kõigilt</string>
+    <string name="account_settings_show_pictures_label">Näita alati pilte</string>
+    <string name="account_settings_show_pictures_never">Ei</string>
+    <string name="account_settings_show_pictures_only_from_contacts">Kontaktidelt</string>
+    <string name="account_settings_signature__location_after_quoted_text">Peale osundatud kirja</string>
+    <string name="account_settings_signature__location_before_quoted_text">Enne osundatud kirja</string>
+    <string name="account_settings_signature__location_label">Allkirja paiknemine</string>
+    <string name="account_settings_signature_label">Allkiri</string>
+    <string name="account_settings_signature_use_label">Kasuta allkirja</string>
+    <string name="account_settings_strip_signature_label">Lõika vastussõnumitest allkirjad</string>
+    <string name="account_settings_strip_signature_summary">Lisatud sõnumite allkirjad eemaldatakse</string>
+    <string name="account_settings_sync">E-kirjad on laadimisel</string>
+    <string name="account_settings_sync_remote_deletetions_label">Serverist kustutamise sünkroonimine</string>
+    <string name="account_settings_sync_remote_deletetions_summary">Serverist kustutamisel eemalda kirjad</string>
+    <string name="account_settings_title_fmt">Konto seadistused</string>
+    <string name="account_settings_upload_sent_messages_label">Laadi üles saadetud kirjad</string>
+    <string name="account_settings_upload_sent_messages_summary">Pärast saatmist tõsta kirjad saadetud kirjade kausta</string>
+    <string name="account_settings_vibrate_enable">Vibreeri</string>
+    <string name="account_settings_vibrate_pattern_1">muster 1</string>
+    <string name="account_settings_vibrate_pattern_2">muster 2</string>
+    <string name="account_settings_vibrate_pattern_3">muster 3</string>
+    <string name="account_settings_vibrate_pattern_4">muster 4</string>
+    <string name="account_settings_vibrate_pattern_5">muster 5</string>
+    <string name="account_settings_vibrate_pattern_default">Vaikimisi</string>
+    <string name="account_settings_vibrate_pattern_label">Värina muster</string>
+    <string name="account_settings_vibrate_summary_disabled">ei ole kasutusel</string>
+    <string name="account_settings_vibrate_times">Korda vibreerimist</string>
+    <string name="account_settings_vibration">Värinaalarm</string>
+    <string name="account_setup_auto_select_folder">Vali kaust automaatselt</string>
+    <string name="account_setup_basics_title">Seadista uus konto</string>
+    <string name="account_setup_expunge_policy_immediately">Koheselt</string>
+    <string name="account_setup_expunge_policy_label">Eemalda kustutatud kirjad serverist</string>
+    <string name="account_setup_expunge_policy_manual">Käsitsi</string>
+    <string name="account_setup_expunge_policy_on_poll">Andmete kontrollimisel</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Kustuta serveris</string>
+    <string name="account_setup_incoming_delete_policy_label">Kui ma kustutan kirja</string>
+    <string name="account_setup_incoming_delete_policy_markread_label">Märgi serveris loetuks</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Ära kustuta seda serveris</string>
+    <string name="account_setup_incoming_subscribed_folders_only_label">Näita üksnes tellitud kaustu</string>
+    <string name="account_setup_options_mail_check_frequency_12hour">Iga 12 tunni tagant</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Iga 15 minuti tagant</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Iga tund</string>
+    <string name="account_setup_options_mail_check_frequency_24hour">Iga 24 tunni tagant</string>
+    <string name="account_setup_options_mail_check_frequency_2hour">Iga 2 tunni tagant</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Iga 30 minuti tagant</string>
+    <string name="account_setup_options_mail_check_frequency_3hour">Iga 3 tunni tagant</string>
+    <string name="account_setup_options_mail_check_frequency_6hour">Iga 6 tunni tagant</string>
+    <string name="account_setup_options_mail_check_frequency_never">Mitte kunagi</string>
+    <string name="account_setup_options_mail_display_count_10">10 kirja</string>
+    <string name="account_setup_options_mail_display_count_100">100 kirja</string>
+    <string name="account_setup_options_mail_display_count_1000">1000 kirja</string>
+    <string name="account_setup_options_mail_display_count_10000">10000 kirja</string>
+    <string name="account_setup_options_mail_display_count_25">25 kirja</string>
+    <string name="account_setup_options_mail_display_count_250">250 kirja</string>
+    <string name="account_setup_options_mail_display_count_2500">2500 kirja</string>
+    <string name="account_setup_options_mail_display_count_50">50 kirja</string>
+    <string name="account_setup_options_mail_display_count_500">500 kirja</string>
+    <string name="account_setup_options_mail_display_count_5000">5000 kirja</string>
+    <string name="account_setup_options_mail_display_count_all">kõik kirjad</string>
+    <string name="account_setup_push_limit_10">10 kausta</string>
+    <string name="account_setup_push_limit_100">100 kausta</string>
+    <string name="account_setup_push_limit_1000">1000 kausta</string>
+    <string name="account_setup_push_limit_25">25 kausta</string>
+    <string name="account_setup_push_limit_250">250 kausta</string>
+    <string name="account_setup_push_limit_5">5 kausta</string>
+    <string name="account_setup_push_limit_50">50 kausta</string>
+    <string name="account_setup_push_limit_500">500 kausta</string>
+    <string name="account_setup_push_limit_label">Tõuketeenuse puhul maksimaalselt kontrollitavate kaustade arv</string>
+    <string name="accountlist_preferences">Konto nimekiri</string>
+    <string name="accounts_title">Kontod</string>
+    <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_add_to_contacts">Lisa kontaktide hulka</string>
+    <!-- Name of the action to compose a new message to a particular address. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_compose_message_to">Koosta kiri adressaadile</string>
+    <!-- Name of the action to copy an email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_copy_email_address">Kopeeri e-posti aadress</string>
+    <!-- Name of the action to copy a name and email address to the clipboard. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
+    <string name="action_copy_name_and_email_address">Kopeeri nimi ja e-posti aadress</string>
+    <string name="action_remote_search">Otsi serveris olevate kirjade seast</string>
+    <string name="add_account_action">Lisa konto</string>
+    <string name="add_attachment_action">Lisa manus</string>
+    <string name="add_from_contacts">Lisa kontaktide hulgast</string>
+    <string name="address_type_home">Kodu</string>
+    <string name="address_type_mobile">Mobiilne</string>
+    <string name="address_type_other">Muu</string>
+    <string name="address_type_work">Töö</string>
+    <string name="animation_setting_follow_system">Kasuta süsteemi vaikimisi eelistust</string>
+    <string name="animation_setting_off">Väljalülitatud</string>
+    <string name="animation_setting_on">Sisselülitatud</string>
+    <string name="animations_title">Animatsioon</string>
+    <string name="app_license">Apache litsents, versioon 2.0</string>
+    <string name="archive_action">Arhiveeri</string>
+    <string name="archive_folder_label">Arhiivi kaust</string>
+    <string name="archiving_not_available_for_this_account">Selle kasutajakonto jaoks pole arhiveerimine saadaval.</string>
+    <string name="attach_file">Lisa fail manusena</string>
+    <!-- Default signature -->
+    <!-- General strings that include the app name -->
+    <!-- === General strings ================================================================== -->
+    <string name="authors">Autorid</string>
+    <string name="background_ops_always">Alati</string>
+    <string name="background_ops_auto_sync_only">Kui \'Auto-sync\' on märgitud</string>
+    <string name="background_ops_label">Taustal sünkimine</string>
+    <string name="background_ops_never">Mitte kunagi</string>
+    <!-- Might be displayed in a notification when deleting an account (in the background) -->
+    <string name="background_work_notification_remove_account">Eemaldame kontot…</string>
+    <string name="batch_select_all">Vali kõik</string>
+    <string name="camera_permission_denied">Puuduvad õigused kaamera kasutamiseks! Pildistada pole võimalik</string>
+    <string name="changelog_latest_label_text">VIIMASED</string>
+    <string name="changelog_loading_error">Muudatuste logi laadimine ei õnnestunud.</string>
+    <string name="changelog_recent_changes_title">Rakenduse muudatused</string>
+    <string name="changelog_show_recent_changes">Pärast rakenduse uuendamist näita viimaseid muudatusi</string>
+    <!-- Button text of the "snack bar" that is displayed when the app was updated. -->
+    <string name="changelog_snackbar_button_text">Vaata</string>
+    <!-- Displayed in a "snack bar" at the bottom of the screen when the app was updated. -->
+    <string name="changelog_snackbar_text">Vaata mis on selles versioonis muutunud</string>
+    <string name="changelog_title">Muudatuste logi</string>
+    <string name="changelog_type_changed_text">MUUTUNUD</string>
+    <string name="changelog_type_fixed_text">PARANDATUD</string>
+    <string name="changelog_type_new_text">UUS</string>
+    <string name="changelog_version_title">Versioon %s</string>
+    <string name="check_mail_action">Kontrolli e-kirju</string>
+    <string name="choose_folder_copy_title">Kopeeri…</string>
+    <string name="choose_folder_move_title">Teisalda…</string>
+    <string name="choose_folder_title">Vali kaust</string>
+    <string name="choose_identity_title">Vali identiteet</string>
+    <!-- A user visible label for the email address copied to the clipboard -->
+    <string name="clipboard_label_email_address">E-posti aadress</string>
+    <!-- A user visible label for the name and email address copied to the clipboard -->
+    <string name="clipboard_label_name_and_email_address">Nimi ja e-posti aadress</string>
+    <string name="compose_action">Koosta</string>
+    <string name="compose_error_incomplete_recipient">Kirja saaja väli on puudulikult täidetud!</string>
+    <string name="compose_error_no_draft_folder">Mustandite kausta pole konfigureeritud sellele kontole!</string>
+    <string name="compose_error_no_key_configured">Ühtegi võtit pole selle konto jaoks konfigureeritud! Kontrolli oma seadistusi.</string>
+    <string name="compose_title_compose">Koosta</string>
+    <string name="compose_title_forward">Saada edasi</string>
+    <string name="compose_title_forward_as_attachment">Saada edasi manusena</string>
+    <string name="compose_title_reply">Vasta</string>
+    <string name="compose_title_reply_all">Vasta kõigile</string>
+    <string name="confirm_discard_draft_message">Kas sa oled kindel, et soovid kirjast loobuda?</string>
+    <string name="confirm_discard_draft_message_title">Kas loobud kirjast?</string>
+    <string name="copy_action">Kopeeri</string>
+    <plurals name="copy_address_to_clipboard">
+            <item quantity="one">Aadress kopeeritud lõikelauale</item>
+            <item quantity="other">Aadressid kopeeritud lõikelauale</item>
+        </plurals>
+    <string name="copy_subject_to_clipboard">Pealkiri kopeeritud lõikelauale</string>
+    <string name="crypto_msg_cancelled">Sõnum on krüptitud, kuid dekrüptimine katkes.</string>
+    <string name="crypto_msg_encrypted_error">aga dekrüptimisel tekkis viga</string>
+    <string name="crypto_msg_encrypted_incomplete">dekrüptimiseks peab kiri olema tervikuna allalaaditud</string>
+    <string name="crypto_msg_encrypted_insecure">aga krüptimise meetodeid ei loeta turvaliseks</string>
+    <string name="crypto_msg_encrypted_no_provider">aga ühtegi krüptorakendust pole seadistatud</string>
+    <string name="crypto_msg_encrypted_sign_error">aga läbivalt krüptitud andmetes leidub vigu</string>
+    <string name="crypto_msg_encrypted_sign_expired">aga läbiva krüptimise võti on aegunud</string>
+    <string name="crypto_msg_encrypted_sign_insecure">aga läbiva krüptimise võtit ei loeta turvaliseks</string>
+    <string name="crypto_msg_encrypted_sign_mismatch">aga läbiva krüptimise allkiri ei klapi saatja omaga</string>
+    <string name="crypto_msg_encrypted_sign_revoked">aga läbiva krüptimise võti on tühistatud</string>
+    <string name="crypto_msg_encrypted_sign_unknown">kasutades tundmatut läbiva krüptimise võtit</string>
+    <string name="crypto_msg_encrypted_sign_verified">kontrollitud saatjalt</string>
+    <string name="crypto_msg_encrypted_unsigned">aga pole läbivalt krüptitud</string>
+    <string name="crypto_msg_incomplete_signed">krüptoallkirja töötlemiseks peab kiri olema tervikuna allalaaditud</string>
+    <string name="crypto_msg_title_encrypted_signed">Krüpeeritud</string>
+    <string name="crypto_msg_title_encrypted_signed_e2e">Otspunktkrüpteeritud</string>
+    <string name="crypto_msg_title_encrypted_unknown">Krüpeeritud</string>
+    <string name="crypto_msg_title_encrypted_unsigned">Krüpeeritud</string>
+    <string name="crypto_msg_title_plaintext">Lihttekst</string>
+    <string name="crypto_msg_title_unencrypted_signed">Allkirjastatud lihttekst</string>
+    <string name="crypto_msg_title_unencrypted_signed_e2e">Läbivalt krüptitud tekstivormingus kiri</string>
+    <string name="crypto_msg_unencrypted_sign_error">otspunkt-allkiri sisaldas viga</string>
+    <string name="crypto_msg_unencrypted_sign_expired">aga läbiva krüptimise võti on aegunud</string>
+    <string name="crypto_msg_unencrypted_sign_insecure">aga läbiva krüptimise võtit ei loeta turvaliseks</string>
+    <string name="crypto_msg_unencrypted_sign_mismatch">aga läbiva krüptimise võti ei klapi saatja omaga</string>
+    <string name="crypto_msg_unencrypted_sign_revoked">aga läbiva krüptimise võti on tühistatud</string>
+    <string name="crypto_msg_unencrypted_sign_unknown">kasutades tundmatut läbiva krüptimise võtit</string>
+    <string name="crypto_msg_unencrypted_sign_verified">kontrollitud saatjalt</string>
+    <string name="crypto_msg_unsupported_encrypted">Sõnum on krüptitud, aga mittetoetatud vormingus.</string>
+    <string name="crypto_msg_unsupported_signed">sisaldab läbiva krüptimise mittetoetatud allkirja</string>
+    <string name="crypto_no_provider_button">Ava seadistused</string>
+    <string name="crypto_no_provider_message">Selle kirja krüptimisel on kasutusel OpenPGP.\nKirjalugemsieks palun paigalda ja seadista sobilik OpenPGP rakendus.</string>
+    <string name="crypto_no_provider_title">See e-kiri on krüpteeritud</string>
+    <string name="debug_enable_debug_logging_summary">Logi täiendavat informatsiooni diagnostikaks</string>
+    <string name="debug_enable_debug_logging_title">Luba silumiste logimine</string>
+    <string name="debug_enable_sensitive_logging_summary">Logides võib sisalduda salasõnu.</string>
+    <string name="debug_enable_sensitive_logging_title">Logi tundlikku informatsiooni</string>
+    <string name="debug_enable_sync_debug_logging_summary">Logi diagnostilised sünkroniseerimisandmed viimase 24 tunni kohta</string>
+    <string name="debug_enable_sync_debug_logging_title">Luba sünkroniseerimisandmete logimine</string>
+    <string name="debug_export_logs_failure">Eksportimine ei õnnestunud.</string>
+    <string name="debug_export_logs_success">Eksportimine õnnestus. Kuna logides võib olla privaatset teavet, siis palun kaalu, kellele sa neid saadad.</string>
+    <string name="debug_export_logs_title">Ekspordi logid</string>
+    <string name="debug_feature_flags">VEAOTSING: funktsionaalsuste võtmed</string>
+    <string name="debug_force_auth_failure">Katse: käivita autentimise ebaõnnestumine</string>
+    <string name="debug_force_auth_failure_done">OAuthi olek on kustutatud. Järgmine päring ei õnnestu.</string>
+    <string name="debug_force_auth_failure_unavailable">Selle kasutajakonto jaoks pole saadaval OAuth seadistust.</string>
+    <string name="debug_invalidate_access_token">Katse: tühista ligipääsu tunnusluba</string>
+    <string name="debug_invalidate_access_token_already_modified">Salvestatud tunnusluba on juba muudetud.</string>
+    <string name="debug_invalidate_access_token_cannot_modify">Salvestatud tunnusluba ei õnnestunud muuta. Proovi kehtetuks tunnistamist kohalikus seadmes.</string>
+    <string name="debug_invalidate_access_token_done">Ligipääsu tunnusluba on muudetud kehtetuks. Järgmise päringuga värskendatakse andmed uuesti.</string>
+    <string name="debug_invalidate_access_token_local">Katse: tühista ligipääsu tunnusluba (kohalikus seadmes)</string>
+    <string name="debug_invalidate_access_token_local_done">Oled tunnusloa kohalikus seadmes tühistanud. Järgmine päring laadib uue tunnusloa.</string>
+    <string name="debug_invalidate_access_token_server">Katse: tühista ligipääsu tunnusluba (serveris)</string>
+    <string name="debug_invalidate_access_token_server_done">Salvestatud tunnusluba on muudetud kasutamatuks. Järgmine päring ei õnnestu ja siis laaditakse uus tunnusluba.</string>
+    <string name="debug_invalidate_access_token_unavailable">Selle kasutajakonto jaoks pole ühtegi OAuthi tunnusluba saadaval.</string>
+    <string name="debug_open_secret_debug_screen">Ava salajane veaotsingu vaade</string>
+    <string name="debug_preferences">Silumine</string>
+    <string name="debug_sync_export_logs_title">Ekspordi sünkroniseerimislogid</string>
+    <string name="default_identity_description">Algne identiteet</string>
+    <string name="delete_action">Kustuta</string>
+    <string name="dialog_attachment_progress_title">Laadib manuseid</string>
+    <string name="dialog_autocrypt_mutual_description_1">Tavapäraselt krüptitakse kiri, kui sa sellise valiku teed või vastad krüptitud kirjale.</string>
+    <string name="dialog_autocrypt_mutual_description_2">Kui kirja saatja ning saaja kasutavad Autocrypt-standardi kahepoolset režiimi, siis krüptimine on vaikimisi kasutusel.</string>
+    <string name="dialog_autocrypt_mutual_learn_more">Lisateavet <a href="https://k9mail.app/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html">leiad siit</a>.</string>
+    <string name="dialog_autocrypt_mutual_title">Autocrypt-standardi kahepoolne režiim</string>
+    <string name="dialog_confirm_clear_local_folder_action">Kustuta kirjad</string>
+    <string name="dialog_confirm_clear_local_folder_message">Sellega kustutame kõik kirjade kohalikud koopiad antud kaustast. Serveris asuvad kirjad jäävad alles.</string>
+    <string name="dialog_confirm_clear_local_folder_title">Kas kustutame kohalikud kirjad?</string>
+    <string name="dialog_confirm_delete_cancel_button">Ei</string>
+    <string name="dialog_confirm_delete_confirm_button">Jah</string>
+    <string name="dialog_confirm_delete_message">Kas soovid sõnumit kustutada?</string>
+    <plurals name="dialog_confirm_delete_messages">
+            <item quantity="one">Kas sa oled kindel, et tahad seda kirja kustutada?</item>
+            <item quantity="other">Kas sa oled kindel, et tahad <xliff:g id="message_count">%1$d</xliff:g> kirja kustutada?</item>
+        </plurals>
+    <string name="dialog_confirm_delete_title">Kinnita kustutamine</string>
+    <string name="dialog_confirm_empty_spam_message">Kas kindlasti soovid rämpsposti kausta tühjendada?</string>
+    <string name="dialog_confirm_empty_spam_title">Kinnita rämpsposti kausta tühjendamine</string>
+    <string name="dialog_confirm_empty_trash_message">Soovid prügikasti tühjendada?</string>
+    <string name="dialog_confirm_empty_trash_title">Kinnita prügikasti tühjendamine</string>
+    <string name="dialog_confirm_mark_all_as_read_cancel_button">Ei</string>
+    <string name="dialog_confirm_mark_all_as_read_confirm_button">Jah</string>
+    <string name="dialog_confirm_mark_all_as_read_message">Kas tahad märkida kõik kirjad loetuks?</string>
+    <string name="dialog_confirm_mark_all_as_read_title">Kinnita kõikide loetuks märkimiseks</string>
+    <string name="dialog_confirm_spam_cancel_button">Ei</string>
+    <string name="dialog_confirm_spam_confirm_button">Jah</string>
+    <plurals name="dialog_confirm_spam_message">
+            <item quantity="one">Kas sa oled kindel, et tahad seda kirja teisaldada rämpsposti kausta?</item>
+            <item quantity="other">Kas sa oled kindel et tahad <xliff:g id="message_count">%1$d</xliff:g> kirja teisaldada rämpsposti kausta?</item>
+        </plurals>
+    <string name="dialog_confirm_spam_title">Kinnita rämpsposti kausta teisaldamine</string>
+    <string name="dialog_openkeychain_info_install">Paigalda</string>
+    <string name="dialog_openkeychain_info_text">Läbiva krüptimise kasutamiseks on vajalik OpenKeychaini rakendus.</string>
+    <string name="dialog_openkeychain_info_title">OpenPGP rakendus paigaldamata</string>
+    <string name="disable_encryption">Blokeeri krüpteerimine</string>
+    <string name="disable_inline_pgp">Blokeeri PGP/INLINE</string>
+    <string name="disable_sign_only">Blokeeri PGP ainult-allkirjastamine</string>
+    <string name="discard_action">Loobu</string>
+    <string name="display_preferences">Kuvaseadistused</string>
+    <string name="done_action">Valmis</string>
+    <string name="drafts_folder_label">Mustandite kaust</string>
+    <string name="edit_as_new_message_action">Ava uue e-kirjana</string>
+    <string name="edit_identity_description_hint">(Valikuline)</string>
+    <string name="edit_identity_description_label">Identiteedi kirjeldus</string>
+    <string name="edit_identity_email_hint">(Nõutud)</string>
+    <string name="edit_identity_email_label">E-posti aadress</string>
+    <string name="edit_identity_name_hint">(Valikuline)</string>
+    <string name="edit_identity_name_label">Sinu nimi</string>
+    <string name="edit_identity_reply_to_hint">(Valikuline)</string>
+    <string name="edit_identity_reply_to_label">Vastamise aadress</string>
+    <string name="edit_identity_save">Salvesta</string>
+    <string name="edit_identity_signature_hint">(Valikuline)</string>
+    <string name="edit_identity_signature_label">Allkiri</string>
+    <string name="edit_identity_title">Muuda identiteeti</string>
+    <string name="empty_spam_action">Tühjenda rämpsposti kaust</string>
+    <string name="empty_subject">Teema on tühi, ikkagi saatmiseks klõpsa uuesti</string>
+    <string name="empty_trash_action">Tühjenda prügikast</string>
+    <string name="enable_encryption">Võimalda krüpteerimine</string>
+    <string name="enable_inline_pgp">Võimada PGP/INLINE</string>
+    <string name="enable_sign_only">Võimalda PGP ainult-allkirjastamine</string>
+    <string name="error_activity_not_found">Selleks toiminguks ei leitud sobilikku rakendust.</string>
+    <string name="error_contact_address_not_found">Ei õnnestu leida selle e-posti aadressi kontaktkirjet.</string>
+    <string name="error_crypto_inline_attach">PGP/INLINE režiim ei toeta manuseid!</string>
+    <string name="error_crypto_provider_connect">Ei suuda ühenduda krüptoteenuse pakkujaga, kontrolli oma seadistusi või klõpsa uuesti proovimiseks krüpto ikoonil!</string>
+    <string name="error_crypto_provider_incompatible">Krüptoteenuse pakkuja kasutab ühildumatut versiooni. Palun kontrolli oma seadistusi!</string>
+    <string name="error_crypto_provider_ui_required">Otspunktkrüpteerimise algatamine ebaõnnestus, palun kontrolli seadistusi</string>
+    <string name="error_sign_only_no_encryption">Ainult allkirjastamisel ei ole krüptimine kasutusel!</string>
+    <string name="expand_content_description">Laienda vaadet</string>
+    <string name="expand_folders">Laienda kaustad</string>
+    <string name="expunge_action">Pühi ära</string>
+    <string name="fetching_attachment_dialog_message">Toob manust…</string>
+    <string name="fetching_attachment_dialog_title_save">Salvestab mustandit</string>
+    <string name="fetching_attachment_dialog_title_send">Saadab kirja</string>
+    <string name="filter_folders_action">Leia kaust</string>
+    <string name="flag_action">Lisa tärn</string>
+    <string name="folder_list_filter_hint">Kausta nimi sisaldab</string>
+    <string name="folder_list_show_hidden_folders">Näita peidetud kaustu</string>
+    <string name="folder_settings_clear_local_folder_action">Puhasta kohalikud kirjad</string>
+    <string name="folder_settings_in_top_group_label">Näita tipp grupis</string>
+    <string name="folder_settings_include_in_integrated_inbox_label">Koonda</string>
+    <string name="folder_settings_notifications_label">Teavitused</string>
+    <string name="folder_settings_push_label">Kasuta tõuketeenuseid</string>
+    <string name="folder_settings_sync_label">Kasuta sünkroniseerimist</string>
+    <string name="folder_settings_title">Kausta seadistused</string>
+    <string name="folder_settings_visible_label">Näita kausta</string>
+    <string name="folders_action">Halda kaustu</string>
+    <string name="font_size_default">Vaikimisi</string>
+    <string name="font_size_large">Suur</string>
+    <string name="font_size_larger">Suurem</string>
+    <string name="font_size_medium">Keskmine</string>
+    <string name="font_size_message_compose">Kirja koostamine</string>
+    <string name="font_size_message_compose_input">Teksti sisestamise väljad</string>
+    <string name="font_size_message_list">Kirjade loendid</string>
+    <string name="font_size_message_list_date">Kuupäev</string>
+    <string name="font_size_message_list_preview">Eelvaade</string>
+    <string name="font_size_message_list_sender">Saatja</string>
+    <string name="font_size_message_list_subject">Teema</string>
+    <string name="font_size_message_view">Kirjad</string>
+    <!-- Displayed in the font size settings screen to configure the font size of the account name in the message view. -->
+    <string name="font_size_message_view_account">Konto nimi</string>
+    <string name="font_size_message_view_content">Kirja põhiosa</string>
+    <string name="font_size_message_view_date">Kellaaeg ja kuupäev</string>
+    <string name="font_size_message_view_recipients">Saajad</string>
+    <string name="font_size_message_view_sender">Saatja</string>
+    <string name="font_size_message_view_subject">Teema</string>
+    <string name="font_size_settings_description">Kaustade nimekiri</string>
+    <string name="font_size_settings_title">Fondi suurus</string>
+    <string name="font_size_small">Väike</string>
+    <string name="font_size_smaller">Väiksem</string>
+    <string name="font_size_tiniest">Pisitilluke</string>
+    <string name="font_size_tiny">Tilluke</string>
+    <string name="forward_action">Saada edasi</string>
+    <string name="forward_as_attachment_action">Saada edasi manusena</string>
+    <string name="from_same_sender">Veel sellelt saatjalt</string>
+    <string name="general_no_sender">Saatja puudub</string>
+    <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
+    <string name="general_no_subject">(teemata)</string>
+    <string name="general_settings_contact_name_color_label">Kontakti nime värv</string>
+    <!-- Name of the setting to configure the left swipe action -->
+    <string name="general_settings_left_swipe_title">Vasakule viipamine</string>
+    <string name="general_settings_message_list_date_time_format_contextual">Kontekstuaalne</string>
+    <string name="general_settings_message_list_date_time_format_full">Täisvaates</string>
+    <string name="general_settings_message_list_date_time_format_iso">ISO</string>
+    <string name="general_settings_message_list_date_time_format_title">Kuupäeva ja kellaaja vorming</string>
+    <!-- Title of the setting to specify the density of the message list -->
+    <string name="general_settings_message_list_density_title">Sõnumiloendi tihedus</string>
+    <string name="general_settings_post_mark_as_unread_action_return_to_list">mine tagasi sõnumite loendivaatesse</string>
+    <string name="general_settings_post_mark_as_unread_action_stay">jää sama sõnumi vaatesse</string>
+    <string name="general_settings_post_mark_as_unread_action_title">Peale sõnumi märkimist loetuks</string>
+    <string name="general_settings_post_remove_action_return_to_list">mine tagasi kirjade loendisse</string>
+    <string name="general_settings_post_remove_action_show_next_message">näita järgmist kirja</string>
+    <string name="general_settings_post_remove_action_show_previous_message">näita eelmist kirja</string>
+    <string name="general_settings_post_remove_action_title">Kirja kustutamisel või uued kohta tõstmisel</string>
+    <!-- Name of the setting to configure the right swipe action -->
+    <string name="general_settings_right_swipe_title">Paremale viipamine</string>
+    <!-- Name of the swipe action to select a message. Try to keep it short. -->
+    <!-- Name of the swipe action to deselect a message. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as read. Try to keep it short. -->
+    <!-- Name of the swipe action to mark a message as unread. Try to keep it short. -->
+    <!-- Name of the swipe action to add the star to a message. Try to keep it short. -->
+    <!-- Name of the swipe action to remove the star from a message. Try to keep it short. -->
+    <!-- Name of the swipe action to archive a message. Try to keep it short. -->
+    <!-- Name of the swipe action to delete a message. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message to the Spam folder. Try to keep it short. -->
+    <!-- Name of the swipe action to move a message. The ellipsis (…) indicates that there is another step (selecting a folder) before the action is performed. Try to keep it short. -->
+    <!-- Name of setting to configure whether to show a "compose" floating action button on top of the message list -->
+    <string name="general_settings_show_compose_button_title">Näita kirja koostamise nuppu ujuvana kirjade loendi kohal</string>
+    <!-- Name of the swipe action to archive a message -->
+    <string name="general_settings_swipe_action_archive">Arhiveeri</string>
+    <!-- Name of the swipe action to delete a message -->
+    <string name="general_settings_swipe_action_delete">Kustuta</string>
+    <!-- Name of the swipe action to move a message to another folder -->
+    <string name="general_settings_swipe_action_move">Teisalda</string>
+    <!-- The list item users select to not use a swipe action for a particular direction -->
+    <string name="general_settings_swipe_action_none">Mitte midagi</string>
+    <!-- Name of the swipe action to move a message to the spam folder -->
+    <string name="general_settings_swipe_action_spam">Rämps</string>
+    <!-- Name of the swipe action to mark as message as read/unread -->
+    <string name="general_settings_swipe_action_toggle_read">Märgi loetuks/mitteloetuks</string>
+    <!-- Name of the swipe action to select/deselect a message -->
+    <string name="general_settings_swipe_action_toggle_selection">Kirja valimine või valiku eemaldamine</string>
+    <!-- Name of the swipe action to add/remove a star -->
+    <string name="general_settings_swipe_action_toggle_star">Lisa või eemalda tärn</string>
+    <!-- Title of the screen to configure swipe actions -->
+    <string name="general_settings_swipe_actions_title">Viibete seadistused</string>
+    <string name="general_settings_title">Üldseadistused</string>
+    <string name="general_settings_ui_density_compact">Kompaktne</string>
+    <string name="general_settings_ui_density_default">Vaikimisi</string>
+    <string name="general_settings_ui_density_relaxed">Hõre</string>
+    <string name="generic_loading_error">Andmete laadimisel tekkis viga</string>
+    <string name="get_help_title">Abiteave</string>
+    <string name="global_preferences">Üldine</string>
+    <string name="global_settings_background_as_unread_indicator_label">Muuda lugemisel värvi</string>
+    <string name="global_settings_background_as_unread_indicator_summary">Teistsugune taust näitab, et kiri on loetud</string>
+    <string name="global_settings_colorize_missing_contact_pictures_label">Tooni kontaktide pildid</string>
+    <string name="global_settings_colorize_missing_contact_pictures_summary">Tooni puuduvate kontaktide pildid</string>
+    <string name="global_settings_confirm_action_delete">Kustuta</string>
+    <string name="global_settings_confirm_action_delete_notif">Kustuta (teadetest)</string>
+    <string name="global_settings_confirm_action_delete_starred">Kustuta tärniga tähistatud (kirjade vaates)</string>
+    <string name="global_settings_confirm_action_spam">Rämpspost</string>
+    <string name="global_settings_confirm_actions_summary">Näita alati dialoogiakent kui teed valitud toiminguid</string>
+    <string name="global_settings_confirm_actions_title">Kinnita toiming</string>
+    <string name="global_settings_confirm_menu_discard">Loobu kirjast</string>
+    <string name="global_settings_confirm_menu_mark_all_read">Märgi kõik kirjad loetuks</string>
+    <string name="global_settings_flag_label">Näita tärne</string>
+    <string name="global_settings_flag_summary">Tärnid näitavad märgitud kirju</string>
+    <string name="global_settings_lock_screen_notification_visibility_app_name">Rakenduse nimi</string>
+    <string name="global_settings_lock_screen_notification_visibility_everything">Sama, kui ekraan lukustamata</string>
+    <string name="global_settings_lock_screen_notification_visibility_message_count">Uusi kirju</string>
+    <string name="global_settings_lock_screen_notification_visibility_nothing">Ühtegi lukustuskuva teatist</string>
+    <string name="global_settings_lock_screen_notification_visibility_senders">Kirjade arv ja saatjad</string>
+    <string name="global_settings_lock_screen_notification_visibility_title">Lukustuskuva teatised</string>
+    <string name="global_settings_messageview_autofit_width_label">Sobita kirjad automaatselt</string>
+    <string name="global_settings_messageview_autofit_width_summary">Kahanda kirju ekraanile mahutamiseks</string>
+    <string name="global_settings_messageview_body_content_type_text_html">HTML (text/html)</string>
+    <string name="global_settings_messageview_body_content_type_text_plain">Vormindamata tekst (text/plain)</string>
+    <string name="global_settings_messageview_body_content_type_title">Kirja sisu „Content-Type“</string>
+    <string name="global_settings_messageview_fixedwidth_label">Fikseeritud laiusega fondid</string>
+    <string name="global_settings_messageview_fixedwidth_summary">Kasuta lihttekstiga koostatud kirjades fikseeritud laiusega fonti</string>
+    <string name="global_settings_messageview_visible_refile_actions_summary">Näita valitud tegevusi sõnumivaate menüüs</string>
+    <string name="global_settings_messageview_visible_refile_actions_title">Nähtavad tegevused kirjaga</string>
+    <string name="global_settings_notification_quick_delete_always">Alati</string>
+    <string name="global_settings_notification_quick_delete_never">Mitte kunagi</string>
+    <string name="global_settings_notification_quick_delete_title">Näita \"Kustuta\" nuppu</string>
+    <string name="global_settings_notification_quick_delete_when_single_msg">Ühest kirjast teatamiseks</string>
+    <string name="global_settings_preview_lines_label">Eelvaate ridu</string>
+    <string name="global_settings_privacy_hide_timezone">Peida ajavöönd</string>
+    <string name="global_settings_privacy_hide_timezone_detail">Kasuta UTC-d kohaliku ajavööndi asemel saadetud kirjade ja vastuste päistes</string>
+    <string name="global_settings_privacy_hide_useragent">Peida e-postiklient</string>
+    <string name="global_settings_privacy_hide_useragent_detail">Eemalda rakenduse tunnus e-kirja päistest</string>
+    <string name="global_settings_privacy_incognito_keyboard">Privaatne klahvistik</string>
+    <string name="global_settings_privacy_incognito_keyboard_detail">Palu klahvistikul mitte jätta meelde seda, mida sa kirjade koostamisel sisestad</string>
+    <string name="global_settings_registered_name_color_changed">Näita kontakte nimekirjas värvilisena</string>
+    <string name="global_settings_registered_name_color_label">Tooni kontaktid</string>
+    <string name="global_settings_sender_above_subject_label">Saatja nimi teema kohal</string>
+    <string name="global_settings_sender_above_subject_summary">Näita saatja nime teema kohal, mitte selle all</string>
+    <string name="global_settings_show_contact_name_label">Näita kontaktide nimesid</string>
+    <string name="global_settings_show_contact_name_summary">Näita saaja nime kontaktidest, kui see olemas</string>
+    <string name="global_settings_show_contact_picture_label">Näita kontaktide pilte</string>
+    <string name="global_settings_show_contact_picture_summary">Näita kirjade loendis kontaktide pilte</string>
+    <string name="global_settings_show_correspondent_names_label">Näita saatjate nimesid</string>
+    <string name="global_settings_show_correspondent_names_summary">Näita saatjate nimesid, eelistatuna nende e-posti aadressidele</string>
+    <string name="global_settings_splitview_always">Alati</string>
+    <string name="global_settings_splitview_mode_label">Näita jagatud ekraani</string>
+    <string name="global_settings_splitview_never">Mitte kunagi</string>
+    <string name="global_settings_splitview_when_in_landscape">Kui horisontaalpaigutus</string>
+    <string name="global_settings_splitview_when_unfolded">Kui seade on lahtivolditud</string>
+    <string name="global_settings_threaded_view_label">Lõimestatud vaade</string>
+    <string name="global_settings_threaded_view_summary">Grupeeri kirjad vestluste järgi</string>
+    <string name="identity_has_no_email">Identiteeti ei saa ilma e-postiaadressita kasutada</string>
+    <string name="idle_refresh_period_12min">Iga 12 minuti tagant</string>
+    <string name="idle_refresh_period_24min">Iga 24 minuti tagant</string>
+    <string name="idle_refresh_period_2min">Iga 2 minuti tagant</string>
+    <string name="idle_refresh_period_36min">Iga 36 minuti tagant</string>
+    <string name="idle_refresh_period_3min">Iga 3 minuti tagant</string>
+    <string name="idle_refresh_period_48min">Iga 48 minuti tagant</string>
+    <string name="idle_refresh_period_60min">Iga 60 minuti tagant</string>
+    <string name="idle_refresh_period_6min">Iga 6 minuti tagant</string>
+    <string name="idle_refresh_period_label">Värskenda ootel ühendust</string>
+    <string name="integrated_inbox_detail">Kõik kirjad koondkaustades</string>
+    <string name="integrated_inbox_title">Koondsisendkaust</string>
+    <string name="interaction_preferences">Koostoimimine</string>
+    <string name="license">Litsents</string>
+    <string name="load_more_messages_fmt">Laadi alla <xliff:g id="messages_to_load">%d</xliff:g> rohkem</string>
+    <string name="loading_attachment">Laadib manust…</string>
+    <string name="locked_attach_unencrypted">See osa on krüptimata ja võib olla ebaturvaline.</string>
+    <string name="locked_attach_unlock">Ava</string>
+    <string name="manage_identities_context_menu_title">Halda identiteeti</string>
+    <string name="manage_identities_edit_action">Muuda</string>
+    <string name="manage_identities_move_down_action">Liiguta alla</string>
+    <string name="manage_identities_move_top_action">Liiguta üles / tee vaikeseadistusteks</string>
+    <string name="manage_identities_move_up_action">Liiguta ülesse</string>
+    <string name="manage_identities_remove_action">Eemalda</string>
+    <string name="manage_identities_title">Halda indentiteete</string>
+    <string name="mark_all_as_read">Märgi kõik loetuks</string>
+    <string name="mark_as_read_action">Märgi loetuks</string>
+    <string name="mark_as_unread_action">Märgi mitteloetuks</string>
+    <string name="message_compose_attachments_forward_toast">Sõnumit ei saa edastada kuna mõnda manust pole alla laaditud.</string>
+    <string name="message_compose_attachments_skipped_toast">Mõnda manust ei saa edasi saata, kuna seda pole alla laaditud.</string>
+    <string name="message_compose_content_hint">Kirja tekst</string>
+    <string name="message_compose_description_delete_quoted_text">Eemalda osundatud tekst</string>
+    <string name="message_compose_description_edit_quoted_text">Muuda osundatud teksti</string>
+    <string name="message_compose_error_no_recipients">Pead kirjale lisama vähemalt ühe saaja.</string>
+    <string name="message_compose_quote_header_cc">Koopia:</string>
+    <string name="message_compose_quote_header_from">Kellelt:</string>
+    <string name="message_compose_quote_header_send_date">Saadetud:</string>
+    <string name="message_compose_quote_header_separator">-------- Algne kiri --------</string>
+    <string name="message_compose_quote_header_subject">Teema:</string>
+    <string name="message_compose_quote_header_to">Kellele:</string>
+    <string name="message_compose_reply_header_fmt"><xliff:g id="sender">%s</xliff:g> kirjutas:</string>
+    <string name="message_compose_reply_header_fmt_with_date"><xliff:g id="sent_date">%1$s</xliff:g>, <xliff:g id="sender">%2$s</xliff:g> kirjutas:</string>
+    <string name="message_compose_show_quoted_text_action">Kaasa osundatud kiri</string>
+    <string name="message_compose_signature_hint">Allkiri</string>
+    <string name="message_compose_subject_hint">Teema</string>
+    <!-- Title of the "Bcc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_bcc'. -->
+    <string name="message_details_bcc_section_title">Pimekoopia</string>
+    <!-- Title of the "Cc" section in the message details bottom sheet. This should probably be the same as the string 'recipient_cc'. -->
+    <string name="message_details_cc_section_title">Koopia</string>
+    <!-- Title of the "From" section in the message details bottom sheet. This should probably be the same as the string 'recipient_from'. -->
+    <string name="message_details_from_section_title">Kellelt</string>
+    <!-- Displayed when loading the message details has failed -->
+    <string name="message_details_loading_error">Kirja lisateabe laadimisel tekkis viga.</string>
+    <!-- Displayed when an email is missing the 'Date' header field and no date can be displayed in the message details bottom sheet. -->
+    <string name="message_details_missing_date">Päises puudub kuupäeva väli</string>
+    <!-- Title of the "Reply to" section in the message details bottom sheet. This should probably be the same as the string 'reply_to_label'. -->
+    <string name="message_details_replyto_section_title">Vasta aadressile</string>
+    <!-- Title of the "Sender" section in the message details bottom sheet. This refers to the 'Sender' header. Be careful with translations. -->
+    <string name="message_details_sender_section_title">Saatja</string>
+    <!-- Title of the "To" section in the message details bottom sheet. This should probably be the same as the string 'recipient_to'. -->
+    <string name="message_details_to_section_title">Kellele</string>
+    <!-- Title of the toolbar that is displayed when the message details bottom sheet has been expanded -->
+    <string name="message_details_toolbar_title">Kirja lisateave</string>
+    <string name="message_discarded_toast">Kirjast loobutud</string>
+    <!-- For unread messages the first line of a message list item is modified by this to improve the experience for people with screen readers. -->
+    <string name="message_list_content_description_unread_prefix">lugemata, %s</string>
+    <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
+    <string name="message_list_error_folder_not_found">Kausta ei leidu</string>
+    <!-- Displayed in the toolbar when there was an error loading the message list, e.g. because the folder no longer exists. -->
+    <string name="message_list_error_title">Viga</string>
+    <string name="message_list_load_more_messages_action">Laadi veel kirju</string>
+    <string name="message_progress_text">Laeb…</string>
+    <string name="message_saved_toast">Kiri salvestatud mustandina</string>
+    <string name="message_to_fmt">Kellele:<xliff:g id="counterParty">%s</xliff:g></string>
+    <string name="message_to_label">Kellele:</string>
+    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
+    <string name="message_view_additional_recipient_prefix">+</string>
+    <plurals name="message_view_attachment_summary">
+            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Manus (<xliff:g id="size">%2$s</xliff:g>)</item>
+            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Manused (<xliff:g id="size">%2$s</xliff:g>)</item>
+        </plurals>
+    <string name="message_view_attachments_save_all">Salvesta kõik</string>
+    <string name="message_view_attachments_title">Manused</string>
+    <string name="message_view_attachments_view">Vaata</string>
+    <string name="message_view_attachments_view_all">Vaata kõiki</string>
+    <string name="message_view_bcc_label">Pimekoopia:</string>
+    <string name="message_view_cc_label">Koopia:</string>
+    <string name="message_view_download_remainder">Laadi kogu kiri alla</string>
+    <string name="message_view_empty">Palun vali vasakul olev kiri</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_me_text">mina</string>
+    <string name="message_view_menu_action_export_eml">Ekspordi EML-failina</string>
+    <string name="message_view_no_viewer">Ei leia <xliff:g id="mimetype">%s</xliff:g> kuvamiseks programmi.</string>
+    <!-- Used to display the recipient list in the message view screen. -->
+    <string name="message_view_recipients_format">saajaks <xliff:g id="recipients">%s</xliff:g></string>
+    <string name="message_view_sender_label">%1$s kaudu</string>
+    <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
+    <string name="message_view_show_remote_images_action">Näita kirjavälist sisu</string>
+    <string name="message_view_single_attachment_summary"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="message_view_status_attachment_not_saved">Manuse salvestamine ei õnnestunud.</string>
+    <string name="message_view_theme_action_dark">Lülitu tumedale teemale</string>
+    <string name="message_view_theme_action_light">Lülitu heledale teemale</string>
+    <string name="messagelist_preferences">Kirjade loendid</string>
+    <string name="messageview_crypto_error_title">Viga e-kirja dekrüptimisel</string>
+    <string name="messageview_decrypt_cancelled">Dekrüptimine katkestati.</string>
+    <string name="messageview_decrypt_incomplete">Dekrüptimiseks peab krüptitud kiri olema tervikuna allalaaditud.</string>
+    <string name="messageview_decrypt_retry">Korduskatse</string>
+    <string name="messageview_preferences">Kirjad</string>
+    <string name="move_action">Teisalda</string>
+    <string name="move_copy_cannot_copy_unsynced_message">Serveriga sünkroniseerimata kirja pole võimalik kopeerida ega teisaldada</string>
+    <string name="move_to_drafts_action">Teisalda mustanditesse</string>
+    <string name="navigation_drawer_preferences">Külgmenüü</string>
+    <string name="network_preferences">Võrk</string>
+    <string name="new_identity_action">Uus identiteet</string>
+    <string name="new_messages_title">Uued kirjad</string>
+    <string name="no_network_message_will_be_sent_later_toast">Võrguühendus puudub. Kiri saadetakse selle taastumisel</string>
+    <string name="no_removable_identity">Kasutusel olevat identiteeti ei saa eemaldada</string>
+    <string name="notification_action_archive">Arhiveeri</string>
+    <string name="notification_action_archive_all">Arhiveeri kõik</string>
+    <string name="notification_action_delete">Kustuta</string>
+    <string name="notification_action_delete_all">Kustuta kõik</string>
+    <string name="notification_action_mark_all_as_read">Märgi kõik loetuks</string>
+    <string name="notification_action_mark_as_read">Märgi loetuks</string>
+    <string name="notification_action_reply">Vasta</string>
+    <string name="notification_action_spam">Rämpspost</string>
+    <string name="notification_action_star">Märgi tähega</string>
+    <string name="notification_actions_cutoff_description">Näidatud tegevuste vaheltlõige</string>
+    <string name="notification_actions_cutoff_state">Sellest joonest ülalpool olev sisu on näidatud teavituses</string>
+    <string name="notification_actions_hidden_state">Pole teavituses näidatud</string>
+    <string name="notification_actions_settings_description">Muuda teavituste toimingute järjestust.</string>
+    <string name="notification_actions_settings_summary">Saad valida tegevused, mis kuvatakse e-kirjade teavitustes</string>
+    <string name="notification_actions_settings_title">Toimingud teavitustes</string>
+    <string name="notification_actions_shown_state">On teavituses näidatud</string>
+    <string name="notification_additional_messages">+ <xliff:g id="additional_messages">%1$d</xliff:g> veel kontol <xliff:g id="account">%2$s</xliff:g></string>
+    <string name="notification_authentication_error_text">Autentimine ebaõnnestus konto <xliff:g id="account">%s</xliff:g> puhul. Uuenda serveri seadistusi.</string>
+    <string name="notification_authentication_error_title">Autentimine ebaõnnestus</string>
+    <string name="notification_bg_send_ticker">Saadab e-kirja: <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_bg_send_title">Saadab e-kirja</string>
+    <string name="notification_bg_sync_ticker">E-kirjade kontroll: <xliff:g id="account">%1$s</xliff:g>:<xliff:g id="folder">%2$s</xliff:g></string>
+    <string name="notification_bg_sync_title">Kontrollib e-kirju</string>
+    <string name="notification_bg_title_separator">:</string>
+    <string name="notification_certificate_error_public">Sertifikaadiviga</string>
+    <string name="notification_certificate_error_text">Kontrolli serveri seadistusi</string>
+    <string name="notification_certificate_error_title">Sertifikaadi viga kontol <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_channel_messages_description">E-kirjadega seotud teated</string>
+    <string name="notification_channel_messages_title">E-kirjad</string>
+    <string name="notification_channel_miscellaneous_description">Mitmesugused teated nagu vead jms.</string>
+    <string name="notification_channel_miscellaneous_title">Muu</string>
+    <string name="notification_channel_push_description">Näidatakse uute kirjade ootamisel</string>
+    <string name="notification_channel_push_title">Sünkroniseeri (kasuta tõuketeenust)</string>
+    <plurals name="notification_new_messages_title">
+            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> uus kiri</item>
+            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> uut kirja</item>
+        </plurals>
+    <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_text">Uue saabunud sõnumi kohta süsteemise teavituse loomisel tekkis viga. Üks võimalik põhjus on teavitusele määratud heli puudumine.\n\nAva teavituste seadistused.</string>
+    <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
+    <string name="notification_notify_error_title">Viga teavitusel</string>
+    <string name="notification_show_contact_picture_summary">Näita uute kirjade teavitustes kontaktide tunnuspilte</string>
+    <string name="notification_show_contact_picture_title">Näita teavitustes kontaktide pilte</string>
+    <string name="notification_summary_delete_summary">Lisab kustutusnupu teavitustele, mis ühendavad teabe mitme kirja kohta</string>
+    <string name="notification_summary_delete_title">Näita mitme kirja teavituses kustutusnuppu</string>
+    <string name="notifications_title">Teated</string>
+    <string name="open_camera">Ava kaamera</string>
+    <string name="openpgp_description_text1">Kirja krüptimine tagab selle, et neid saab lugeda vaid saaja ning ei keegi teine.</string>
+    <string name="openpgp_description_text2">Ikooni klõpsimisel lülita krüptimine sisse/välja.</string>
+    <string name="openpgp_description_text3">Krüptimine on kasutusel, kui kõik saajad seda toetavad ning nad peavad olema varem sulle kirjutanud.</string>
+    <string name="openpgp_dialog_sign_only_minus_attach">Mõned e-posti kliendid võivad kuvada krüptoallkirja kui „signature.asc“ manust.</string>
+    <string name="openpgp_dialog_sign_only_minus_break">Postiloendisse saatmisel võib krüptoallkiri katki minna.</string>
+    <string name="openpgp_dialog_sign_only_neutral_encsigned">Krüptitud kirjal on alati krüptoallkiri.</string>
+    <string name="openpgp_dialog_sign_only_plus_verified">Seeläbi kiri ei ole krüptitud, vaid teine osapool saab kinnituse, et saatmisel kasutati sinu PGP võtit.</string>
+    <string name="openpgp_dialog_sign_only_text">Antud juhul luuakse sinu PGP võtme alusel sellele krüptimata kirjale allkiri.</string>
+    <string name="openpgp_dialog_sign_only_title">PGP ainult-allkirjastamise režiim</string>
+    <string name="openpgp_enabled_error_back">Tagasi</string>
+    <string name="openpgp_enabled_error_disable">Blokeeri krüpteerimine</string>
+    <string name="openpgp_enabled_error_gotit">Arusaadav</string>
+    <string name="openpgp_enabled_error_msg">Mõned kirja saajad ei saa seda funktsionaalsust kasutada!</string>
+    <!-- Displayed in the the message list widget when the app hasn't had a chance to send content to it yet -->
+    <!-- Might be displayed in the message list widget when the list is scrolled and new data can't be fetched fast enough -->
+    <string name="openpgp_enabled_error_title">Krüpteerimine poe võimalik</string>
+    <string name="openpgp_encryption">OpenPGP krüpteerimine</string>
+    <string name="openpgp_inline_disable">Blokeeri</string>
+    <string name="openpgp_inline_keep_enabled">Hoia võimaldatuna</string>
+    <string name="openpgp_inline_minus_attach">Manused pole toetatud</string>
+    <string name="openpgp_inline_minus_transit">Allkirjad võivad serverite vahel saates katki minna</string>
+    <string name="openpgp_inline_ok">Arusaadav!</string>
+    <string name="openpgp_inline_plus_compat">Mõned kliendid toetavad ainult seda vormingut</string>
+    <string name="openpgp_inline_text">See kiri on vormindatud PGP/INLINE standardi alusel.\nPeaksid seda tegema vaid siis, kui ühilduvus on oluline:</string>
+    <string name="openpgp_inline_title">PGP/INLINE režiiim</string>
+    <string name="openpgp_sign_only_disable">Blokeeri</string>
+    <string name="openpgp_sign_only_keep_enabled">Hoia võimaldatuna</string>
+    <string name="openpgp_sign_only_ok">Arusaadav!</string>
+    <string name="preference_search_no_results">Seadistusi ei leidunud</string>
+    <string name="prefs_title">Seadistused</string>
+    <!-- Note: This references message_view_download_remainder -->
+    <string name="preview_encrypted">*Krüpeeritud*</string>
+    <string name="print_message_action">Prindi</string>
+    <string name="privacy_preferences">Privaatsus</string>
+    <string name="push_info_configure_notification_action">Seadista teavitusi</string>
+    <string name="push_info_configure_notification_text">Siiski, Androidis saad sa ka teavituse peita.</string>
+    <string name="push_info_disable_push_action">Ära kasuta tõuketeenuseid</string>
+    <string name="push_info_disable_push_text">Kui sul pole vaja ülikiiret infot saabunud kirjade kohta, siis lülita tõuketeenused välja ning lase K-9 Mail\'il kasutada tavapärast uute kirjade kontrollimist. Sellisel juhul vaatab K-9 Mail seadistatud ajavahemiku järel serverist uusi kirju ja mainitud püsiteavitust pole vaja.</string>
+    <string name="push_info_learn_more_text">Lisateave</string>
+    <string name="push_info_notification_explanation_text">Tõuketeenuste kasutamisel <xliff:g id="app_name">%1$s</xliff:g> hoiab töös ühendust e-posti serveriga. Kui rakendus on taustal pidevalt aktiivne, siis Android eeldab, et selle kohta kuvatakse pidevat teavitust. Lisateave: <xliff:g id="optional_extended_explanation">%2$s</xliff:g></string>
+    <string name="push_info_title">Tõuketeenuste teave</string>
+    <string name="push_notification_grant_alarm_permission">Õiguste jagamiseks klõpsi.</string>
+    <string name="push_notification_info">Lisateabe saamiseks klõpsi.</string>
+    <string name="push_notification_state_alarm_permission_missing">Puuduvad õigused alarmide seadistamiseks</string>
+    <string name="push_notification_state_initializing">Käivitamine…</string>
+    <string name="push_notification_state_listening">Ootan uusi e-kirju</string>
+    <string name="push_notification_state_wait_background_sync">Ootan taustal kuni sünkroniseerimine on lubatud</string>
+    <string name="push_notification_state_wait_network">Ootan taustal kuni võrguühendus taastub</string>
+    <string name="quiet_time">Vaikne aeg</string>
+    <string name="quiet_time_description">Keela öösel helinad, värinad ja plinkivad tuled</string>
+    <string name="quiet_time_ends">Vaikne aeg lõpeb</string>
+    <string name="quiet_time_notification">Keela teatised</string>
+    <string name="quiet_time_notification_description">Keela täielikult teatised vaiksel ajal</string>
+    <string name="quiet_time_starts">Vaikne aeg algab</string>
+    <string name="read_receipt">Lugemise kinnitus</string>
+    <string name="read_receipt_disabled">Ei taotleta lugemise kinnitust</string>
+    <string name="read_receipt_enabled">Taotletakse lugemise kinnitust</string>
+    <string name="recipient_bcc">Pimekoopia</string>
+    <string name="recipient_cc">Koopia</string>
+    <string name="recipient_error_non_ascii">Mõnede ebatavalsiemate tähemärkide kasutamine ei ole hetkel toetatud!</string>
+    <string name="recipient_error_parse_failed">Viga aadressi parsimisel!</string>
+    <string name="recipient_from">Kellelt</string>
+    <string name="recipient_to">Kellele</string>
+    <string name="refile_action">Paiguta ümber…</string>
+    <string name="refresh_folders_action">Värskenda kaustade nimekirja</string>
+    <plurals name="remote_search_downloading">
+            <item quantity="one">Toon %d tuelmuse</item>
+            <item quantity="other">Toon %d tulemust</item>
+        </plurals>
+    <plurals name="remote_search_downloading_limited">
+            <item quantity="one">Laadin %1$d / %2$d otsingutulemuse</item>
+            <item quantity="other">Laadin %1$d / %2$d otsingutulemust</item>
+        </plurals>
+    <string name="remote_search_error">Kaugotsing ebaõnnestus</string>
+    <string name="remote_search_sending_query">Saadab serverile päringut</string>
+    <string name="remote_search_unavailable_no_network">Serverist otsimiseks on vajalik võrguühendus.</string>
+    <string name="remove_account_action">Eemalda konto</string>
+    <string name="remove_attachment_action">Eemalda manus</string>
+    <string name="reply_action">Vasta</string>
+    <string name="reply_all_action">Vasta kõigile</string>
+    <string name="reply_to_label">Vasta aadressile</string>
+    <string name="save_attachment_action">Salvesta manus</string>
+    <string name="save_draft_action">Salvesta mustandina</string>
+    <string name="save_or_discard_draft_message_changes">Salvestada või loobuda muudatustest?</string>
+    <string name="save_or_discard_draft_message_dlg_title">Salvestada mustandina?</string>
+    <string name="save_or_discard_draft_message_instructions_fmt">Salvestad kirja või loobud sellest?</string>
+    <string name="search_action">Otsi</string>
+    <string name="search_everywhere_action">Otsi kõikjalt</string>
+    <string name="search_results">Otsingu tulemused</string>
+    <string name="send_action">Saada</string>
+    <string name="send_alternate_action">Jaga</string>
+    <string name="send_alternate_chooser_title">Vali saatja</string>
+    <string name="send_as">Saada kui</string>
+    <string name="send_failed_reason">Saatmine ebaõnnestus: %s</string>
+    <string name="send_failure_subject">Mõne kirja saatmine ebaõnnestus</string>
+    <string name="send_messages_action">Saada kirjad</string>
+    <string name="sent_folder_label">Saadetute kaust</string>
+    <string name="set_format_html_action">Kasuta algset vormindust</string>
+    <string name="set_format_html_condensed_action">Näita vormindatuna</string>
+    <string name="set_format_plain_action">Näita vormindamata kirja</string>
+    <string name="set_format_plain_condensed_action">Näita vormindamata kujul</string>
+    <string name="setting_language_system">Süsteemi vaikeseäte</string>
+    <string name="setting_theme_dark">Tume</string>
+    <string name="setting_theme_follow_system">Kasuta süsteemi vaikeseätet</string>
+    <string name="setting_theme_global">Kasuta rakenduse teemat</string>
+    <string name="setting_theme_light">Hele</string>
+    <string name="settings_compose_theme_label">Koostaja teema</string>
+    <string name="settings_export_button">Ekspordi</string>
+    <string name="settings_export_failure">Sätete eksportimine ebaõnnestus</string>
+    <string name="settings_export_progress_text">Seadistused on eksportimisel…</string>
+    <string name="settings_export_share_button">Jaga</string>
+    <string name="settings_export_success_generic">Seadistused on edukalt eksporditud</string>
+    <string name="settings_export_title">Ekspordi seadistused</string>
+    <string name="settings_language_label">Keel</string>
+    <string name="settings_list_action_support">Toeta <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="settings_list_backup_category">Varundus</string>
+    <string name="settings_list_miscellaneous_category">Muu</string>
+    <string name="settings_message_theme_label">Kirjade vaate teema</string>
+    <string name="settings_message_theme_selection_label">Fikseeritud kirja teema</string>
+    <string name="settings_message_theme_selection_summary_off">Vali kirjavaate teema kirja vaadates</string>
+    <string name="settings_message_theme_selection_summary_on">Kasuta fikseeritud kirjavaate teemat</string>
+    <string name="settings_theme_label">Teema</string>
+    <string name="settings_ui_data_collection">Andmete kogumine</string>
+    <string name="settings_ui_telemetry_description">Eesmärgiga muuta Thunderbirdi paremaks kogub rakenduse arendaja Mozilla andmeid jõudluse, kasutuse, raudvara ja tehtud kohenduste kohta</string>
+    <string name="settings_ui_telemetry_title">Üldine kasutus ja tehnilised andmed</string>
+    <string name="show_headers_action">Näita päiseid</string>
+    <string name="show_starred_count_title">Näita tärniga tähistatud kirjade arvu</string>
+    <string name="show_unified_inbox_title">Näita koondsisendkausta</string>
+    <string name="size_format_bytes">%d B</string>
+    <string name="size_format_gigabytes">%.1f GB</string>
+    <string name="size_format_kilobytes">%.1f kB</string>
+    <string name="size_format_megabytes">%.1f MB</string>
+    <string name="sort_attach_first">Manustega kirjad esimestena</string>
+    <string name="sort_by">Järjesta…</string>
+    <string name="sort_by_arrival">Saabumine</string>
+    <string name="sort_by_attach">Manused</string>
+    <string name="sort_by_date">Kuupäev</string>
+    <string name="sort_by_flag">Tärn</string>
+    <string name="sort_by_indicator">•</string>
+    <string name="sort_by_sender">Saatja</string>
+    <string name="sort_by_subject">Teema</string>
+    <string name="sort_by_then_by">Ja siis järjesta…</string>
+    <string name="sort_by_unread">Loetud/lugemata</string>
+    <string name="sort_earliest_first">Varasemad kirjad esimesena</string>
+    <string name="sort_flagged_first">Tärnidega kirjad esimesena</string>
+    <string name="sort_flagged_last">Ilma tärnideta kirjad esimesena</string>
+    <string name="sort_latest_first">Hilisemad kirjad esimesena</string>
+    <string name="sort_sender_alpha">Saatja tähestiku järjekorras</string>
+    <string name="sort_sender_re_alpha">Saatja ümberpööratud tähestiku järjekorras</string>
+    <string name="sort_subject_alpha">Teema tähestiku järjekorras</string>
+    <string name="sort_subject_re_alpha">Teema ümberpööratud tähestiku järjekorras</string>
+    <string name="sort_unattached_first">Manusteta kirjad esimestena</string>
+    <string name="sort_unread_first">Lugemata kirjad esimesena</string>
+    <string name="sort_unread_last">Loetud kirjad esimesena</string>
+    <string name="source_code">Lähtekood</string>
+    <string name="spam_action">Rämpspost</string>
+    <string name="spam_folder_label">Rämpsposti kaust</string>
+    <string name="status_invalid_id_error">Kirja ei leidu</string>
+    <string name="status_loading_error">Viga kirja laadimisel</string>
+    <string name="status_loading_more">Laadib kirju…</string>
+    <string name="status_network_error">Ühenduse viga</string>
+    <string name="switch_off">Välja</string>
+    <string name="switch_on">Sisse</string>
+    <string name="toast_account_not_found">Sisemine viga: kõlbmatu konto!</string>
+    <string name="toast_openpgp_provider_error">Viga %s ühendmisel!</string>
+    <string name="trash_folder_label">Prügikasti kaust</string>
+    <string name="unflag_action">Eemalda tärn</string>
+    <string name="unknown_recipient">&<;Tundmatu vastuvõtja&>;</string>
+    <string name="unknown_sender">&<;Tundmatu saatja&>;</string>
+    <string name="unsigned_text_divider_label">Allkirjastamata tekst</string>
+    <string name="unsubscribe_action">Eemalda tellimus</string>
+    <string name="upgrade_database_format">Uuendab konto \"<xliff:g id="account">%s</xliff:g>\" andmebaase</string>
+    <string name="upgrade_databases_title">Uuendab andmebaase</string>
+    <string name="upgrade_databases_unspecified">Uuendab andmebaase…</string>
+    <string name="user_forum_title">Foorum huvilistele</string>
+    <string name="version">Versioon</string>
+    <string name="volume_navigation_summary">Sõnumite vaates liigu helivaljuse nuppudega eri sõnumite vahel</string>
+    <string name="volume_navigation_title_short">Helivaljuse nupu kasutamine liikumiseks</string>
+    <string name="webview_contextmenu_email_clipboard_label">E-posti aadress</string>
+    <string name="webview_contextmenu_email_copy_action">Kopeeri aadress lõikelauale</string>
+    <string name="webview_contextmenu_email_save_action">Salvesta kontaktidesse</string>
+    <string name="webview_contextmenu_email_send_action">Saada e-kiri</string>
+    <string name="webview_contextmenu_image_clipboard_label">Pildi URL</string>
+    <string name="webview_contextmenu_image_copy_action">Kopeeri pildi URL lõikelauale</string>
+    <string name="webview_contextmenu_image_download_action">Laadi pilt alla</string>
+    <string name="webview_contextmenu_image_save_action">Salvesta pilt</string>
+    <string name="webview_contextmenu_image_title">Pilt</string>
+    <string name="webview_contextmenu_image_view_action">Vaata pilti</string>
+    <string name="webview_contextmenu_link_clipboard_label">Link</string>
+    <string name="webview_contextmenu_link_copy_action">Kopeeri link lõikelauale</string>
+    <string name="webview_contextmenu_link_share_action">Jaga linki</string>
+    <string name="webview_contextmenu_link_text_clipboard_label">Lingi tekst</string>
+    <string name="webview_contextmenu_link_text_copy_action">Kopeeri lingi tekst lõikelauale</string>
+    <string name="webview_contextmenu_link_view_action">Ava link</string>
+    <string name="webview_contextmenu_phone_call_action">Helista numbril</string>
+    <string name="webview_contextmenu_phone_clipboard_label">Telefoninimber</string>
+    <string name="webview_contextmenu_phone_copy_action">Kopeeri number lõikelauale</string>
+    <string name="webview_contextmenu_phone_save_action">Salvesta kontaktidesse</string>
+    <string name="webview_empty_message">Teksti ei ole</string>
+</resources>

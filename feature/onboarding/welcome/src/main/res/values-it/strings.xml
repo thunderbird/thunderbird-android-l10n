@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Sviluppata da un team dedicato della MZLA Technologies e da una community globale di volontari. Parte della famiglia Mozilla.</string>
+    <string name="onboarding_welcome_import_button">Importa impostazioni</string>
+    <string name="onboarding_welcome_start_button">Iniziamo</string>
+    <string name="onboarding_welcome_text">Un\'applicazione di posta elettronica per Android open source, incentrata sulla privacy e priva di pubblicità.</string>
+</resources>

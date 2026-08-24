@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unread_widget_account_not_selected">Geen account geselecteerd</string>
+    <string name="unread_widget_account_summary">De account waarvoor het aantal ongelezen berichten getoond moet worden</string>
+    <string name="unread_widget_account_title">Account</string>
+    <string name="unread_widget_action_done">Gereed</string>
+    <string name="unread_widget_choose_account_title">Account kiezen</string>
+    <string name="unread_widget_folder_enabled_summary">Aantal ongelezen berichten van een enkele map tonen</string>
+    <string name="unread_widget_folder_enabled_title">Mapaantal</string>
+    <string name="unread_widget_folder_not_selected">Geen map geselecteerd</string>
+    <string name="unread_widget_folder_summary">De map waarvoor het aantal ongelezen berichten getoond moet worden</string>
+    <string name="unread_widget_folder_title">Map</string>
+    <string name="unread_widget_label">Aantal ongelezen</string>
+    <string name="unread_widget_select_account">Aantal ongelezen tonen voor…</string>
+    <string name="unread_widget_title"><xliff:g id="account_name">%1$s</xliff:g> - <xliff:g id="folder_name">%2$s</xliff:g></string>
+    <string name="unread_widget_unified_inbox_account_summary">Samengevoegd Postvak IN</string>
+</resources>

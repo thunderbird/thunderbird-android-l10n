@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">المسودات</string>
+    <string name="special_mailbox_name_inbox">الوارد</string>
+    <string name="special_mailbox_name_outbox">الصادر</string>
+    <string name="special_mailbox_name_sent">المُرسَل</string>
+    <string name="special_mailbox_name_trash">المهملات</string>
+</resources>

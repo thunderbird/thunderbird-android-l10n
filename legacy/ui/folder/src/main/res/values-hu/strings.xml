@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Piszkozatok</string>
+    <string name="special_mailbox_name_inbox">Beérkezett üzenetek</string>
+    <string name="special_mailbox_name_outbox">Kimenő üzenetek</string>
+    <string name="special_mailbox_name_sent">Elküldöttek</string>
+    <string name="special_mailbox_name_trash">Kuka</string>
+</resources>

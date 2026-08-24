@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Чернетки</string>
+    <string name="special_mailbox_name_inbox">Вхідні</string>
+    <string name="special_mailbox_name_outbox">Вихідні</string>
+    <string name="special_mailbox_name_sent">Надіслані</string>
+    <string name="special_mailbox_name_trash">Смітник</string>
+</resources>

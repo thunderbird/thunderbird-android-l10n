@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Verfassen</string>
+    <string name="message_list_widget_inbox_title">Gemeinsamer Posteingang</string>
+    <string name="message_list_widget_initializing">Wird geladen …</string>
+    <string name="message_list_widget_label">Nachrichtenliste</string>
+    <string name="message_list_widget_list_item_loading">Wird geladen …</string>
+</resources>

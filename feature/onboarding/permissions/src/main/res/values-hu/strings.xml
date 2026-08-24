@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_permissions_allow_button">Engedélyezés</string>
+    <string name="onboarding_permissions_contacts_description">Engedélyezze a hozzáférést a névjegyjavaslatok biztosításához, illetve a névjegyek és fényképek megjelenítéséhez.</string>
+    <string name="onboarding_permissions_contacts_title">Kapcsolatok</string>
+    <string name="onboarding_permissions_notifications_description">Kapcsolja be az értesítéseket, hogy ne maradjon le egyetlen levélről sem.</string>
+    <string name="onboarding_permissions_notifications_title">Értesítések</string>
+    <string name="onboarding_permissions_screen_title">Élmény javítása</string>
+    <string name="onboarding_permissions_skip_button">Kihagyás</string>
+</resources>

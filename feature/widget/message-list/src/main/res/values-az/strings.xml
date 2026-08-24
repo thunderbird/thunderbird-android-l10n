@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Tərtib et</string>
+    <string name="message_list_widget_inbox_title">Ümumi Gələnlər Qutusu</string>
+    <string name="message_list_widget_initializing">Yüklənir…</string>
+    <string name="message_list_widget_label">Mesaj siyahısı</string>
+    <string name="message_list_widget_list_item_loading">Yüklənir…</string>
+</resources>

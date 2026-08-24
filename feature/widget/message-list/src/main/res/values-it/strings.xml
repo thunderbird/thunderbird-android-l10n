@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">Componi</string>
+    <string name="message_list_widget_inbox_title">Posta combinata</string>
+    <string name="message_list_widget_initializing">Caricamento…</string>
+    <string name="message_list_widget_label">Elenco messaggi</string>
+    <string name="message_list_widget_list_item_loading">Caricamento…</string>
+</resources>

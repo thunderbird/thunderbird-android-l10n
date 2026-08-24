@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_dropdown_action_add_account">Shtoni llogari</string>
+    <string name="navigation_drawer_dropdown_action_manage_folders">Administroni dosje</string>
+    <string name="navigation_drawer_dropdown_action_settings">Rregullime</string>
+    <string name="navigation_drawer_dropdown_action_sync_account">Njëkohëso llogarinë</string>
+    <string name="navigation_drawer_dropdown_action_sync_all_accounts">Njëkohëso krejt llogaritë</string>
+    <string name="navigation_drawer_dropdown_avount_view_selection_title">Listë llogarish</string>
+    <string name="navigation_drawer_dropdown_folder_item_badge_count_greater_than_1_000">1k+</string>
+    <string name="navigation_drawer_dropdown_folder_item_badge_count_greater_than_99">99+</string>
+    <string name="navigation_drawer_dropdown_unified_account_title">Llogari e Njësuar</string>
+    <string name="navigation_drawer_dropdown_unified_inbox_title">Kuti Poste</string>
+</resources>

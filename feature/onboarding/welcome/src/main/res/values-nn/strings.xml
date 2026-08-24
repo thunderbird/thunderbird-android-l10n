@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Utvikla av eit dedikert team frå MZLA Technologies, og eit globalt fellesskap av frivillige. Ein del av Mozilla-familien.</string>
+    <string name="onboarding_welcome_import_button">Importer innstillingar</string>
+    <string name="onboarding_welcome_start_button">Kom i gang</string>
+    <string name="onboarding_welcome_text">Ein privatlivfokusert og reklamefri app for Android med open kjeldekode.</string>
+</resources>

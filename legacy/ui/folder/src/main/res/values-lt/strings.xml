@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Juodraščiai</string>
+    <string name="special_mailbox_name_inbox">Gauti laiškai</string>
+    <string name="special_mailbox_name_outbox">Siunčiamieji</string>
+    <string name="special_mailbox_name_sent">Išsiųsti</string>
+    <string name="special_mailbox_name_trash">Šiukšliadėžė</string>
+</resources>

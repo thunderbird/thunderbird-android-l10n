@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Dezvoltat de o echipă dedicată de la MZLA Technologies și de o comunitate globală de voluntari. Face parte din familia Mozilla.</string>
+    <string name="onboarding_welcome_import_button">Importă configurările K-9</string>
+    <string name="onboarding_welcome_start_button">Începeți</string>
+    <string name="onboarding_welcome_text">O aplicație de poștă electronică cu cod-sursă deschis, axată pe confidențialitate și fără reclame pentru Android.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel_action">कैंसिल करें</string>
+    <string name="okay_action">ठीक है</string>
+    <string name="star_button_description">स्टार</string>
+</resources>

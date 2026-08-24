@@ -476,13 +476,18 @@
                     "encrypted_attachment_title",
                     "unnamed_attachment_title"
                 ],
+                "feature/mail/message/reader/api/src/commonMain/composeResources/values/strings.xml": [
+                    "reader_action_reply",
+                    "reader_action_reply_all"
+                ],
                 "feature/migration/qrcode/src/main/res/values/strings.xml": [
                     "migration_qrcode_done_button_text",
                     "migration_qrcode_go_to_settings_button_text",
                     "migration_qrcode_permission_denied_message",
                     "migration_qrcode_permission_denied_title",
                     "migration_qrcode_scanning_instructions",
-                    "migration_qrcode_scanning_progress"
+                    "migration_qrcode_scanning_progress",
+                    "migration_qrcode_unsupported_code"
                 ],
                 "feature/navigation/drawer/dropdown/src/main/res/values/strings.xml": [
                     "navigation_drawer_dropdown_action_add_account",
@@ -828,7 +833,12 @@
                     "account_settings_signature__location_after_quoted_text",
                     "account_settings_signature__location_before_quoted_text",
                     "account_settings_signature__location_label",
+                    "account_settings_signature_clear_label",
+                    "account_settings_signature_html_label",
+                    "account_settings_signature_is_html_label",
+                    "account_settings_signature_is_html_summary",
                     "account_settings_signature_label",
+                    "account_settings_signature_preview",
                     "account_settings_signature_use_label",
                     "account_settings_strip_signature_label",
                     "account_settings_strip_signature_summary",
@@ -919,6 +929,7 @@
                     "background_ops_never",
                     "background_work_notification_remove_account",
                     "batch_select_all",
+                    "camera_capture_lost",
                     "camera_permission_denied",
                     "changelog_latest_label_text",
                     "changelog_loading_error",

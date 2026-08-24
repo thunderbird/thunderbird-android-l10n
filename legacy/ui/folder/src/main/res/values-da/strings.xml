@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Kladder</string>
+    <string name="special_mailbox_name_inbox">Indbakke</string>
+    <string name="special_mailbox_name_outbox">Udbakke</string>
+    <string name="special_mailbox_name_sent">Sendt</string>
+    <string name="special_mailbox_name_trash">Papirkurv</string>
+</resources>

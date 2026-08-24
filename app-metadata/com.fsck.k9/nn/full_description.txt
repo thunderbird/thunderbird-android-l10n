@@ -1,0 +1,24 @@
+K-9 Mail er ein e-postklient med 100% open kjeldekode, som virkar med omtrent kvar einaste e-posttilbydar.
+
+<b>Funksjonar</b>
+
+* Støttar fleire kontoar
+* Samla innboks
+* Personvernsvennleg (ingen sporing i det heile, kontaktar kun e-posttilbydaren din)
+* Automatisk bakkgrunnssynkronisering eller dyttenotifikasjonar
+* Søk lokalt og på tenaren
+* OpenPGP e-post kryptering (PGP/MIME)
+
+Installer appen <a href="https://f-droid.org/packages/org.sufficientlysecure.keychain">OpenKeychain: Easy PGP</a> for å enkryptere/dekryptere e-postane dine med hjelp av OpenPGP.
+
+
+<b>Støtte</b>
+
+Om du har problem med K-9 Mail, kan du spørje om hjelp på <a href="https://forum.k9mail.app">støtteforumet</a> vårt.
+
+
+<b>Vil du hjelpe?</b>
+
+K-9 Mail er eit prosjekt utvikla i fellesskap. Bli med oss om du er interessert i å hjelpe å forbetre appen!
+Du kan finne feilsporaren, kjedekoden og wikien vår på <a href="https://github.com/thunderbird/thunderbird-android">https://github.com/thunderbird/thunderbird-android</a>.
+Me er alltid glade for å ønskje nye utviklarar, designarar, dokumentarmakarar, omsetjarar, feilprioriterarar og vennar velkommen.

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_oauth_loading_error">Tuccḍa deg tuqqna s OAuth</string>
+    <string name="account_oauth_loading_message">Qqen s OAuth</string>
+    <string name="account_oauth_sign_in_button">Qqen</string>
+    <string name="account_oauth_sign_in_with_google_button">Qqen s Google</string>
+</resources>

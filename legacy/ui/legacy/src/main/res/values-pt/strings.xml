@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_libraries">Bibliotecas</string>
+    <string name="about_title">Acerca <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="account_settings_action">Configurações da conta</string>
+    <string name="accounts_title">Contas</string>
+    <string name="add_account_action">Adicionar conta</string>
+    <string name="app_license">Licença Apache, Versão 2.0</string>
+    <string name="authors">Autores</string>
+    <string name="changelog_snackbar_button_text">Ver</string>
+    <string name="changelog_version_title">Versão %s</string>
+    <string name="choose_folder_move_title">Mover para…</string>
+    <string name="choose_folder_title">Escolher Pasta</string>
+    <string name="compose_action">Compor</string>
+    <string name="compose_title_compose">Compor</string>
+    <string name="compose_title_forward">Encaminhar</string>
+    <string name="compose_title_forward_as_attachment">Encaminhar como anexo</string>
+    <string name="compose_title_reply">Responder</string>
+    <string name="compose_title_reply_all">Responder a todos</string>
+    <string name="copy_action">Copiar</string>
+    <string name="delete_action">Apagar</string>
+    <string name="dialog_confirm_empty_spam_message">Deseja esvaziar a pasta de spam?</string>
+    <string name="dialog_confirm_empty_spam_title">Confirmar esvaziamento do spam</string>
+    <string name="discard_action">Descartar</string>
+    <string name="done_action">Concluído</string>
+    <string name="empty_spam_action">Esvaziar spam</string>
+    <string name="expand_content_description">Expandir</string>
+    <string name="filter_folders_action">Encontrar pasta</string>
+    <string name="folder_list_show_hidden_folders">Mostrar pastas escondidas</string>
+    <string name="folder_settings_notifications_label">Notificações</string>
+    <string name="folder_settings_push_label">Ativar Push</string>
+    <string name="folder_settings_sync_label">Ativar sincronização</string>
+    <string name="folder_settings_visible_label">Mostrar pasta</string>
+    <string name="folders_action">Organizar pastas</string>
+    <string name="get_help_title">Obter ajuda</string>
+    <string name="global_settings_messageview_fixedwidth_summary">Usa uma fonte de largura fixa ao exibir mensagens de texto simples</string>
+    <string name="license">Licença</string>
+    <string name="load_more_messages_fmt">Carregar mais <xliff:g id="messages_to_load">%d</xliff:g> mensagens</string>
+    <string name="mark_as_read_action">Marcar como lido</string>
+    <string name="move_to_drafts_action">Mover para Rascunhos</string>
+    <string name="new_messages_title">Mensagens novas</string>
+    <string name="notification_action_archive">Arquivar</string>
+    <string name="notification_action_archive_all">Arquivar Todos</string>
+    <string name="notification_action_delete">Apagar</string>
+    <string name="notification_action_delete_all">Apagar tudo</string>
+    <string name="notification_authentication_error_text">Falha na autenticação para <xliff:g id="account">%s</xliff:g>. Atualize as suas definições do servidor.</string>
+    <string name="notification_authentication_error_title">Falha na autenticação</string>
+    <string name="notification_certificate_error_text">Verifique as suas definições do servidor</string>
+    <string name="notification_notify_error_title">Erro de notificação</string>
+    <string name="remove_account_action">Remover conta</string>
+    <string name="reply_action">Responder</string>
+    <string name="reply_all_action">Responder a todos</string>
+    <string name="save_attachment_action">Gravar anexo</string>
+    <string name="save_draft_action">Guardar como rascunho</string>
+    <string name="search_action">Pesquisar</string>
+    <string name="search_results">Pesquisar resultados</string>
+    <string name="send_alternate_action">Partilhar</string>
+    <string name="send_messages_action">Enviar mensagem</string>
+    <string name="settings_list_action_support">Apoie o <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="settings_ui_data_collection">Coleta de dados</string>
+    <string name="settings_ui_telemetry_description">Partilha dados de desempenho, uso, hardware e personalização desta app com a Mozilla, para nos ajudar a melhorar o Thunderbird</string>
+    <string name="settings_ui_telemetry_title">Dados de uso e técnicos</string>
+    <string name="source_code">Código fonte</string>
+    <string name="volume_navigation_summary">Navegue entre as mensagens usando os botões de volume</string>
+    <string name="volume_navigation_title_short">Navegação com o botão de volume</string>
+</resources>

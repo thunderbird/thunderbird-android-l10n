@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_welcome_developed_by">Entwickelt von einem engagierten Team bei MZLA Technologies und einer weltweiten Gemeinschaft von Freiwilligen. Teil der Mozilla-Familie.</string>
+    <string name="onboarding_welcome_import_button">K-9-Einstellungen importieren</string>
+    <string name="onboarding_welcome_start_button">Los geht’s</string>
+    <string name="onboarding_welcome_text">Eine quelloffene, datenschutzorientierte und werbefreie E-Mail-App für Android.</string>
+</resources>

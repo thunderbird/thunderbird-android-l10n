@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_setup_auto_discovery_connection_security_ssl">SSL/TLS</string>
+    <string name="account_setup_auto_discovery_connection_security_start_tls">StartTLS</string>
+    <string name="account_setup_auto_discovery_loading_error">S’u arrit të ngarkohej formësimi i email-it</string>
+    <string name="account_setup_auto_discovery_loading_message">Po shihet për formësim…</string>
+    <string name="account_setup_auto_discovery_result_approval_checkbox_label">E besoj këtë formësim</string>
+    <string name="account_setup_auto_discovery_result_approval_error_approval_required">Lypset të miratohet formësimi.</string>
+    <string name="account_setup_auto_discovery_result_disclaimer_untrusted_configuration">E morëm formësimin për shërbyesin tuaj email përmes një lidhjeje që s’është aq e siguruar sa do të donim. Kjo do të thotë se ka një mundësi të vockël që dikur të mund ta ketë ndryshuar. A mund ta rikontrolloni formësimin e dhënë, për t’u siguruar se është siç duhet të jetë?</string>
+    <string name="account_setup_auto_discovery_result_edit_configuration_button_label">Përpunoni formësimin</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_not_found">Formësojeni dorazi</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_trusted">Formësoje automatikisht</string>
+    <string name="account_setup_auto_discovery_result_header_subtitle_configuration_untrusted">Ky formësim s’është i besuar</string>
+    <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">S’u gjet formësim</string>
+    <string name="account_setup_auto_discovery_status_header_title_configuration_found">U gjet formësim</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Kjo s’njihet si adresë email e vlefshme.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Kjo adresë email s’lejohet.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Kjo adresë email s’ mbulohet.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_required">Lypset adresë email.</string>
+    <string name="account_setup_auto_discovery_validation_error_password_required">Fjalëkalimi është i domosdoshëm.</string>
+    <string name="account_setup_create_account_created">Llogaria u krijua me sukses</string>
+    <string name="account_setup_create_account_creating">Po krijohet llogari…</string>
+    <string name="account_setup_create_account_error">Ndodhi një gabim teksa provohej të krijohej llogaria</string>
+    <string name="account_setup_error_network">Gabim rrjeti. Ju lutemi, kontrolloni gjendjen e lidhjes tuaj dhe riprovoni.</string>
+    <string name="account_setup_error_unknown">Gabim i panjohur</string>
+    <string name="account_setup_options_account_check_frequency_label">Shpeshti kontrolli</string>
+    <string name="account_setup_options_account_name_error_blank">Emri i llogarisë s’mund të jetë i zbrazët.</string>
+    <string name="account_setup_options_account_name_label">Emër llogarie</string>
+    <plurals name="account_setup_options_email_check_frequency_hours">
+            <item quantity="one">Çdo orë</item>
+            <item quantity="other">Çdo %d orë</item>
+        </plurals>
+    <plurals name="account_setup_options_email_check_frequency_minutes">
+            <item quantity="one">Çdo minutë</item>
+            <item quantity="other">Çdo %d minuta</item>
+        </plurals>
+    <string name="account_setup_options_email_check_frequency_never">Kurrë</string>
+    <string name="account_setup_options_email_display_count_label">Numër mesazhesh për shfaqje</string>
+    <plurals name="account_setup_options_email_display_count_messages">
+            <item quantity="one">1 mesazh</item>
+            <item quantity="other">%d mesazhe</item>
+        </plurals>
+    <string name="account_setup_options_email_signature_error_blank">Emri i nënshkrimit të email-it s’mund të jetë i zbrazët.</string>
+    <string name="account_setup_options_email_signature_label">Nënshkrim email-i</string>
+    <string name="account_setup_options_section_display_options">Mundësi shfaqjeje</string>
+    <string name="account_setup_options_section_sync_options">Mundësi njëkohësimi</string>
+    <string name="account_setup_options_show_notifications_label">Shfaq njoftime</string>
+    <string name="account_setup_options_your_name_error_required">Emri juaj është i domosdoshëm.</string>
+    <string name="account_setup_options_your_name_label">Emri juaj</string>
+    <string name="account_setup_special_folders_archive_folder_label">Dosje arkiv</string>
+    <string name="account_setup_special_folders_drafts_folder_label">Dosje skicash</string>
+    <string name="account_setup_special_folders_error_message">S’u arrit të sillej listë dosjesh nga shërbyesi</string>
+    <string name="account_setup_special_folders_folder_automatic">Automatike (%s)</string>
+    <string name="account_setup_special_folders_folder_none">Asnjë</string>
+    <string name="account_setup_special_folders_form_description">Ju lutemi, përcaktoni dosjet speciale për llogarinë tuaj.</string>
+    <string name="account_setup_special_folders_form_description_automatic">Zëri “Automatik” do të pasojë ndryshime të bëra nga shërbyesi automatikisht. Vlera aktuale e shërbyesit shfaqet në kllapa.</string>
+    <string name="account_setup_special_folders_loading_message">Po sillet listë dosjesh…</string>
+    <string name="account_setup_special_folders_sent_folder_label">Dosje të dërguarish</string>
+    <string name="account_setup_special_folders_spam_folder_label">Dosje të padëshiruarish</string>
+    <string name="account_setup_special_folders_success_message">Krejt dosjet speciale janë formësuar automatikisht nga shërbyesi.</string>
+    <string name="account_setup_special_folders_trash_folder_label">Dosje hedhurinash</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_oauth_error_browser_not_available">Appen klarte ikke å finne noen nettleser å bruke for å innvilge tilgang til kontoen din.</string>
+    <string name="account_oauth_error_canceled">Autorisasjon avbrutt</string>
+    <string name="account_oauth_error_failed">Autorisering mislyktes med følgende feil: <xliff:g id="error">%s</xliff:g></string>
+    <string name="account_oauth_error_not_supported">OAuth 2.0 støttes ikke med denne tilbyderen.</string>
+    <string name="account_oauth_google_sign_in_support_text">Hvis du opplever problemer når du logger inn med Google, oppsøk vår {placeHolder}.</string>
+    <string name="account_oauth_google_sign_in_support_text_link_text">hjelpeartikkel</string>
+    <string name="account_oauth_loading_error">Innlogging med OAuth mislyktes</string>
+    <string name="account_oauth_loading_message">Logg inn med OAuth</string>
+    <string name="account_oauth_sign_in_button">Logg inn</string>
+    <string name="account_oauth_sign_in_description">Vi omdirigerer deg til e-postleverandøren din så du kan logge deg inn. Du må gi appen tilgang til e-postkontoen din.</string>
+    <string name="account_oauth_sign_in_with_google_button">Logg inn med Google</string>
+</resources>

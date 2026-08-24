@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message_list_widget_compose_action">新郵件</string>
+    <string name="message_list_widget_inbox_title">全域收件匣</string>
+    <string name="message_list_widget_initializing">載入中…</string>
+    <string name="message_list_widget_label">訊息清單</string>
+    <string name="message_list_widget_list_item_loading">載入中…</string>
+</resources>

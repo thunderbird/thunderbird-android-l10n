@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="special_mailbox_name_drafts">Koncepty</string>
+    <string name="special_mailbox_name_inbox">Doručené</string>
+    <string name="special_mailbox_name_outbox">K odeslání</string>
+    <string name="special_mailbox_name_sent">Odeslané</string>
+    <string name="special_mailbox_name_trash">Koš</string>
+</resources>
