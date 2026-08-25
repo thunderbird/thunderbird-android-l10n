@@ -84,11 +84,11 @@
     <string name="account_settings_ignore_chat_messages_label">Ignoră mesajele de chat</string>
     <string name="account_settings_ignore_chat_messages_summary">Nu afișa notificări pentru mesajele aparținând unui chat prin e-mail</string>
     <string name="account_settings_incoming_label">Server primire</string>
-    <string name="account_settings_incoming_summary">Configurare server primire</string>
+    <string name="account_settings_incoming_summary">Configurați serverul de mesaje primite</string>
     <string name="account_settings_mail_check_frequency_label">Frecvența sondajelor asupra dosarelor</string>
     <string name="account_settings_mail_display_count_label">Dimensiunea dosarului local</string>
-    <string name="account_settings_mark_message_as_read_on_delete_label">Marchează ca citit la ștergere</string>
-    <string name="account_settings_mark_message_as_read_on_delete_summary">Marchează un mesaj ca citit când este șters</string>
+    <string name="account_settings_mark_message_as_read_on_delete_label">Marchează ca citit atunci când este șters</string>
+    <string name="account_settings_mark_message_as_read_on_delete_summary">Marchează un mesaj ca citit atunci când este șters</string>
     <string name="account_settings_mark_message_as_read_on_view_label">Marchează ca citit la deschidere</string>
     <string name="account_settings_mark_message_as_read_on_view_summary">Marchează un mesaj ca citit atunci când este deschis pentru vizualizare</string>
     <string name="account_settings_message_age_0">azi</string>
@@ -166,8 +166,8 @@
     <string name="account_settings_strip_signature_label">Elimină semnături în răspunsuri</string>
     <string name="account_settings_strip_signature_summary">Semnăturile vor fi eliminate din mesajele citate</string>
     <string name="account_settings_sync">Descărcare mail</string>
-    <string name="account_settings_sync_remote_deletetions_label">Sincronizare mesaje șterse pe server</string>
-    <string name="account_settings_sync_remote_deletetions_summary">Elimină mesajele șterse pe server</string>
+    <string name="account_settings_sync_remote_deletetions_label">Sincronizarea ștergerilor de pe server</string>
+    <string name="account_settings_sync_remote_deletetions_summary">Elimină mesajele atunci când sunt șterse de pe server</string>
     <string name="account_settings_title_fmt">Setări cont</string>
     <string name="account_settings_upload_sent_messages_label">Încarcă mesajele trimise</string>
     <string name="account_settings_upload_sent_messages_summary">Încarcă mesajele în dosarul Trimise după trimitere</string>
