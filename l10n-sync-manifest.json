@@ -29,6 +29,9 @@
                     "bolt_molecule_swipeable_row_start_to_end_accessibility_description",
                     "bolt_organism_subtitle_top_app_bar_up_description"
                 ],
+                "config/weblate/composeResources/values/strings.xml": [
+                    "weblate_base_component"
+                ],
                 "core/ui/setting/impl-dialog/src/main/res/values/strings.xml": [
                     "core_ui_setting_dialog_button_accept",
                     "core_ui_setting_dialog_button_cancel"
@@ -401,7 +404,7 @@
                     "funding_googleplay_contribution_tfa_recurring_xxl_title",
                     "funding_googleplay_contribution_title"
                 ],
-                "feature/mail/message/composer/src/main/res/values/strings.xml": [
+                "feature/mail/message/composer/internal/src/main/res/values/strings.xml": [
                     "sent_folder_not_found_dialog_assign_folder_action",
                     "sent_folder_not_found_dialog_cancel_action",
                     "sent_folder_not_found_dialog_send_and_delete_action",
