@@ -1257,6 +1257,7 @@
                     "message_compose_content_hint",
                     "message_compose_description_delete_quoted_text",
                     "message_compose_description_edit_quoted_text",
+                    "message_compose_encrypting_message",
                     "message_compose_error_no_recipients",
                     "message_compose_quote_header_cc",
                     "message_compose_quote_header_from",
