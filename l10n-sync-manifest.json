@@ -340,6 +340,14 @@
                     "debug_settings_notifications_trigger_notification",
                     "debug_settings_screen_title"
                 ],
+                "feature/funding/common/src/main/res/values/strings.xml": [
+                    "funding_reminder_appeal_content",
+                    "funding_reminder_decline",
+                    "funding_reminder_donate",
+                    "funding_reminder_roc_banner_content_description",
+                    "funding_reminder_thunderbird_for_android",
+                    "funding_reminder_title"
+                ],
                 "feature/funding/googleplay/src/main/res/values/strings.xml": [
                     "funding_googleplay_contribution_error_dismiss_button",
                     "funding_googleplay_contribution_error_purchase_failed",
@@ -842,6 +850,7 @@
                     "account_settings_signature_is_html_summary",
                     "account_settings_signature_label",
                     "account_settings_signature_preview",
+                    "account_settings_signature_preview_empty",
                     "account_settings_signature_use_label",
                     "account_settings_strip_signature_label",
                     "account_settings_strip_signature_summary",
@@ -1086,6 +1095,7 @@
                     "error_crypto_provider_connect",
                     "error_crypto_provider_incompatible",
                     "error_crypto_provider_ui_required",
+                    "error_no_contact_provider",
                     "error_sign_only_no_encryption",
                     "expand_content_description",
                     "expand_folders",
