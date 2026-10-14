@@ -8,35 +8,25 @@ The repository root mirrors localization-relevant paths from the source reposito
 - Compose resource strings: `**/composeResources/values/strings.xml` and `**/composeResources/values-*/strings.xml`
 - Store listing text: `app-metadata/**/*.txt`, excluding changelogs
 
-Shared import and Weblate management tooling is provided by the `weblate/` submodule. Project-specific tooling settings
-live in `l10n-config.json`.
+Project-specific tooling settings live in `l10n-config.json`.
 
 ## Tooling
 
-Initialize the tooling submodule after cloning:
+Install Java 21, then run the repository scripts from the root. They download and verify the pinned JVM distributions
+from [Thunderbird Mobile Weblate releases](https://github.com/thunderbird/thunderbird-mobile-weblate/releases) on first use.
+
+Run the import using the source repository configured in `l10n-config.json` (dry run by default):
 
 ```bash
-git submodule update --init --recursive
-```
-
-Run the import using the source repository configured in `l10n-config.json`:
-
-```bash
-./weblate/scripts/sync import
+./scripts/l10n-sync import
 ```
 
 Run Weblate management in dry-run mode:
 
 ```bash
-./weblate/scripts/weblate update --token "$WEBLATE_TOKEN"
+./scripts/l10n-weblate update --token "$WEBLATE_TOKEN"
 ```
 
-## Maintenance
-
-Update the tooling submodule manually when needed:
-
-```bash
-git submodule update --remote weblate
-git diff --submodule
-git add weblate
-```
+The installer (`scripts/install-l10n-tools.sh`) verifies the pinned SHA-256 for each archive and extracts it into the
+ignored `.tools/l10n/` directory. Review and update the version and checksums there and the launcher paths in the two
+scripts when adopting a new release. The launchers provide a pseudo-terminal when needed by the CLIs.
