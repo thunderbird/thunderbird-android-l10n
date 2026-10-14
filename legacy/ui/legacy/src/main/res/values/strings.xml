@@ -232,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 folders</string>
     <string name="account_setup_push_limit_500">500 folders</string>
     <string name="account_setup_push_limit_label">Max folders to check with push</string>
+    <string name="account_setup_visibility_and_syncing">Visibility &&; syncing</string>
     <string name="accountlist_preferences">Account list</string>
     <string name="accounts_title">Accounts</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -842,6 +843,7 @@
     <string name="recipient_to">To</string>
     <string name="refile_action">Refile…</string>
     <string name="refresh_folders_action">Refresh folder list</string>
+    <string name="remote_feature_flag_preferences">Remote Feature Flags</string>
     <plurals name="remote_search_downloading">
             <item quantity="one">Fetching %d result</item>
             <item quantity="other">Fetching %d results</item>
