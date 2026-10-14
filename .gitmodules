@@ -1,3 +1,0 @@
-[submodule "weblate"]
-	path = weblate
-	url = https://github.com/thunderbird/thunderbird-mobile-weblate
