@@ -29,8 +29,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          submodules: true
 
       - name: Set up Java
         uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
@@ -38,21 +36,16 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@3f5f9adaf7d9fecd50b5935e54106014257a94e6 # v6.4.0
-        with:
-          cache-provider: basic
-          cache-disabled: true
-          add-job-summary: false
-
       - name: Run Weblate command
         env:
           WEBLATE_TOKEN: ${{ secrets.WEBLATE_TOKEN }}
+          COMMAND: ${{ inputs.command }}
+          APPLY: ${{ inputs.apply }}
         run: |
-          if [ "${{ inputs.apply }}" = "true" ] && [ "${{ inputs.command }}" = "create" ]; then
-            yes y | script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN" --apply' /dev/null
-          elif [ "${{ inputs.apply }}" = "true" ]; then
-            script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN" --apply' /dev/null
+          if [ "$APPLY" = "true" ] && [ "$COMMAND" = "create" ]; then
+            yes y | ./scripts/l10n-weblate "$COMMAND" --token "$WEBLATE_TOKEN" --apply
+          elif [ "$APPLY" = "true" ]; then
+            ./scripts/l10n-weblate "$COMMAND" --token "$WEBLATE_TOKEN" --apply
           else
-            script -q -e -c './weblate/scripts/weblate "${{ inputs.command }}" --token "$WEBLATE_TOKEN"' /dev/null
+            ./scripts/l10n-weblate "$COMMAND" --token "$WEBLATE_TOKEN"
           fi

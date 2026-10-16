@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+"$repo_root/scripts/install-l10n-tools.sh" weblate
+cli="$repo_root/.tools/l10n/l10n-weblate-v0.1.0-jvm/bin/l10n-weblate"
+
+if [[ ! -t 0 || ! -t 1 ]]; then
+  if [[ "$(uname -s)" == Darwin ]]; then
+    exec script -q /dev/null "$cli" "$@"
+  fi
+  command_string="$(printf '%q ' "$cli" "$@")"
+  exec script -q -e -c "$command_string" /dev/null
+fi
+
+exec "$cli" "$@"
