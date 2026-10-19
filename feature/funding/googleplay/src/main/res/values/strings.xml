@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">Dismiss error</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">Purchase failed.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">Contributions are currently unavailable.</string>
@@ -45,51 +45,51 @@
     <string name="funding_googleplay_contribution_tfa_onetime_xxl_description">You’re really helping us dream big!  Your incredible support empowers us to achieve the extraordinary, leaving a lasting impact on everything we do.</string>
     <string name="funding_googleplay_contribution_tfa_onetime_xxl_title">Exceptional Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_l_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Be a driving force behind our success</item>
-            <item>Enable us to take on larger projects</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Be a driving force behind our success</item>
+        <item>Enable us to take on larger projects</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_l_description">You’re a big reason we can do what we do! Your generosity helps us reach new milestones.</string>
     <string name="funding_googleplay_contribution_tfa_recurring_l_title">Major Monthly Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_m_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Play a major role in aiding our mission</item>
-            <item>Support key improvements</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Play a major role in aiding our mission</item>
+        <item>Support key improvements</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_m_description">Your contribution shines! You’re key to advancing our mission and achieving impact.</string>
     <string name="funding_googleplay_contribution_tfa_recurring_m_title">Significant Monthly Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_s_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Enable us to build new features</item>
-            <item>Help us take meaningful steps forward</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Enable us to build new features</item>
+        <item>Help us take meaningful steps forward</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_s_description">Your contribution helps us grow and take meaningful steps forward—thank you!</string>
     <string name="funding_googleplay_contribution_tfa_recurring_s_title">Valued Monthly Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_xl_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Enable us to make significant strides</item>
-            <item>Help us push boundaries</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Enable us to make significant strides</item>
+        <item>Help us push boundaries</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_xl_description">Your support is inspiring! Your contribution helps us push boundaries and achieve our goals.</string>
     <string name="funding_googleplay_contribution_tfa_recurring_xl_title">Outstanding Monthly Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_xs_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Support the backbone of our efforts</item>
-            <item>Keep us moving forward</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Support the backbone of our efforts</item>
+        <item>Keep us moving forward</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_xs_description">Your support drives us forward! Every contribution creates change—thank you!</string>
     <string name="funding_googleplay_contribution_tfa_recurring_xs_title">Essential Monthly Contribution</string>
     <array name="funding_googleplay_contribution_tfa_recurring_xxl_benefits">
-            <item>A monthly, voluntary contribution</item>
-            <item>Empower us to dream bigger</item>
-            <item>Make our boldest ideas a reality</item>
-            <item>Contributions are not tax-deductible</item>
-        </array>
+        <item>A monthly, voluntary contribution</item>
+        <item>Empower us to dream bigger</item>
+        <item>Make our boldest ideas a reality</item>
+        <item>Contributions are not tax-deductible</item>
+    </array>
     <string name="funding_googleplay_contribution_tfa_recurring_xxl_description">You’re helping us dream big! Your support empowers us to achieve extraordinary things.</string>
     <string name="funding_googleplay_contribution_tfa_recurring_xxl_title">Exceptional Monthly Contribution</string>
     <string name="funding_googleplay_contribution_title">Support Thunderbird</string>

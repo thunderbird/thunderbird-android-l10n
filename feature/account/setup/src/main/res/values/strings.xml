@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Account name can\'t be blank.</string>
     <string name="account_setup_options_account_name_label">Account name</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Every hour</item>
-            <item quantity="other">Every %d hours</item>
-        </plurals>
+        <item quantity="one">Every hour</item>
+        <item quantity="other">Every %d hours</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Every minute</item>
-            <item quantity="other">Every %d minutes</item>
-        </plurals>
+        <item quantity="one">Every minute</item>
+        <item quantity="other">Every %d minutes</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Never</string>
     <string name="account_setup_options_email_display_count_label">Number of messages to display</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 message</item>
-            <item quantity="other">%d messages</item>
-        </plurals>
+        <item quantity="one">1 message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Email signature name can\'t be blank.</string>
     <string name="account_setup_options_email_signature_label">Email signature</string>
     <string name="account_setup_options_section_display_options">Display options</string>

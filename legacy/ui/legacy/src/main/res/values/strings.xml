@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">About</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- Used in the about dialog -->
@@ -232,7 +232,7 @@
     <string name="account_setup_push_limit_50">50 folders</string>
     <string name="account_setup_push_limit_500">500 folders</string>
     <string name="account_setup_push_limit_label">Max folders to check with push</string>
-    <string name="account_setup_visibility_and_syncing">Visibility &&; syncing</string>
+    <string name="account_setup_visibility_and_syncing">Visibility &amp; syncing</string>
     <string name="accountlist_preferences">Account list</string>
     <string name="accounts_title">Accounts</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -306,9 +306,9 @@
     <string name="confirm_discard_draft_message_title">Discard message?</string>
     <string name="copy_action">Copy</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Address copied to clipboard</item>
-            <item quantity="other">Addresses copied to clipboard</item>
-        </plurals>
+        <item quantity="one">Address copied to clipboard</item>
+        <item quantity="other">Addresses copied to clipboard</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Subject text copied to clipboard</string>
     <string name="crypto_msg_cancelled">Message is encrypted, but decryption was cancelled.</string>
     <string name="crypto_msg_encrypted_error">but there was a decryption error</string>
@@ -383,9 +383,9 @@
     <string name="dialog_confirm_delete_confirm_button">Yes</string>
     <string name="dialog_confirm_delete_message">Do you want to delete this message?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Do you really want to delete this message?</item>
-            <item quantity="other">Do you really want to delete <xliff:g id="message_count">%1$d</xliff:g> messages?</item>
-        </plurals>
+        <item quantity="one">Do you really want to delete this message?</item>
+        <item quantity="other">Do you really want to delete <xliff:g id="message_count">%1$d</xliff:g> messages?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Confirm deletion</string>
     <string name="dialog_confirm_empty_spam_message">Do you want to empty the spam folder?</string>
     <string name="dialog_confirm_empty_spam_title">Confirm empty spam</string>
@@ -398,9 +398,9 @@
     <string name="dialog_confirm_spam_cancel_button">No</string>
     <string name="dialog_confirm_spam_confirm_button">Yes</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Do you really want to move this message to the spam folder?</item>
-            <item quantity="other">Do you really want to move <xliff:g id="message_count">%1$d</xliff:g> messages to the spam folder?</item>
-        </plurals>
+        <item quantity="one">Do you really want to move this message to the spam folder?</item>
+        <item quantity="other">Do you really want to move <xliff:g id="message_count">%1$d</xliff:g> messages to the spam folder?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Confirm move to spam folder</string>
     <string name="dialog_openkeychain_info_install">Install</string>
     <string name="dialog_openkeychain_info_text">The app OpenKeychain is required to enable support for end-to-end encryption.</string>
@@ -625,7 +625,7 @@
     <string name="interaction_preferences">Interaction</string>
     <string name="license">License</string>
     <string name="load_more_messages_fmt">Load up
-        to <xliff:g id="messages_to_load">%d</xliff:g> more</string>
+    to <xliff:g id="messages_to_load">%d</xliff:g> more</string>
     <string name="loading_attachment">Loading attachment…</string>
     <string name="locked_attach_unencrypted">This part was not encrypted, and may be insecure.</string>
     <string name="locked_attach_unlock">Unlock</string>
@@ -690,9 +690,9 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Attachment (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Attachments (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Attachment (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Attachments (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Save all</string>
     <string name="message_view_attachments_title">Attachments</string>
     <string name="message_view_attachments_view">View</string>
@@ -767,9 +767,9 @@
     <string name="notification_channel_push_description">Displayed while waiting for new messages</string>
     <string name="notification_channel_push_title">Synchronize (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> new message</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> new messages</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> new message</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> new messages</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">An error has occurred while trying to create a system notification for a new message. The reason is most likely a missing notification sound.\n\nTap to open notification settings.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -845,13 +845,13 @@
     <string name="refresh_folders_action">Refresh folder list</string>
     <string name="remote_feature_flag_preferences">Remote Feature Flags</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Fetching %d result</item>
-            <item quantity="other">Fetching %d results</item>
-        </plurals>
+        <item quantity="one">Fetching %d result</item>
+        <item quantity="other">Fetching %d results</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Fetching %1$d of %2$d results</item>
-            <item quantity="other">Fetching %1$d of %2$d results</item>
-        </plurals>
+        <item quantity="one">Fetching %1$d of %2$d results</item>
+        <item quantity="other">Fetching %1$d of %2$d results</item>
+    </plurals>
     <string name="remote_search_error">Remote search failed</string>
     <string name="remote_search_sending_query">Sending query to server</string>
     <string name="remote_search_unavailable_no_network">A network connection is required for server search.</string>
@@ -949,8 +949,8 @@
     <string name="toast_openpgp_provider_error">Error connecting to %s!</string>
     <string name="trash_folder_label">Trash folder</string>
     <string name="unflag_action">Remove star</string>
-    <string name="unknown_recipient">&<;Unknown Recipient&>;</string>
-    <string name="unknown_sender">&<;Unknown Sender&>;</string>
+    <string name="unknown_recipient">&lt;Unknown Recipient&gt;</string>
+    <string name="unknown_sender">&lt;Unknown Sender&gt;</string>
     <string name="unsigned_text_divider_label">Unsigned Text</string>
     <string name="unsubscribe_action">Unsubscribe</string>
     <string name="upgrade_database_format">Upgrading database of account \"<xliff:g id="account">%s</xliff:g>\"</string>

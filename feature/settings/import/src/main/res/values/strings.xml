@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Displayed below the app name in the list of apps from which settings can be imported when the app is too old and doesn't support exporting settings to another app. -->
     <string name="settings_import_app_version_not_supported">App version not supported.</string>
     <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
@@ -21,9 +21,9 @@
     <string name="settings_import_outgoing_server_password_hint">Outgoing server password</string>
     <string name="settings_import_partial_failure">Failed to import some settings</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">To be able to use the account \"<xliff:g id="account">%s</xliff:g>\" you need to provide the server password.</item>
-            <item quantity="other">To be able to use the account \"<xliff:g id="account">%s</xliff:g>\" you need to provide the server passwords.</item>
-        </plurals>
+        <item quantity="one">To be able to use the account \"<xliff:g id="account">%s</xliff:g>\" you need to provide the server password.</item>
+        <item quantity="other">To be able to use the account \"<xliff:g id="account">%s</xliff:g>\" you need to provide the server passwords.</item>
+    </plurals>
     <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
     <string name="settings_import_password_required">Please enter passwords</string>
     <string name="settings_import_pick_app_button">Import from app</string>
