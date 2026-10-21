@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Text of the "more" button in the server certificate error screen. Pressing it will display details about the server certificate and only then allow the user to accept the certificate. -->
     <string name="account_server_certificate_button_advanced">Advanced</string>
     <!-- Text of the back button in the server certificate error screen. Going back and not accepting the invalid certificate is the recommended action. -->
