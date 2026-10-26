@@ -81,6 +81,9 @@
     <string name="account_settings_default_quoted_text_shown_label">Quote message when replying</string>
     <string name="account_settings_default_quoted_text_shown_summary">Include the original message in your reply.</string>
     <string name="account_settings_email_label">Your email address</string>
+    <string name="account_settings_fetching_and_data_limits">Fetching &amp; data limits</string>
+    <string name="account_settings_folder_sync_and_push">Folder sync &amp; push</string>
+    <string name="account_settings_folder_visibility">Folder visibility</string>
     <string name="account_settings_folders">Folders</string>
     <string name="account_settings_general_title">General settings</string>
     <string name="account_settings_identities_label">Manage identities</string>
@@ -176,6 +179,7 @@
     <string name="account_settings_strip_signature_label">Strip signatures on reply</string>
     <string name="account_settings_strip_signature_summary">Signatures will be removed from quoted messages</string>
     <string name="account_settings_sync">Fetching mail</string>
+    <string name="account_settings_sync_and_notifications">Sync &amp; notifications</string>
     <string name="account_settings_sync_remote_deletetions_label">Sync server deletions</string>
     <string name="account_settings_sync_remote_deletetions_summary">Remove messages when deleted on server</string>
     <string name="account_settings_title_fmt">Account settings</string>
@@ -232,7 +236,7 @@
     <string name="account_setup_push_limit_50">50 folders</string>
     <string name="account_setup_push_limit_500">500 folders</string>
     <string name="account_setup_push_limit_label">Max folders to check with push</string>
-    <string name="account_setup_visibility_and_syncing">Visibility &amp; syncing</string>
+    <string name="account_setup_visibility_and_syncing">Folder sync &amp; push</string>
     <string name="accountlist_preferences">Account list</string>
     <string name="accounts_title">Accounts</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
