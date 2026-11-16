@@ -682,11 +682,19 @@
     <string name="message_discarded_toast">Message discarded</string>
     <!-- For unread messages the first line of a message list item is modified by this to improve the experience for people with screen readers. -->
     <string name="message_list_content_description_unread_prefix">unread, %s</string>
+    <!-- Displayed instead of the message list when a folder contains no messages. -->
+    <string name="message_list_empty">No messages</string>
+    <!-- Displayed instead of the message list when a search found no messages. -->
+    <string name="message_list_empty_search">No results</string>
     <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
     <string name="message_list_error_folder_not_found">Folder not found</string>
     <!-- Displayed in the toolbar when there was an error loading the message list, e.g. because the folder no longer exists. -->
     <string name="message_list_error_title">Error</string>
     <string name="message_list_load_more_messages_action">Load more messages</string>
+    <!-- Displayed instead of the message list when a folder is empty because it hasn't been synchronized with the server yet. -->
+    <string name="message_list_not_synced">Not synced yet</string>
+    <!-- Displayed below "Not synced yet" to explain how to synchronize the folder. -->
+    <string name="message_list_not_synced_hint">Pull down to sync</string>
     <string name="message_progress_text">Loading…</string>
     <string name="message_saved_toast">Message saved as draft</string>
     <string name="message_to_fmt">To:<xliff:g id="counterParty">%s</xliff:g></string>
@@ -707,8 +715,6 @@
     <string name="message_view_empty">Please select a message on the left</string>
     <!-- Displayed in the message details screen when the message was sent by the user. This is shown after the "From" label. Languages may require a different grammatical form than message_view_to_me_text. In English, both are "me". -->
     <string name="message_view_from_me_text">me</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">me</string>
     <string name="message_view_menu_action_export_eml">Export as EML</string>
     <string name="message_view_no_viewer">Unable to find viewer for <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -953,6 +959,14 @@
     <string name="toast_openpgp_provider_error">Error connecting to %s!</string>
     <string name="trash_folder_label">Trash folder</string>
     <string name="unflag_action">Remove star</string>
+    <string name="unified_archive_title">Unified Archive</string>
+    <string name="unified_drafts_title">Unified Drafts</string>
+    <!-- Detail of the Unified Inbox, e.g. when choosing what a widget shows. -->
+    <string name="unified_inbox_detail">Messages in the inbox of every account</string>
+    <string name="unified_outbox_title">Unified Outbox</string>
+    <string name="unified_sent_title">Unified Sent</string>
+    <string name="unified_spam_title">Unified Spam</string>
+    <string name="unified_trash_title">Unified Trash</string>
     <string name="unknown_recipient">&lt;Unknown Recipient&gt;</string>
     <string name="unknown_sender">&lt;Unknown Sender&gt;</string>
     <string name="unsigned_text_divider_label">Unsigned Text</string>
