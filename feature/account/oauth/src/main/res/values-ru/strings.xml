@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Не найден браузер для предоставления доступа к вашей учётной записи.</string>
     <string name="account_oauth_error_canceled">Авторизация отменена</string>
     <string name="account_oauth_error_failed">Авторизация не выполнена из-за ошибки: <xliff:g id="error">%s</xliff:g></string>

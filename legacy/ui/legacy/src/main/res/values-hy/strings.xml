@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Ծրագրի մասին</string>
     <string name="account_notify_contacts_mail_only_label">Միայն կոնտակտները</string>
     <string name="account_settings_action">Հաշուի կագրաւորումներ</string>
@@ -158,9 +158,9 @@
     <string name="confirm_discard_draft_message_title">Նետե՞լ իմակը։</string>
     <string name="copy_action">Պատճէնել</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Հասցէն պատճէնուած է</item>
-            <item quantity="other">Հասցէները պատճէնուած են</item>
-        </plurals>
+        <item quantity="one">Հասցէն պատճէնուած է</item>
+        <item quantity="other">Հասցէները պատճէնուած են</item>
+    </plurals>
     <string name="debug_enable_debug_logging_summary">Պահել յաւելեալ ախտորոշման տեղեկատւութիւն</string>
     <string name="debug_enable_debug_logging_title">Գրել վրիպազերծման տեղեկատւութիւնը մատեանում</string>
     <string name="debug_enable_sensitive_logging_summary">Կարող է ցուցադրել ծածկագրերը մատեանում։</string>
@@ -170,9 +170,9 @@
     <string name="dialog_confirm_mark_all_as_read_cancel_button">Ոչ</string>
     <string name="dialog_confirm_spam_cancel_button">Ոչ</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Համոզո՞ւած էք որ ուզում էք այս հաղորդագրութիւնը լցօնի պանակ տեղափոխել։</item>
-            <item quantity="other">Համոզո՞ւած էք <xliff:g id="message_count">%1$d</xliff:g> հաղորդագրութիւնները լցօնի պանակի մէջ տեղափոխել։</item>
-        </plurals>
+        <item quantity="one">Համոզո՞ւած էք որ ուզում էք այս հաղորդագրութիւնը լցօնի պանակ տեղափոխել։</item>
+        <item quantity="other">Համոզո՞ւած էք <xliff:g id="message_count">%1$d</xliff:g> հաղորդագրութիւնները լցօնի պանակի մէջ տեղափոխել։</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Հաստատել տեղափոխումը՝ լցօնների պանակ</string>
     <string name="discard_action">Նետել</string>
     <string name="done_action">Աւարտել</string>
@@ -316,9 +316,9 @@
     <string name="notification_certificate_error_text">Վերանայէք սպասարկչի կարգաւորումները</string>
     <string name="notification_certificate_error_title">Արտոնագրի սխալ <xliff:g id="account">%s</xliff:g>֊ի համար</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> նոր իմակ</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> նոր իմակ</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> նոր իմակ</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> նոր իմակ</item>
+    </plurals>
     <string name="prefs_title">Կարգաւորումներ</string>
     <string name="quiet_time">Հանգստի ժամանակ</string>
     <string name="quiet_time_description">Անջատել զանգը, վիբրացիան եւ լոյսային ազդանշաները գիշերը։</string>

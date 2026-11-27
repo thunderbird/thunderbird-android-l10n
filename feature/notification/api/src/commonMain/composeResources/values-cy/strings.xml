@@ -35,13 +35,13 @@
     <string name="notification_channel_push_description">Yn cael ei ddangos wrth aros am negeseuon newydd</string>
     <string name="notification_channel_push_title">Cydweddu (Gwthio)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="zero">%1$d negeseuon newydd</item>
-            <item quantity="one">%1$d neges newydd</item>
-            <item quantity="two">%1$d neges newydd</item>
-            <item quantity="few">%1$d neges newydd</item>
-            <item quantity="many">%1$d neges newydd</item>
-            <item quantity="other">%1$d neges newydd</item>
-        </plurals>
+        <item quantity="zero">%1$d negeseuon newydd</item>
+        <item quantity="one">%1$d neges newydd</item>
+        <item quantity="two">%1$d neges newydd</item>
+        <item quantity="few">%1$d neges newydd</item>
+        <item quantity="many">%1$d neges newydd</item>
+        <item quantity="other">%1$d neges newydd</item>
+    </plurals>
     <string name="notification_notify_error_text">Bu gwall wrth geisio creu hysbysiad system am neges newydd. Mae'n debyg mai'r rheswm yw bod sain hysbysiad ar goll.\n\nTapiwch i agor gosodiadau hysbysiadau.</string>
     <string name="notification_notify_error_title">Gwall hysbysiad</string>
     <string name="push_info_disable_push_action">Analluogi Gwthio</string>

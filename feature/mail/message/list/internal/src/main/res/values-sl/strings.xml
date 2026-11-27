@@ -21,7 +21,7 @@
     <string name="setup_archive_folder_create_archive_folder_updating_special_folder_rules">Posodabljanje posebnih pravil map …</string>
     <string name="setup_archive_folder_dialog_cancel">Prekliči</string>
     <string name="setup_archive_folder_dialog_configure_archive_folder">Nastavi mapo za arhiviranje zdaj</string>
-    <string name="setup_archive_folder_dialog_create_and_set_new_folder"><![CDATA[Create & set new folder]]></string>
+    <string name="setup_archive_folder_dialog_create_and_set_new_folder"><![CDATA[Ustvari in nastavi novo mapo]]></string>
     <string name="setup_archive_folder_dialog_create_new_folder">Ustvari novo mapo</string>
     <string name="setup_archive_folder_dialog_done">Končano</string>
     <string name="setup_archive_folder_dialog_dont_show_again">Tega sporočila ne prikaži več.</string>

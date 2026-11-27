@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">உங்கள் கணக்கு அமைப்புகளை இப்போது இறக்குமதி செய்யுங்கள்</string>
     <string name="onboarding_migration_thunderbird_import_title">மற்றொரு பயன்பாடு அல்லது சாதனத்திலிருந்து நகர்கிறீர்களா?</string>
     <string name="onboarding_migration_thunderbird_link_open_error">இணைப்பைத் திறக்க எந்த பயன்பாடும் கிடைக்கவில்லை.</string>

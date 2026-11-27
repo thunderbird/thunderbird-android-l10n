@@ -27,10 +27,10 @@
     <string name="notification_channel_push_description">Mostrado enquanto à espera de novas mensagens</string>
     <string name="notification_channel_push_title">Sincronizar (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d nova mensagem</item>
-            <item quantity="many">%1$d novas mensagens</item>
-            <item quantity="other">%1$d novas mensagens</item>
-        </plurals>
+        <item quantity="one">%1$d nova mensagem</item>
+        <item quantity="many">%1$d novas mensagens</item>
+        <item quantity="other">%1$d novas mensagens</item>
+    </plurals>
     <string name="notification_notify_error_text">Occoreu um erro ao tentar criar uma notificação do sistema para uma nova mensagem. A causa mais provavel é a falta de um som de notificação.\n\nToque para abrir as definições de notificação .</string>
     <string name="notification_notify_error_title">Erro de notificação</string>
     <string name="push_info_disable_push_action">Desativar o Push</string>

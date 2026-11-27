@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Kontonavn må fylles ut.</string>
     <string name="account_setup_options_account_name_label">Kontonavn</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Hver time</item>
-            <item quantity="other">Hver %d. time</item>
-        </plurals>
+        <item quantity="one">Hver time</item>
+        <item quantity="other">Hver %d. time</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Hvert minutt</item>
-            <item quantity="other">Hvert %d. minutt</item>
-        </plurals>
+        <item quantity="one">Hvert minutt</item>
+        <item quantity="other">Hvert %d. minutt</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Aldri</string>
     <string name="account_setup_options_email_display_count_label">Antall meldinger å vise</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 melding</item>
-            <item quantity="other">%d meldinger</item>
-        </plurals>
+        <item quantity="one">1 melding</item>
+        <item quantity="other">%d meldinger</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-postsignatur må fylles ut.</string>
     <string name="account_setup_options_email_signature_label">E-postsignatur</string>
     <string name="account_setup_options_section_display_options">Visningsalternativer</string>

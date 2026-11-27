@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Om</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -31,21 +31,21 @@
     <string name="account_settings_action">Kontoinnstillingar</string>
     <string name="account_settings_always_bcc_label">Send blindkopi av alle meldingar til</string>
     <string name="account_settings_always_show_cc_bcc_label">Alltid vis kopi/blindkopi</string>
-    <string name="account_settings_autodownload_message_size_1">1 KiB</string>
+    <string name="account_settings_autodownload_message_size_1">1 kiB</string>
     <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
     <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
-    <string name="account_settings_autodownload_message_size_128">128 KiB</string>
-    <string name="account_settings_autodownload_message_size_16">16 KiB</string>
-    <string name="account_settings_autodownload_message_size_2">2 KiB</string>
+    <string name="account_settings_autodownload_message_size_128">128 kiB</string>
+    <string name="account_settings_autodownload_message_size_16">16 kiB</string>
+    <string name="account_settings_autodownload_message_size_2">2 kiB</string>
     <string name="account_settings_autodownload_message_size_2048">2 MiB</string>
-    <string name="account_settings_autodownload_message_size_256">256 KiB</string>
-    <string name="account_settings_autodownload_message_size_32">32 KiB</string>
-    <string name="account_settings_autodownload_message_size_4">4 KiB</string>
-    <string name="account_settings_autodownload_message_size_512">512 KiB</string>
+    <string name="account_settings_autodownload_message_size_256">256 kiB</string>
+    <string name="account_settings_autodownload_message_size_32">32 kiB</string>
+    <string name="account_settings_autodownload_message_size_4">4 kiB</string>
+    <string name="account_settings_autodownload_message_size_512">512 kiB</string>
     <string name="account_settings_autodownload_message_size_5120">5 MiB</string>
-    <string name="account_settings_autodownload_message_size_64">64 KiB</string>
-    <string name="account_settings_autodownload_message_size_8">8 KiB</string>
-    <string name="account_settings_autodownload_message_size_any">uendeleg (inga grense)</string>
+    <string name="account_settings_autodownload_message_size_64">64 kiB</string>
+    <string name="account_settings_autodownload_message_size_8">8 kiB</string>
+    <string name="account_settings_autodownload_message_size_any">Ein kvar storleik (inga begrensing)</string>
     <string name="account_settings_autodownload_message_size_label">Hent meldingar opp til</string>
     <string name="account_settings_automatic_special_folder">Automatisk (%s)</string>
     <string name="account_settings_composition">Sending av e-post</string>
@@ -80,23 +80,23 @@
     <string name="account_settings_incoming_label">Innkomande tenar</string>
     <string name="account_settings_incoming_summary">Konfigurer innkomande e-posttenar</string>
     <string name="account_settings_mail_check_frequency_label">Spørjefrekvens for mappe</string>
-    <string name="account_settings_mail_display_count_label">Lokal mappestørrelse</string>
+    <string name="account_settings_mail_display_count_label">Lokal mappestorleik</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">Marker som lesen etter sletting</string>
     <string name="account_settings_mark_message_as_read_on_delete_summary">Marker melding som lesen etter den er sletta</string>
     <string name="account_settings_mark_message_as_read_on_view_label">Marker som lesen etter opning</string>
     <string name="account_settings_mark_message_as_read_on_view_summary">Marker melding som lesen når den er opna</string>
-    <string name="account_settings_message_age_0">i dag</string>
-    <string name="account_settings_message_age_1">dei siste to dagane</string>
-    <string name="account_settings_message_age_14">dei siste to vekene</string>
-    <string name="account_settings_message_age_1_month">den siste månaden</string>
-    <string name="account_settings_message_age_1_year">det siste året</string>
-    <string name="account_settings_message_age_2">dei siste tre dagane</string>
-    <string name="account_settings_message_age_21">dei siste tre vekene</string>
-    <string name="account_settings_message_age_2_months">dei siste to månadene</string>
-    <string name="account_settings_message_age_3_months">dei siste tre månadene</string>
-    <string name="account_settings_message_age_6_months">det siste halvåret</string>
-    <string name="account_settings_message_age_7">den siste veka</string>
-    <string name="account_settings_message_age_any">Kva tid som helst (inga grense)</string>
+    <string name="account_settings_message_age_0">Idag</string>
+    <string name="account_settings_message_age_1">siste 2 dagar</string>
+    <string name="account_settings_message_age_14">siste 2 veker</string>
+    <string name="account_settings_message_age_1_month">siste månad</string>
+    <string name="account_settings_message_age_1_year">siste år</string>
+    <string name="account_settings_message_age_2">siste 3 dagar</string>
+    <string name="account_settings_message_age_21">siste 3 veker</string>
+    <string name="account_settings_message_age_2_months">siste 2 månadar</string>
+    <string name="account_settings_message_age_3_months">siste 3 månadar</string>
+    <string name="account_settings_message_age_6_months">siste 6 månadar</string>
+    <string name="account_settings_message_age_7">siste veka</string>
+    <string name="account_settings_message_age_any">Når som helst (inga begrensing)</string>
     <string name="account_settings_message_age_label">Synkroniser meldingar frå</string>
     <string name="account_settings_message_format_auto">Automatisk</string>
     <string name="account_settings_message_format_html">HTML (held på bilete og formatering)</string>
@@ -282,9 +282,9 @@
     <string name="confirm_discard_draft_message_title">Forkast melding?</string>
     <string name="copy_action">Kopier</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adressa er kopiert til utklippstavla</item>
-            <item quantity="other">Adressene er kopierte til utklippstavla</item>
-        </plurals>
+        <item quantity="one">Adressa er kopiert til utklippstavla</item>
+        <item quantity="other">Adressene er kopierte til utklippstavla</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Emnetekst kopiert til utklippstavla</string>
     <string name="crypto_msg_cancelled">Meldinga er kryptert, men avkrypteringa vart avbroten.</string>
     <string name="crypto_msg_encrypted_error">men det var ein dektrypteringsfeil</string>
@@ -358,9 +358,9 @@
     <string name="dialog_confirm_delete_confirm_button">Ja</string>
     <string name="dialog_confirm_delete_message">Vil du sletta denne meldinga?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Vil du verkeleg sletta denne meldinga?</item>
-            <item quantity="other">Vil du verkeleg sletta <xliff:g id="message_count">%1$d</xliff:g> meldingar?</item>
-        </plurals>
+        <item quantity="one">Vil du verkeleg sletta denne meldinga?</item>
+        <item quantity="other">Vil du verkeleg sletta <xliff:g id="message_count">%1$d</xliff:g> meldingar?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Stadfest sletting</string>
     <string name="dialog_confirm_empty_spam_message">Ønskjer du å tømme søppelpostmappa?</string>
     <string name="dialog_confirm_empty_spam_title">Stadfest tømming av søppelpost</string>
@@ -373,9 +373,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nei</string>
     <string name="dialog_confirm_spam_confirm_button">Ja</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Er du sikker på du vil flytte denne meldinga til søppelpost?</item>
-            <item quantity="other">Er du sikker på du vil flytte <xliff:g id="message_count">%1$d</xliff:g> meldingar til søppelpost?</item>
-        </plurals>
+        <item quantity="one">Er du sikker på du vil flytte denne meldinga til søppelpost?</item>
+        <item quantity="other">Er du sikker på du vil flytte <xliff:g id="message_count">%1$d</xliff:g> meldingar til søppelpost?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Bekreft flytting til søppelpost</string>
     <string name="dialog_openkeychain_info_install">Installer</string>
     <string name="dialog_openkeychain_info_text">Appen OpenKeychain er påkravd for å aktivere stønad for ende-til-ende kryptering.</string>
@@ -652,9 +652,9 @@
     <string name="message_to_label">Til:</string>
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Vedlegg (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Vedlegg (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Vedlegg (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Vedlegg (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Lagre alt</string>
     <string name="message_view_attachments_title">Vedlegg</string>
     <string name="message_view_attachments_view">Vis</string>
@@ -667,7 +667,6 @@
     <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
     <string name="message_view_download_remainder">Last ned heile meldinga</string>
     <string name="message_view_empty">Vel ei melding til venstre</string>
-    <string name="message_view_me_text">meg</string>
     <string name="message_view_menu_action_export_eml">Eksporter som EML</string>
     <string name="message_view_no_viewer">Finn ikkje framvisar for <xliff:g id="mimetype">%s</xliff:g>.</string>
     <string name="message_view_recipients_format">til <xliff:g id="recipients">%s</xliff:g></string>
@@ -677,6 +676,7 @@
     <string name="message_view_status_attachment_not_saved">Klarte ikkje å lagre vedlegget.</string>
     <string name="message_view_theme_action_dark">Byt til mørk drakt</string>
     <string name="message_view_theme_action_light">Byt til ljos drakt</string>
+    <string name="message_view_to_me_text">meg</string>
     <string name="messagelist_preferences">Meldingslister</string>
     <string name="messageview_crypto_error_title">Feil under dekryptering av e-post</string>
     <string name="messageview_decrypt_cancelled">Dekrypteringa vart kansellert.</string>
@@ -720,9 +720,9 @@
     <string name="notification_channel_push_description">Vist under venting på nye meldingar</string>
     <string name="notification_channel_push_title">Synkroniser (dytting)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ny melding</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nye meldingar</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ny melding</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nye meldingar</item>
+    </plurals>
     <string name="notification_notify_error_text">Ein feil har oppstått under oppretting av systemnotifikasjon for ny melding. Grunnen er sannsynlegvis på grunn av manglande notifikasjonslyd.\n\nKlikk for å opne notifikasjonsinnstillingar.</string>
     <string name="notification_notify_error_title">Varslingsfeil</string>
     <string name="notifications_title">Varsel</string>
@@ -791,13 +791,13 @@
     <string name="refile_action">Omorganiser…</string>
     <string name="refresh_folders_action">Last mappelista om att</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Hentar %d resultat</item>
-            <item quantity="other">Hentar %d resultatar</item>
-        </plurals>
+        <item quantity="one">Hentar %d resultat</item>
+        <item quantity="other">Hentar %d resultatar</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Hentar %1$d av %2$d resultat</item>
-            <item quantity="other">Hentar %1$d av %2$d resultat</item>
-        </plurals>
+        <item quantity="one">Hentar %1$d av %2$d resultat</item>
+        <item quantity="other">Hentar %1$d av %2$d resultat</item>
+    </plurals>
     <string name="remote_search_error">Fjernsøket vart mislukka</string>
     <string name="remote_search_sending_query">Sender førespurnad til tenaren</string>
     <string name="remote_search_unavailable_no_network">Ei nettverkstilkopling trengst for å søkja på tenaren.</string>
@@ -894,8 +894,8 @@
     <string name="toast_openpgp_provider_error">Feil under tilkopling til %s!</string>
     <string name="trash_folder_label">Papirkorg</string>
     <string name="unflag_action">Fjern stjerne</string>
-    <string name="unknown_recipient">&<;Ukjend mottakar&>;</string>
-    <string name="unknown_sender">&<;Ukjend avsendar&>;</string>
+    <string name="unknown_recipient">&lt;Ukjend mottakar&gt;</string>
+    <string name="unknown_sender">&lt;Ukjend avsendar&gt;</string>
     <string name="unsigned_text_divider_label">Usignert tekst</string>
     <string name="unsubscribe_action">Avslutt abonnement</string>
     <string name="upgrade_database_format">Oppgraderer databasen til kontoen \"<xliff:g id="account">%s</xliff:g>\"</string>

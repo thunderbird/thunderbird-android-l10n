@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">Enginn aðgangur valinn</string>
     <string name="unread_widget_account_summary">Aðgangurinn sem birting fjöldi ólesinna skilaboða tilheyrir</string>
     <string name="unread_widget_account_title">Aðgangur</string>

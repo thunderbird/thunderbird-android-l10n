@@ -35,11 +35,11 @@
     <string name="notification_channel_push_description">Zobrazeno po dobu čekání na nové zprávy</string>
     <string name="notification_channel_push_title">Synchronizovat (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d nová zpráva</item>
-            <item quantity="few">%1$d nové zprávy</item>
-            <item quantity="many">%1$d nových zpráv</item>
-            <item quantity="other">%1$d nových zpráv</item>
-        </plurals>
+        <item quantity="one">%1$d nová zpráva</item>
+        <item quantity="few">%1$d nové zprávy</item>
+        <item quantity="many">%1$d nových zpráv</item>
+        <item quantity="other">%1$d nových zpráv</item>
+    </plurals>
     <string name="notification_notify_error_text">Vyskytla se chyba při vytvoření systémového oznámení pro novou zprávu. Důvodem je nejspíš chybějící zvuk oznámení. \n \nKlepnutím otevřete nastavení oznámení.</string>
     <string name="notification_notify_error_title">Chyba oznámení</string>
     <string name="push_info_disable_push_action">Vypnout Push</string>

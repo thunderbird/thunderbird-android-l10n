@@ -35,11 +35,11 @@
     <string name="notification_channel_push_description">Отображается во время ожидания новых сообщений</string>
     <string name="notification_channel_push_title">Синхронизация (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d новое сообщение</item>
-            <item quantity="few">%1$d новых сообщения</item>
-            <item quantity="many">%1$d новых сообщений</item>
-            <item quantity="other">%1$d новых сообщений</item>
-        </plurals>
+        <item quantity="one">%1$d новое сообщение</item>
+        <item quantity="few">%1$d новых сообщения</item>
+        <item quantity="many">%1$d новых сообщений</item>
+        <item quantity="other">%1$d новых сообщений</item>
+    </plurals>
     <string name="notification_notify_error_text">При попытке создать системное уведомление для нового сообщения произошла ошибка. Причина, скорее всего, заключается в отсутствующем звуке уведомления. \n \nНажмите, чтобы открыть настройки уведомлений.</string>
     <string name="notification_notify_error_title">Ошибка уведомления</string>
     <string name="push_info_disable_push_action">Отключить push</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">نادیده گرفتن خطا</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">پرداخت ناموفق.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">مشارکت در حال حاضر در دسترس نیست.</string>
@@ -7,6 +7,8 @@
     <string name="funding_googleplay_contribution_error_unknown">خطای ناشناخته</string>
     <string name="funding_googleplay_contribution_footer_manage_button">پرداخت ماهانه را تغییر دهید</string>
     <string name="funding_googleplay_contribution_footer_payment_button">ادامه به پرداخت</string>
+    <string name="funding_googleplay_contribution_footer_payment_cancel_button">انصراف</string>
+    <string name="funding_googleplay_contribution_footer_payment_processing_button">در حال پردازش خرید…</string>
     <string name="funding_googleplay_contribution_footer_payment_unavailable_button">پرداخت در حال حاضر در دسترس نیست</string>
     <string name="funding_googleplay_contribution_footer_show_contribution_list_button">یک کمک موثر دیگر داشته باشید</string>
     <string name="funding_googleplay_contribution_header_description">تاندربرد کاملاً به دست مشارکت‌های مالی کاربرانمان مثل شما، تأمین می‌شود. ما هرگز تبلیغات نشان نداده یا داده‌هایتان را نمی‌فروشیم. لطفاً در حمایت از آن کمک کنید. ما نمی توانیم این کار را بدون شما انجام دهیم!</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">A aplicación non atopou un navegador co que poder acceder á túa conta.</string>
     <string name="account_oauth_error_canceled">Autorización cancelada</string>
     <string name="account_oauth_error_failed">Fallou a autorización co erro que segue: <xliff:g id="error">%s</xliff:g></string>

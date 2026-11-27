@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="actionbar_selected"><xliff:g id="selection_count">%d</xliff:g> roghnaithe</string>
     <string name="sort_by">Sórtáil de réir…</string>
     <string name="sort_by_arrival_asc">Teacht (an ceann is sine ar dtús)</string>

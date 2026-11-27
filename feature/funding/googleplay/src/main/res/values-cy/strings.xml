@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">Dileu\'r gwall</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">Methodd y prynu.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">Dyw cyfraniadau ddim ar gael ar hyn o bryd.</string>

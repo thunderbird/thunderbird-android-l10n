@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Heiti notandaaðgangs má ekki vera tómt.</string>
     <string name="account_setup_options_account_name_label">Heiti notandaaðgangs</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Á %d klukkustundar fresti</item>
-            <item quantity="other">Á %d klukkustunda fresti</item>
-        </plurals>
+        <item quantity="one">Á %d klukkustundar fresti</item>
+        <item quantity="other">Á %d klukkustunda fresti</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Á mínútu fresti</item>
-            <item quantity="other">Á %d mínútna fresti</item>
-        </plurals>
+        <item quantity="one">Á mínútu fresti</item>
+        <item quantity="other">Á %d mínútna fresti</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Aldrei</string>
     <string name="account_setup_options_email_display_count_label">Fjöldi skilaboða sem á að birta</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d skilaboð</item>
-            <item quantity="other">%d skilaboð</item>
-        </plurals>
+        <item quantity="one">%d skilaboð</item>
+        <item quantity="other">%d skilaboð</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Undirritun tölvupósts má ekki vera tóm.</string>
     <string name="account_setup_options_email_signature_label">Undirskrift tölvupósts</string>
     <string name="account_setup_options_section_display_options">Valkostir birtingar</string>

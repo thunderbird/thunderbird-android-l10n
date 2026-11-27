@@ -27,22 +27,22 @@
     <string name="account_setup_options_account_name_error_blank">El nom del compte no pot estar en blanc.</string>
     <string name="account_setup_options_account_name_label">Nom del compte</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Cada hora</item>
-            <item quantity="many">Cada %d hores</item>
-            <item quantity="other">Cada %d hores</item>
-        </plurals>
+        <item quantity="one">Cada hora</item>
+        <item quantity="many">Cada %d hores</item>
+        <item quantity="other">Cada %d hores</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Cada minut</item>
-            <item quantity="many">Cada %d minuts</item>
-            <item quantity="other">Cada %d minuts</item>
-        </plurals>
+        <item quantity="one">Cada minut</item>
+        <item quantity="many">Cada %d minuts</item>
+        <item quantity="other">Cada %d minuts</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Mai</string>
     <string name="account_setup_options_email_display_count_label">Nombre de missatges a mostrar</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 missatge</item>
-            <item quantity="many">%d missatges</item>
-            <item quantity="other">%d missatges</item>
-        </plurals>
+        <item quantity="one">1 missatge</item>
+        <item quantity="many">%d missatges</item>
+        <item quantity="other">%d missatges</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">El nom de la signatura de correu electrònic no pot estar en blanc.</string>
     <string name="account_setup_options_email_signature_label">Signatura de correu electrònic</string>
     <string name="account_setup_options_section_display_options">Opcions de visualització</string>

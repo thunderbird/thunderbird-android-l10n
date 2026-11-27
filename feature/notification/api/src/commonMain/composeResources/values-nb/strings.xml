@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Vist i påvente av nye meldinger</string>
     <string name="notification_channel_push_title">Synkroniser (dytting)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d ny melding</item>
-            <item quantity="other">%1$d nye meldinger</item>
-        </plurals>
+        <item quantity="one">%1$d ny melding</item>
+        <item quantity="other">%1$d nye meldinger</item>
+    </plurals>
     <string name="notification_notify_error_text">Kunne ikke opprette systemmerknad for ny melding. Dette skyldes antagelig merknadslyden. \n \nTrykk for å åpne merknadsinnstillinger.</string>
     <string name="notification_notify_error_title">Merknadsfeil</string>
     <string name="push_info_disable_push_action">Skru av dytting</string>

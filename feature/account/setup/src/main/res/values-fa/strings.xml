@@ -27,24 +27,24 @@
     <string name="account_setup_options_account_name_error_blank">نام حساب نمی تواند خالی باشد.</string>
     <string name="account_setup_options_account_name_label">نام حساب</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">هر %d ساعت</item>
-            <item quantity="other">هر %d ساعت</item>
-        </plurals>
+        <item quantity="one">هر %d ساعت</item>
+        <item quantity="other">هر %d ساعت</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">هر %d دقیقه</item>
-            <item quantity="other">هر %d دقیقه</item>
-        </plurals>
+        <item quantity="one">هر %d دقیقه</item>
+        <item quantity="other">هر %d دقیقه</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">هرگز</string>
     <string name="account_setup_options_email_display_count_label">تعداد پیام‌ها برای نمایش</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d پیام</item>
-            <item quantity="other">%d پیام</item>
-        </plurals>
+        <item quantity="one">%d پیام</item>
+        <item quantity="other">%d پیام</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">نام امضای رایانامه نمی‌تواند خالی باشد.</string>
     <string name="account_setup_options_email_signature_label">امضای رایانامه</string>
     <string name="account_setup_options_section_display_options">گزینه‌های نمایش</string>
     <string name="account_setup_options_section_sync_options">گزینه‌های همگام‌سازی</string>
-    <string name="account_setup_options_show_notifications_label">نمایش اعلان‌ها</string>
+    <string name="account_setup_options_show_notifications_label">نمایش آگاهی‌ها</string>
     <string name="account_setup_options_your_name_error_required">نام شما ضروری است.</string>
     <string name="account_setup_options_your_name_label">نام شما</string>
     <string name="account_setup_special_folders_archive_folder_label">پوشه بایگانی</string>

@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Bistaratuta mezu berrien zain geundenean</string>
     <string name="notification_channel_push_title">Sinkronizatu (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">Mezu berri %1$d</item>
-            <item quantity="other">%1$d mezu berri</item>
-        </plurals>
+        <item quantity="one">Mezu berri %1$d</item>
+        <item quantity="other">%1$d mezu berri</item>
+    </plurals>
     <string name="notification_notify_error_text">Errore bat gertatu da mezu berri baterako sistemaren jakinarazpena sortzen saiatzean. Arrazoia ziurrenik jakinarazpen-soinu bat falta da.\n\nSakatu jakinarazpen-ezarpenak irekitzeko.</string>
     <string name="notification_notify_error_title">Jakinarazpen errorea</string>
     <string name="push_info_disable_push_action">Desgaitu \\"Push\\"a</string>

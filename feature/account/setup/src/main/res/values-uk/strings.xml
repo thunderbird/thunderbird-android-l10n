@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Ім\'я облікового запису не може бути порожнім.</string>
     <string name="account_setup_options_account_name_label">Ім\'я облікового запису</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Кожну %d годину</item>
-            <item quantity="few">Кожні %d години</item>
-            <item quantity="many">Кожні %d годин</item>
-            <item quantity="other">Кожні %d годин</item>
-        </plurals>
+        <item quantity="one">Кожну %d годину</item>
+        <item quantity="few">Кожні %d години</item>
+        <item quantity="many">Кожні %d годин</item>
+        <item quantity="other">Кожні %d годин</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Кожну %d хвилину</item>
-            <item quantity="few">Кожні %d хвилини</item>
-            <item quantity="many">Кожних %d хвилин</item>
-            <item quantity="other">Кожних %d хвилин</item>
-        </plurals>
+        <item quantity="one">Кожну %d хвилину</item>
+        <item quantity="few">Кожні %d хвилини</item>
+        <item quantity="many">Кожних %d хвилин</item>
+        <item quantity="other">Кожних %d хвилин</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Ніколи</string>
     <string name="account_setup_options_email_display_count_label">Кількість повідомлень для відображення</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d повідомлення</item>
-            <item quantity="few">%d повідомлення</item>
-            <item quantity="many">%d повідомлень</item>
-            <item quantity="other">%d повідомлень</item>
-        </plurals>
+        <item quantity="one">%d повідомлення</item>
+        <item quantity="few">%d повідомлення</item>
+        <item quantity="many">%d повідомлень</item>
+        <item quantity="other">%d повідомлень</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Назва підпису електронного листа не може бути порожньою.</string>
     <string name="account_setup_options_email_signature_label">Підпис електронного листа</string>
     <string name="account_setup_options_section_display_options">Варіанти Відображення</string>

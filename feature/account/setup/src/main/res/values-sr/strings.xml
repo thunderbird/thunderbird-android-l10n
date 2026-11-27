@@ -27,22 +27,22 @@
     <string name="account_setup_options_account_name_error_blank">Име налога не може бити празно.</string>
     <string name="account_setup_options_account_name_label">Име налога</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Сваког сата</item>
-            <item quantity="few">Свака %d сата</item>
-            <item quantity="other">Сваких %d сати</item>
-        </plurals>
+        <item quantity="one">Сваког сата</item>
+        <item quantity="few">Свака %d сата</item>
+        <item quantity="other">Сваких %d сати</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Сваког минута</item>
-            <item quantity="few">Свака %d минута</item>
-            <item quantity="other">Сваких %d минута</item>
-        </plurals>
+        <item quantity="one">Сваког минута</item>
+        <item quantity="few">Свака %d минута</item>
+        <item quantity="other">Сваких %d минута</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Никада</string>
     <string name="account_setup_options_email_display_count_label">Број порука за приказ</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 порука</item>
-            <item quantity="few">%d поруке</item>
-            <item quantity="other">%d порука</item>
-        </plurals>
+        <item quantity="one">1 порука</item>
+        <item quantity="few">%d поруке</item>
+        <item quantity="other">%d порука</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Име потписа имејла не може бити празно.</string>
     <string name="account_setup_options_email_signature_label">Потпис имејла</string>
     <string name="account_setup_options_section_display_options">Прикажи опције</string>

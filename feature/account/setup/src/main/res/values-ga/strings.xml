@@ -27,28 +27,28 @@
     <string name="account_setup_options_account_name_error_blank">Ní féidir ainm an chuntais a bheith bán.</string>
     <string name="account_setup_options_account_name_label">Ainm an chuntais</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Gach uair an chloig</item>
-            <item quantity="two">Gach %d uair an chloig</item>
-            <item quantity="few">Gach %d uair an chloig</item>
-            <item quantity="many">Gach %d uair an chloig</item>
-            <item quantity="other">Gach %d uair an chloig</item>
-        </plurals>
+        <item quantity="one">Gach uair an chloig</item>
+        <item quantity="two">Gach %d uair an chloig</item>
+        <item quantity="few">Gach %d uair an chloig</item>
+        <item quantity="many">Gach %d uair an chloig</item>
+        <item quantity="other">Gach %d uair an chloig</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Gach nóiméad</item>
-            <item quantity="two">Gach %d nóiméad</item>
-            <item quantity="few">Gach %d nóiméad</item>
-            <item quantity="many">Gach %d nóiméad</item>
-            <item quantity="other">Gach %d nóiméad</item>
-        </plurals>
+        <item quantity="one">Gach nóiméad</item>
+        <item quantity="two">Gach %d nóiméad</item>
+        <item quantity="few">Gach %d nóiméad</item>
+        <item quantity="many">Gach %d nóiméad</item>
+        <item quantity="other">Gach %d nóiméad</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Riamh</string>
     <string name="account_setup_options_email_display_count_label">Líon na dteachtaireachtaí le taispeáint</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 teachtaireacht</item>
-            <item quantity="two">%d teachtaireacht</item>
-            <item quantity="few">%d teachtaireacht</item>
-            <item quantity="many">%d teachtaireacht</item>
-            <item quantity="other">%d teachtaireacht</item>
-        </plurals>
+        <item quantity="one">1 teachtaireacht</item>
+        <item quantity="two">%d teachtaireacht</item>
+        <item quantity="few">%d teachtaireacht</item>
+        <item quantity="many">%d teachtaireacht</item>
+        <item quantity="other">%d teachtaireacht</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Ní féidir ainm sínithe ríomhphoist a bheith bán.</string>
     <string name="account_setup_options_email_signature_label">Síniú ríomhphoist</string>
     <string name="account_setup_options_section_display_options">Roghanna taispeána</string>

@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">U nome di u contu ùn pò micca esse viotu.</string>
     <string name="account_setup_options_account_name_label">Nome di u contu</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Ogni ora</item>
-            <item quantity="other">Tutte e %d ore</item>
-        </plurals>
+        <item quantity="one">Ogni ora</item>
+        <item quantity="other">Tutte e %d ore</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Ogni minutu</item>
-            <item quantity="other">Tutti i %d minuti</item>
-        </plurals>
+        <item quantity="one">Ogni minutu</item>
+        <item quantity="other">Tutti i %d minuti</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Mai</string>
     <string name="account_setup_options_email_display_count_label">Numeru di messaghji à affissà</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 messaghju</item>
-            <item quantity="other">%d messaghji</item>
-        </plurals>
+        <item quantity="one">1 messaghju</item>
+        <item quantity="other">%d messaghji</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">A segnatura di u messaghju elettronicu ùn pò micca esse viota.</string>
     <string name="account_setup_options_email_signature_label">Segnatura di u messaghju elettronicu</string>
     <string name="account_setup_options_section_display_options">Ozzioni d’affissera</string>

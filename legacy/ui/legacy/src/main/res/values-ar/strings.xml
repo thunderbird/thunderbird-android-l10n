@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">عن</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,13 +283,13 @@
     <string name="confirm_discard_draft_message_title">هل تريد إلغاء الرسالة ؟</string>
     <string name="copy_action">انسخ</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="zero">ﻻ عناوين نُسخت إلى الحافظة</item>
-            <item quantity="one">عنوان واحد نُسخ إلى الحافظة</item>
-            <item quantity="two">عنوانين نُسِخا إلى الحافظة</item>
-            <item quantity="few">عناوين نُسخت إلى الحافظة</item>
-            <item quantity="many">عنوانًا نُسخوا إلى الحافظة</item>
-            <item quantity="other">عنوان نُسخوا إلى الحافظة</item>
-        </plurals>
+        <item quantity="zero">ﻻ عناوين نُسخت إلى الحافظة</item>
+        <item quantity="one">عنوان واحد نُسخ إلى الحافظة</item>
+        <item quantity="two">عنوانين نُسِخا إلى الحافظة</item>
+        <item quantity="few">عناوين نُسخت إلى الحافظة</item>
+        <item quantity="many">عنوانًا نُسخوا إلى الحافظة</item>
+        <item quantity="other">عنوان نُسخوا إلى الحافظة</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">تم نسخ نص الموضوع إلى الحافظة</string>
     <string name="crypto_msg_cancelled">تم تشفير الرسالة ، ولكن تم إلغاء فك التشفير.</string>
     <string name="crypto_msg_encrypted_error">ولكن كان هناك خطأ في فك التشفير</string>
@@ -628,8 +628,6 @@
     <string name="message_view_cc_label">نسخة كربونية :</string>
     <string name="message_view_download_remainder">تنزيل الرسالة كاملةً</string>
     <string name="message_view_empty">الرجاء تحديد رسالة على اليسار</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">انا</string>
     <string name="message_view_no_viewer">يتعذر إيجاب تطبيق لعرض <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <string name="message_view_recipients_format">إلي <xliff:g id="recipients">%s</xliff:g></string>
@@ -639,6 +637,8 @@
     <string name="message_view_status_attachment_not_saved">غير قادر على حفظ المُرفَق.</string>
     <string name="message_view_theme_action_dark">تحوّل إلى النسق الداكن</string>
     <string name="message_view_theme_action_light">تحوّل إلى النسق الفاتح</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">انا</string>
     <string name="messagelist_preferences">قوائم الرسالة</string>
     <string name="messageview_crypto_error_title">خطأ أنثاء عملية فك تعمية الرسالة الإلكترونية</string>
     <string name="messageview_decrypt_cancelled">تم إلغاء فك التعمية.</string>
@@ -678,13 +678,13 @@
     <string name="notification_channel_push_description">يتم عرضها أثناء انتظار رسائل جديدة</string>
     <string name="notification_channel_push_title">تزامن (إرسال)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> ﻻ رسائل</item>
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> رسالة واحدة</item>
-            <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> رسالتان</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> رسائل</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> رسالة</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> رسالة جديدة</item>
-        </plurals>
+        <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> ﻻ رسائل</item>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> رسالة واحدة</item>
+        <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> رسالتان</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> رسائل</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> رسالة</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> رسالة جديدة</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">حدث خطأ أثناء محاولة إنشاء إشعار نظام برسالة جديدة. السبب على الأرجح هو فقدان صوت الإشعار. \n\nانقر لفتح إعدادات الإشعارات.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -843,8 +843,8 @@
     <string name="toast_openpgp_provider_error">خطأ في الاتصال بـ %s!</string>
     <string name="trash_folder_label">مجلد المهملات</string>
     <string name="unflag_action">احذف النجمة</string>
-    <string name="unknown_recipient">&<;مستلم غير معروف&>;</string>
-    <string name="unknown_sender">&<;مرسل غير معروف&>;</string>
+    <string name="unknown_recipient">&lt;مستلم غير معروف&gt;</string>
+    <string name="unknown_sender">&lt;مرسل غير معروف&gt;</string>
     <string name="unsigned_text_divider_label">نص غير مُوَقَّع</string>
     <string name="unsubscribe_action">إلغاء الاشتراك</string>
     <string name="upgrade_database_format">تحديث قاعدة بيانات الحساب \"<xliff:g id="account">%s</xliff:g>\"</string>

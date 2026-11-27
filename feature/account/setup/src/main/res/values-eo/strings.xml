@@ -24,19 +24,19 @@
     <string name="account_setup_options_account_name_error_blank">La nomo konton ne povas esti malplena.</string>
     <string name="account_setup_options_account_name_label">Nomo de konto</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Ĉiuhore</item>
-            <item quantity="other">Po unu fojo en %d horoj</item>
-        </plurals>
+        <item quantity="one">Ĉiuhore</item>
+        <item quantity="other">Po unu fojo en %d horoj</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Ĉiuminute</item>
-            <item quantity="other">Po unu fojo en %d minutoj</item>
-        </plurals>
+        <item quantity="one">Ĉiuminute</item>
+        <item quantity="other">Po unu fojo en %d minutoj</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Neniam</string>
     <string name="account_setup_options_email_display_count_label">Nombro da vidigendaj mesaĝoj</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 mesaĝo</item>
-            <item quantity="other">%d mesaĝoj</item>
-        </plurals>
+        <item quantity="one">1 mesaĝo</item>
+        <item quantity="other">%d mesaĝoj</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">La retletera subskribo ne povas esti malplena.</string>
     <string name="account_setup_options_email_signature_label">Retletera subskribo</string>
     <string name="account_setup_options_section_display_options">Vidigan opcioj</string>

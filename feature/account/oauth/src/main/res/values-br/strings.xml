@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">An arload-mañ n\'hall ket kavout ar merdeer evit aotren an haeziñ war ho kont.</string>
     <string name="account_oauth_error_canceled">Nullet eo bet an aotre</string>
     <string name="account_oauth_error_failed">C\'hwitet war an aotre gant ar fazi da-heul: <xliff:g id="error">%s</xliff:g></string>

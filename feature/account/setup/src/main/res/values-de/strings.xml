@@ -14,7 +14,7 @@
     <string name="account_setup_auto_discovery_result_header_title_configuration_not_found">Konfiguration nicht gefunden</string>
     <string name="account_setup_auto_discovery_status_header_title_configuration_found">Konfiguration gefunden</string>
     <string name="account_setup_auto_discovery_validation_error_email_address_invalid">Diese Adresse wird nicht als gültige E-Mail-Adresse erkannt.</string>
-    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Diese E-Mail-Adresse ist nicht erlaubt.</string>
+    <string name="account_setup_auto_discovery_validation_error_email_address_not_allowed">Diese E-Mail-Adresse ist nicht zulässig.</string>
     <string name="account_setup_auto_discovery_validation_error_email_address_not_supported">Diese E-Mail-Adresse wird nicht unterstützt.</string>
     <string name="account_setup_auto_discovery_validation_error_email_address_required">E-Mail-Adresse ist erforderlich.</string>
     <string name="account_setup_auto_discovery_validation_error_password_required">Passwort ist erforderlich.</string>
@@ -27,23 +27,23 @@
     <string name="account_setup_options_account_name_error_blank">Kontoname darf nicht leer sein.</string>
     <string name="account_setup_options_account_name_label">Kontoname</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Jede Stunde</item>
-            <item quantity="other">Alle %d Stunden</item>
-        </plurals>
+        <item quantity="one">Jede Stunde</item>
+        <item quantity="other">Alle %d Stunden</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Jede Minute</item>
-            <item quantity="other">Alle %d Minuten</item>
-        </plurals>
+        <item quantity="one">Jede Minute</item>
+        <item quantity="other">Alle %d Minuten</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Niemals</string>
     <string name="account_setup_options_email_display_count_label">Anzahl der anzuzeigenden Nachrichten</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 Nachricht</item>
-            <item quantity="other">%d Nachrichten</item>
-        </plurals>
+        <item quantity="one">1 Nachricht</item>
+        <item quantity="other">%d Nachrichten</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Name der E-Mail-Signatur darf nicht leer sein.</string>
     <string name="account_setup_options_email_signature_label">E-Mail-Signatur</string>
     <string name="account_setup_options_section_display_options">Anzeigeoptionen</string>
-    <string name="account_setup_options_section_sync_options">Synchronisierungsoptionen</string>
+    <string name="account_setup_options_section_sync_options">Synchronisationsoptionen</string>
     <string name="account_setup_options_show_notifications_label">Benachrichtigungen anzeigen</string>
     <string name="account_setup_options_your_name_error_required">Dein Name ist erforderlich.</string>
     <string name="account_setup_options_your_name_label">Dein Name</string>

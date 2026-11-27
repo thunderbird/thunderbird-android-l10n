@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Over</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -54,9 +54,9 @@
     <string name="account_settings_autodownload_message_size_any">elke grootte (geen limiet)</string>
     <string name="account_settings_autodownload_message_size_label">Berichten ophalen tot aan</string>
     <string name="account_settings_automatic_special_folder">Automatisch (%s)</string>
-    <string name="account_settings_composition">Bericht versturen</string>
-    <string name="account_settings_composition_label">Standaard samenstelling</string>
-    <string name="account_settings_composition_summary">Standaard instellen voor: Van, Bcc en handtekening</string>
+    <string name="account_settings_composition">E-mailbericht wordt verzonden</string>
+    <string name="account_settings_composition_label">Opstelstandaarden</string>
+    <string name="account_settings_composition_summary">Uw standaard Van, Bcc en ondertekening instellen</string>
     <string name="account_settings_composition_title">Opties berichtsamenstelling</string>
     <string name="account_settings_crypto">End-to-end-versleuteling</string>
     <string name="account_settings_crypto_app">OpenPGP-ondersteuning inschakelen</string>
@@ -75,12 +75,15 @@
     <string name="account_settings_crypto_summary_off">Geen OpenPGP-app ingesteld</string>
     <string name="account_settings_crypto_summary_on">Verbonden met %s</string>
     <string name="account_settings_default_quoted_text_shown_label">Bericht bij beantwoorden citeren</string>
-    <string name="account_settings_default_quoted_text_shown_summary">Originele bericht in het antwoord meenemen.</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Het originele bericht in uw antwoord opnemen.</string>
     <string name="account_settings_email_label">Uw e-mailadres</string>
+    <string name="account_settings_fetching_and_data_limits">Ophalen &amp; gegevenslimieten</string>
+    <string name="account_settings_folder_sync_and_push">Mapsynchronisatie &amp; push</string>
+    <string name="account_settings_folder_visibility">Mapzichtbaarheid</string>
     <string name="account_settings_folders">Mappen</string>
     <string name="account_settings_general_title">Algemene instellingen</string>
     <string name="account_settings_identities_label">Identiteiten beheren</string>
-    <string name="account_settings_identities_summary">Instellen alternatieve ‘Van’-adressen en handtekeningen</string>
+    <string name="account_settings_identities_summary">Alternatieve ‘Van’-adressen en ondertekeningen instellen</string>
     <string name="account_settings_ignore_chat_messages_label">Chatberichten negeren</string>
     <string name="account_settings_ignore_chat_messages_summary">Geen meldingen tonen voor berichten die onderdeel zijn van een e-mail-chat</string>
     <string name="account_settings_incoming_label">Inkomende server</string>
@@ -105,9 +108,9 @@
     <string name="account_settings_message_age_any">ongeacht de tijd (geen limiet)</string>
     <string name="account_settings_message_age_label">Berichten synchroniseren vanuit</string>
     <string name="account_settings_message_format_auto">Automatisch</string>
-    <string name="account_settings_message_format_html">HTML (afbeeldingen en opmaak blijven behouden)</string>
-    <string name="account_settings_message_format_label">Berichtopmaak</string>
-    <string name="account_settings_message_format_text">Platte tekst (afbeeldingen en opmaak worden verwijderd)</string>
+    <string name="account_settings_message_format_html">HTML (afbeeldingen en opmaak behouden)</string>
+    <string name="account_settings_message_format_label">Berichtformaat</string>
+    <string name="account_settings_message_format_text">Platte tekst (afbeeldingen en opmaak verwijderen)</string>
     <string name="account_settings_message_read_receipt_label">Leesbevestiging</string>
     <string name="account_settings_message_read_receipt_summary">Altijd een leesbevestiging vragen</string>
     <string name="account_settings_name_label">Uw naam</string>
@@ -134,12 +137,12 @@
     <string name="account_settings_open_notification_settings_miscellaneous_summary">Fout- en statusmeldingen instellen</string>
     <string name="account_settings_openpgp_missing">OpenPGP-app niet aanwezig – is de app verwijderd?</string>
     <string name="account_settings_outgoing_label">Uitgaande server</string>
-    <string name="account_settings_outgoing_summary">Uitgaande (SMTP)-server instellen</string>
+    <string name="account_settings_outgoing_summary">Uitgaande server (SMTP) configureren</string>
     <string name="account_settings_push_advanced_title">Geavanceerd</string>
-    <string name="account_settings_quote_prefix_label">Citaatvoorvoegsel</string>
-    <string name="account_settings_quote_style_header">Kop (zoals Outlook)</string>
-    <string name="account_settings_quote_style_label">Citaatstijl bij antwoorden</string>
-    <string name="account_settings_quote_style_prefix">Prefix (zoals Gmail, Pine)</string>
+    <string name="account_settings_quote_prefix_label">Voorvoegsel geciteerde tekst</string>
+    <string name="account_settings_quote_style_header">Kopregel (zoals Outlook)</string>
+    <string name="account_settings_quote_style_label">Citeerstijl bij beantwoorden</string>
+    <string name="account_settings_quote_style_prefix">Voorvoegsel (zoals Gmail)</string>
     <string name="account_settings_reading_mail">E-mailberichten lezen</string>
     <string name="account_settings_remote_search_num_label">Zoeklimiet server</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -150,8 +153,8 @@
     <string name="account_settings_remote_search_num_results_entries_50">50</string>
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Alle</string>
-    <string name="account_settings_reply_after_quote_label">Antwoorden na citaat</string>
-    <string name="account_settings_reply_after_quote_summary">Wanneer u antwoordt op een bericht, zal het originele bericht boven uw antwoord staan.</string>
+    <string name="account_settings_reply_after_quote_label">Reactie onder geciteerde tekst</string>
+    <string name="account_settings_reply_after_quote_summary">Het originele bericht zal boven uw reactie verschijnen.</string>
     <string name="account_settings_ringtone">Beltoon nieuw e-mailbericht</string>
     <string name="account_settings_search">Zoeken</string>
     <string name="account_settings_show_pictures_always">Van iedereen</string>
@@ -161,16 +164,23 @@
     <string name="account_settings_signature__location_after_quoted_text">Na geciteerd bericht</string>
     <string name="account_settings_signature__location_before_quoted_text">Voor geciteerd bericht</string>
     <string name="account_settings_signature__location_label">Positie handtekening</string>
+    <string name="account_settings_signature_clear_label">Ondertekening wissen</string>
+    <string name="account_settings_signature_html_label">HTML-ondertekening</string>
+    <string name="account_settings_signature_is_html_label">Ondertekening als HTML opslaan</string>
+    <string name="account_settings_signature_is_html_summary">Interpreteer de ondertekening als HTML. Scripts en gebeurtenis-handlers zullen ter beveiliging worden verwijderd.</string>
     <string name="account_settings_signature_label">Handtekening</string>
+    <string name="account_settings_signature_preview">Voorbeeld ondertekening</string>
+    <string name="account_settings_signature_preview_empty">Het voorbeeld van uw ondertekening zal hier verschijnen</string>
     <string name="account_settings_signature_use_label">Handtekening gebruiken</string>
-    <string name="account_settings_strip_signature_label">Handtekening bij reactie verwijderen</string>
-    <string name="account_settings_strip_signature_summary">Handtekeningen worden bij geciteerde berichten verwijderd</string>
+    <string name="account_settings_strip_signature_label">Bij beantwoorden ondertekeningen verwijderen</string>
+    <string name="account_settings_strip_signature_summary">Ondertekeningen zullen uit geciteerde berichten worden verwijderd</string>
     <string name="account_settings_sync">Berichten ophalen</string>
+    <string name="account_settings_sync_and_notifications">Synchronisatie &amp; meldingen</string>
     <string name="account_settings_sync_remote_deletetions_label">Verwijderingen op server synchroniseren</string>
     <string name="account_settings_sync_remote_deletetions_summary">Berichten verwijderen wanneer verwijderd op de server</string>
     <string name="account_settings_title_fmt">Accountinstellingen</string>
     <string name="account_settings_upload_sent_messages_label">Verzonden berichten uploaden</string>
-    <string name="account_settings_upload_sent_messages_summary">Berichten na verzenden naar de map ‘Verzonden’ uploaden</string>
+    <string name="account_settings_upload_sent_messages_summary">Berichten na verzenden naar map Verzonden uploaden</string>
     <string name="account_settings_vibrate_enable">Trillen</string>
     <string name="account_settings_vibrate_pattern_1">Patroon 1</string>
     <string name="account_settings_vibrate_pattern_2">Patroon 2</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 mappen</string>
     <string name="account_setup_push_limit_500">500 mappen</string>
     <string name="account_setup_push_limit_label">Max. aantal pushmappen om te controleren</string>
+    <string name="account_setup_visibility_and_syncing">Mapsynchronisatie &amp; push</string>
     <string name="accountlist_preferences">Accountlijst</string>
     <string name="accounts_title">Accounts</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -260,6 +271,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Account verwijderen…</string>
     <string name="batch_select_all">Alle selecteren</string>
+    <string name="camera_capture_lost">Schermafdruk is verloren gegaan, omdat de app was gesloten. Probeer het nog eens.</string>
     <string name="camera_permission_denied">Cameratoegang geweigerd! Niet mogelijk om een foto te maken</string>
     <string name="changelog_latest_label_text">LAATSTE</string>
     <string name="changelog_loading_error">Het laden van het wijzigingslogboek is mislukt.</string>
@@ -296,9 +308,9 @@
     <string name="confirm_discard_draft_message_title">Bericht afbreken?</string>
     <string name="copy_action">Kopiëren</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adres naar klembord gekopieerd</item>
-            <item quantity="other">Adressen naar klembord gekopieerd</item>
-        </plurals>
+        <item quantity="one">Adres naar klembord gekopieerd</item>
+        <item quantity="other">Adressen naar klembord gekopieerd</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Het onderwerp is naar het klembord gekopieerd</string>
     <string name="crypto_msg_cancelled">Bericht is versleuteld, maar ontsleuteling is geannuleerd.</string>
     <string name="crypto_msg_encrypted_error">maar er is een ontsleutelfout opgetreden</string>
@@ -372,9 +384,9 @@
     <string name="dialog_confirm_delete_confirm_button">Ja</string>
     <string name="dialog_confirm_delete_message">Wilt u dit bericht verwijderen?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Wilt u dit bericht echt verwijderen?</item>
-            <item quantity="other">Wilt u echt <xliff:g id="message_count">%1$d</xliff:g> berichten verwijderen?</item>
-        </plurals>
+        <item quantity="one">Wilt u dit bericht echt verwijderen?</item>
+        <item quantity="other">Wilt u echt <xliff:g id="message_count">%1$d</xliff:g> berichten verwijderen?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Verwijderen bevestigen</string>
     <string name="dialog_confirm_empty_spam_message">Wilt u de map Ongewenst legen?</string>
     <string name="dialog_confirm_empty_spam_title">Ongewenst legen bevestigen</string>
@@ -387,9 +399,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nee</string>
     <string name="dialog_confirm_spam_confirm_button">Ja</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Wilt u dit bericht echt naar de map Ongewenst verplaatsen?</item>
-            <item quantity="other">Wilt u echt <xliff:g id="message_count">%1$d</xliff:g> berichten naar de map Ongewenst verplaatsen?</item>
-        </plurals>
+        <item quantity="one">Wilt u dit bericht echt naar de map Ongewenst verplaatsen?</item>
+        <item quantity="other">Wilt u echt <xliff:g id="message_count">%1$d</xliff:g> berichten naar de map Ongewenst verplaatsen?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Verplaatsing naar map Ongewenst bevestigen</string>
     <string name="dialog_openkeychain_info_install">Installeren</string>
     <string name="dialog_openkeychain_info_text">De app OpenKeychain is vereist om ondersteuning voor end-to-end-encryptie mogelijk te maken.</string>
@@ -426,6 +438,7 @@
     <string name="error_crypto_provider_connect">Kan geen verbinding maken met de cryptoprovider. Controleer de instellingen of klik op het crypto-pictogram om nogmaals te proberen!</string>
     <string name="error_crypto_provider_incompatible">Cryptoprovider gebruikt incompatibele versie. Controleer de instellingen!</string>
     <string name="error_crypto_provider_ui_required">Initialisatie van end-to-end-versleuteling is mislukt, controleer uw instellingen</string>
+    <string name="error_no_contact_provider">Er is geen contacten-app gevonden. Installeer een contacten-app om dit adres toe te voegen.</string>
     <string name="error_sign_only_no_encryption">Versleuteling niet mogelijk in sign-onlymodus!</string>
     <string name="expand_content_description">Uitvouwen</string>
     <string name="expand_folders">Mappen uitvouwen</string>
@@ -622,6 +635,7 @@
     <string name="message_compose_content_hint">Berichttekst</string>
     <string name="message_compose_description_delete_quoted_text">Citaattekst verwijderen</string>
     <string name="message_compose_description_edit_quoted_text">Citaattekst bewerken</string>
+    <string name="message_compose_encrypting_message">Bericht versleutelen…</string>
     <string name="message_compose_error_no_recipients">Voeg minimaal een ontvanger toe.</string>
     <string name="message_compose_quote_header_cc">Cc:</string>
     <string name="message_compose_quote_header_from">Van:</string>
@@ -667,9 +681,9 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Bijlage (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bijlagen (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Bijlage (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bijlagen (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Alles opslaan</string>
     <string name="message_view_attachments_title">Bijlagen</string>
     <string name="message_view_attachments_view">Bekijken</string>
@@ -678,8 +692,7 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Complete bericht downloaden</string>
     <string name="message_view_empty">Selecteer een bericht aan de linkerkant</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mij</string>
+    <string name="message_view_from_me_text">ik</string>
     <string name="message_view_menu_action_export_eml">Exporteren als EML</string>
     <string name="message_view_no_viewer">Niet in staat viewer te vinden voor <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -691,6 +704,8 @@
     <string name="message_view_status_attachment_not_saved">Kan bijlage niet opslaan.</string>
     <string name="message_view_theme_action_dark">Naar donker thema wisselen</string>
     <string name="message_view_theme_action_light">Naar licht thema wisselen</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mij</string>
     <string name="messagelist_preferences">Berichtenlijsten</string>
     <string name="messageview_crypto_error_title">Fout tijdens ontsleutelen e-mailbericht</string>
     <string name="messageview_decrypt_cancelled">Ontsleuteling is gestopt.</string>
@@ -740,9 +755,9 @@
     <string name="notification_channel_push_description">Wordt in afwachting van nieuwe berichten getoond</string>
     <string name="notification_channel_push_title">Synchroniseren (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nieuw bericht</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nieuwe berichten</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nieuw bericht</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nieuwe berichten</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Er is een fout opgetreden tijdens het maken van een systeemmelding voor een nieuw bericht. De reden is waarschijnlijk een ontbrekend meldingsgeluid.\n\nTik om meldingsinstellingen te openen.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -818,14 +833,15 @@
     <string name="recipient_to">Aan</string>
     <string name="refile_action">Opnieuw opslaan…</string>
     <string name="refresh_folders_action">Maplijst verversen</string>
+    <string name="remote_feature_flag_preferences">Externe functievlag</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">%d resultaat ophalen</item>
-            <item quantity="other">%d resultaten ophalen</item>
-        </plurals>
+        <item quantity="one">%d resultaat ophalen</item>
+        <item quantity="other">%d resultaten ophalen</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%1$d van %2$d bericht ophalen</item>
-            <item quantity="other">%1$d van %2$d berichten ophalen</item>
-        </plurals>
+        <item quantity="one">%1$d van %2$d bericht ophalen</item>
+        <item quantity="other">%1$d van %2$d berichten ophalen</item>
+    </plurals>
     <string name="remote_search_error">Zoekopdracht mislukt</string>
     <string name="remote_search_sending_query">Zoekopdracht naar server sturen</string>
     <string name="remote_search_unavailable_no_network">Er is een netwerkverbinding nodig voor zoeken op de server.</string>
@@ -920,8 +936,8 @@
     <string name="toast_openpgp_provider_error">Fout bij het verbinden met %s!</string>
     <string name="trash_folder_label">Prullenbak</string>
     <string name="unflag_action">Ster verwijderen</string>
-    <string name="unknown_recipient">&<;Onbekende ontvanger&>;</string>
-    <string name="unknown_sender">&<;Onbekende afzender&>;</string>
+    <string name="unknown_recipient">&lt;Onbekende ontvanger&gt;</string>
+    <string name="unknown_sender">&lt;Onbekende afzender&gt;</string>
     <string name="unsigned_text_divider_label">niet ondertekende tekst</string>
     <string name="unsubscribe_action">Uitschrijven</string>
     <string name="upgrade_database_format">Databases van account ‘<xliff:g id="account">%s</xliff:g>’ bijwerken</string>

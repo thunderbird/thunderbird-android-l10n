@@ -34,7 +34,7 @@
     <string name="message_view_additional_recipient_prefix">+</string>
     <string name="message_view_bcc_label">বিসিসি:</string>
     <string name="message_view_cc_label">সিসি:</string>
-    <string name="message_view_me_text">আমি</string>
+    <string name="message_view_to_me_text">আমি</string>
     <string name="move_action">সরাও</string>
     <string name="refile_action">রিফাইল…</string>
     <string name="reply_action">উত্তর</string>

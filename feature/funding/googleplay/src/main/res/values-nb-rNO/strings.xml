@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">Avvis feilmeldingen</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">Kjøp mislyktes.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">Bidrag er ikke tilgjengelige for øyeblikket.</string>
@@ -7,6 +7,8 @@
     <string name="funding_googleplay_contribution_error_unknown">Ukjent feil</string>
     <string name="funding_googleplay_contribution_footer_manage_button">Endre månedlig betaling</string>
     <string name="funding_googleplay_contribution_footer_payment_button">Fortsett til betaling</string>
+    <string name="funding_googleplay_contribution_footer_payment_cancel_button">Avbryt</string>
+    <string name="funding_googleplay_contribution_footer_payment_processing_button">Bearbeider kjøp…</string>
     <string name="funding_googleplay_contribution_footer_payment_unavailable_button">Betaling for øyeblikket utilgjengelig</string>
     <string name="funding_googleplay_contribution_footer_show_contribution_list_button">Gi enda ett virkningsfullt bidrag</string>
     <string name="funding_googleplay_contribution_header_description">Thunderbird er fullstendig finansiert av bidrag fra brukere som deg. Vi kommer aldri til å vise deg reklame eller selge dataene dine. Hvis du liker å bruke Thunderbird, støtt oss. Vi kan ikke gjøre dette uten deg!</string>

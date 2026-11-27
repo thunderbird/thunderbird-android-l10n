@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_settings_account_delete_dlg_instructions_fmt">Das Konto \"<xliff:g id="account">%1$s</xliff:g>\" wird aus <xliff:g id="app_name">%2$s</xliff:g> entfernt.</string>
     <string name="account_settings_account_delete_dlg_title">Konto entfernen</string>
+    <string name="account_settings_always_show_cc_bcc_label">CC/BCC immer anzeigen</string>
     <string name="account_settings_autodownload_message_size_1">1 KiB</string>
     <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
     <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
@@ -21,11 +22,21 @@
     <string name="account_settings_avatar_error_unsupported_format">Es werden nur JPEG-Bilder unterstützt.</string>
     <string name="account_settings_avatar_hint_jpeg_only">Nur JPEG</string>
     <string name="account_settings_cancel_action">Abbrechen</string>
+    <string name="account_settings_composition">E-Mails senden</string>
+    <string name="account_settings_composition_label">Verfassen von Nachrichten</string>
+    <string name="account_settings_composition_summary">Standard-Absender, BCC-Empfänger und Signatur konfigurieren</string>
+    <string name="account_settings_default_quoted_text_shown_label">Nachricht beim Antworten zitieren</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Ursprüngliche Nachricht als Zitat in die Antwort einfügen.</string>
     <string name="account_settings_expunge_policy_immediately">Sofort nach Verschieben oder Kopieren</string>
     <string name="account_settings_expunge_policy_label">Gelöschte Nachrichten auf dem Server löschen</string>
     <string name="account_settings_expunge_policy_manual">Nur manuell</string>
     <string name="account_settings_expunge_policy_on_poll">Bei jedem Abrufen</string>
+    <string name="account_settings_fetching_and_data_limits">Abruf- und Datenlimits</string>
+    <string name="account_settings_fetching_and_data_limits_description">Häufigkeit und Synchronisationslimits</string>
     <string name="account_settings_fetching_mail">E-Mails abrufen</string>
+    <string name="account_settings_folder_sync_and_push">Ordnersynchronisation und Push</string>
+    <string name="account_settings_folder_sync_and_push_description">Polling/Push pro Ordner aktivieren</string>
+    <string name="account_settings_folder_visibility_and_sort_description">Standardordner und Ordnersichtbarkeit ändern</string>
     <string name="account_settings_general_avatar_description">Wähle aus, wie dein Kontoprofilbild angezeigt werden soll.</string>
     <string name="account_settings_general_avatar_icon_description">Wähle eines der Symbole als dein Profilbild aus.</string>
     <string name="account_settings_general_avatar_icon_title">Symbol des Profils</string>
@@ -47,6 +58,8 @@
     <string name="account_settings_general_name_error_too_long">Name ist zu lang</string>
     <string name="account_settings_general_name_title">Kontoname</string>
     <string name="account_settings_general_title">Allgemeine Einstellungen</string>
+    <string name="account_settings_identities_label">Identitäten verwalten</string>
+    <string name="account_settings_identities_summary">Alternative Absenderadressen und Signaturen konfigurieren</string>
     <string name="account_settings_idle_refresh_period_12min">Alle 12 Minuten</string>
     <string name="account_settings_idle_refresh_period_24min">Alle 24 Minuten</string>
     <string name="account_settings_idle_refresh_period_2min">Alle 2 Minuten</string>
@@ -61,9 +74,10 @@
     <string name="account_settings_incoming_delete_policy_markread_label">Auf Server als gelesen markieren</string>
     <string name="account_settings_incoming_delete_policy_never_label">Nie auf Server löschen</string>
     <string name="account_settings_incoming_label">Posteingangsserver</string>
-    <string name="account_settings_incoming_summary">Einstellungen des Posteingangsservers bearbeiten</string>
+    <string name="account_settings_incoming_summary">Posteingangsserver konfigurieren</string>
     <string name="account_settings_mail_check_frequency_label">Häufigkeit der Ordnerabfrage</string>
     <string name="account_settings_mail_display_count_label">Lokale Ordnergröße</string>
+    <string name="account_settings_manage_folders">Ordner verwalten</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">Beim Löschen als gelesen markieren</string>
     <string name="account_settings_mark_message_as_read_on_delete_summary">Nachricht als gelesen markieren, sobald sie gelöscht wird</string>
     <string name="account_settings_mark_message_as_read_on_view_label">Beim Öffnen als gelesen markieren</string>
@@ -81,6 +95,15 @@
     <string name="account_settings_message_age_7">der letzten Woche</string>
     <string name="account_settings_message_age_any">jederzeit (unbegrenzt)</string>
     <string name="account_settings_message_age_label">Nachrichten synchronisieren von</string>
+    <string name="account_settings_message_format_auto">Automatisch</string>
+    <string name="account_settings_message_format_html">HTML (Bilder und Formatierungen bleiben erhalten)</string>
+    <string name="account_settings_message_format_label">Formatierung</string>
+    <string name="account_settings_message_format_text">Nur-Text (Bilder und Formatierungen entfernen)</string>
+    <string name="account_settings_message_read_receipt_label">Empfangsbestätigung</string>
+    <string name="account_settings_message_read_receipt_summary">Immer eine Empfangsbestätigung anfordern</string>
+    <string name="account_settings_notificaction_and_sync">Benachrichtigung und Synchronisation</string>
+    <string name="account_settings_notification_style">Benachrichtigungsart</string>
+    <string name="account_settings_notification_style_description">Ton, Vibration und Badges anpassen</string>
     <string name="account_settings_okay_action">OK</string>
     <string name="account_settings_options_mail_check_frequency_12hour">Alle 12 Stunden</string>
     <string name="account_settings_options_mail_check_frequency_15min">Alle 15 Minuten</string>
@@ -102,6 +125,8 @@
     <string name="account_settings_options_mail_display_count_500">500 Nachrichten</string>
     <string name="account_settings_options_mail_display_count_5000">5000 Nachrichten</string>
     <string name="account_settings_options_mail_display_count_all">Alle Nachrichten</string>
+    <string name="account_settings_outgoing_label">Postausgangsserver</string>
+    <string name="account_settings_outgoing_summary">Postausgangsserver (SMTP) konfigurieren</string>
     <string name="account_settings_push_advanced_title">Erweitert</string>
     <string name="account_settings_push_limit_10">10 Ordner</string>
     <string name="account_settings_push_limit_100">100 Ordner</string>
@@ -112,6 +137,10 @@
     <string name="account_settings_push_limit_50">50 Ordner</string>
     <string name="account_settings_push_limit_500">500 Ordner</string>
     <string name="account_settings_push_limit_label">Maximale Push-Ordneranzahl</string>
+    <string name="account_settings_quote_prefix_label">Zitat-Präfix</string>
+    <string name="account_settings_quote_style_header">Erweitert (wie in Outlook)</string>
+    <string name="account_settings_quote_style_label">Antwortkopf</string>
+    <string name="account_settings_quote_style_prefix">Normal (wie in Gmail)</string>
     <string name="account_settings_reading_mail">E-Mails lesen</string>
     <string name="account_settings_remote_search_num_label">Server-Suchlimit</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -123,11 +152,17 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Alle</string>
     <string name="account_settings_remove_account_action">Konto entfernen</string>
+    <string name="account_settings_reply_after_quote_label">Antwort nach Zitat</string>
+    <string name="account_settings_reply_after_quote_summary">Die ursprüngliche Nachricht wird vor der Antwort angezeigt.</string>
     <string name="account_settings_search_action">Suchen</string>
     <string name="account_settings_show_pictures_always">Von jedem</string>
     <string name="account_settings_show_pictures_label">Bilder immer anzeigen</string>
     <string name="account_settings_show_pictures_never">Nein</string>
     <string name="account_settings_show_pictures_only_from_contacts">Nur von Kontakten</string>
+    <string name="account_settings_strip_signature_label">Signatur aus Zitat entfernen</string>
+    <string name="account_settings_strip_signature_summary">In Antworten werden Signaturen aus zitierten Nachrichten entfernt</string>
     <string name="account_settings_sync_remote_deletetions_label">Löschungen vom Server übernehmen</string>
     <string name="account_settings_sync_remote_deletetions_summary">Nachrichten löschen, wenn sie vom Server gelöscht wurden</string>
+    <string name="account_settings_upload_sent_messages_label">Gesendete Nachrichten hochladen</string>
+    <string name="account_settings_upload_sent_messages_summary">Nachrichten nach dem Senden in den Ordner „Gesendet“ hochladen</string>
 </resources>

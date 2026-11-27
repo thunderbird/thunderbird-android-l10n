@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="actionbar_selected"><xliff:g id="selection_count">%d</xliff:g> seleccionados</string>
     <string name="sort_by">Ordenar por…</string>
     <string name="sort_by_arrival_asc">Llegada (más antiguos primero)</string>
@@ -8,6 +8,8 @@
     <string name="sort_by_attach_desc">Sin ficheros adjuntos primero</string>
     <string name="sort_by_date_asc">Fecha (más antiguos primero)</string>
     <string name="sort_by_date_desc">Fecha (más recientes primero)</string>
+    <string name="sort_by_flag_asc">El primero marcado con un asterisco</string>
+    <string name="sort_by_flag_desc">Primero los que no tienen asterisco</string>
     <string name="sort_by_sender_asc">Remitente (A-Z)</string>
     <string name="sort_by_sender_desc">Remitente (Z-A)</string>
     <string name="sort_by_subject_asc">Asunto (A-Z)</string>

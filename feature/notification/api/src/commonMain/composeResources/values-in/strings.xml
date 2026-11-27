@@ -35,8 +35,8 @@
     <string name="notification_channel_push_description">Ditampilkan saat menunggu pesan baru</string>
     <string name="notification_channel_push_title">Sinkronisasi (Dorongan)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other">%1$d pesan baru</item>
-        </plurals>
+        <item quantity="other">%1$d pesan baru</item>
+    </plurals>
     <string name="notification_notify_error_text">Kesalahan telah terjadi saat mencoba untuk membuat notifikasi sistem untuk pesan baru. Kemungkinan besar penyebabnya yaitu hilangnya suara notifikasi. \n \nKetuk untuk membuka pengaturan notifikasi.</string>
     <string name="notification_notify_error_title">Kesalahan notifikasi</string>
     <string name="push_info_disable_push_action">Nonaktifkan Dorongan</string>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">மேலும்</string>
     <string name="about_app_authors_k9">கே -9 நாய் நடப்பவர்கள்</string>
     <string name="about_app_authors_thunderbird">தண்டர்பேர்ட் மொபைல் குழு</string>
     <string name="about_libraries">நூலகங்கள்</string>
     <string name="about_project_title">திறந்த மூல திட்டம்</string>
-    <string name="about_title">&<;Xliff: g ஐடி = \"app_name\"&>;%s &<;/xliff: g&>;</string>
+    <string name="about_title">&lt;Xliff: g ஐடி = \"app_name\"&gt;%s &lt;/xliff: g&gt;</string>
     <string name="about_website_title">வலைத்தளம்</string>
     <string name="ac_transfer_button_send">அமைவு செய்தியை அனுப்பவும்</string>
     <string name="ac_transfer_error_send">செய்தியை அனுப்பும்போது பிழை ஏற்பட்டது. உங்கள் பிணைய இணைப்பு மற்றும் வெளிச்செல்லும் சேவையக உள்ளமைவை சரிபார்க்கவும்.</string>
@@ -280,9 +280,9 @@
     <string name="confirm_discard_draft_message_title">செய்தியை நிராகரிக்கவா?</string>
     <string name="copy_action">நகல்</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">முகவரி இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்டது</item>
-            <item quantity="other">இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்ட முகவரிகள்</item>
-        </plurals>
+        <item quantity="one">முகவரி இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்டது</item>
+        <item quantity="other">இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்ட முகவரிகள்</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">பொருள் உரை இடைநிலைப்பலகைக்கு நகலெடுக்கப்பட்டது</string>
     <string name="crypto_msg_cancelled">செய்தி குறியாக்கம் செய்யப்பட்டுள்ளது, ஆனால் மறைகுறியாக்கம் ரத்து செய்யப்பட்டது.</string>
     <string name="crypto_msg_encrypted_error">ஆனால் ஒரு மறைகுறியாக்க பிழை இருந்தது</string>
@@ -355,9 +355,9 @@
     <string name="dialog_confirm_delete_confirm_button">ஆம்</string>
     <string name="dialog_confirm_delete_message">இந்த செய்தியை நீக்க விரும்புகிறீர்களா?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">இந்த செய்தியை நீக்க விரும்புகிறீர்களா?</item>
-            <item quantity="other">&<;Xliff: g ஐடி = \"message_count\"&>;%1$d &<;/xliff: g&>; செய்திகளை நீக்க விரும்புகிறீர்களா?</item>
-        </plurals>
+        <item quantity="one">இந்த செய்தியை நீக்க விரும்புகிறீர்களா?</item>
+        <item quantity="other">&lt;Xliff: g ஐடி = \"message_count\"&gt;%1$d &lt;/xliff: g&gt; செய்திகளை நீக்க விரும்புகிறீர்களா?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">நீக்குதலை உறுதிப்படுத்தவும்</string>
     <string name="dialog_confirm_empty_spam_message">ச்பேம் கோப்புறையை வெறுமை செய்ய விரும்புகிறீர்களா?</string>
     <string name="dialog_confirm_empty_spam_title">வெற்று ச்பேம் உறுதிப்படுத்தவும்</string>
@@ -370,9 +370,9 @@
     <string name="dialog_confirm_spam_cancel_button">இல்லை</string>
     <string name="dialog_confirm_spam_confirm_button">ஆம்</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">இந்த செய்தியை ச்பேம் கோப்புறையில் நகர்த்த விரும்புகிறீர்களா?</item>
-            <item quantity="other">நீங்கள் உண்மையில் &<;xliff: g ஐடி = \"message_count\"&>;%1$d &<;/xliff: g&>; ச்பேம் கோப்புறையில் செய்திகளை நகர்த்த விரும்புகிறீர்களா?</item>
-        </plurals>
+        <item quantity="one">இந்த செய்தியை ச்பேம் கோப்புறையில் நகர்த்த விரும்புகிறீர்களா?</item>
+        <item quantity="other">நீங்கள் உண்மையில் &lt;xliff: g ஐடி = \"message_count\"&gt;%1$d &lt;/xliff: g&gt; ச்பேம் கோப்புறையில் செய்திகளை நகர்த்த விரும்புகிறீர்களா?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">ச்பேம் கோப்புறைக்கு நகர்வதை உறுதிப்படுத்தவும்</string>
     <string name="dialog_openkeychain_info_install">நிறுவவும்</string>
     <string name="dialog_openkeychain_info_text">இறுதி முதல் இறுதி குறியாக்கத்திற்கான ஆதரவை செயல்படுத்த OpenKeyChain பயன்பாடு தேவை.</string>
@@ -565,7 +565,7 @@
     <string name="integrated_inbox_title">ஒருங்கிணைந்த இன்பாக்ச்</string>
     <string name="interaction_preferences">உள்வினை</string>
     <string name="license">உரிமம்</string>
-    <string name="load_more_messages_fmt">&<;Xliff வரை ஏற்றவும்: g ஐடி = \"messages_to_load\"&>;%d &<;/xliff: g&>; மேலும்</string>
+    <string name="load_more_messages_fmt">&lt;Xliff வரை ஏற்றவும்: g ஐடி = \"messages_to_load\"&gt;%d &lt;/xliff: g&gt; மேலும்</string>
     <string name="loading_attachment">இணைப்பை ஏற்றுகிறது…</string>
     <string name="locked_attach_unencrypted">இந்த பகுதி குறியாக்கம் செய்யப்படவில்லை, பாதுகாப்பற்றதாக இருக்கலாம்.</string>
     <string name="locked_attach_unlock">திறக்க</string>
@@ -654,14 +654,14 @@
     <!-- Text of the button that is displayed below the message header when the message body references one or more remote images -->
     <string name="message_view_download_remainder">முழு செய்தியும் பெறு</string>
     <string name="message_view_empty">வலப்புறம் ஒர் அஞ்சல் தெரிவு செய்</string>
-    <string name="message_view_me_text">நான்</string>
-    <string name="message_view_no_viewer">&<;Xliff: g ஐடி = \"mimetype\"&>;%s &<;/xliff: g&>; க்கான பார்வையாளரைக் கண்டுபிடிக்க முடியவில்லை.</string>
+    <string name="message_view_no_viewer">&lt;Xliff: g ஐடி = \"mimetype\"&gt;%s &lt;/xliff: g&gt; க்கான பார்வையாளரைக் கண்டுபிடிக்க முடியவில்லை.</string>
     <string name="message_view_recipients_format">பெறுநர் <xliff:g id="recipients">%s</xliff:g></string>
     <string name="message_view_sender_label">%1$s வழியாக</string>
     <string name="message_view_show_remote_images_action">தொலைதூர படங்களைக் காட்டு</string>
     <string name="message_view_status_attachment_not_saved">இணைப்பைச் சேமிக்க முடியவில்லை.</string>
     <string name="message_view_theme_action_dark">இருண்ட வர்ண வார்ப்புரு</string>
     <string name="message_view_theme_action_light">வெளிர் வர்ண வார்ப்புரு</string>
+    <string name="message_view_to_me_text">நான்</string>
     <string name="messagelist_preferences">செய்தி பட்டியல்கள்</string>
     <string name="messageview_crypto_error_title">மின்னஞ்சலை மறைகுறியாக்குவதில் பிழை</string>
     <string name="messageview_decrypt_cancelled">மறைகுறியாக்கம் ரத்து செய்யப்பட்டது.</string>
@@ -684,7 +684,7 @@
     <string name="notification_action_reply">பதில்</string>
     <string name="notification_action_spam">பயனற்றது</string>
     <string name="notification_additional_messages">+ <xliff:g id="additional_messages">%1$d</xliff:g> <xliff:g id="account">%2$s</xliff:g> இல் மேலும்</string>
-    <string name="notification_authentication_error_text">&<;Xliff: g ஐடி = \"கணக்கு\"&>;%s &<;/xliff: g&>; க்கு ஏற்பு தோல்வியடைந்தது. உங்கள் சேவையக அமைப்புகளைப் புதுப்பிக்கவும்.</string>
+    <string name="notification_authentication_error_text">&lt;Xliff: g ஐடி = \"கணக்கு\"&gt;%s &lt;/xliff: g&gt; க்கு ஏற்பு தோல்வியடைந்தது. உங்கள் சேவையக அமைப்புகளைப் புதுப்பிக்கவும்.</string>
     <string name="notification_authentication_error_title">ஏற்பு தோல்வியடைந்தது</string>
     <string name="notification_bg_send_ticker">அஞ்சல் அனுப்புதல்: <xliff:g id="account">%s</xliff:g></string>
     <string name="notification_bg_send_title">அஞ்சல் அனுப்புதல்</string>
@@ -703,9 +703,9 @@
     <string name="notification_channel_push_description">புதிய செய்திகளுக்காக காத்திருக்கும்போது காட்டப்படும்</string>
     <string name="notification_channel_push_title">ஒத்திசைக்கவும் (புச்)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> புதிய செய்தி</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> புதிய செய்திகள்</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> புதிய செய்தி</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> புதிய செய்திகள்</item>
+    </plurals>
     <string name="notification_notify_error_text">புதிய செய்திக்கு கணினி அறிவிப்பை உருவாக்க முயற்சிக்கும்போது பிழை ஏற்பட்டது. காரணம் பெரும்பாலும் காணாமல் போன அறிவிப்பு ஒலி.\n\n அறிவிப்பு அமைப்புகளைத் திறக்க தட்டவும்.</string>
     <string name="notification_notify_error_title">அறிவிப்பு பிழை</string>
     <string name="notifications_title">அறிவிப்புகள்</string>
@@ -776,13 +776,13 @@
     <string name="refile_action">மீண்டும் நிரப்பு…</string>
     <string name="refresh_folders_action">கோப்புறை புதுப்பி</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">%d முடிவைப் பெறுதல்</item>
-            <item quantity="other">%d முடிவுகளைப் பெறுதல்</item>
-        </plurals>
+        <item quantity="one">%d முடிவைப் பெறுதல்</item>
+        <item quantity="other">%d முடிவுகளைப் பெறுதல்</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%2$d முடிவின் %1$d ஐப் பெறுகிறது</item>
-            <item quantity="other">%2$d முடிவுகளின் %1$d ஐப் பெறுகிறது</item>
-        </plurals>
+        <item quantity="one">%2$d முடிவின் %1$d ஐப் பெறுகிறது</item>
+        <item quantity="other">%2$d முடிவுகளின் %1$d ஐப் பெறுகிறது</item>
+    </plurals>
     <string name="remote_search_error">தொலைநிலை தேடல் தோல்வியடைந்தது</string>
     <string name="remote_search_sending_query">சேவையகத்திற்கு வினவலை அனுப்புகிறது</string>
     <string name="remote_search_unavailable_no_network">சேவையக தேடலுக்கு பிணைய இணைப்பு தேவை.</string>
@@ -871,8 +871,8 @@
     <string name="toast_openpgp_provider_error">%s உடன் இணைக்கும் பிழை!</string>
     <string name="trash_folder_label">குப்பை கோப்புறை</string>
     <string name="unflag_action">நட்சத்திரம் கழி</string>
-    <string name="unknown_recipient">&<;அறியப்படாத பெறுநர்&>;</string>
-    <string name="unknown_sender">&<;அறியப்படாத அனுப்புநர்&>;</string>
+    <string name="unknown_recipient">&lt;அறியப்படாத பெறுநர்&gt;</string>
+    <string name="unknown_sender">&lt;அறியப்படாத அனுப்புநர்&gt;</string>
     <string name="unsigned_text_divider_label">கையொப்பமிடாத உரை</string>
     <string name="unsubscribe_action">குழுவிலகவும்</string>
     <string name="upgrade_database_format">கணக்கின் தரவுத்தளத்தை மேம்படுத்துதல்: <xliff:g id="account">%s</xliff:g></string>

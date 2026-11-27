@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">Ni izbranega računa</string>
     <string name="unread_widget_account_summary">Račun za katerega naj bo pokazano število neprebranih sporočil</string>
     <string name="unread_widget_account_title">Račun</string>

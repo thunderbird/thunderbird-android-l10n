@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_server_certificate_button_advanced">Uwch</string>
     <string name="account_server_certificate_button_back">Nôl (argymelliad)</string>
     <string name="account_server_certificate_button_continue">Derbyn y perygl a pharhau</string>

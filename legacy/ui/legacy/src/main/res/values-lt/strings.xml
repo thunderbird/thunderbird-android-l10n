@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Apie</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,11 +283,11 @@
     <string name="confirm_discard_draft_message_title">Nepaisyti laiško?</string>
     <string name="copy_action">Kopijuoti</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresas nukopijuotas į iškarpinę</item>
-            <item quantity="few">Adresai nukopijuoti į iškarpinę</item>
-            <item quantity="many">Adresų nukopijuota į iškarpinę</item>
-            <item quantity="other">Adresų nukopijuota į iškarpinę</item>
-        </plurals>
+        <item quantity="one">Adresas nukopijuotas į iškarpinę</item>
+        <item quantity="few">Adresai nukopijuoti į iškarpinę</item>
+        <item quantity="many">Adresų nukopijuota į iškarpinę</item>
+        <item quantity="other">Adresų nukopijuota į iškarpinę</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Nukopijuotas temos tekstas į iškarpinę</string>
     <string name="crypto_msg_cancelled">Laiškas užšifruotas, bet iššifravimas atšauktas.</string>
     <string name="crypto_msg_encrypted_error">tačiau įvyko iššifravimo klaida</string>
@@ -347,11 +347,11 @@
     <string name="dialog_confirm_delete_confirm_button">Taip</string>
     <string name="dialog_confirm_delete_message">Ar tikrai norite pašalinti laišką?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laišką?</item>
-            <item quantity="few">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškus?</item>
-            <item quantity="many">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškų?</item>
-            <item quantity="other">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškų?</item>
-        </plurals>
+        <item quantity="one">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laišką?</item>
+        <item quantity="few">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškus?</item>
+        <item quantity="many">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškų?</item>
+        <item quantity="other">Ar tikrai norite ištrinti <xliff:g id="message_count">%1$d</xliff:g> laiškų?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Patvirtinti šalinimą</string>
     <string name="dialog_confirm_empty_spam_message">Ar tikrai norite išvalyti brukalo aplanką?</string>
     <string name="dialog_confirm_empty_spam_title">Patvirtinkite brukalo aplanko išvalymą</string>
@@ -364,11 +364,11 @@
     <string name="dialog_confirm_spam_cancel_button">Ne</string>
     <string name="dialog_confirm_spam_confirm_button">Taip</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laišką į brukalo aplanką?</item>
-            <item quantity="few">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškus į brukalo aplanką?</item>
-            <item quantity="many">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškų į brukalo aplanką?</item>
-            <item quantity="other">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškų į brukalo aplanką?</item>
-        </plurals>
+        <item quantity="one">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laišką į brukalo aplanką?</item>
+        <item quantity="few">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškus į brukalo aplanką?</item>
+        <item quantity="many">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškų į brukalo aplanką?</item>
+        <item quantity="other">Ar tikrai norite perkelti <xliff:g id="message_count">%1$d</xliff:g> laiškų į brukalo aplanką?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Patvirtinti perkėlimą į brukalo aplanką</string>
     <string name="dialog_openkeychain_info_install">Įdiegti</string>
     <string name="dialog_openkeychain_info_text">Norint naudoti visapusišką šifravimą reikalinga programa \"OpenKeychain\".</string>
@@ -642,8 +642,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Parsiųsti visą laišką</string>
     <string name="message_view_empty">Pasirinkite kairėje esantį laišką</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">aš</string>
     <string name="message_view_menu_action_export_eml">Eksportuoti kaip EML</string>
     <string name="message_view_no_viewer">Nepavyko rasto <xliff:g id="mimetype">%s</xliff:g> peržiūros programos.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -654,6 +652,8 @@
     <string name="message_view_status_attachment_not_saved">Nepavyko išsaugoti priedo.</string>
     <string name="message_view_theme_action_dark">Perjungti į tamsią temą</string>
     <string name="message_view_theme_action_light">Perjungti į šviesią temą</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">aš</string>
     <string name="messagelist_preferences">Laiškų sąrašai</string>
     <string name="messageview_crypto_error_title">Klaida iššifruojant el. laišką</string>
     <string name="messageview_decrypt_cancelled">Iššifravimas buvo atšauktas.</string>
@@ -695,11 +695,11 @@
     <string name="notification_channel_push_description">Rodoma laukiant naujų laiškų</string>
     <string name="notification_channel_push_title">Sinchronizuoti (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> naujas laiškas</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nauji laiškai</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> naujų laiškų</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> naujų laiškų</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> naujas laiškas</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nauji laiškai</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> naujų laiškų</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> naujų laiškų</item>
+    </plurals>
     <string name="notification_notify_error_text">Bandant sukurti sistemos pranešimą apie naują laišką, įvyko klaida. Tikėtina priežastis – trūkstamas pranešimo garsas. \n \nBakstelėkite pranešimų nustatymams atverti.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_title">Pranešimo klaida</string>
@@ -770,17 +770,17 @@
     <string name="refile_action">Pertvarkyti…</string>
     <string name="refresh_folders_action">Atnaujinti aplankų sąrašus</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Gauname %d rezultatą</item>
-            <item quantity="few">Gauname %d rezultatus</item>
-            <item quantity="many">Gauname %d rezultatus</item>
-            <item quantity="other">Gauname %d rezultatus</item>
-        </plurals>
+        <item quantity="one">Gauname %d rezultatą</item>
+        <item quantity="few">Gauname %d rezultatus</item>
+        <item quantity="many">Gauname %d rezultatus</item>
+        <item quantity="other">Gauname %d rezultatus</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Gauname %1$d iš %2$d rezultato</item>
-            <item quantity="few">Gauname %1$d iš %2$d rezultatų</item>
-            <item quantity="many">Gauname %1$d iš %2$d rezultatų</item>
-            <item quantity="other">Gauname %1$d iš %2$d rezultatų</item>
-        </plurals>
+        <item quantity="one">Gauname %1$d iš %2$d rezultato</item>
+        <item quantity="few">Gauname %1$d iš %2$d rezultatų</item>
+        <item quantity="many">Gauname %1$d iš %2$d rezultatų</item>
+        <item quantity="other">Gauname %1$d iš %2$d rezultatų</item>
+    </plurals>
     <string name="remote_search_error">Nuotolinė paieška nepavyko</string>
     <string name="remote_search_sending_query">Užklausiamas serveris</string>
     <string name="remote_search_unavailable_no_network">Paieškai serveryje reikia interneto ryšio.</string>
@@ -873,8 +873,8 @@
     <string name="toast_openpgp_provider_error">Klaida jungiantis prie %s!</string>
     <string name="trash_folder_label">Šiukšlinė</string>
     <string name="unflag_action">Pašalinti žvaigždutę</string>
-    <string name="unknown_recipient">&<;Nežinomas gavėjas&>;</string>
-    <string name="unknown_sender">&<;Nežinomas siuntėjas&>;</string>
+    <string name="unknown_recipient">&lt;Nežinomas gavėjas&gt;</string>
+    <string name="unknown_sender">&lt;Nežinomas siuntėjas&gt;</string>
     <string name="unsigned_text_divider_label">Nepasirašytas tekstas</string>
     <string name="unsubscribe_action">Atsisakyti prenumeratos</string>
     <string name="upgrade_database_format">Atnaujinama \"<xliff:g id="account">%s</xliff:g>\" paskyros duomenų bazė</string>

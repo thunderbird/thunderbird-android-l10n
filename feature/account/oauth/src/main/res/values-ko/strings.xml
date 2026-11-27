@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">계정에 대한 액세스 권한을 부여하는 데 사용할 브라우저를 찾을 수 없습니다.</string>
     <string name="account_oauth_error_canceled">인증 취소됨</string>
     <string name="account_oauth_error_failed">다음 오류로 인증에 실패했습니다: <xliff:g id="error">%s</xliff:g></string>

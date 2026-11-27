@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">Baztertu errorea</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">Ezin izan da erosi.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">Une honetan ezin dira dohaintzak egin.</string>

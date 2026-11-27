@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Tietoja</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -279,9 +279,9 @@
     <string name="confirm_discard_draft_message_title">Hylkää viesti?</string>
     <string name="copy_action">Kopioi</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Osoite kopioitu leikepöydälle</item>
-            <item quantity="other">Osoitteet kopioitu leikepöydälle</item>
-        </plurals>
+        <item quantity="one">Osoite kopioitu leikepöydälle</item>
+        <item quantity="other">Osoitteet kopioitu leikepöydälle</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Aiheen teksti kopioitu leikepöydälle</string>
     <string name="crypto_msg_cancelled">Viesti on salattu, mutta viestin salauksen purkaminen peruttiin.</string>
     <string name="crypto_msg_encrypted_error">mutta salausta purkaessa tapahtui virhe</string>
@@ -338,9 +338,9 @@
     <string name="dialog_confirm_delete_confirm_button">Kyllä</string>
     <string name="dialog_confirm_delete_message">Haluatko poistaa tämän viestin?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Haluatko varmasti poistaa tämän viestin?</item>
-            <item quantity="other">Haluatko varmasti poistaa <xliff:g id="message_count">%1$d</xliff:g> viestiä?</item>
-        </plurals>
+        <item quantity="one">Haluatko varmasti poistaa tämän viestin?</item>
+        <item quantity="other">Haluatko varmasti poistaa <xliff:g id="message_count">%1$d</xliff:g> viestiä?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Vahvista poisto</string>
     <string name="dialog_confirm_empty_spam_message">Haluatko tyhjentää roskapostikansion?</string>
     <string name="dialog_confirm_empty_spam_title">Vahvista roskapostin tyhjentäminen</string>
@@ -353,9 +353,9 @@
     <string name="dialog_confirm_spam_cancel_button">Ei</string>
     <string name="dialog_confirm_spam_confirm_button">Kyllä</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Haluatko todella siirtää tämän viestin roskapostikansioon?</item>
-            <item quantity="other">Haluatko todella siirtää <xliff:g id="message_count">%1$d</xliff:g> viestiä roskapostikansioon?</item>
-        </plurals>
+        <item quantity="one">Haluatko todella siirtää tämän viestin roskapostikansioon?</item>
+        <item quantity="other">Haluatko todella siirtää <xliff:g id="message_count">%1$d</xliff:g> viestiä roskapostikansioon?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Vahvista roskapostikansioon siirtäminen</string>
     <string name="dialog_openkeychain_info_install">Asenna</string>
     <string name="dialog_openkeychain_info_text">OpenKeychain-sovellus vaaditaan päästä-päähän-salauksen tuen mahdollistamiseksi.</string>
@@ -625,8 +625,6 @@
     <string name="message_view_cc_label">Kopio:</string>
     <string name="message_view_download_remainder">Lataa koko viesti</string>
     <string name="message_view_empty">Valitse viesti vasemmalta</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">minä</string>
     <string name="message_view_no_viewer">Tiedostotyypille <xliff:g id="mimetype">%s</xliff:g> ei löydy katseluohjelmaa.</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <string name="message_view_recipients_format">vastaanottaja <xliff:g id="recipients">%s</xliff:g></string>
@@ -636,6 +634,8 @@
     <string name="message_view_status_attachment_not_saved">Liitteen tallentaminen epäonnistui.</string>
     <string name="message_view_theme_action_dark">Vaihda tummaan teemaan</string>
     <string name="message_view_theme_action_light">Vaihda vaaleaan teemaan</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">minä</string>
     <string name="messagelist_preferences">Viestilistat</string>
     <string name="messageview_crypto_error_title">Virhe sähköpostin salausta avatessa</string>
     <string name="messageview_decrypt_cancelled">Salauksen purkaminen peruttiin.</string>
@@ -675,9 +675,9 @@
     <string name="notification_channel_push_description">Näytetään kun odotetaan uusia viestejä</string>
     <string name="notification_channel_push_title">Synkronoi (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> uusi viesti</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> uutta viestiä</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> uusi viesti</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> uutta viestiä</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Uuteen viestiin liittyvää järjestelmäilmoitusta luotaessa tapahtui virhe. Syy on mitä luultavimmin puuttuva ilmoitusääni.\n\nNapauta avataksesi ilmoitusasetukset.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -748,13 +748,13 @@
     <string name="refile_action">Siirrä kansioon…</string>
     <string name="refresh_folders_action">Päivitä kansiot</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Noudetaan %d tulos</item>
-            <item quantity="other">Noudetaan %d tulosta</item>
-        </plurals>
+        <item quantity="one">Noudetaan %d tulos</item>
+        <item quantity="other">Noudetaan %d tulosta</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Noudetaan %1$d / %2$d tulos</item>
-            <item quantity="other">Noudetaan %1$d / %2$d tulosta</item>
-        </plurals>
+        <item quantity="one">Noudetaan %1$d / %2$d tulos</item>
+        <item quantity="other">Noudetaan %1$d / %2$d tulosta</item>
+    </plurals>
     <string name="remote_search_error">Etähaku epäonnistui</string>
     <string name="remote_search_sending_query">Lähetetään pyyntöä palvelimelle</string>
     <string name="remote_search_unavailable_no_network">Etähaku ei ole käytettävissä ilman verkkoyhteyttä.</string>
@@ -843,8 +843,8 @@
     <string name="toast_openpgp_provider_error">Virhe yhdistäessä kohteeseen %s!</string>
     <string name="trash_folder_label">Roskakori-kansio</string>
     <string name="unflag_action">Poista tähti</string>
-    <string name="unknown_recipient">&<;Tuntematon vastaanottaja&>;</string>
-    <string name="unknown_sender">&<;Tuntematon lähettäjä&>;</string>
+    <string name="unknown_recipient">&lt;Tuntematon vastaanottaja&gt;</string>
+    <string name="unknown_sender">&lt;Tuntematon lähettäjä&gt;</string>
     <string name="unsigned_text_divider_label">Allekirjoittamaton teksti</string>
     <string name="unsubscribe_action">Lopeta tilaus</string>
     <string name="upgrade_database_format">Päivitetään tilin \"<xliff:g id="account">%s</xliff:g>\" tietokantaa</string>

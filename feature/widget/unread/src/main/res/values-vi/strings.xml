@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">Không có tài khoản được chọn</string>
     <string name="unread_widget_account_summary">Tài khoản mà số chưa đọc nên hiển thị</string>
     <string name="unread_widget_account_title">Tài khoản</string>

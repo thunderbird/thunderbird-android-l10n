@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="funding_googleplay_contribution_error_dismiss_button">Отхвърлане на грешка</string>
     <string name="funding_googleplay_contribution_error_purchase_failed">Неуспешна покупка.</string>
     <string name="funding_googleplay_contribution_error_service_disconnected">Към момента даренията не са достъпни.</string>

@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">A fióknév nem lehet üres.</string>
     <string name="account_setup_options_account_name_label">Fióknév</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Óránként</item>
-            <item quantity="other">%d óránként</item>
-        </plurals>
+        <item quantity="one">Óránként</item>
+        <item quantity="other">%d óránként</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Percenként</item>
-            <item quantity="other">%d percenként</item>
-        </plurals>
+        <item quantity="one">Percenként</item>
+        <item quantity="other">%d percenként</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Soha</string>
     <string name="account_setup_options_email_display_count_label">Megjelenítendő üzenetek száma</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 üzenet</item>
-            <item quantity="other">%d üzenet</item>
-        </plurals>
+        <item quantity="one">1 üzenet</item>
+        <item quantity="other">%d üzenet</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Az e-mail-aláírásnév nem lehet üres.</string>
     <string name="account_setup_options_email_signature_label">E-mail-aláírás</string>
     <string name="account_setup_options_section_display_options">Megjelenítési beállítások</string>

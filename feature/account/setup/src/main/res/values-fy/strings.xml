@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Accountnamme mei net leech wêze.</string>
     <string name="account_setup_options_account_name_label">Accountnamme</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Elke oere</item>
-            <item quantity="other">Elke %d oeren</item>
-        </plurals>
+        <item quantity="one">Elke oere</item>
+        <item quantity="other">Elke %d oeren</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Elke minút</item>
-            <item quantity="other">Elke %d minuten</item>
-        </plurals>
+        <item quantity="one">Elke minút</item>
+        <item quantity="other">Elke %d minuten</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nea</string>
     <string name="account_setup_options_email_display_count_label">Oantal te toanen berjochten</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 berjocht</item>
-            <item quantity="other">%d berjochten</item>
-        </plurals>
+        <item quantity="one">1 berjocht</item>
+        <item quantity="other">%d berjochten</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-mailhantekeningsnamme mei net leech wêze.</string>
     <string name="account_setup_options_email_signature_label">E-mailhantekening</string>
     <string name="account_setup_options_section_display_options">Werjefteopsjes</string>

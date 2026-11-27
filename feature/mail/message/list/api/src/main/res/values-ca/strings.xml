@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="actionbar_selected"><xliff:g id="selection_count">%d</xliff:g> seleccionats</string>
     <string name="swipe_action_add_star">Afegeix un estel</string>
     <string name="swipe_action_archive">Arxiva</string>

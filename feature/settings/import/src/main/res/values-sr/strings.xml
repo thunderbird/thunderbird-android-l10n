@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_import_app_version_not_supported">Верзија апликације није подржана.</string>
     <string name="settings_import_authorization_and_password_required">Молимо, пријавите се и унесите лозинке</string>
     <string name="settings_import_authorization_required">Молимо, пријавите се</string>
@@ -19,10 +19,10 @@
     <string name="settings_import_outgoing_server_password_hint">Лозинка одлазног сервера</string>
     <string name="settings_import_partial_failure">Увоз неких подешавања неуспешан</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинку сервера.</item>
-            <item quantity="few">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинке сервера.</item>
-            <item quantity="other">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинке сервера.</item>
-        </plurals>
+        <item quantity="one">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинку сервера.</item>
+        <item quantity="few">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинке сервера.</item>
+        <item quantity="other">Да бисте користили налог „<xliff:g id="account">%s</xliff:g>“, морате унети лозинке сервера.</item>
+    </plurals>
     <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
     <string name="settings_import_password_required">Унесите лозинке</string>
     <string name="settings_import_pick_app_button">Увези из апликације</string>

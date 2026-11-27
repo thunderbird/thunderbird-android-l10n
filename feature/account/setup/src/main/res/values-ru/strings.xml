@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Имя учётной записи не может быть пустым.</string>
     <string name="account_setup_options_account_name_label">Название учётной записи</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Каждый %d час</item>
-            <item quantity="few">Каждые %d часа</item>
-            <item quantity="many">Каждые %d часов</item>
-            <item quantity="other">Каждые %d часов</item>
-        </plurals>
+        <item quantity="one">Каждый %d час</item>
+        <item quantity="few">Каждые %d часа</item>
+        <item quantity="many">Каждые %d часов</item>
+        <item quantity="other">Каждые %d часов</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Каждую %d минуту</item>
-            <item quantity="few">Каждые %d минуты</item>
-            <item quantity="many">Каждые %d минут</item>
-            <item quantity="other">Каждые %d минут</item>
-        </plurals>
+        <item quantity="one">Каждую %d минуту</item>
+        <item quantity="few">Каждые %d минуты</item>
+        <item quantity="many">Каждые %d минут</item>
+        <item quantity="other">Каждые %d минут</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Никогда</string>
     <string name="account_setup_options_email_display_count_label">Число отображённых сообщений</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d сообщение</item>
-            <item quantity="few">%d сообщения</item>
-            <item quantity="many">%d сообщений</item>
-            <item quantity="other">%d сообщений</item>
-        </plurals>
+        <item quantity="one">%d сообщение</item>
+        <item quantity="few">%d сообщения</item>
+        <item quantity="many">%d сообщений</item>
+        <item quantity="other">%d сообщений</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Имя подписи электронной почты не может быть пустым.</string>
     <string name="account_setup_options_email_signature_label">Подпись электронной почты</string>
     <string name="account_setup_options_section_display_options">Отобразить параметры</string>

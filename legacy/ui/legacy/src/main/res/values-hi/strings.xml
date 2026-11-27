@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">बारे में</string>
     <string name="about_app_authors_k9">के-9 डॉग वॉकर</string>
     <string name="about_app_authors_thunderbird">थंडरबर्ड मोबाइल टीम</string>
@@ -33,9 +33,9 @@
     <string name="compose_title_reply_all">सबका जवाब दें</string>
     <string name="copy_action">कॉपी करें</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">पता क्लिपबोर्ड पे कॉपी किया गया</item>
-            <item quantity="other">पते क्लिपबोर्ड पे कॉपी किए गए</item>
-        </plurals>
+        <item quantity="one">पता क्लिपबोर्ड पे कॉपी किया गया</item>
+        <item quantity="other">पते क्लिपबोर्ड पे कॉपी किए गए</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">सब्जेक्ट क्लिपबोर्ड पे कॉपी किया गया</string>
     <string name="debug_enable_debug_logging_summary">ज़्यादा डायग्नॉस्टिक जानकारी लॉग करें</string>
     <string name="debug_enable_debug_logging_title">डीबग लॉगिंग चालू करें</string>
@@ -118,9 +118,9 @@
     <string name="notification_channel_push_description">नए मैसेज का इंतज़ार करते टाइम दिखाया जाएगा</string>
     <string name="notification_channel_push_title">सिंक (पुश)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> नया मैसेज</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> नए मैसेज</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> नया मैसेज</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> नए मैसेज</item>
+    </plurals>
     <string name="notification_notify_error_text">एक नए मैसेज के लिए सिस्टम नोटिफिकेशन बनाते टाइम एक गड़बड़ हुई। इसका वजह किसी नोटिफिकेशन आवाज़ का गुम होना होना चाहिए। \n \nनोटिफिकेशन सेटिंग खोलने के लिए दबाएं।</string>
     <string name="notification_notify_error_title">नोटिफिकेशन गड़बड़</string>
     <string name="open_camera">कैमरा खोलें</string>

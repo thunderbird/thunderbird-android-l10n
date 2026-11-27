@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Cha d’fhuair an aplacaid lorg air brabhsair sam bith a chleachadh e airson cead-inntrigidh dhan chunntas agad a thoirt seachad.</string>
     <string name="account_oauth_error_canceled">Sguireadh dhen ùghdarrachadh</string>
     <string name="account_oauth_error_failed">Dh’fhàillig an t-ùghdarrachadh leis a’ mhearachd a leanas: <xliff:g id="error">%s</xliff:g></string>

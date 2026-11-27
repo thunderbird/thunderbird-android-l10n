@@ -12,6 +12,7 @@
     <string name="notification_authentication_error_title">C’hwiadenn war an dilesa</string>
     <string name="notification_bg_send_ticker">O kas ar postel: %1$s</string>
     <string name="notification_bg_send_title">O kas ar postel</string>
+    <string name="notification_bg_sync_text">%1$s : %2$s</string>
     <string name="notification_bg_sync_ticker">O kerc’hat ar posteloù: %1$s:%2$s</string>
     <string name="notification_bg_sync_title">Kerc’hat ar posteloù</string>
     <string name="notification_certificate_error_public">Fazi testeni</string>

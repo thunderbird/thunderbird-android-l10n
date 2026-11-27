@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Kontonamn kan inte vara tomt.</string>
     <string name="account_setup_options_account_name_label">Kontonamn</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Varje timme</item>
-            <item quantity="other">Var %d timme</item>
-        </plurals>
+        <item quantity="one">Varje timme</item>
+        <item quantity="other">Var %d timme</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Varje minut</item>
-            <item quantity="other">Var %d minut</item>
-        </plurals>
+        <item quantity="one">Varje minut</item>
+        <item quantity="other">Var %d minut</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Aldrig</string>
     <string name="account_setup_options_email_display_count_label">Antal meddelanden att visa</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 meddelande</item>
-            <item quantity="other">%d meddelanden</item>
-        </plurals>
+        <item quantity="one">1 meddelande</item>
+        <item quantity="other">%d meddelanden</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-postsignaturens namn får inte vara tomt.</string>
     <string name="account_setup_options_email_signature_label">E-postsignatur</string>
     <string name="account_setup_options_section_display_options">Visningsinställningar</string>

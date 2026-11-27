@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">О приложении</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -36,7 +36,7 @@
     <string name="account_notify_contacts_mail_only_summary">Уведомлять только о сообщениях от контактов</string>
     <string name="account_settings_action">Настройки учётной записи</string>
     <string name="account_settings_always_bcc_label">Скрытая копия всех сообщений</string>
-    <string name="account_settings_always_show_cc_bcc_label">Включать Копия/Скрытая</string>
+    <string name="account_settings_always_show_cc_bcc_label">Показывать копию/скрытую</string>
     <string name="account_settings_autodownload_message_size_1">1 КБ</string>
     <string name="account_settings_autodownload_message_size_1024">1 МБ</string>
     <string name="account_settings_autodownload_message_size_10240">10 МБ</string>
@@ -75,8 +75,11 @@
     <string name="account_settings_crypto_summary_off">OpenPGP не настроен</string>
     <string name="account_settings_crypto_summary_on">Соединено с %s</string>
     <string name="account_settings_default_quoted_text_shown_label">Цитировать при ответе</string>
-    <string name="account_settings_default_quoted_text_shown_summary">Включать исходное сообщение в свой ответ.</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Включать исходное сообщение в свой ответ</string>
     <string name="account_settings_email_label">Ваш адрес эл. почты</string>
+    <string name="account_settings_fetching_and_data_limits">Получение и ограничения объёма данных</string>
+    <string name="account_settings_folder_sync_and_push">Синхронизация папки и push</string>
+    <string name="account_settings_folder_visibility">Видимость папки</string>
     <string name="account_settings_folders">Папки</string>
     <string name="account_settings_general_title">Основные настройки</string>
     <string name="account_settings_identities_label">Управление ролями</string>
@@ -104,10 +107,10 @@
     <string name="account_settings_message_age_7">последняя неделя</string>
     <string name="account_settings_message_age_any">любое время (без ограничений)</string>
     <string name="account_settings_message_age_label">Синхронизировать сообщения за</string>
-    <string name="account_settings_message_format_auto">Автоматически</string>
+    <string name="account_settings_message_format_auto">Автовыбор</string>
     <string name="account_settings_message_format_html">HTML (сохранять изображения и форматирование)</string>
     <string name="account_settings_message_format_label">Формат сообщений</string>
-    <string name="account_settings_message_format_text">Только текст</string>
+    <string name="account_settings_message_format_text">Только текст (без изображений и форматирования)</string>
     <string name="account_settings_message_read_receipt_label">Уведомление о прочтении</string>
     <string name="account_settings_message_read_receipt_summary">Всегда запрашивать уведомление о прочтении</string>
     <string name="account_settings_name_label">Ваше имя</string>
@@ -151,7 +154,7 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Все</string>
     <string name="account_settings_reply_after_quote_label">Цитата над ответом</string>
-    <string name="account_settings_reply_after_quote_summary">Разместить исходное сообщение над текстом ответа.</string>
+    <string name="account_settings_reply_after_quote_summary">Разместить исходное сообщение над текстом ответа</string>
     <string name="account_settings_ringtone">Мелодия для оповещения</string>
     <string name="account_settings_search">Поиск</string>
     <string name="account_settings_show_pictures_always">Всегда</string>
@@ -161,11 +164,18 @@
     <string name="account_settings_signature__location_after_quoted_text">После цитаты</string>
     <string name="account_settings_signature__location_before_quoted_text">Перед цитатой</string>
     <string name="account_settings_signature__location_label">Размещение подписи</string>
+    <string name="account_settings_signature_clear_label">Удалить подпись</string>
+    <string name="account_settings_signature_html_label">Подпись HTML</string>
+    <string name="account_settings_signature_is_html_label">Сохранить подпись как HTML</string>
+    <string name="account_settings_signature_is_html_summary">Интерпретировать подпись как HTML. Скрипты и обработчики событий будут удалены в целях безопасности.</string>
     <string name="account_settings_signature_label">Подпись</string>
+    <string name="account_settings_signature_preview">Просмотр подписи</string>
+    <string name="account_settings_signature_preview_empty">Здесь будет отображаться ваша подпись</string>
     <string name="account_settings_signature_use_label">Использовать подпись</string>
     <string name="account_settings_strip_signature_label">Без подписей в цитате</string>
     <string name="account_settings_strip_signature_summary">Удалять подписи из цитируемого текста</string>
     <string name="account_settings_sync">Получение</string>
+    <string name="account_settings_sync_and_notifications">Синхронизация и удаление</string>
     <string name="account_settings_sync_remote_deletetions_label">Синхронное удаление</string>
     <string name="account_settings_sync_remote_deletetions_summary">Удалять сообщения при удалении на сервере</string>
     <string name="account_settings_title_fmt">Настройки учётной записи</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 папок</string>
     <string name="account_setup_push_limit_500">500 папок</string>
     <string name="account_setup_push_limit_label">Лимит push-проверки</string>
+    <string name="account_setup_visibility_and_syncing">Синхронизация папок и push</string>
     <string name="accountlist_preferences">Список учётных записей</string>
     <string name="accounts_title">Учётные записи</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -235,7 +246,7 @@
     <string name="action_remote_search">Поиск на сервере</string>
     <string name="add_account_action">Добавить учётную запись</string>
     <string name="add_attachment_action">Добавить вложение</string>
-    <string name="add_from_contacts">Добавить из Контактов</string>
+    <string name="add_from_contacts">Добавить из контактов</string>
     <string name="address_type_home">Дом</string>
     <string name="address_type_mobile">Мобильный</string>
     <string name="address_type_other">Прочее</string>
@@ -259,6 +270,7 @@
     <string name="background_ops_never">Никогда</string>
     <string name="background_work_notification_remove_account">Удаление учётной записи…</string>
     <string name="batch_select_all">Выбрать все</string>
+    <string name="camera_capture_lost">Захваченное изображение утеряно, потому что приложение было закрыто. Повторите попытку.</string>
     <string name="camera_permission_denied">Доступ к камере отсутствует! Невозможно сделать снимок</string>
     <string name="changelog_latest_label_text">ПОСЛЕДНЕЕ</string>
     <string name="changelog_loading_error">Не удалось загрузить список изменений.</string>
@@ -295,11 +307,11 @@
     <string name="confirm_discard_draft_message_title">Удалить сообщение?</string>
     <string name="copy_action">Копировать</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Адрес скопирован в буфер</item>
-            <item quantity="few">Адреса скопированы в буфер</item>
-            <item quantity="many">Адреса скопированы в буфер</item>
-            <item quantity="other">Адреса скопированы в буфер</item>
-        </plurals>
+        <item quantity="one">Адрес скопирован в буфер</item>
+        <item quantity="few">Адреса скопированы в буфер</item>
+        <item quantity="many">Адреса скопированы в буфер</item>
+        <item quantity="other">Адреса скопированы в буфер</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Текст темы скопирован в буфер обмена</string>
     <string name="crypto_msg_cancelled">Сообщение зашифровано, но дешифрование отменено.</string>
     <string name="crypto_msg_encrypted_error">но был сбой расшифровки</string>
@@ -373,11 +385,11 @@
     <string name="dialog_confirm_delete_confirm_button">Да</string>
     <string name="dialog_confirm_delete_message">Вы хотите удалить это сообщение?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщение?</item>
-            <item quantity="few">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщения?</item>
-            <item quantity="many">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщений?</item>
-            <item quantity="other">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщений?</item>
-        </plurals>
+        <item quantity="one">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщение?</item>
+        <item quantity="few">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщения?</item>
+        <item quantity="many">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщений?</item>
+        <item quantity="other">Удалить <xliff:g id="message_count">%1$d</xliff:g> сообщений?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Подтвердите удаление</string>
     <string name="dialog_confirm_empty_spam_message">Вы хотите очистить папку спама?</string>
     <string name="dialog_confirm_empty_spam_title">Подтвердите удаление спама</string>
@@ -390,11 +402,11 @@
     <string name="dialog_confirm_spam_cancel_button">Нет</string>
     <string name="dialog_confirm_spam_confirm_button">Да</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщение в спам?</item>
-            <item quantity="few">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщения в спам?</item>
-            <item quantity="many">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщений в спам?</item>
-            <item quantity="other">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщений в спам?</item>
-        </plurals>
+        <item quantity="one">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщение в спам?</item>
+        <item quantity="few">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщения в спам?</item>
+        <item quantity="many">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщений в спам?</item>
+        <item quantity="other">Переместить <xliff:g id="message_count">%1$d</xliff:g> сообщений в спам?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Переместить в спам</string>
     <string name="dialog_openkeychain_info_install">Установить</string>
     <string name="dialog_openkeychain_info_text">Для сквозного шифрования в требуется приложение OpenKeychain.</string>
@@ -431,6 +443,7 @@
     <string name="error_crypto_provider_connect">Нет доступа к криптопровайдеру. Проверьте настройки или нажмите значок шифрования для повтора!</string>
     <string name="error_crypto_provider_incompatible">Криптопровайдер использует несовместимую версию. Проверьте настройки!</string>
     <string name="error_crypto_provider_ui_required">Ошибка инициализации сквозного шифрования. Проверьте настройки</string>
+    <string name="error_no_contact_provider">Приложение \"Контакты\" не найдено. Установите приложение для работы с контактами, чтобы добавить этот адрес.</string>
     <string name="error_sign_only_no_encryption">Шифрование в режиме \"Только подпись\" недоступно!</string>
     <string name="expand_content_description">Развернуть</string>
     <string name="expand_folders">Развернуть папки</string>
@@ -629,6 +642,7 @@
     <string name="message_compose_content_hint">Сообщение</string>
     <string name="message_compose_description_delete_quoted_text">Удалить цитату</string>
     <string name="message_compose_description_edit_quoted_text">Правка цитаты</string>
+    <string name="message_compose_encrypting_message">Шифрование сообщения…</string>
     <string name="message_compose_error_no_recipients">Вы должны добавить хотя бы одного адресата.</string>
     <string name="message_compose_quote_header_cc">Копия:</string>
     <string name="message_compose_quote_header_from">От:</string>
@@ -673,11 +687,11 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> вложение (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> вложения (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> вложений (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> вложений (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> вложение (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> вложения (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> вложений (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> вложений (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Сохранить все</string>
     <string name="message_view_attachments_title">Вложения</string>
     <string name="message_view_attachments_view">Посмотреть</string>
@@ -686,8 +700,7 @@
     <string name="message_view_cc_label">Копия:</string>
     <string name="message_view_download_remainder">Загрузить полностью</string>
     <string name="message_view_empty">Выберите сообщение</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">мне</string>
+    <string name="message_view_from_me_text">меня</string>
     <string name="message_view_menu_action_export_eml">Экспорт как EML</string>
     <string name="message_view_no_viewer">Отсутствует просмотрщик <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -699,6 +712,8 @@
     <string name="message_view_status_attachment_not_saved">Не получается сохранить вложение.</string>
     <string name="message_view_theme_action_dark">Тёмная тема</string>
     <string name="message_view_theme_action_light">Светлая тема</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">мне</string>
     <string name="messagelist_preferences">Список сообщений</string>
     <string name="messageview_crypto_error_title">Сбой расшифровки почты</string>
     <string name="messageview_decrypt_cancelled">Расшифрование отменено.</string>
@@ -748,11 +763,11 @@
     <string name="notification_channel_push_description">Отображается во время ожидания новых сообщений</string>
     <string name="notification_channel_push_title">Синхронизация (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> новое сообщение</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> новых сообщения</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> новых сообщений</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> новых сообщений</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> новое сообщение</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> новых сообщения</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> новых сообщений</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> новых сообщений</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">При попытке создать системное уведомление для нового сообщения произошла ошибка. Причина, скорее всего, заключается в отсутствующем звуке уведомления. \n \nНажмите, чтобы открыть настройки уведомлений.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -828,18 +843,19 @@
     <string name="recipient_to">Кому</string>
     <string name="refile_action">Смена папки…</string>
     <string name="refresh_folders_action">Обновить список папок</string>
+    <string name="remote_feature_flag_preferences">Флаги удалённых функций</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Получение %d результата</item>
-            <item quantity="few">Получение %d результатов</item>
-            <item quantity="many">Получение %d результатов</item>
-            <item quantity="other">Получение %d результатов</item>
-        </plurals>
+        <item quantity="one">Получение %d результата</item>
+        <item quantity="few">Получение %d результатов</item>
+        <item quantity="many">Получение %d результатов</item>
+        <item quantity="other">Получение %d результатов</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Получение %1$d из %2$d результата</item>
-            <item quantity="few">Получение %1$d из %2$d результатов</item>
-            <item quantity="many">Получение %1$d из %2$d результатов</item>
-            <item quantity="other">Получение %1$d из %2$d результатов</item>
-        </plurals>
+        <item quantity="one">Получение %1$d из %2$d результата</item>
+        <item quantity="few">Получение %1$d из %2$d результатов</item>
+        <item quantity="many">Получение %1$d из %2$d результатов</item>
+        <item quantity="other">Получение %1$d из %2$d результатов</item>
+    </plurals>
     <string name="remote_search_error">Сбой поиска на сервере</string>
     <string name="remote_search_sending_query">Отправка запроса на сервер</string>
     <string name="remote_search_unavailable_no_network">Для поиска на сервере требуется подключение к сети.</string>

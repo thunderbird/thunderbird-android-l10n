@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Ynghylch</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -298,13 +298,13 @@
     <string name="confirm_discard_draft_message_title">Dileu\'r neges?</string>
     <string name="copy_action">Copïo</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="zero">Copïwyd y cyfeiriad i\'r clipfwrdd</item>
-            <item quantity="one">Copïwyd y cyfeiriad i\'r clipfwrdd</item>
-            <item quantity="two">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
-            <item quantity="few">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
-            <item quantity="many">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
-            <item quantity="other">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
-        </plurals>
+        <item quantity="zero">Copïwyd y cyfeiriad i\'r clipfwrdd</item>
+        <item quantity="one">Copïwyd y cyfeiriad i\'r clipfwrdd</item>
+        <item quantity="two">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
+        <item quantity="few">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
+        <item quantity="many">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
+        <item quantity="other">Copïwyd y cyfeiriadau i\'r clipfwrdd</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Copïwyd testun y pwnc i\'r clipfwrdd</string>
     <string name="crypto_msg_cancelled">Mae\'r neges wedi ei hamgryptio, ond diddymwyd yr amgryptio.</string>
     <string name="crypto_msg_encrypted_error">ond roedd gwall dadgryptio</string>
@@ -378,13 +378,13 @@
     <string name="dialog_confirm_delete_confirm_button">Ydw</string>
     <string name="dialog_confirm_delete_message">Ydych chi eisiau dileu\'r neges hon?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="zero">Ydych chi wir eisiau dileu\'r negeseuon hyn?</item>
-            <item quantity="one">Ydych chi wir eisiau dileu\'r neges hon?</item>
-            <item quantity="two">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
-            <item quantity="few">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
-            <item quantity="many">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
-            <item quantity="other">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
-        </plurals>
+        <item quantity="zero">Ydych chi wir eisiau dileu\'r negeseuon hyn?</item>
+        <item quantity="one">Ydych chi wir eisiau dileu\'r neges hon?</item>
+        <item quantity="two">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
+        <item quantity="few">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
+        <item quantity="many">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
+        <item quantity="other">Ydych chi wir eisiau dileu <xliff:g id="message_count">%1$d</xliff:g> neges?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Cadarnhau dileu</string>
     <string name="dialog_confirm_empty_spam_message">Ydych chi eisiau gwagio\'r ffolder sbam?</string>
     <string name="dialog_confirm_empty_spam_title">Cadarnhau sbam gwag</string>
@@ -397,13 +397,13 @@
     <string name="dialog_confirm_spam_cancel_button">Na</string>
     <string name="dialog_confirm_spam_confirm_button">Ydw</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="zero">Ydych chi wir eisiau symud y negeseuon hyn i\'r ffolder sbam?</item>
-            <item quantity="one">Ydych chi wir eisiau symud y neges hon i\'r ffolder sbam?</item>
-            <item quantity="two">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
-            <item quantity="few">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
-            <item quantity="many">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
-            <item quantity="other">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
-        </plurals>
+        <item quantity="zero">Ydych chi wir eisiau symud y negeseuon hyn i\'r ffolder sbam?</item>
+        <item quantity="one">Ydych chi wir eisiau symud y neges hon i\'r ffolder sbam?</item>
+        <item quantity="two">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
+        <item quantity="few">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
+        <item quantity="many">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
+        <item quantity="other">Ydych chi wir eisiau symud <xliff:g id="message_count">%1$d</xliff:g> neges i\'r ffolder sbam?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Cadarnhau symud i\'r ffolder sbam</string>
     <string name="dialog_openkeychain_info_install">Gosod</string>
     <string name="dialog_openkeychain_info_text">Mae angen ap OpenKeychain i gefnogi amgryptia o ben-i-ben.</string>
@@ -678,13 +678,13 @@
     <string name="message_to_label">At:</string>
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> Atodiadau(<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="two"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> Atodiadau(<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="two"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Atodiad(<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Cadw\'r cyfan</string>
     <string name="message_view_attachments_title">Atodiadau</string>
     <string name="message_view_attachments_view">Gweld</string>
@@ -693,7 +693,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Llwytho i lawr y neges gyfan</string>
     <string name="message_view_empty">Dewiswch neges ar y chwith</string>
-    <string name="message_view_me_text">fi</string>
     <string name="message_view_menu_action_export_eml">Allforio fel EML</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
@@ -707,6 +706,7 @@
     <string name="message_view_status_attachment_not_saved">Methu cadw\'r atodiad.</string>
     <string name="message_view_theme_action_dark">Newid i\'r thema dywyll</string>
     <string name="message_view_theme_action_light">Newid i\'r thema olau</string>
+    <string name="message_view_to_me_text">fi</string>
     <string name="messagelist_preferences">Rhestrau negeseuon</string>
     <string name="messageview_crypto_error_title">Gwall wrth dadgryptio e-bost</string>
     <string name="messageview_decrypt_cancelled">Diddymwyd yr amgryptio.</string>
@@ -756,13 +756,13 @@
     <string name="notification_channel_push_description">Yn cael ei ddangos wrth aros am negeseuon newydd</string>
     <string name="notification_channel_push_title">Cydweddu (Gwthio)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> negeseuon newydd</item>
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
-            <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
-        </plurals>
+        <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> negeseuon newydd</item>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
+        <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> neges newydd</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Bu gwall wrth geisio creu hysbysiad system am neges newydd. Mae\'n debyg mai\'r rheswm yw bod sain hysbysiad ar goll.\n\nTapiwch i agor gosodiadau hysbysiadau.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -839,21 +839,21 @@
     <string name="refile_action">Ail ffeilio…</string>
     <string name="refresh_folders_action">Adnewyddu\'r rhestr ffolderi</string>
     <plurals name="remote_search_downloading">
-            <item quantity="zero">Yn nôl %d canlyniadau</item>
-            <item quantity="one">Yn nôl %d canlyniad</item>
-            <item quantity="two">Yn nôl %d ganlyniad</item>
-            <item quantity="few">Yn nôl %d ganlyniad</item>
-            <item quantity="many">Yn nôl %d canlyniad</item>
-            <item quantity="other">Yn nôl %d canlyniad</item>
-        </plurals>
+        <item quantity="zero">Yn nôl %d canlyniadau</item>
+        <item quantity="one">Yn nôl %d canlyniad</item>
+        <item quantity="two">Yn nôl %d ganlyniad</item>
+        <item quantity="few">Yn nôl %d ganlyniad</item>
+        <item quantity="many">Yn nôl %d canlyniad</item>
+        <item quantity="other">Yn nôl %d canlyniad</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="zero">Yn nôl %1$d o %2$d canlyniadau</item>
-            <item quantity="one">Yn nôl %1$d o %2$d canlyniad</item>
-            <item quantity="two">Yn nôl %1$d o %2$d ganlyniad</item>
-            <item quantity="few">Yn nôl %1$d o %2$d ganlyniad</item>
-            <item quantity="many">Yn nôl %1$d o %2$d canlyniad</item>
-            <item quantity="other">Yn nôl %1$d o %2$d canlyniad</item>
-        </plurals>
+        <item quantity="zero">Yn nôl %1$d o %2$d canlyniadau</item>
+        <item quantity="one">Yn nôl %1$d o %2$d canlyniad</item>
+        <item quantity="two">Yn nôl %1$d o %2$d ganlyniad</item>
+        <item quantity="few">Yn nôl %1$d o %2$d ganlyniad</item>
+        <item quantity="many">Yn nôl %1$d o %2$d canlyniad</item>
+        <item quantity="other">Yn nôl %1$d o %2$d canlyniad</item>
+    </plurals>
     <string name="remote_search_error">Methodd y chwilio pell</string>
     <string name="remote_search_sending_query">Yn anfon ymholiad at y gweinydd</string>
     <string name="remote_search_unavailable_no_network">Rhaid bod cysylltiad rhyngrwyd er mwyn chwilio\'r gweinydd.</string>
@@ -948,8 +948,8 @@
     <string name="toast_openpgp_provider_error">Gwall wrth gysylltu â %s!</string>
     <string name="trash_folder_label">Ffolder Sbwriel</string>
     <string name="unflag_action">Tynnu seren</string>
-    <string name="unknown_recipient">&<;Derbyniwr Anhysbys&>;</string>
-    <string name="unknown_sender">&<;Anfonwr Anhysbys&>;</string>
+    <string name="unknown_recipient">&lt;Derbyniwr Anhysbys&gt;</string>
+    <string name="unknown_sender">&lt;Anfonwr Anhysbys&gt;</string>
     <string name="unsigned_text_divider_label">Testun heb ei Lofnodi</string>
     <string name="unsubscribe_action">Dad-tanysgrifio</string>
     <string name="upgrade_database_format">Yn uwchraddio cronfeydd data\'r cyfrif \"<xliff:g id="account">%s</xliff:g>\"</string>

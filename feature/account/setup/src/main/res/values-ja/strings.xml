@@ -27,16 +27,16 @@
     <string name="account_setup_options_account_name_error_blank">アカウント名は空白にはできません。</string>
     <string name="account_setup_options_account_name_label">アカウント名</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="other">%d 時間ごと</item>
-        </plurals>
+        <item quantity="other">%d 時間ごと</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="other">%d 分ごと</item>
-        </plurals>
+        <item quantity="other">%d 分ごと</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">確認しない</string>
     <string name="account_setup_options_email_display_count_label">表示するメッセージの数</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="other">メッセージ %d 通</item>
-        </plurals>
+        <item quantity="other">メッセージ %d 通</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">メール署名は空白にはできません。</string>
     <string name="account_setup_options_email_signature_label">メール署名</string>
     <string name="account_setup_options_section_display_options">表示設定</string>

@@ -35,10 +35,10 @@
     <string name="notification_channel_push_description">Afișat când se așteaptă mesaje noi</string>
     <string name="notification_channel_push_title">Sincronizare (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d mesaj nou</item>
-            <item quantity="few">%1$d mesaje noi</item>
-            <item quantity="other">%1$d de mesaje noi</item>
-        </plurals>
+        <item quantity="one">%1$d mesaj nou</item>
+        <item quantity="few">%1$d mesaje noi</item>
+        <item quantity="other">%1$d de mesaje noi</item>
+    </plurals>
     <string name="notification_notify_error_text">S-a produs o eroare în timpul încercării de a crea o notificare de sistem pentru un mesaj nou. Motivul este cel mai probabil lipsa unui sunet de notificare.\n\nApasă pentru a deschide setările de notificare.</string>
     <string name="notification_notify_error_title">Eroare de notificare</string>
     <string name="push_info_disable_push_action">Dezactivare Push</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Giới thiệu</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -302,8 +302,8 @@
     <string name="confirm_discard_draft_message_title">Hủy tin nhắn?</string>
     <string name="copy_action">Sao chép</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="other">Đã sao chép các địa chỉ vào bộ nhớ đệm</item>
-        </plurals>
+        <item quantity="other">Đã sao chép các địa chỉ vào bộ nhớ đệm</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Đã sao chép văn bản chủ đề vào clipboard</string>
     <string name="crypto_msg_cancelled">Tin nhắn được mã hóa, nhưng việc giải mã bị hủy bỏ.</string>
     <string name="crypto_msg_encrypted_error">nhưng có một lỗi giải mã</string>
@@ -360,8 +360,8 @@
     <string name="dialog_confirm_delete_confirm_button">Có</string>
     <string name="dialog_confirm_delete_message">Bạn có muốn xóa tin nhắn này?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="other">Bạn có thực sự muốn xóa <xliff:g id="message_count">%1$d</xliff:g> tin nhắn?</item>
-        </plurals>
+        <item quantity="other">Bạn có thực sự muốn xóa <xliff:g id="message_count">%1$d</xliff:g> tin nhắn?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Xác nhận xóa</string>
     <string name="dialog_confirm_empty_trash_message">Bạn có muốn làm trống thùng rác?</string>
     <string name="dialog_confirm_empty_trash_title">Xác nhận làm trống thùng rác</string>
@@ -372,8 +372,8 @@
     <string name="dialog_confirm_spam_cancel_button">Không</string>
     <string name="dialog_confirm_spam_confirm_button">Có</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="other">Bạn có thực sự muốn chuyển <xliff:g id="message_count">%1$d</xliff:g> tin nhắn đến thư mục spam?</item>
-        </plurals>
+        <item quantity="other">Bạn có thực sự muốn chuyển <xliff:g id="message_count">%1$d</xliff:g> tin nhắn đến thư mục spam?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Xác nhận chuyển đến thư mục spam</string>
     <string name="dialog_openkeychain_info_install">Cài đặt</string>
     <string name="dialog_openkeychain_info_text">Cần có ứng dụng OpenKeychain để hỗ trợ mã hóa đầu cuối.</string>
@@ -618,10 +618,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Tải xuống tin nhắn hoàn chỉnh</string>
     <string name="message_view_empty">Hãy chọn một tin nhắn ở bên trái</string>
-    <!-- Used to display the recipient list in the message view screen. -->
-    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">tôi</string>
     <string name="message_view_no_viewer">Không tìm thấy trình hiển thị cho <xliff:g id="mimetype">%s</xliff:g>.</string>
     <string name="message_view_recipients_format">đến <xliff:g id="recipients">%s</xliff:g></string>
     <string name="message_view_sender_label">qua %1$s</string>
@@ -630,6 +626,10 @@
     <string name="message_view_status_attachment_not_saved">Không thể lưu tệp đính kèm.</string>
     <string name="message_view_theme_action_dark">Chuyển sang giao diện tối</string>
     <string name="message_view_theme_action_light">Chuyển sang giao diện sáng</string>
+    <!-- Used to display the recipient list in the message view screen. -->
+    <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">tôi</string>
     <string name="messagelist_preferences">Danh sách tin nhắn</string>
     <string name="messageview_crypto_error_title">Lỗi giải mã email</string>
     <string name="messageview_decrypt_cancelled">Quá trình giải mã bị hủy.</string>
@@ -669,8 +669,8 @@
     <string name="notification_channel_push_description">Hiển thị khi chờ tin nhắn mới</string>
     <string name="notification_channel_push_title">Đồng bộ hóa (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> thư mới</item>
-        </plurals>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> thư mới</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Có lỗi xảy ra khi tạo thông báo hệ thống cho tin nhắn mới. Nguyên nhân có thể do thiếu âm thanh thông báo. \n \nNhấn để mở thiết đặt thông báo.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -738,11 +738,11 @@
     <string name="refile_action">Chọn lại tệp…</string>
     <string name="refresh_folders_action">Cập nhật thư mục</string>
     <plurals name="remote_search_downloading">
-            <item quantity="other">Đang lấy %d kết quả</item>
-        </plurals>
+        <item quantity="other">Đang lấy %d kết quả</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="other">Đang lấy %1$d của %2$d kết quả</item>
-        </plurals>
+        <item quantity="other">Đang lấy %1$d của %2$d kết quả</item>
+    </plurals>
     <string name="remote_search_error">Tìm kiếm từ xa thất bại</string>
     <string name="remote_search_sending_query">Đang gửi yêu cầu đến máy chủ</string>
     <string name="remote_search_unavailable_no_network">Cần kết nối mạng để tìm kiếm trên máy chủ.</string>
@@ -831,8 +831,8 @@
     <string name="toast_openpgp_provider_error">Lỗi kết nối đến %s!</string>
     <string name="trash_folder_label">Thư mục thùng rác</string>
     <string name="unflag_action">Loại bỏ sao</string>
-    <string name="unknown_recipient">&<;Người nhận không rõ&>;</string>
-    <string name="unknown_sender">&<;Người gửi không xác định&>;</string>
+    <string name="unknown_recipient">&lt;Người nhận không rõ&gt;</string>
+    <string name="unknown_sender">&lt;Người gửi không xác định&gt;</string>
     <string name="unsigned_text_divider_label">Chữ không ký</string>
     <string name="unsubscribe_action">Huỷ đăng ký</string>
     <string name="upgrade_database_format">Đang nâng cấp cơ sở dữ liệu của tài khoản \"<xliff:g id="account">%s</xliff:g>\"</string>

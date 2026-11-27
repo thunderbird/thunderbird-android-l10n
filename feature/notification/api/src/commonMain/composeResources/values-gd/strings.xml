@@ -26,11 +26,11 @@
     <string name="notification_channel_push_description">Ga shealltainn fhad ’s a thathar a’ feitheamh ri teachdaireachdan ùra</string>
     <string name="notification_channel_push_title">Sioncronaich (Put)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d teachdaireachd ùr</item>
-            <item quantity="two">%1$d theachdaireachd ùr</item>
-            <item quantity="few">%1$d teachdaireachdan ùra</item>
-            <item quantity="other">%1$d teachdaireachd ùr</item>
-        </plurals>
+        <item quantity="one">%1$d teachdaireachd ùr</item>
+        <item quantity="two">%1$d theachdaireachd ùr</item>
+        <item quantity="few">%1$d teachdaireachdan ùra</item>
+        <item quantity="other">%1$d teachdaireachd ùr</item>
+    </plurals>
     <string name="notification_notify_error_text">Dh’èirich mearachd fhad ’s a bha sinn airson brath siostaim a chruthachadh airson teachdaireachd ùr. Mar is trice, tachraidh sin ma tha fuaim bratha a dhìth.\n\nThoir gnogag a dh’fhosgladh roghainnean nam fuaimean.</string>
     <string name="notification_notify_error_title">Mearachd bratha</string>
     <string name="push_info_disable_push_action">Cuir Push à comas</string>

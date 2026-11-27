@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Paskyros pavadinimas negali būti tuščias.</string>
     <string name="account_setup_options_account_name_label">Paskyros pavadinimas</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Kas %d valandą</item>
-            <item quantity="few">Kas %d valandas</item>
-            <item quantity="many">Kas %d valandų</item>
-            <item quantity="other">Kas %d valandų</item>
-        </plurals>
+        <item quantity="one">Kas %d valandą</item>
+        <item quantity="few">Kas %d valandas</item>
+        <item quantity="many">Kas %d valandų</item>
+        <item quantity="other">Kas %d valandų</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Kas %d minutę</item>
-            <item quantity="few">Kas %d minutes</item>
-            <item quantity="many">Kas %d minučių</item>
-            <item quantity="other">Kas %d minučių</item>
-        </plurals>
+        <item quantity="one">Kas %d minutę</item>
+        <item quantity="few">Kas %d minutes</item>
+        <item quantity="many">Kas %d minučių</item>
+        <item quantity="other">Kas %d minučių</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Niekada</string>
     <string name="account_setup_options_email_display_count_label">Rodomų laiškų kiekis</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d laiškas</item>
-            <item quantity="few">%d laiškai</item>
-            <item quantity="many">%d laiškų</item>
-            <item quantity="other">%d laiškų</item>
-        </plurals>
+        <item quantity="one">%d laiškas</item>
+        <item quantity="few">%d laiškai</item>
+        <item quantity="many">%d laiškų</item>
+        <item quantity="other">%d laiškų</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Laiškų parašo pavadinimas negali būti tuščias.</string>
     <string name="account_setup_options_email_signature_label">Laiškų parašas</string>
     <string name="account_setup_options_section_display_options">Rodymo nustatymai</string>

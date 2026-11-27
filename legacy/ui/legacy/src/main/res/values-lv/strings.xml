@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Par</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -278,10 +278,10 @@
     <string name="confirm_discard_draft_message_title">Dzēst ziņu?</string>
     <string name="copy_action">Kopēt</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="zero">Adrese iekopēta starpenē</item>
-            <item quantity="one">Adrese iekopēta starpenē</item>
-            <item quantity="other">Adreses iekopētas starpenē</item>
-        </plurals>
+        <item quantity="zero">Adrese iekopēta starpenē</item>
+        <item quantity="one">Adrese iekopēta starpenē</item>
+        <item quantity="other">Adreses iekopētas starpenē</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Temata teksts iekopēts starpenē</string>
     <string name="crypto_msg_cancelled">Ziņa ir šifrēta, taču atšifrēšana tika atcelta.</string>
     <string name="crypto_msg_encrypted_error">taču radās kļūda atšifrējot</string>
@@ -328,7 +328,7 @@
     <string name="delete_action">Izdzēst</string>
     <string name="dialog_attachment_progress_title">Lejupielādē pielikumu</string>
     <string name="dialog_autocrypt_mutual_description_1">Ziņu šifrēšana darbosies, kad izvēlēta vai atbildot uz šifrētu vēstuli.</string>
-    <string name="dialog_autocrypt_mutual_description_2">Ja gan nosūtītājs, gan saņēmējs būs iestatījuši savstarpēju šifrēšanas režīmu, šifrēšana tiks iespējota&&;izmantota automātiski.</string>
+    <string name="dialog_autocrypt_mutual_description_2">Ja gan nosūtītājs, gan saņēmējs būs iestatījuši savstarpēju šifrēšanas režīmu, šifrēšana tiks iespējota&amp;izmantota automātiski.</string>
     <string name="dialog_autocrypt_mutual_learn_more">Šeit <a href="https://k9mail.app/2018/02/26/OpenPGP-Considerations-Part-III-Autocrypt.html">noklikšķinot</a>, varat uzzināt ko vairāk.</string>
     <string name="dialog_autocrypt_mutual_title">Savstarpējas automātiskas šifrēšanas režīms</string>
     <string name="dialog_confirm_clear_local_folder_action">Dzēst ziņas</string>
@@ -338,10 +338,10 @@
     <string name="dialog_confirm_delete_confirm_button">Jā</string>
     <string name="dialog_confirm_delete_message">Vai gribat dzēst šo ziņu?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="zero">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņas?</item>
-            <item quantity="one">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņu?</item>
-            <item quantity="other">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņas?</item>
-        </plurals>
+        <item quantity="zero">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņas?</item>
+        <item quantity="one">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņu?</item>
+        <item quantity="other">Vai tiešām dzēst <xliff:g id="message_count">%1$d</xliff:g> ziņas?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Apstiprināt dzēšanu</string>
     <string name="dialog_confirm_empty_trash_message">Vēlaties iztukšot Papīrkurvja mapi?</string>
     <string name="dialog_confirm_empty_trash_title">Apstiprināt Papīrkurvja iztukšošanu</string>
@@ -352,10 +352,10 @@
     <string name="dialog_confirm_spam_cancel_button">Nē</string>
     <string name="dialog_confirm_spam_confirm_button">Jā</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="zero">Vai tiešām pārvietot <xliff:g id="message_count">%1$d</xliff:g> ziņu/-as uz Mēstuļu mapi\?</item>
-            <item quantity="one">Vai tiešām pārvietot ziņas uz Mēstuļu mapi\?</item>
-            <item quantity="other">Vai tiešām pārvietot <xliff:g id="message_count">%1$d</xliff:g> ziņas uz Mēstuļu mapi\?</item>
-        </plurals>
+        <item quantity="zero">Vai tiešām pārvietot <xliff:g id="message_count">%1$d</xliff:g> ziņu/-as uz Mēstuļu mapi\?</item>
+        <item quantity="one">Vai tiešām pārvietot ziņas uz Mēstuļu mapi\?</item>
+        <item quantity="other">Vai tiešām pārvietot <xliff:g id="message_count">%1$d</xliff:g> ziņas uz Mēstuļu mapi\?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Vai apstiprināt pārvietošanu uz Mēstuļu mapi</string>
     <string name="dialog_openkeychain_info_install">Instalēt</string>
     <string name="dialog_openkeychain_info_text">Lai iespējotu atbalstu pilnīgai šifrēšanai, ir nepieciešama lietotne OpenKeychain.</string>
@@ -624,8 +624,6 @@
     <string name="message_view_cc_label">Cc (redzama kopija):</string>
     <string name="message_view_download_remainder">lejupielādēt pilnu vēstuli</string>
     <string name="message_view_empty">Lūdzu, izvēlieties vēstuli kreisajā pusē</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">man</string>
     <string name="message_view_no_viewer">Nevar atrast programmu, lai atvērtu <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <string name="message_view_recipients_format">kam <xliff:g id="recipients">%s</xliff:g></string>
@@ -635,6 +633,8 @@
     <string name="message_view_status_attachment_not_saved">Nevar saglabāt pielikumu.</string>
     <string name="message_view_theme_action_dark">Pārslēgt uz tumšo motīvu</string>
     <string name="message_view_theme_action_light">Pārslēgt uz gaišo motīvu</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">man</string>
     <string name="messagelist_preferences">Ziņu saraksts</string>
     <string name="messageview_crypto_error_title">Kļūda, atšifrējot ziņu</string>
     <string name="messageview_decrypt_cancelled">Atšifrēšana atcelta</string>
@@ -674,10 +674,10 @@
     <string name="notification_channel_push_description">Tiek rādīts, kamēr gaida jaunas ziņas</string>
     <string name="notification_channel_push_title">Sinhronizē grūdeni/stūmekli (push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> nav jaunu ziņu</item>
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> jauna ziņa</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> jaunas ziņas</item>
-        </plurals>
+        <item quantity="zero"><xliff:g id="new_message_count">%d</xliff:g> nav jaunu ziņu</item>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> jauna ziņa</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> jaunas ziņas</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Neizdevās izveidot sistēmas paziņojumu par jaunu ziņu. Visdrīzākais, ka trūkst paziņojuma skaņas. \n \nPieskarieties, lai atvērtu paziņojumu iestatījumus.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -748,15 +748,15 @@
     <string name="refile_action">Atkārtoti iearhivēt…</string>
     <string name="refresh_folders_action">Aktualizēt mapju sarakstu</string>
     <plurals name="remote_search_downloading">
-            <item quantity="zero">Saņem %d rezultātu</item>
-            <item quantity="one">Saņem %d rezultātu</item>
-            <item quantity="other">Saņem %d rezultātus</item>
-        </plurals>
+        <item quantity="zero">Saņem %d rezultātu</item>
+        <item quantity="one">Saņem %d rezultātu</item>
+        <item quantity="other">Saņem %d rezultātus</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="zero">Saņem %1$d no %2$d rezultāta/-iem</item>
-            <item quantity="one">Saņem %1$d no %2$d rezultāta/-iem</item>
-            <item quantity="other">Saņem %1$d no %2$d rezultāta/-iem</item>
-        </plurals>
+        <item quantity="zero">Saņem %1$d no %2$d rezultāta/-iem</item>
+        <item quantity="one">Saņem %1$d no %2$d rezultāta/-iem</item>
+        <item quantity="other">Saņem %1$d no %2$d rezultāta/-iem</item>
+    </plurals>
     <string name="remote_search_error">Attālinātā meklēšana neizdevās</string>
     <string name="remote_search_sending_query">Sūta uz serveri pieprasījumu</string>
     <string name="remote_search_unavailable_no_network">Nepieciešams tīkla savienojums, lai meklētu serverī.</string>
@@ -844,8 +844,8 @@
     <string name="toast_openpgp_provider_error">Kļūda savienojoties ar %s!</string>
     <string name="trash_folder_label">Papīrkurvja mape</string>
     <string name="unflag_action">Noņemt zvaigznīti</string>
-    <string name="unknown_recipient">&<;Nezināms saņēmējs&>;</string>
-    <string name="unknown_sender">&<;Nosūtītājs nezināms&>;</string>
+    <string name="unknown_recipient">&lt;Nezināms saņēmējs&gt;</string>
+    <string name="unknown_sender">&lt;Nosūtītājs nezināms&gt;</string>
     <string name="unsigned_text_divider_label">Neparakstīts teksts</string>
     <string name="unsubscribe_action">Atrakstīties</string>
     <string name="upgrade_database_format">Aktualizē datubāzi kontam \"<xliff:g id="account">%s</xliff:g>\"</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">L’appiecazione ùn pò micca truvà un navigatore à impiegà per cuncede l’accessu à u vostru contu.</string>
     <string name="account_oauth_error_canceled">Autorizazione abbandunata</string>
     <string name="account_oauth_error_failed">Fiascu di l’autorizazione cù quellu sbagliu : <xliff:g id="error">%s</xliff:g></string>

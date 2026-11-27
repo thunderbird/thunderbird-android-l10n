@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_import_app_version_not_supported">Versión de la aplicación no compatible.</string>
     <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
     <string name="settings_import_authorization_and_password_required">Inicia sesión escribiendo tu contraseña</string>
@@ -20,10 +20,10 @@
     <string name="settings_import_outgoing_server_password_hint">Contraseña del servidor de correo saliente</string>
     <string name="settings_import_partial_failure">La importación de algunos ajustes ha fallado</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar la contraseña del servidor.</item>
-            <item quantity="many">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar las contraseñas del servidor.</item>
-            <item quantity="other">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar las contraseñas del servidor.</item>
-        </plurals>
+        <item quantity="one">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar la contraseña del servidor.</item>
+        <item quantity="many">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar las contraseñas del servidor.</item>
+        <item quantity="other">Para poder usar la cuenta \"<xliff:g id="account">%s</xliff:g>\" es necesario proporcionar las contraseñas del servidor.</item>
+    </plurals>
     <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
     <string name="settings_import_password_required">Introduce tus contraseñas</string>
     <string name="settings_import_pick_app_button">Importar desde la aplicación</string>

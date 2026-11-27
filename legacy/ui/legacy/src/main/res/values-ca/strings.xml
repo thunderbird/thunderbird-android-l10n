@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Quant a</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,10 +283,10 @@
     <string name="confirm_discard_draft_message_title">Descarto el missatge?</string>
     <string name="copy_action">Copia</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adreça copiada al porta-retalls</item>
-            <item quantity="many">Adreces copiades al porta-retalls</item>
-            <item quantity="other">Adreces copiades al porta-retalls</item>
-        </plurals>
+        <item quantity="one">Adreça copiada al porta-retalls</item>
+        <item quantity="many">Adreces copiades al porta-retalls</item>
+        <item quantity="other">Adreces copiades al porta-retalls</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Text de l\'assumpte copiat al porta-retalls</string>
     <string name="crypto_msg_cancelled">El missatge està encriptat, però se n\'ha cancel·lat la desencriptació.</string>
     <string name="crypto_msg_encrypted_error">però hi ha hagut un error de desencriptació</string>
@@ -360,10 +360,10 @@
     <string name="dialog_confirm_delete_confirm_button">Sí</string>
     <string name="dialog_confirm_delete_message">Voleu suprimir aquest missatge?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Realment voleu suprimir aquest missatge?</item>
-            <item quantity="many">Realment voleu suprimir <xliff:g id="message_count">%1$d</xliff:g> missatges?</item>
-            <item quantity="other">Realment voleu suprimir <xliff:g id="message_count">%1$d</xliff:g> missatges?</item>
-        </plurals>
+        <item quantity="one">Realment voleu suprimir aquest missatge?</item>
+        <item quantity="many">Realment voleu suprimir <xliff:g id="message_count">%1$d</xliff:g> missatges?</item>
+        <item quantity="other">Realment voleu suprimir <xliff:g id="message_count">%1$d</xliff:g> missatges?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Confirmeu l\'eliminació</string>
     <string name="dialog_confirm_empty_spam_message">Desitgeu buildar la carpeta de spam?</string>
     <string name="dialog_confirm_empty_spam_title">Confirmar buidat de Spam</string>
@@ -376,10 +376,10 @@
     <string name="dialog_confirm_spam_cancel_button">No</string>
     <string name="dialog_confirm_spam_confirm_button">Sí</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Realment voleu moure aquest missatge a la carpeta brossa?</item>
-            <item quantity="many">Realment voleu moure <xliff:g id="message_count">%1$d</xliff:g> missatges a la carpeta brossa?</item>
-            <item quantity="other">Realment voleu moure <xliff:g id="message_count">%1$d</xliff:g> missatges a la carpeta brossa?</item>
-        </plurals>
+        <item quantity="one">Realment voleu moure aquest missatge a la carpeta brossa?</item>
+        <item quantity="many">Realment voleu moure <xliff:g id="message_count">%1$d</xliff:g> missatges a la carpeta brossa?</item>
+        <item quantity="other">Realment voleu moure <xliff:g id="message_count">%1$d</xliff:g> missatges a la carpeta brossa?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Confirmeu moure-ho a la carpeta brossa</string>
     <string name="dialog_openkeychain_info_install">Instal·la</string>
     <string name="dialog_openkeychain_info_text">L\'aplicació OpenKeychain és necessària per habilitar el suport per a l\'encriptació d\'extrem a extrem.</string>
@@ -655,10 +655,10 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Adjunt (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Adjunts (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Adjunts (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Adjunt (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Adjunts (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Adjunts (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Desar tot</string>
     <string name="message_view_attachments_title">Adjunts</string>
     <string name="message_view_attachments_view">Vista</string>
@@ -667,8 +667,6 @@
     <string name="message_view_cc_label">A/c:</string>
     <string name="message_view_download_remainder">Descarrega el missatge complet</string>
     <string name="message_view_empty">Seleccioneu un missatge a l\'esquerra</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mi</string>
     <string name="message_view_menu_action_export_eml">Exporta com a EML</string>
     <string name="message_view_no_viewer">No s\'ha pogut trobar un visualitzador per <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -680,6 +678,8 @@
     <string name="message_view_status_attachment_not_saved">No s\'ha pogut desar l\'adjunt.</string>
     <string name="message_view_theme_action_dark">Canvia al tema fosc</string>
     <string name="message_view_theme_action_light">Canvia al tema clar</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mi</string>
     <string name="messagelist_preferences">Llista de missatges</string>
     <string name="messageview_crypto_error_title">Error en desencriptar el correu</string>
     <string name="messageview_decrypt_cancelled">S\'ha cancel·lat la desencriptació.</string>
@@ -721,10 +721,10 @@
     <string name="notification_channel_push_description">Mostrat mentre s\'esperen missatges nous</string>
     <string name="notification_channel_push_title">Sincronitza-ho (Empeny)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> missatge nou</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> missatges nous</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> missatges nous</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> missatge nou</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> missatges nous</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> missatges nous</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">S\'ha produït un error en intentar crear una notificació del sistema per a un missatge nou. El motiu més probable és que falti un so de notificació. \n \nToqueu per obrir la configuració de notificació.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -797,15 +797,15 @@
     <string name="refile_action">Rearxiva…</string>
     <string name="refresh_folders_action">Actualitza la llista de carpetes</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">S\'està recuperant %d resultat</item>
-            <item quantity="many">S\'estan recuperant %d resultats</item>
-            <item quantity="other">S\'estan recuperant %d resultats</item>
-        </plurals>
+        <item quantity="one">S\'està recuperant %d resultat</item>
+        <item quantity="many">S\'estan recuperant %d resultats</item>
+        <item quantity="other">S\'estan recuperant %d resultats</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">S\'està recuperant %1$d de %2$d resultats</item>
-            <item quantity="many">S\'estan recuperant %1$d de %2$d resultats</item>
-            <item quantity="other">S\'estan recuperant %1$d de %2$d resultats</item>
-        </plurals>
+        <item quantity="one">S\'està recuperant %1$d de %2$d resultats</item>
+        <item quantity="many">S\'estan recuperant %1$d de %2$d resultats</item>
+        <item quantity="other">S\'estan recuperant %1$d de %2$d resultats</item>
+    </plurals>
     <string name="remote_search_error">No s\'ha pogut fer la cerca remota</string>
     <string name="remote_search_sending_query">S\'està enviant la consulta al servidor</string>
     <string name="remote_search_unavailable_no_network">No es pot fer la cerca sense connectivitat a la xarxa.</string>
@@ -899,8 +899,8 @@
     <string name="toast_openpgp_provider_error">Error en connectar a %s!</string>
     <string name="trash_folder_label">Carpeta paperera</string>
     <string name="unflag_action">Suprimeix l\'estel</string>
-    <string name="unknown_recipient">&<;Destinatari desconegut&>;</string>
-    <string name="unknown_sender">&<;Remitent desconegut&>;</string>
+    <string name="unknown_recipient">&lt;Destinatari desconegut&gt;</string>
+    <string name="unknown_sender">&lt;Remitent desconegut&gt;</string>
     <string name="unsigned_text_divider_label">Text no signat</string>
     <string name="unsubscribe_action">Cancel·la subscripció</string>
     <string name="upgrade_database_format">S\'està actualitzant la base de dades del compte \"<xliff:g id="account">%s</xliff:g>\"</string>

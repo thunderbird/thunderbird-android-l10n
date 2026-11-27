@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_settings_account_delete_dlg_instructions_fmt">Bainfear an cuntas \"<xliff:g id="account">%1$s</xliff:g>\" as <xliff:g id="app_name">%2$s</xliff:g>.</string>
     <string name="account_settings_account_delete_dlg_title">Bain Cuntas</string>
+    <string name="account_settings_always_show_cc_bcc_label">Taispeáin Cc/Bcc i gcónaí</string>
     <string name="account_settings_autodownload_message_size_1">1 KiB</string>
     <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
     <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
@@ -21,11 +22,21 @@
     <string name="account_settings_avatar_error_unsupported_format">Ní thacaítear ach le híomhánna JPEG.</string>
     <string name="account_settings_avatar_hint_jpeg_only">JPEG amháin</string>
     <string name="account_settings_cancel_action">Cealaigh</string>
+    <string name="account_settings_composition">Ag seoladh poist</string>
+    <string name="account_settings_composition_label">Réamhshocruithe comhdhéanaimh</string>
+    <string name="account_settings_composition_summary">Socraigh do shocruithe réamhshocraithe le haghaidh \'Ó\', \'Bcc\' agus an síniú</string>
+    <string name="account_settings_default_quoted_text_shown_label">Luaigh an teachtaireacht agus tú ag freagairt</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Cuir an teachtaireacht bhunaidh san áireamh i do fhreagra.</string>
     <string name="account_settings_expunge_policy_immediately">Láithreach</string>
     <string name="account_settings_expunge_policy_label">Scrios teachtaireachtaí scriosta ar an bhfreastalaí</string>
     <string name="account_settings_expunge_policy_manual">De láimh</string>
     <string name="account_settings_expunge_policy_on_poll">Nuair a bhíonn vótaíocht</string>
+    <string name="account_settings_fetching_and_data_limits">A fháil &amp; teorainneacha sonraí</string>
+    <string name="account_settings_fetching_and_data_limits_description">Teorainneacha minicíochta agus sioncronaithe</string>
     <string name="account_settings_fetching_mail">Ag fáil ríomhphoist</string>
+    <string name="account_settings_folder_sync_and_push">Sioncronú agus brú fillteán</string>
+    <string name="account_settings_folder_sync_and_push_description">Cumasaigh vótáil/brú, de réir fillteáin</string>
+    <string name="account_settings_folder_visibility_and_sort_description">Athraigh fillteáin réamhshocraithe agus infheictheacht fillteán</string>
     <string name="account_settings_general_avatar_description">Roghnaigh conas a thaispeántar d’abhatár cuntais.</string>
     <string name="account_settings_general_avatar_icon_description">Roghnaigh ceann de na deilbhíní le húsáid mar d\'abhatár.</string>
     <string name="account_settings_general_avatar_icon_title">Deilbhín Abhatár</string>
@@ -47,6 +58,8 @@
     <string name="account_settings_general_name_error_too_long">Tá an t-ainm rófhada</string>
     <string name="account_settings_general_name_title">Ainm an chuntais</string>
     <string name="account_settings_general_title">Socruithe Ginearálta</string>
+    <string name="account_settings_identities_label">Bainistigh céannachtaí</string>
+    <string name="account_settings_identities_summary">Socraigh seoltaí \'Ó\' agus sínithe malartacha</string>
     <string name="account_settings_idle_refresh_period_12min">Gach 12 nóiméad</string>
     <string name="account_settings_idle_refresh_period_24min">Gach 24 nóiméad</string>
     <string name="account_settings_idle_refresh_period_2min">Gach 2 nóiméad</string>
@@ -64,6 +77,7 @@
     <string name="account_settings_incoming_summary">Cumraigh an freastalaí ríomhphoist isteach</string>
     <string name="account_settings_mail_check_frequency_label">Minicíocht pobalbhreithe fillteán</string>
     <string name="account_settings_mail_display_count_label">Méid an fhillteáin áitiúil</string>
+    <string name="account_settings_manage_folders">Bainistigh fillteáin</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">Marcáil mar léite nuair a scriostar é</string>
     <string name="account_settings_mark_message_as_read_on_delete_summary">Marcáil teachtaireacht mar léite nuair a scriostar í</string>
     <string name="account_settings_mark_message_as_read_on_view_label">Marcáil mar léite nuair a osclaítear é</string>
@@ -81,6 +95,15 @@
     <string name="account_settings_message_age_7">an tseachtain seo caite</string>
     <string name="account_settings_message_age_any">am ar bith (gan teorainn)</string>
     <string name="account_settings_message_age_label">Sioncrónaigh teachtaireachtaí ó</string>
+    <string name="account_settings_message_format_auto">Uathoibríoch</string>
+    <string name="account_settings_message_format_html">HTML (coinnigh íomhánna agus formáidiú)</string>
+    <string name="account_settings_message_format_label">Formáid Teachtaireachta</string>
+    <string name="account_settings_message_format_text">Gnáth-théacs (bain íomhánna agus formáidiú amach)</string>
+    <string name="account_settings_message_read_receipt_label">Admháil léite</string>
+    <string name="account_settings_message_read_receipt_summary">Iarr admháil léite i gcónaí</string>
+    <string name="account_settings_notificaction_and_sync">Fógraí &amp; sioncronú</string>
+    <string name="account_settings_notification_style">Stíl fógraí</string>
+    <string name="account_settings_notification_style_description">Saincheap fuaim, creathadh, suaitheantais</string>
     <string name="account_settings_okay_action">Ceart go leor</string>
     <string name="account_settings_options_mail_check_frequency_12hour">Gach 12 uair an chloig</string>
     <string name="account_settings_options_mail_check_frequency_15min">Gach 15 nóiméad</string>
@@ -102,6 +125,8 @@
     <string name="account_settings_options_mail_display_count_500">500 teachtaireacht</string>
     <string name="account_settings_options_mail_display_count_5000">5000 teachtaireacht</string>
     <string name="account_settings_options_mail_display_count_all">gach teachtaireacht</string>
+    <string name="account_settings_outgoing_label">Freastalaí amach</string>
+    <string name="account_settings_outgoing_summary">Cumraigh an freastalaí ríomhphoist amach (SMTP)</string>
     <string name="account_settings_push_advanced_title">Ardleibhéil</string>
     <string name="account_settings_push_limit_10">10 bhfillteán</string>
     <string name="account_settings_push_limit_100">100 fillteán</string>
@@ -112,6 +137,10 @@
     <string name="account_settings_push_limit_50">50 fillteán</string>
     <string name="account_settings_push_limit_500">500 fillteán</string>
     <string name="account_settings_push_limit_label">Uasmhéid fillteán le seiceáil le brú</string>
+    <string name="account_settings_quote_prefix_label">Réimír don téacs luaite</string>
+    <string name="account_settings_quote_style_header">Ceanntásc (cosúil le Outlook)</string>
+    <string name="account_settings_quote_style_label">Stíl na freagartha le ceanglófar</string>
+    <string name="account_settings_quote_style_prefix">Réimír (cosúil le Gmail)</string>
     <string name="account_settings_reading_mail">Ag léamh ríomhphoist</string>
     <string name="account_settings_remote_search_num_label">Teorainn chuardaigh freastalaí</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -123,11 +152,17 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Gach</string>
     <string name="account_settings_remove_account_action">Bain cuntas</string>
+    <string name="account_settings_reply_after_quote_label">Freagair tar éis an téacs a luadh</string>
+    <string name="account_settings_reply_after_quote_summary">Beidh an teachtaireacht bhunaidh le feiceáil os cionn do fhreagra.</string>
     <string name="account_settings_search_action">Cuardaigh</string>
     <string name="account_settings_show_pictures_always">Ó aon duine</string>
     <string name="account_settings_show_pictures_label">Taispeáin íomhánna i gcónaí</string>
     <string name="account_settings_show_pictures_never">Níl</string>
     <string name="account_settings_show_pictures_only_from_contacts">Ó theagmhálaithe</string>
+    <string name="account_settings_strip_signature_label">Bain sínithe ó fhreagraí</string>
+    <string name="account_settings_strip_signature_summary">Bainfear sínithe ó theachtaireachtaí a luadhar</string>
     <string name="account_settings_sync_remote_deletetions_label">Scriostaí freastalaí sioncrónaithe</string>
     <string name="account_settings_sync_remote_deletetions_summary">Bain teachtaireachtaí nuair a scriostar iad ar an bhfreastalaí</string>
+    <string name="account_settings_upload_sent_messages_label">Uaslódáil teachtaireachtaí seolta</string>
+    <string name="account_settings_upload_sent_messages_summary">Uaslódáil teachtaireachtaí chuig an bhfillteán Seolta tar éis iad a sheoladh</string>
 </resources>

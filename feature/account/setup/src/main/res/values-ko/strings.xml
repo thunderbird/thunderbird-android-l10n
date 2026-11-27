@@ -27,16 +27,16 @@
     <string name="account_setup_options_account_name_error_blank">계정 이름은 비워둘 수 없습니다.</string>
     <string name="account_setup_options_account_name_label">계정 이름</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="other">%d시간마다</item>
-        </plurals>
+        <item quantity="other">%d시간마다</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="other">%d분마다</item>
-        </plurals>
+        <item quantity="other">%d분마다</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">사용 안 함</string>
     <string name="account_setup_options_email_display_count_label">표시할 메시지 수</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="other">메시지 %d 개</item>
-        </plurals>
+        <item quantity="other">메시지 %d 개</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">이메일 서명은 비워둘 수 없습니다.</string>
     <string name="account_setup_options_email_signature_label">이메일 서명</string>
     <string name="account_setup_options_section_display_options">화면 설정</string>

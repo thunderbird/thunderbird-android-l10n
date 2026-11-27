@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Ξεκλειδώστε για να δείτε τον κωδικό πρόσβασής σας</string>
     <string name="account_server_settings_password_authentication_title">Επαληθεύστε την ταυτότητά σας</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Δεν είναι δυνατή η έναρξη του μηνύματος προτροπής για βιομετρικό έλεγχο.</string>
+    <string name="account_server_settings_password_input_label">Συνθηματικό</string>
     <string name="account_server_settings_port_label">Θύρα</string>
     <string name="account_server_settings_protocol_type_label">Πρωτόκολλο</string>
     <string name="account_server_settings_security_label">Ασφάλεια</string>

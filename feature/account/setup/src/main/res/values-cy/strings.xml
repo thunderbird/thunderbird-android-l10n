@@ -27,31 +27,31 @@
     <string name="account_setup_options_account_name_error_blank">Rhaid cael enw\'r cyfrif.</string>
     <string name="account_setup_options_account_name_label">Enw\'r cyfrif</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="zero">Bob %d oriau</item>
-            <item quantity="one">Bob %d awr</item>
-            <item quantity="two">Bob %d awr</item>
-            <item quantity="few">Bob %d awr</item>
-            <item quantity="many">Bob %d awr</item>
-            <item quantity="other">Bob %d awr</item>
-        </plurals>
+        <item quantity="zero">Bob %d oriau</item>
+        <item quantity="one">Bob %d awr</item>
+        <item quantity="two">Bob %d awr</item>
+        <item quantity="few">Bob %d awr</item>
+        <item quantity="many">Bob %d awr</item>
+        <item quantity="other">Bob %d awr</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="zero">Bob %d munudau</item>
-            <item quantity="one">Bob munud</item>
-            <item quantity="two">Bob %d funud</item>
-            <item quantity="few">Bob %d munud</item>
-            <item quantity="many">Bob %d munud</item>
-            <item quantity="other">Bob %d munud</item>
-        </plurals>
+        <item quantity="zero">Bob %d munudau</item>
+        <item quantity="one">Bob munud</item>
+        <item quantity="two">Bob %d funud</item>
+        <item quantity="few">Bob %d munud</item>
+        <item quantity="many">Bob %d munud</item>
+        <item quantity="other">Bob %d munud</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Byth</string>
     <string name="account_setup_options_email_display_count_label">Faint o negeseuon i\'w dangos</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="zero">%d negeseuon</item>
-            <item quantity="one">%d neges</item>
-            <item quantity="two">%d neges</item>
-            <item quantity="few">%d neges</item>
-            <item quantity="many">%d neges</item>
-            <item quantity="other">%d neges</item>
-        </plurals>
+        <item quantity="zero">%d negeseuon</item>
+        <item quantity="one">%d neges</item>
+        <item quantity="two">%d neges</item>
+        <item quantity="few">%d neges</item>
+        <item quantity="many">%d neges</item>
+        <item quantity="other">%d neges</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Rhaid cael enw llofnod e-bost.</string>
     <string name="account_setup_options_email_signature_label">Llofnod e-bost</string>
     <string name="account_setup_options_section_display_options">Dewisiadau dangos</string>

@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">ロック解除してパスワードを表示</string>
     <string name="account_server_settings_password_authentication_title">本人確認</string>
     <string name="account_server_settings_password_authentication_unable_to_start">生体認証プロンプトを開始できませんでした。</string>
+    <string name="account_server_settings_password_input_label">パスワード</string>
     <string name="account_server_settings_port_label">ポート番号</string>
     <string name="account_server_settings_protocol_type_label">プロトコル</string>
     <string name="account_server_settings_security_label">セキュリティ</string>

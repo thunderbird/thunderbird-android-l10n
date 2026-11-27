@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Hakkında</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -77,6 +77,9 @@
     <string name="account_settings_default_quoted_text_shown_label">Yanıtlarken asıl iletiyi alıntıla</string>
     <string name="account_settings_default_quoted_text_shown_summary">Yanıtıma asıl iletiyi de dahil et.</string>
     <string name="account_settings_email_label">E-posta adresiniz</string>
+    <string name="account_settings_fetching_and_data_limits">Alma ve veri sınırları</string>
+    <string name="account_settings_folder_sync_and_push">Klasör eşitleme ve anında iletim</string>
+    <string name="account_settings_folder_visibility">Klasör görünürlüğü</string>
     <string name="account_settings_folders">Klasörler</string>
     <string name="account_settings_general_title">Genel ayarlar</string>
     <string name="account_settings_identities_label">Kimlikleri yönet</string>
@@ -161,11 +164,18 @@
     <string name="account_settings_signature__location_after_quoted_text">Alıntılanan iletiden sonra</string>
     <string name="account_settings_signature__location_before_quoted_text">Alıntılanan iletiden önce</string>
     <string name="account_settings_signature__location_label">İmza konumu</string>
+    <string name="account_settings_signature_clear_label">İmzayı Temizle</string>
+    <string name="account_settings_signature_html_label">HTML İmza</string>
+    <string name="account_settings_signature_is_html_label">İmzayı HTML olarak kaydet</string>
+    <string name="account_settings_signature_is_html_summary">İmzayı HTML olarak yorumla. Güvenlik nedeniyle betikler ve olay işleyicileri kaldırılacaktır.</string>
     <string name="account_settings_signature_label">İmza</string>
+    <string name="account_settings_signature_preview">İmza ön izlemesi</string>
+    <string name="account_settings_signature_preview_empty">İmzanızın ön izlemesi burada görünecek</string>
     <string name="account_settings_signature_use_label">İmza kullan</string>
     <string name="account_settings_strip_signature_label">Yanıtta imzaları kaldır</string>
     <string name="account_settings_strip_signature_summary">Alıntılanan iletilerdeki imzalar kaldırılacaktır</string>
     <string name="account_settings_sync">Posta alma</string>
+    <string name="account_settings_sync_and_notifications">Eşitleme ve bildirimler</string>
     <string name="account_settings_sync_remote_deletetions_label">Sunucudan silinenleri eşitle</string>
     <string name="account_settings_sync_remote_deletetions_summary">Sunucu üzerinden silinen iletileri kaldır</string>
     <string name="account_settings_title_fmt">Hesap ayarları</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 klasör</string>
     <string name="account_setup_push_limit_500">500 klasör</string>
     <string name="account_setup_push_limit_label">Anında ilet ile denetlenecek en fazla klasör sayısı</string>
+    <string name="account_setup_visibility_and_syncing">Klasör eşitleme ve anında iletim</string>
     <string name="accountlist_preferences">Hesap listesi</string>
     <string name="accounts_title">Hesaplar</string>
     <string name="action_add_to_contacts">Kişilere ekle</string>
@@ -258,6 +269,7 @@
     <string name="background_ops_never">Hiçbir zaman</string>
     <string name="background_work_notification_remove_account">Hesap kaldırılıyor…</string>
     <string name="batch_select_all">Tümünü seç</string>
+    <string name="camera_capture_lost">Uygulama kapatıldığı için yakalanan resim kayboldu. Lütfen tekrar deneyin.</string>
     <string name="camera_permission_denied">Kamera izni reddedildi! Fotoğraf çekilemiyor</string>
     <string name="changelog_latest_label_text">EN SON</string>
     <string name="changelog_loading_error">Değişiklik günlüğü yüklenemedi.</string>
@@ -297,9 +309,9 @@
     <string name="confirm_discard_draft_message_title">İleti silinsin mi?</string>
     <string name="copy_action">Kopyala</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adres panoya kopyalandı</item>
-            <item quantity="other">Adresler panoya kopyalandı</item>
-        </plurals>
+        <item quantity="one">Adres panoya kopyalandı</item>
+        <item quantity="other">Adresler panoya kopyalandı</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Konu metni panoya kopyalandı</string>
     <string name="crypto_msg_cancelled">İleti şifreli, fakat şifre çözme iptal edildi.</string>
     <string name="crypto_msg_encrypted_error">ama bir deşifre hatası oluştu</string>
@@ -373,9 +385,9 @@
     <string name="dialog_confirm_delete_confirm_button">Evet</string>
     <string name="dialog_confirm_delete_message">Bu iletiyi silmek istiyor musunuz?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Bu iletiyi silmek istediğinizden emin misiniz?</item>
-            <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> iletiyi silmek istediğinizden emin misiniz?</item>
-        </plurals>
+        <item quantity="one">Bu iletiyi silmek istediğinizden emin misiniz?</item>
+        <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> iletiyi silmek istediğinizden emin misiniz?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Silmeyi onayla</string>
     <string name="dialog_confirm_empty_spam_message">Spam klasörünü boşaltmak istiyor musunuz?</string>
     <string name="dialog_confirm_empty_spam_title">Spam’i boşaltmayı onayla</string>
@@ -388,9 +400,9 @@
     <string name="dialog_confirm_spam_cancel_button">Hayır</string>
     <string name="dialog_confirm_spam_confirm_button">Evet</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Bu iletiyi spam klasörüne taşımak istediğinizden emin misiniz?</item>
-            <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> iletiyi spam klasörüne taşımak istediğinizden emin misiniz?</item>
-        </plurals>
+        <item quantity="one">Bu iletiyi spam klasörüne taşımak istediğinizden emin misiniz?</item>
+        <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> iletiyi spam klasörüne taşımak istediğinizden emin misiniz?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Spam klasörüne taşımayı onayla</string>
     <string name="dialog_openkeychain_info_install">Yükle</string>
     <string name="dialog_openkeychain_info_text">Uçtan uca şifreleme desteğini etkinleştirmek için OpenKeychain uygulaması gereklidir.</string>
@@ -427,6 +439,7 @@
     <string name="error_crypto_provider_connect">Kripto sağlayıcısına bağlanılamadı. Ayarlarınızı gözden geçirin veya yeniden denemek için şifreleme simgesine tıklayın.</string>
     <string name="error_crypto_provider_incompatible">Kripto sağlayıcısı uyumsuz bir sürüm kullanıyor. Lütfen ayarlarınızı gözden geçirin!</string>
     <string name="error_crypto_provider_ui_required">Uçtan uca şifreleme başlatılamadı. Lütfen ayarlarınızı gözden geçirin</string>
+    <string name="error_no_contact_provider">Kişiler uygulaması bulunamadı. Bu adresi eklemek için bir kişiler uygulaması kurun.</string>
     <string name="error_sign_only_no_encryption">Yalnızca imza kipinde şifreleme kullanılamaz!</string>
     <string name="expand_content_description">Genişlet</string>
     <string name="expand_folders">Klasörleri genişlet</string>
@@ -612,6 +625,7 @@
     <string name="message_compose_content_hint">İleti metni</string>
     <string name="message_compose_description_delete_quoted_text">Alıntılanan metni sil</string>
     <string name="message_compose_description_edit_quoted_text">Alıntılanan metni düzenle</string>
+    <string name="message_compose_encrypting_message">İleti şifreleniyor…</string>
     <string name="message_compose_error_no_recipients">En az bir alıcı eklemelisiniz.</string>
     <string name="message_compose_quote_header_cc">Cc:</string>
     <string name="message_compose_quote_header_from">Kimden:</string>
@@ -665,9 +679,9 @@
     <string name="message_to_label">Kime:</string>
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ek (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ek (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ek (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ek (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Tümünü kaydet</string>
     <string name="message_view_attachments_title">Ekler</string>
     <string name="message_view_attachments_view">Görüntüle</string>
@@ -676,7 +690,7 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">İletinin tamamını indir</string>
     <string name="message_view_empty">Lütfen sol taraftan bir ileti seçin</string>
-    <string name="message_view_me_text">ben</string>
+    <string name="message_view_from_me_text">ben</string>
     <string name="message_view_menu_action_export_eml">EML olarak dışa aktar</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
@@ -690,6 +704,7 @@
     <string name="message_view_status_attachment_not_saved">Dosya kaydedilemedi.</string>
     <string name="message_view_theme_action_dark">Koyu temaya geç</string>
     <string name="message_view_theme_action_light">Açık temaya geç</string>
+    <string name="message_view_to_me_text">ben</string>
     <string name="messagelist_preferences">İleti listeleri</string>
     <string name="messageview_crypto_error_title">E-posta deşifre hatası</string>
     <string name="messageview_decrypt_cancelled">Şifre çözme iptal edildi.</string>
@@ -740,9 +755,9 @@
     <string name="notification_channel_push_description">Yeni iletiler beklenirken görüntülenir</string>
     <string name="notification_channel_push_title">Eşitle (anında ilet)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> yeni ileti</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> yeni ileti</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> yeni ileti</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> yeni ileti</item>
+    </plurals>
     <string name="notification_notify_error_text">Yeni bir ileti için sistem bildirimi oluşturmaya çalışırken bir hata oluştu. Bunun nedeni büyük olasılıkla eksik bir bildirim sesidir.\n\nBildirim ayarlarını açmak için dokunun.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_title">Bildirim hatası</string>
@@ -817,14 +832,15 @@
     <string name="recipient_to">Kime</string>
     <string name="refile_action">Dosyala…</string>
     <string name="refresh_folders_action">Klasör listesini yenile</string>
+    <string name="remote_feature_flag_preferences">Uzak Özellik Bayrakları</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">%d sonuç getiriliyor</item>
-            <item quantity="other">%d sonuç getiriliyor</item>
-        </plurals>
+        <item quantity="one">%d sonuç getiriliyor</item>
+        <item quantity="other">%d sonuç getiriliyor</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%2$d sonuçtan %1$d tanesi alınıyor</item>
-            <item quantity="other">%2$d sonuçtan %1$d tanesi alınıyor</item>
-        </plurals>
+        <item quantity="one">%2$d sonuçtan %1$d tanesi alınıyor</item>
+        <item quantity="other">%2$d sonuçtan %1$d tanesi alınıyor</item>
+    </plurals>
     <string name="remote_search_error">Uzaktan arama başarısız</string>
     <string name="remote_search_sending_query">Sorgu sunucuya gönderiliyor</string>
     <string name="remote_search_unavailable_no_network">Sunucuda arama için ağ bağlantısı gereklidir.</string>
@@ -919,8 +935,8 @@
     <string name="toast_openpgp_provider_error">%s ile bağlantı kurulurken hata oluştu!</string>
     <string name="trash_folder_label">Çöp klasörü</string>
     <string name="unflag_action">Yıldızı kaldır</string>
-    <string name="unknown_recipient">&<;Bilinmeyen Alıcı&>;</string>
-    <string name="unknown_sender">&<;Bilinmeyen Gönderici&>;</string>
+    <string name="unknown_recipient">&lt;Bilinmeyen Alıcı&gt;</string>
+    <string name="unknown_sender">&lt;Bilinmeyen Gönderici&gt;</string>
     <string name="unsigned_text_divider_label">İmzasız Metin</string>
     <string name="unsubscribe_action">Abonelikten çık</string>
     <string name="upgrade_database_format">\"<xliff:g id="account">%s</xliff:g>\" hesabının veritabanı yükseltiliyor</string>

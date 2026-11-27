@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">O nama</string>
     <string name="about_app_authors_k9">K-9 razvojni tim</string>
     <string name="about_libraries">Biblioteke</string>
@@ -32,10 +32,10 @@
     <string name="compose_title_reply_all">Odgovori svima</string>
     <string name="copy_action">Kopiraj</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa kopirana u međuspremnik</item>
-            <item quantity="few">Adrese kopirane u međuspremnik</item>
-            <item quantity="other">Adresa kopirano u međuspremnik</item>
-        </plurals>
+        <item quantity="one">Adresa kopirana u međuspremnik</item>
+        <item quantity="few">Adrese kopirane u međuspremnik</item>
+        <item quantity="other">Adresa kopirano u međuspremnik</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Tekst teme kopiran u međuspremnik</string>
     <string name="debug_enable_debug_logging_summary">Zapisuj posebne dijagnostičke informacije</string>
     <string name="debug_enable_debug_logging_title">Omogući dnevnik grešaka</string>
@@ -138,7 +138,6 @@
     <string name="message_view_bcc_label">Bcc:</string>
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Preuzmi cijelu poruku</string>
-    <string name="message_view_me_text">mene</string>
     <string name="message_view_no_viewer">Ne mogu pronaći program za prikaz <xliff:g id="mimetype">%s</xliff:g>.</string>
     <string name="message_view_recipients_format">za <xliff:g id="recipients">%s</xliff:g></string>
     <string name="message_view_sender_label">putem %1$s</string>
@@ -146,6 +145,7 @@
     <string name="message_view_status_attachment_not_saved">Nije moguće spremiti prilog.</string>
     <string name="message_view_theme_action_dark">Prebaci na tamnu temu</string>
     <string name="message_view_theme_action_light">Prebaci na svijetlu temu</string>
+    <string name="message_view_to_me_text">mene</string>
     <string name="move_action">Premjesti</string>
     <string name="move_to_drafts_action">Pređite na nacrte</string>
     <string name="new_messages_title">Nove poruke</string>
@@ -175,10 +175,10 @@
     <string name="notification_channel_push_description">Prikazano dok se čeka na nove poruke</string>
     <string name="notification_channel_push_title">Sinhronizacija (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova poruka</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova poruka</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
+    </plurals>
     <string name="notification_notify_error_text">Dogodila se greška tokom kreiranja sistemskog obavještenja za novu poruku. Razlog je vjerovatno nemanje zvuka obavještenja. \n \nDodirnite da otvorite podešavanja obavještenja.</string>
     <string name="notification_notify_error_title">Greška pri kreiranju obavještenja</string>
     <string name="prefs_title">Postavke</string>

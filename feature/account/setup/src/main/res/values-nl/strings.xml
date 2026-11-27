@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Accountnaam mag niet leeg zijn.</string>
     <string name="account_setup_options_account_name_label">Accountnaam</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Elk uur</item>
-            <item quantity="other">Elke %d uur</item>
-        </plurals>
+        <item quantity="one">Elk uur</item>
+        <item quantity="other">Elke %d uur</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Elke minuut</item>
-            <item quantity="other">Elke %d minuten</item>
-        </plurals>
+        <item quantity="one">Elke minuut</item>
+        <item quantity="other">Elke %d minuten</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nooit</string>
     <string name="account_setup_options_email_display_count_label">Aantal te tonen berichten</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 bericht</item>
-            <item quantity="other">%d berichten</item>
-        </plurals>
+        <item quantity="one">1 bericht</item>
+        <item quantity="other">%d berichten</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-mailhandtekening mag niet leeg zijn.</string>
     <string name="account_setup_options_email_signature_label">E-mailhandtekening</string>
     <string name="account_setup_options_section_display_options">Weergaveopties</string>

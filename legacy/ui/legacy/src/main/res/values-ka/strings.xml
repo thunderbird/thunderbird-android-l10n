@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">ინფორმაცია</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -171,9 +171,9 @@
     <string name="confirm_discard_draft_message_title">გავაუქმოთ მესიჯი?</string>
     <string name="copy_action">კოპირება</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">მისამართი კოპირებულია ასლთსათავსში</item>
-            <item quantity="other">მისამართები კოპირებულია ასლთსათავსში</item>
-        </plurals>
+        <item quantity="one">მისამართი კოპირებულია ასლთსათავსში</item>
+        <item quantity="other">მისამართები კოპირებულია ასლთსათავსში</item>
+    </plurals>
     <string name="crypto_msg_cancelled">წერილი დაშიფრულია, თუმცა განშიფვრა გაუქმებულ იქნა.</string>
     <string name="crypto_msg_encrypted_error">თუმცა იყო დეშიფრაციის შეცდომა</string>
     <string name="crypto_msg_encrypted_sign_expired">თუმცა, გამჭოლი შიფრაციის გასაღების ვადა ამოწურულია</string>
@@ -392,9 +392,9 @@
     <string name="notification_certificate_error_title">სერტიფიკატის შეცდომა: <xliff:g id="account">%s</xliff:g></string>
     <string name="notification_channel_messages_title">მესიჯები</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ახალი შეტყობინება</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> ახალი შეტყობინება</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ახალი შეტყობინება</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> ახალი შეტყობინება</item>
+    </plurals>
     <string name="openpgp_description_text2">ჩართეთ შიფრაცია ამ ხატულაზე დაწკაპუნებით.</string>
     <string name="openpgp_dialog_sign_only_minus_attach">ზოგიერთ კლიენტში ხელმოწერები შესაძლოა გამოჩნდეს როგორც „signature.asc“ დანართები.</string>
     <string name="openpgp_enabled_error_back">უკან</string>

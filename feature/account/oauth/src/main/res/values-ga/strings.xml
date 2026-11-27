@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Níorbh fhéidir leis an aip brabhsálaí a aimsiú le húsáid chun rochtain a dheonú ar do chuntas.</string>
     <string name="account_oauth_error_canceled">Cealaíodh an t-údarú</string>
     <string name="account_oauth_error_failed">Theip ar údarú leis an earráid seo a leanas: <xliff:g id="error"> %s</xliff:g></string>

@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Tilin nimi ei voi olla tyhjä.</string>
     <string name="account_setup_options_account_name_label">Tilin nimi</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Tunnin välein</item>
-            <item quantity="other">%d tunnin välein</item>
-        </plurals>
+        <item quantity="one">Tunnin välein</item>
+        <item quantity="other">%d tunnin välein</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Minuutin välein</item>
-            <item quantity="other">%d minuutin välein</item>
-        </plurals>
+        <item quantity="one">Minuutin välein</item>
+        <item quantity="other">%d minuutin välein</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Ei koskaan</string>
     <string name="account_setup_options_email_display_count_label">Näytettävien viestien määrä</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 message</item>
-            <item quantity="other">%d messages</item>
-        </plurals>
+        <item quantity="one">1 message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Sähköpostin allekirjoituksen nimi ei voi olla tyhjä.</string>
     <string name="account_setup_options_email_signature_label">Sähköpostin allekirjoitus</string>
     <string name="account_setup_options_section_display_options">Näkymäasetukset</string>

@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Déverrouiller pour afficher votre mot de passe</string>
     <string name="account_server_settings_password_authentication_title">Confirmer votre identité</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Impossible de lancer l’invite biométrique.</string>
+    <string name="account_server_settings_password_input_label">Mot de passe</string>
     <string name="account_server_settings_port_label">Port</string>
     <string name="account_server_settings_protocol_type_label">Protocole</string>
     <string name="account_server_settings_security_label">Sécurité</string>

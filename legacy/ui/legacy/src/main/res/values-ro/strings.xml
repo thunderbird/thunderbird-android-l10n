@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Despre</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -36,7 +36,7 @@
     <string name="account_notify_contacts_mail_only_summary">Arată notificări doar pentru mesaje de la persoane cunoscute</string>
     <string name="account_settings_action">Opțiuni cont</string>
     <string name="account_settings_always_bcc_label">Trimite o copie ascunsă (BCC) a tuturor mesajelor către</string>
-    <string name="account_settings_always_show_cc_bcc_label">Arată întotdeauna Cc/Bcc</string>
+    <string name="account_settings_always_show_cc_bcc_label">Afișează întotdeauna Cc/Bcc</string>
     <string name="account_settings_autodownload_message_size_1">1 Kio</string>
     <string name="account_settings_autodownload_message_size_1024">1 Mio</string>
     <string name="account_settings_autodownload_message_size_10240">10 Mio</string>
@@ -54,9 +54,9 @@
     <string name="account_settings_autodownload_message_size_any">orice dimensiune (fără limită)</string>
     <string name="account_settings_autodownload_message_size_label">Preia mesaje până la</string>
     <string name="account_settings_automatic_special_folder">Automat (%s)</string>
-    <string name="account_settings_composition">Expediere mail</string>
-    <string name="account_settings_composition_label">Setări implicite compunere mesaj</string>
-    <string name="account_settings_composition_summary">Setează ”De la”, Bcc și semnătură</string>
+    <string name="account_settings_composition">Se trimite mesajul</string>
+    <string name="account_settings_composition_label">Valorile implicite pentru redactarea mesajelor</string>
+    <string name="account_settings_composition_summary">Definește valorile implicite pentru „De la”, „Bcc” și semnătură</string>
     <string name="account_settings_composition_title">Opțiuni compunere mesaj</string>
     <string name="account_settings_crypto">Criptare punct-la-punct</string>
     <string name="account_settings_crypto_app">Activare suport OpenPGP</string>
@@ -77,10 +77,13 @@
     <string name="account_settings_default_quoted_text_shown_label">Citează mesajul când se răspunde</string>
     <string name="account_settings_default_quoted_text_shown_summary">Include mesajul original în răspuns.</string>
     <string name="account_settings_email_label">Adresa ta de email</string>
+    <string name="account_settings_fetching_and_data_limits">Preluarea datelor și limitele de trafc</string>
+    <string name="account_settings_folder_sync_and_push">Sincronizarea dosarelor și notificarea conținutului acestora</string>
+    <string name="account_settings_folder_visibility">Vizibilitatea dosarelor</string>
     <string name="account_settings_folders">Dosare</string>
     <string name="account_settings_general_title">Preferințe generale</string>
-    <string name="account_settings_identities_label">Administrează identitățile</string>
-    <string name="account_settings_identities_summary">Setează adrese și semnături alternative pentru ”De la”</string>
+    <string name="account_settings_identities_label">Gestionarea identităților</string>
+    <string name="account_settings_identities_summary">Definiți adrese „De la” și semnături alternative</string>
     <string name="account_settings_ignore_chat_messages_label">Ignoră mesajele de chat</string>
     <string name="account_settings_ignore_chat_messages_summary">Nu afișa notificări pentru mesajele aparținând unui chat prin e-mail</string>
     <string name="account_settings_incoming_label">Server primire</string>
@@ -105,11 +108,11 @@
     <string name="account_settings_message_age_any">oricând (fără limită)</string>
     <string name="account_settings_message_age_label">Sincronizează mesajele din</string>
     <string name="account_settings_message_format_auto">Automat</string>
-    <string name="account_settings_message_format_html">HTML (păstrează imagini și formatări)</string>
-    <string name="account_settings_message_format_label">Format mesaj</string>
-    <string name="account_settings_message_format_text">Text simplu (elimină imagini și formatări)</string>
-    <string name="account_settings_message_read_receipt_label">Raport de citire</string>
-    <string name="account_settings_message_read_receipt_summary">Cere întotdeauna un raport de citire</string>
+    <string name="account_settings_message_format_html">HTML (păstrează imaginile și formatarea)</string>
+    <string name="account_settings_message_format_label">Formatul mesajului</string>
+    <string name="account_settings_message_format_text">Text simplu (elimină imaginile și formatarea)</string>
+    <string name="account_settings_message_read_receipt_label">Confirmare de citire</string>
+    <string name="account_settings_message_read_receipt_summary">Solicită întotdeauna o confirmare de citire</string>
     <string name="account_settings_name_label">Nume</string>
     <string name="account_settings_no_folder_selected">Nimic</string>
     <string name="account_settings_notification_channels_label">Categorii de notificări</string>
@@ -137,9 +140,9 @@
     <string name="account_settings_outgoing_summary">Configurare server trimitere (SMTP)</string>
     <string name="account_settings_push_advanced_title">Avansat</string>
     <string name="account_settings_quote_prefix_label">Prefixul pentru textul citat</string>
-    <string name="account_settings_quote_style_header">Antet (ca Outlook)</string>
-    <string name="account_settings_quote_style_label">Stilul de citare la răspuns</string>
-    <string name="account_settings_quote_style_prefix">Prefix (ca Gmail)</string>
+    <string name="account_settings_quote_style_header">Antet (ca în Outlook)</string>
+    <string name="account_settings_quote_style_label">Stilul de răspuns cu citare</string>
+    <string name="account_settings_quote_style_prefix">Prefix (ca în Gmail)</string>
     <string name="account_settings_reading_mail">Se citește corespondența</string>
     <string name="account_settings_remote_search_num_label">Limită căutare server</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -161,11 +164,18 @@
     <string name="account_settings_signature__location_after_quoted_text">După mesajul citat</string>
     <string name="account_settings_signature__location_before_quoted_text">Înainte de mesajul citat</string>
     <string name="account_settings_signature__location_label">Poziție semnătură</string>
+    <string name="account_settings_signature_clear_label">Semnătură în clar (necriptată)</string>
+    <string name="account_settings_signature_html_label">Semnătură HTML</string>
+    <string name="account_settings_signature_is_html_label">Salvează semnătura ca HTML</string>
+    <string name="account_settings_signature_is_html_summary">interpretează semnătura ca HTML. Scripturile și gestionarii de evenimente vor fi eliminați din motive de securitate.</string>
     <string name="account_settings_signature_label">Semnătură</string>
+    <string name="account_settings_signature_preview">Previzualizare semnătură</string>
+    <string name="account_settings_signature_preview_empty">Previzualizarea semnăturii tale va apărea aici</string>
     <string name="account_settings_signature_use_label">Folosește semnătură</string>
     <string name="account_settings_strip_signature_label">Elimină semnături în răspunsuri</string>
     <string name="account_settings_strip_signature_summary">Semnăturile vor fi eliminate din mesajele citate</string>
     <string name="account_settings_sync">Descărcare mail</string>
+    <string name="account_settings_sync_and_notifications">Sincronizare și notificări</string>
     <string name="account_settings_sync_remote_deletetions_label">Sincronizarea ștergerilor de pe server</string>
     <string name="account_settings_sync_remote_deletetions_summary">Elimină mesajele atunci când sunt șterse de pe server</string>
     <string name="account_settings_title_fmt">Setări cont</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 de dosare</string>
     <string name="account_setup_push_limit_500">500 de dosare</string>
     <string name="account_setup_push_limit_label">Maxim de dosare de verificat prin push</string>
+    <string name="account_setup_visibility_and_syncing">Sincronizarea dosarelor și notificarea conținutului acestora</string>
     <string name="accountlist_preferences">Listă conturi</string>
     <string name="accounts_title">Conturi</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -260,6 +271,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Se elimină contul…</string>
     <string name="batch_select_all">Selectează tot</string>
+    <string name="camera_capture_lost">Imaginea capturată s-a pierdut deoarece aplicația a fost închisă. Vă rugăm să încercați din nou.</string>
     <string name="camera_permission_denied">Accesul la cameră a fost refuzat, nu se pot face fotografii</string>
     <string name="changelog_latest_label_text">RECENTE</string>
     <string name="changelog_loading_error">Nu s-a putut încărca jurnalul de modificări.</string>
@@ -296,10 +308,10 @@
     <string name="confirm_discard_draft_message_title">Renunți la mesaj?</string>
     <string name="copy_action">Copiază</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa a fost copiată în clipboard</item>
-            <item quantity="few">Adresele au fost copiate în clipboard</item>
-            <item quantity="other">Adresele au fost copiate în clipboard</item>
-        </plurals>
+        <item quantity="one">Adresa a fost copiată în clipboard</item>
+        <item quantity="few">Adresele au fost copiate în clipboard</item>
+        <item quantity="other">Adresele au fost copiate în clipboard</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Textul subiectului copiat în clipboard</string>
     <string name="crypto_msg_cancelled">Mesajul este criptat, dar decriptarea a fost anulată.</string>
     <string name="crypto_msg_encrypted_error">dar a apărut o eroare la decriptare</string>
@@ -373,10 +385,10 @@
     <string name="dialog_confirm_delete_confirm_button">Da</string>
     <string name="dialog_confirm_delete_message">Dorești să ștergi mesajul?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Sigur doriți ștergerea mesajului?</item>
-            <item quantity="few">Sigur doriți ștergerea a <xliff:g id="message_count">%1$d</xliff:g> mesaje?</item>
-            <item quantity="other">Sigur dorești ștergerea a <xliff:g id="message_count">%1$d</xliff:g> mesaje?</item>
-        </plurals>
+        <item quantity="one">Sigur doriți ștergerea mesajului?</item>
+        <item quantity="few">Sigur doriți ștergerea a <xliff:g id="message_count">%1$d</xliff:g> mesaje?</item>
+        <item quantity="other">Sigur dorești ștergerea a <xliff:g id="message_count">%1$d</xliff:g> mesaje?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Confirmă ștergerea</string>
     <string name="dialog_confirm_empty_spam_message">Doriți să goliți dosarul de spam?</string>
     <string name="dialog_confirm_empty_spam_title">Confirmă golirea spam-ului</string>
@@ -389,10 +401,10 @@
     <string name="dialog_confirm_spam_cancel_button">Nu</string>
     <string name="dialog_confirm_spam_confirm_button">Da</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Sigur doriți mutarea mesajului în dosarul spam?</item>
-            <item quantity="few">Sigur doriți mutarea a <xliff:g id="message_count">%1$d</xliff:g> mesaje în dosarul spam?</item>
-            <item quantity="other">Sigur dorești mutarea a <xliff:g id="message_count">%1$d</xliff:g> mesaje în dosarul spam?</item>
-        </plurals>
+        <item quantity="one">Sigur doriți mutarea mesajului în dosarul spam?</item>
+        <item quantity="few">Sigur doriți mutarea a <xliff:g id="message_count">%1$d</xliff:g> mesaje în dosarul spam?</item>
+        <item quantity="other">Sigur dorești mutarea a <xliff:g id="message_count">%1$d</xliff:g> mesaje în dosarul spam?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Confirmă mutare în dosarul spam</string>
     <string name="dialog_openkeychain_info_install">Instalare</string>
     <string name="dialog_openkeychain_info_text">Aplicația OpenKeychain este necesară pentru a activa suportul pentru criptarea end-to-end.</string>
@@ -429,6 +441,7 @@
     <string name="error_crypto_provider_connect">Conexiune nereușită la serviciul criptografic, verifică setările sau apasă pe Criptare pentru a reîncerca!</string>
     <string name="error_crypto_provider_incompatible">Furnizorul de criptare folosește o versiune incompatibilă. Te rugăm să verifici setările!</string>
     <string name="error_crypto_provider_ui_required">Eroare de inițializare a criptării punct-la-punct, verifică setările</string>
+    <string name="error_no_contact_provider">Nu s-a găsit nicio aplicație „Agendă de contacte”. Instalează o aplicație de Agendă de contacte pentru a adăuga această adresă.</string>
     <string name="error_sign_only_no_encryption">Criptare indisponibilă în modul „Doar semnare”!</string>
     <string name="expand_content_description">Extinde</string>
     <string name="expand_folders">Expandare dosare</string>
@@ -465,7 +478,7 @@
     <string name="font_size_message_view_account">Nume cont</string>
     <string name="font_size_message_view_content">Conținut mesaj</string>
     <string name="font_size_message_view_date">Timp și dată</string>
-    <string name="font_size_message_view_recipients">Recipiente</string>
+    <string name="font_size_message_view_recipients">Destinatari</string>
     <string name="font_size_message_view_sender">Expeditor</string>
     <string name="font_size_message_view_subject">Subiect</string>
     <string name="font_size_settings_description">Configurează dimensiunea fontului</string>
@@ -625,6 +638,7 @@
     <string name="message_compose_content_hint">Text mesaj</string>
     <string name="message_compose_description_delete_quoted_text">Elimină textul citat</string>
     <string name="message_compose_description_edit_quoted_text">Editează textul citat</string>
+    <string name="message_compose_encrypting_message">Se criptează mesajul…</string>
     <string name="message_compose_error_no_recipients">Trebuie să adaugi cel puțin un destinatar.</string>
     <string name="message_compose_quote_header_cc">Cc:</string>
     <string name="message_compose_quote_header_from">De la:</string>
@@ -670,10 +684,10 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> atașament (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> atașamente (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> de atașamente (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> atașament (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> atașamente (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> de atașamente (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Salvează tot</string>
     <string name="message_view_attachments_title">Atașamente</string>
     <string name="message_view_attachments_view">Afișează</string>
@@ -682,8 +696,7 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Descarcă mesajul complet</string>
     <string name="message_view_empty">Alege un mesaj din stânga</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">eu</string>
+    <string name="message_view_from_me_text">mine</string>
     <string name="message_view_menu_action_export_eml">Exportă ca EML</string>
     <string name="message_view_no_viewer">Nu se poate găsi vizualizator pentru <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -695,6 +708,8 @@
     <string name="message_view_status_attachment_not_saved">Nu se poate salva atașamentul.</string>
     <string name="message_view_theme_action_dark">Comută la tema întunecată</string>
     <string name="message_view_theme_action_light">Comută la tema luminoasă</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">eu</string>
     <string name="messagelist_preferences">Listă mesaje</string>
     <string name="messageview_crypto_error_title">Eroare la decriptarea email-ului</string>
     <string name="messageview_decrypt_cancelled">Decriptarea a fost întreruptă.</string>
@@ -744,10 +759,10 @@
     <string name="notification_channel_push_description">Afișat când se așteaptă mesaje noi</string>
     <string name="notification_channel_push_title">Sincronizare (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> mesaj nou</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> mesaje noi</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mesaje noi</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> mesaj nou</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> mesaje noi</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mesaje noi</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">S-a produs o eroare în timpul încercării de a crea o notificare de sistem pentru un mesaj nou. Motivul este cel mai probabil lipsa unui sunet de notificare.\n\nApasă pentru a deschide setările de notificare.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -823,16 +838,17 @@
     <string name="recipient_to">Către</string>
     <string name="refile_action">Reîndosariază…</string>
     <string name="refresh_folders_action">Reîmprospătează lista de dosare</string>
+    <string name="remote_feature_flag_preferences">Opțiuni de funcții la distanță</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Preluare %d rezultat</item>
-            <item quantity="few">Preluare %d rezultate</item>
-            <item quantity="other">Preluare %d rezultate</item>
-        </plurals>
+        <item quantity="one">Preluare %d rezultat</item>
+        <item quantity="few">Preluare %d rezultate</item>
+        <item quantity="other">Preluare %d rezultate</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Preluare %1$d din %2$d rezultat</item>
-            <item quantity="few">Preluare %1$d din %2$d rezultate</item>
-            <item quantity="other">Preluare %1$d din %2$d rezultate</item>
-        </plurals>
+        <item quantity="one">Preluare %1$d din %2$d rezultat</item>
+        <item quantity="few">Preluare %1$d din %2$d rezultate</item>
+        <item quantity="other">Preluare %1$d din %2$d rezultate</item>
+    </plurals>
     <string name="remote_search_error">Căutare la distanță eșuată</string>
     <string name="remote_search_sending_query">Se trimite cererea la server</string>
     <string name="remote_search_unavailable_no_network">Este necesară conexiunea la rețea pentru căutarea pe server.</string>
@@ -861,7 +877,7 @@
     <string name="set_format_html_condensed_action">Afișează formatat</string>
     <string name="set_format_plain_action">Afișează mesajul neformatat</string>
     <string name="set_format_plain_condensed_action">Afișează neformatat</string>
-    <string name="setting_language_system">Setări implicite</string>
+    <string name="setting_language_system">Limba implicită a sistemului</string>
     <string name="setting_theme_dark">Închisă</string>
     <string name="setting_theme_follow_system">Folosește setările implicite ale sistemului</string>
     <string name="setting_theme_global">Folosește tema aplicației</string>
@@ -886,8 +902,8 @@
     <string name="settings_ui_telemetry_description">Partajează cu Mozilla date de performanță, utilizare, hardware și personalizare despre această aplicație pentru a ne ajuta să îmbunătățim Thunderbird</string>
     <string name="settings_ui_telemetry_title">Date tehnice și de utilizare</string>
     <string name="show_headers_action">Arată antete</string>
-    <string name="show_starred_count_title">Afișează numărul de stele</string>
-    <string name="show_unified_inbox_title">Afișează Cutia poștală de intrare unificată</string>
+    <string name="show_starred_count_title">Afișează numărul de steluțe</string>
+    <string name="show_unified_inbox_title">Afișează căsuța poștală de intrare unificată</string>
     <string name="size_format_bytes">%d B</string>
     <string name="size_format_gigabytes">%.1f GB</string>
     <string name="size_format_kilobytes">%.1f kB</string>
@@ -927,8 +943,8 @@
     <string name="toast_openpgp_provider_error">Eroare la conectarea la %s!</string>
     <string name="trash_folder_label">Dosar gunoi</string>
     <string name="unflag_action">Șterge steluța</string>
-    <string name="unknown_recipient">&<;Unknown Recipient&>;</string>
-    <string name="unknown_sender">&<;Unknown Sender&>;</string>
+    <string name="unknown_recipient">&lt;Unknown Recipient&gt;</string>
+    <string name="unknown_sender">&lt;Unknown Sender&gt;</string>
     <string name="unsigned_text_divider_label">Text nesemnat</string>
     <string name="unsubscribe_action">Dezabonare</string>
     <string name="upgrade_database_format">Se actualizează baza de date a contului \"<xliff:g id="account">%s</xliff:g>\"</string>

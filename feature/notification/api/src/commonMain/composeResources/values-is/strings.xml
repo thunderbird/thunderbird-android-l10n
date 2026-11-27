@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Birtist á meðan beðið er eftir nýjum skilaboðum</string>
     <string name="notification_channel_push_title">Samstilla (Ýta)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d ný skilaboð</item>
-            <item quantity="other">%1$d ný skilaboð</item>
-        </plurals>
+        <item quantity="one">%1$d ný skilaboð</item>
+        <item quantity="other">%1$d ný skilaboð</item>
+    </plurals>
     <string name="notification_notify_error_text">Villa kom upp þegar reynt var að útbúa kerfistilkynningu vegna nýrra skilaboða. Ástæðan er líklegast sú að það vanti hljóð fyrir tilkynningar.\n\nPikkaðu til að opna stillingar á tilkynningum.</string>
     <string name="notification_notify_error_title">Villa í tilkynningu</string>
     <string name="push_info_disable_push_action">Gera ýtitilkynningar óvirkar</string>

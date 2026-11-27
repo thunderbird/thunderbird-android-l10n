@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Kasutajakonto nimi ei saa olla tühi.</string>
     <string name="account_setup_options_account_name_label">Kasutajakonto nimi</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Kord tunnis</item>
-            <item quantity="other">Iga %d tunni järel</item>
-        </plurals>
+        <item quantity="one">Kord tunnis</item>
+        <item quantity="other">Iga %d tunni järel</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Kord minutis</item>
-            <item quantity="other">Iga %d minuti järel</item>
-        </plurals>
+        <item quantity="one">Kord minutis</item>
+        <item quantity="other">Iga %d minuti järel</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Mitte kunagi</string>
     <string name="account_setup_options_email_display_count_label">Kuvatavate kirjade arv</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 sõnum</item>
-            <item quantity="other">%d sõnumit</item>
-        </plurals>
+        <item quantity="one">1 sõnum</item>
+        <item quantity="other">%d sõnumit</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-kirja allkiri ei saa olla tühi.</string>
     <string name="account_setup_options_email_signature_label">E-kirja allkiri</string>
     <string name="account_setup_options_section_display_options">Kuvatavad valikud</string>

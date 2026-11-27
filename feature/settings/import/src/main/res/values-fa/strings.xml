@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_import_app_version_not_supported">نگارش کاره پشتیبانی نمی‌شود.</string>
     <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
     <string name="settings_import_authorization_and_password_required">لطفا وارد شوید و رمز را وارد کنید</string>
@@ -8,7 +8,7 @@
     <string name="settings_import_button">درون‌برد</string>
     <string name="settings_import_failure">درون‌برد تنظیمات ناموفق بود</string>
     <string name="settings_import_general_settings_item">تنظیمات عمومی</string>
-    <string name="settings_import_incoming_server_password_hint">گذرواژهٔ کارساز ورودی</string>
+    <string name="settings_import_incoming_server_password_hint">گذرواژهٔ سرور ورودی</string>
     <string name="settings_import_later_button">بعداً</string>
     <string name="settings_import_oauth_description">برای استفاده‌ از این حساب باید وارد شده و اجازهٔ دسترسی به رایانامه‌هایتان را به برنامه بدهید.</string>
     <string name="settings_import_oauth_error_browser_not_found">برنامه نمی تواند مرورگری را پیدا کند تا دسترسی به حسابتان را بگیرد.</string>
@@ -17,12 +17,12 @@
     <string name="settings_import_oauth_error_oauth_not_supported">OAuth 2.0 فعلا توسط این ارائه دهنده پشتیبانی نمی‌شود.</string>
     <string name="settings_import_oauth_sign_in">ورود</string>
     <string name="settings_import_oauth_sign_in_with_google">ورود با گوگل</string>
-    <string name="settings_import_outgoing_server_password_hint">گذرواژهٔ کارساز خروجی</string>
+    <string name="settings_import_outgoing_server_password_hint">گذرواژهٔ سرور خروجی</string>
     <string name="settings_import_partial_failure">درون‌برد برخی تنظیمات ناموفق بود</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">برای اینکه بتوانید از حساب «<xliff:g id="account">%s</xliff:g>» استفاده کنید، باید گذرواژهٔ میزبان را ارائه نمایید.</item>
-            <item quantity="other">برای اینکه بتوانید از حساب «<xliff:g id="account">%s</xliff:g>» استفاده کنید، باید گذرواژه‌های کارساز را ارائه نمایید.</item>
-        </plurals>
+        <item quantity="one">برای اینکه بتوانید از حساب «<xliff:g id="account">%s</xliff:g>» استفاده کنید، باید گذرواژهٔ سرور را ارائه نمایید.</item>
+        <item quantity="other">برای اینکه بتوانید از حساب «<xliff:g id="account">%s</xliff:g>» استفاده کنید، باید گذرواژه‌های سرور را ارائه نمایید.</item>
+    </plurals>
     <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
     <string name="settings_import_password_required">لطفاً گذرواژه‌ها را وارد کنید</string>
     <string name="settings_import_pick_app_button">درون‌ریزی از برنامه</string>
@@ -30,7 +30,7 @@
     <string name="settings_import_pick_document_button">انتخاب پرونده</string>
     <string name="settings_import_read_failure">خواندن پروندهٔ تنظیمات ناموفق بود</string>
     <string name="settings_import_scan_qr_code_button">پویش رمزینه</string>
-    <string name="settings_import_server_name_format">نام کارساز:<xliff:g id="hostname">%s</xliff:g></string>
+    <string name="settings_import_server_name_format">نام سرور:<xliff:g id="hostname">%s</xliff:g></string>
     <string name="settings_import_status_error">شکست درون‌برد</string>
     <!-- Content description for the icon that is displayed next to an imported account that requires sign-in -->
     <string name="settings_import_status_log_in_required">ورود نیاز است</string>
@@ -39,6 +39,6 @@
     <string name="settings_import_status_success">درون‌برد موفقیت‌آمیز بود</string>
     <string name="settings_import_success_generic">درون‌برد تنظیمات موفقیت‌آمیز بود</string>
     <string name="settings_import_title">درون‌برد تنظیمات</string>
-    <string name="settings_import_use_same_password_for_outgoing_server">برای کارساز خروجی از همان گذرواژه استفاده کن</string>
+    <string name="settings_import_use_same_password_for_outgoing_server">برای سرور خروجی از همان گذرواژه استفاده کن</string>
     <string name="settings_importing">در حال درون‌برد تنظیمات…</string>
 </resources>

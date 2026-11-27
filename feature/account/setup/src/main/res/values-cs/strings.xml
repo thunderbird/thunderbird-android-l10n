@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Název účtu nemůže být prázdný.</string>
     <string name="account_setup_options_account_name_label">Název účtu</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Každou hodinu</item>
-            <item quantity="few">Každé %d hodiny</item>
-            <item quantity="many">Každých %d hodin</item>
-            <item quantity="other">Každých %d hodin</item>
-        </plurals>
+        <item quantity="one">Každou hodinu</item>
+        <item quantity="few">Každé %d hodiny</item>
+        <item quantity="many">Každých %d hodin</item>
+        <item quantity="other">Každých %d hodin</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Každou minutu</item>
-            <item quantity="few">Každé %d minuty</item>
-            <item quantity="many">Každých %d minut</item>
-            <item quantity="other">Každých %d minut</item>
-        </plurals>
+        <item quantity="one">Každou minutu</item>
+        <item quantity="few">Každé %d minuty</item>
+        <item quantity="many">Každých %d minut</item>
+        <item quantity="other">Každých %d minut</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nikdy</string>
     <string name="account_setup_options_email_display_count_label">Počet zobrazovaných zpráv</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 zpráva</item>
-            <item quantity="few">%d zprávy</item>
-            <item quantity="many">%d zpráv</item>
-            <item quantity="other">%d zpráv</item>
-        </plurals>
+        <item quantity="one">1 zpráva</item>
+        <item quantity="few">%d zprávy</item>
+        <item quantity="many">%d zpráv</item>
+        <item quantity="other">%d zpráv</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Název podpisu e-mailu nemůže být prázdný.</string>
     <string name="account_setup_options_email_signature_label">Podpis e-mailů</string>
     <string name="account_setup_options_section_display_options">Nastavení zobrazení</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_import_button">ഇംപോർട്ട്</string>
     <!-- Displayed after importing accounts when some accounts require entering a password and some to use the OAuth authorization flow -->
     <string name="settings_import_failure">ക്രമീകരണങ്ങൾ ഇംപോർട്ടുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു</string>
@@ -9,9 +9,9 @@
     <string name="settings_import_outgoing_server_password_hint">ഔട്ട്‌ഗോയിംഗ് സെർവർ രഹസ്യവാചകം</string>
     <string name="settings_import_partial_failure">ചില ക്രമീകരണങ്ങൾ ഇംപോർട്ട് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">\"<xliff:g id="account">%s</xliff:g>\" അക്കൗണ്ട് ഉപയോഗിക്കാൻ നിങ്ങൾ സെർവർ രഹസ്യവാചകം നൽകേണ്ടതുണ്ട്.</item>
-            <item quantity="other">\"<xliff:g id="account">%s</xliff:g>\" അക്കൗണ്ട് ഉപയോഗിക്കാൻ നിങ്ങൾ സെർവർ രഹസ്യവാചകങ്ങൾ നൽകേണ്ടതുണ്ട്.</item>
-        </plurals>
+        <item quantity="one">\"<xliff:g id="account">%s</xliff:g>\" അക്കൗണ്ട് ഉപയോഗിക്കാൻ നിങ്ങൾ സെർവർ രഹസ്യവാചകം നൽകേണ്ടതുണ്ട്.</item>
+        <item quantity="other">\"<xliff:g id="account">%s</xliff:g>\" അക്കൗണ്ട് ഉപയോഗിക്കാൻ നിങ്ങൾ സെർവർ രഹസ്യവാചകങ്ങൾ നൽകേണ്ടതുണ്ട്.</item>
+    </plurals>
     <!-- Displayed after importing accounts when one or multiple accounts require entering a password -->
     <string name="settings_import_password_required">ദയവായി രഹസ്യവാക്കുകൾ നൽകുക</string>
     <string name="settings_import_pick_document_button">ഫയൽ തിരഞ്ഞെടുക്കുക</string>

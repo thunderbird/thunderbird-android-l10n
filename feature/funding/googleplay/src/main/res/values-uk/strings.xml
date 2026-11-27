@@ -16,7 +16,7 @@
     <string name="funding_googleplay_contribution_header_thank_you_message">Ваш внесок сприяє розвитку Thunderbird, і ми щиро вдячні за вашу підтримку.</string>
     <string name="funding_googleplay_contribution_header_title">Підтримка Thunderbird</string>
     <string name="funding_googleplay_contribution_list_disclaimer">Внески не оподатковуються як благодійна допомога.</string>
-    <string name="funding_googleplay_contribution_list_empty_message">Відвідайте &<;xliff:g id=\"link_text\"&>;%s&<;/xliff:g&>;, щоб переглянути більше способів підтримки Thunderbird.</string>
+    <string name="funding_googleplay_contribution_list_empty_message">Відвідайте &lt;xliff:g id=\"link_text\"&gt;%s&lt;/xliff:g&gt;, щоб переглянути більше способів підтримки Thunderbird.</string>
     <string name="funding_googleplay_contribution_list_empty_title">Внески через застосунок наразі недоступні.</string>
     <string name="funding_googleplay_contribution_list_error_retry_button">Повторіть спробу</string>
     <string name="funding_googleplay_contribution_list_title">Безпечний внесок</string>

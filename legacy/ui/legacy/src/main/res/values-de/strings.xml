@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Über</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -14,7 +14,7 @@
     <string name="ac_transfer_button_send">Setup-Nachricht senden</string>
     <string name="ac_transfer_error_send">Beim Senden der Nachricht trat ein Fehler auf. Bitte überprüfe deine Netzwerkverbindung und die Konfiguration deines Postausgangsservers.</string>
     <string name="ac_transfer_finish">Um abzuschließen, öffne die Nachricht auf einem anderen Gerät und gib den Setup-Code ein.</string>
-    <string name="ac_transfer_generating">Erstelle Setup-Nachricht…</string>
+    <string name="ac_transfer_generating">Setup-Nachricht wird erstellt…</string>
     <string name="ac_transfer_intro">Eine Autocrypt-Setup-Nachricht teilt dein Ende-zu-Ende-Setup auf sichere Art und Weise mit anderen Geräten.</string>
     <string name="ac_transfer_msg_body">Diese Nachricht enthält alle Informationen, um deine Autocrypt-Einstellungen zusammen mit deinem geheimen Schlüssel von deinem ursprünglichen Gerät sicher zu übertragen. Um dein neues Gerät für Autocrypt einzurichten, folge bitte den Anweisungen, die auf dem neuen Gerät angezeigt werden. Du kannst diese Nachricht aufheben und sie als Backup für deinen geheimen Schlüssel nutzen. Wenn du das tun möchtest, solltest du dir das Passwort notieren und sicher verwahren.</string>
     <string name="ac_transfer_msg_subject">Autocrypt-Setup-Nachricht</string>
@@ -54,10 +54,10 @@
     <string name="account_settings_autodownload_message_size_any">jede Größe (unbegrenzt)</string>
     <string name="account_settings_autodownload_message_size_label">Nachrichten abrufen bis zu</string>
     <string name="account_settings_automatic_special_folder">Automatisch (%s)</string>
-    <string name="account_settings_composition">E-Mails versenden</string>
+    <string name="account_settings_composition">E-Mails senden</string>
     <string name="account_settings_composition_label">Verfassen von Nachrichten</string>
     <string name="account_settings_composition_summary">Standard-Absender, BCC-Empfänger und Signatur konfigurieren</string>
-    <string name="account_settings_composition_title">Verfassen von Nachrichten</string>
+    <string name="account_settings_composition_title">Optionen zum Verfassen von Nachrichten</string>
     <string name="account_settings_crypto">Ende-zu-Ende-Verschlüsselung</string>
     <string name="account_settings_crypto_app">OpenPGP-Unterstützung aktivieren</string>
     <string name="account_settings_crypto_app_select_title">OpenPGP-App auswählen</string>
@@ -77,6 +77,9 @@
     <string name="account_settings_default_quoted_text_shown_label">Nachricht beim Antworten zitieren</string>
     <string name="account_settings_default_quoted_text_shown_summary">Ursprüngliche Nachricht als Zitat in die Antwort einfügen.</string>
     <string name="account_settings_email_label">Deine E-Mail-Adresse</string>
+    <string name="account_settings_fetching_and_data_limits">Abruf- und Datenlimits</string>
+    <string name="account_settings_folder_sync_and_push">Ordnersynchronisation und Push</string>
+    <string name="account_settings_folder_visibility">Ordnersichtbarkeit</string>
     <string name="account_settings_folders">Ordner</string>
     <string name="account_settings_general_title">Allgemeine Einstellungen</string>
     <string name="account_settings_identities_label">Identitäten verwalten</string>
@@ -84,7 +87,7 @@
     <string name="account_settings_ignore_chat_messages_label">Chat-Nachrichten ignorieren</string>
     <string name="account_settings_ignore_chat_messages_summary">Keine Benachrichtigungen für Nachrichten anzeigen, die zu einem E-Mail-Chat gehören</string>
     <string name="account_settings_incoming_label">Posteingangsserver</string>
-    <string name="account_settings_incoming_summary">Einstellungen des Posteingangsservers bearbeiten</string>
+    <string name="account_settings_incoming_summary">Posteingangsserver konfigurieren</string>
     <string name="account_settings_mail_check_frequency_label">Häufigkeit der Ordnerabfrage</string>
     <string name="account_settings_mail_display_count_label">Lokale Ordnergröße</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">Beim Löschen als gelesen markieren</string>
@@ -134,12 +137,12 @@
     <string name="account_settings_open_notification_settings_miscellaneous_summary">Fehler- und Statusbenachrichtigungen konfigurieren</string>
     <string name="account_settings_openpgp_missing">Fehlende OpenPGP-App – wurde sie deinstalliert?</string>
     <string name="account_settings_outgoing_label">Postausgangsserver</string>
-    <string name="account_settings_outgoing_summary">Einstellungen des Postausgangsservers (SMTP) bearbeiten</string>
+    <string name="account_settings_outgoing_summary">Postausgangsserver (SMTP) konfigurieren</string>
     <string name="account_settings_push_advanced_title">Erweitert</string>
     <string name="account_settings_quote_prefix_label">Zitat-Präfix</string>
-    <string name="account_settings_quote_style_header">Erweitert (wie in Outlook, Yahoo!, Hotmail)</string>
+    <string name="account_settings_quote_style_header">Erweitert (wie in Outlook)</string>
     <string name="account_settings_quote_style_label">Antwortkopf</string>
-    <string name="account_settings_quote_style_prefix">Normal (wie in Gmail, Pine)</string>
+    <string name="account_settings_quote_style_prefix">Normal (wie in Gmail)</string>
     <string name="account_settings_reading_mail">E-Mails lesen</string>
     <string name="account_settings_remote_search_num_label">Server-Suchlimit</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -151,7 +154,7 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Alle</string>
     <string name="account_settings_reply_after_quote_label">Antwort nach Zitat</string>
-    <string name="account_settings_reply_after_quote_summary">Die ursprüngliche Nachricht erscheint vor der Antwort.</string>
+    <string name="account_settings_reply_after_quote_summary">Die ursprüngliche Nachricht wird vor der Antwort angezeigt.</string>
     <string name="account_settings_ringtone">Klingelton</string>
     <string name="account_settings_search">Suche</string>
     <string name="account_settings_show_pictures_always">Von jedem</string>
@@ -161,11 +164,18 @@
     <string name="account_settings_signature__location_after_quoted_text">Nach zitierter Nachricht</string>
     <string name="account_settings_signature__location_before_quoted_text">Vor zitierter Nachricht</string>
     <string name="account_settings_signature__location_label">Position der Signatur</string>
+    <string name="account_settings_signature_clear_label">Signatur löschen</string>
+    <string name="account_settings_signature_html_label">HTML-Signatur</string>
+    <string name="account_settings_signature_is_html_label">Signatur als HTML speichern</string>
+    <string name="account_settings_signature_is_html_summary">Die Signatur wird als HTML interpretiert. Skripte und Ereignishandler werden aus Sicherheitsgründen entfernt.</string>
     <string name="account_settings_signature_label">Signatur</string>
+    <string name="account_settings_signature_preview">Signaturvorschau</string>
+    <string name="account_settings_signature_preview_empty">Deine Signaturvorschau wird hier angezeigt</string>
     <string name="account_settings_signature_use_label">Signatur verwenden</string>
     <string name="account_settings_strip_signature_label">Signatur aus Zitat entfernen</string>
     <string name="account_settings_strip_signature_summary">In Antworten werden Signaturen aus zitierten Nachrichten entfernt</string>
     <string name="account_settings_sync">E-Mails abrufen</string>
+    <string name="account_settings_sync_and_notifications">Synchronisation und Benachrichtigungen</string>
     <string name="account_settings_sync_remote_deletetions_label">Löschungen vom Server übernehmen</string>
     <string name="account_settings_sync_remote_deletetions_summary">Nachrichten löschen, wenn sie vom Server gelöscht wurden</string>
     <string name="account_settings_title_fmt">Kontoeinstellungen</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 Ordner</string>
     <string name="account_setup_push_limit_500">500 Ordner</string>
     <string name="account_setup_push_limit_label">Maximale Push-Ordneranzahl</string>
+    <string name="account_setup_visibility_and_syncing">Ordnersynchronisation und Push</string>
     <string name="accountlist_preferences">Kontenliste</string>
     <string name="accounts_title">Konten</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -259,6 +270,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Entfernen des Kontos…</string>
     <string name="batch_select_all">Alle auswählen</string>
+    <string name="camera_capture_lost">Das aufgenommene Bild ging verloren, da die App geschlossen wurde. Bitte versuche es erneut.</string>
     <string name="camera_permission_denied">Kameraberechtigung verweigert! Fotoaufnahme nicht möglich</string>
     <string name="changelog_latest_label_text">AKTUELL</string>
     <string name="changelog_loading_error">Änderungsprotokoll konnte nicht geladen werden.</string>
@@ -295,9 +307,9 @@
     <string name="confirm_discard_draft_message_title">Nachricht verwerfen?</string>
     <string name="copy_action">Kopieren</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresse in Zwischenablage kopiert</item>
-            <item quantity="other">Adressen in Zwischenablage kopiert</item>
-        </plurals>
+        <item quantity="one">Adresse in Zwischenablage kopiert</item>
+        <item quantity="other">Adressen in Zwischenablage kopiert</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Betreff in die Zwischenablage kopiert</string>
     <string name="crypto_msg_cancelled">Nachricht ist verschlüsselt, aber Entschlüsselung wurde abgebrochen.</string>
     <string name="crypto_msg_encrypted_error">aber es gab einen Entschlüsselungsfehler</string>
@@ -371,9 +383,9 @@
     <string name="dialog_confirm_delete_confirm_button">Ja</string>
     <string name="dialog_confirm_delete_message">Möchtest du diese Nachricht löschen?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Möchtest du diese Nachricht wirklich löschen?</item>
-            <item quantity="other">Möchtest du wirklich <xliff:g id="message_count">%1$d</xliff:g> Nachrichten löschen?</item>
-        </plurals>
+        <item quantity="one">Möchtest du diese Nachricht wirklich löschen?</item>
+        <item quantity="other">Möchtest du wirklich <xliff:g id="message_count">%1$d</xliff:g> Nachrichten löschen?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Löschen bestätigen</string>
     <string name="dialog_confirm_empty_spam_message">Möchtest du den Spam leeren?</string>
     <string name="dialog_confirm_empty_spam_title">Leeren des Spams bestätigen</string>
@@ -386,9 +398,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nein</string>
     <string name="dialog_confirm_spam_confirm_button">Ja</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Möchtest du diese Nachricht in den Spam-Ordner verschieben?</item>
-            <item quantity="other">Möchtest du <xliff:g id="message_count">%1$d</xliff:g> Nachrichten in den Spam-Ordner verschieben?</item>
-        </plurals>
+        <item quantity="one">Möchtest du diese Nachricht in den Spam-Ordner verschieben?</item>
+        <item quantity="other">Möchtest du <xliff:g id="message_count">%1$d</xliff:g> Nachrichten in den Spam-Ordner verschieben?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Als Spam markieren</string>
     <string name="dialog_openkeychain_info_install">Installieren</string>
     <string name="dialog_openkeychain_info_text">Die App OpenKeychain ist erforderlich, um die Unterstützung für die Ende-zu-Ende-Verschlüsselung zu aktivieren.</string>
@@ -425,6 +437,7 @@
     <string name="error_crypto_provider_connect">Verbindung zum Verschlüsselungsdienst fehlgeschlagen. Überprüfe deine Einstellungen oder tippe auf das Verschlüsselungssymbol, um es erneut zu versuchen!</string>
     <string name="error_crypto_provider_incompatible">Verschlüsselungsdienst verwendet inkompatible Version. Bitte überprüfe deine Einstellungen!</string>
     <string name="error_crypto_provider_ui_required">Ende-zu-Ende Verschlüsselung konnte nicht initialisiert werden, bitte überprüfe deine Einstellungen</string>
+    <string name="error_no_contact_provider">Es wurde keine Kontakte-App gefunden. Installiere eine Kontakte-App, um diese Adresse hinzuzufügen.</string>
     <string name="error_sign_only_no_encryption">Verschlüsselung ist im Nur-signieren-Modus nicht verfügbar!</string>
     <string name="expand_content_description">Erweitern</string>
     <string name="expand_folders">Ordner erweitern</string>
@@ -532,7 +545,7 @@
     <string name="get_help_title">Hilfe erhalten</string>
     <string name="global_preferences">Globale Einstellungen</string>
     <string name="global_settings_background_as_unread_indicator_label">Farbe ändern, wenn gelesen</string>
-    <string name="global_settings_background_as_unread_indicator_summary">Ein anderer Hintergrund zeigt, dass die Nachricht gelesen wurde</string>
+    <string name="global_settings_background_as_unread_indicator_summary">Ein anderer Hintergrund zeigt an, dass die Nachricht gelesen wurde</string>
     <string name="global_settings_colorize_missing_contact_pictures_label">Kontaktbilder einfärben</string>
     <string name="global_settings_colorize_missing_contact_pictures_summary">Fehlende Kontaktbilder einfärben</string>
     <string name="global_settings_confirm_action_delete">Löschen</string>
@@ -562,7 +575,7 @@
     <string name="global_settings_messageview_visible_refile_actions_title">Sichtbare Nachrichtenaktionen</string>
     <string name="global_settings_notification_quick_delete_always">Immer</string>
     <string name="global_settings_notification_quick_delete_never">Nie</string>
-    <string name="global_settings_notification_quick_delete_title">Löschen erlauben</string>
+    <string name="global_settings_notification_quick_delete_title">Löschen anzeigen</string>
     <string name="global_settings_notification_quick_delete_when_single_msg">Für einzelne Nachricht</string>
     <string name="global_settings_preview_lines_label">Vorschauzeilen</string>
     <string name="global_settings_privacy_hide_timezone">Zeitzone ausblenden</string>
@@ -621,6 +634,7 @@
     <string name="message_compose_content_hint">Nachrichtentext</string>
     <string name="message_compose_description_delete_quoted_text">Zitierten Text entfernen</string>
     <string name="message_compose_description_edit_quoted_text">Zitierten Text bearbeiten</string>
+    <string name="message_compose_encrypting_message">Nachricht wird verschlüsselt…</string>
     <string name="message_compose_error_no_recipients">Du musst mindestens einen Empfänger auswählen.</string>
     <string name="message_compose_quote_header_cc">CC:</string>
     <string name="message_compose_quote_header_from">Von:</string>
@@ -666,9 +680,9 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Anhang (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Anhänge (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Anhang (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Anhänge (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Alle speichern</string>
     <string name="message_view_attachments_title">Anhänge</string>
     <string name="message_view_attachments_view">Anzeigen</string>
@@ -677,8 +691,7 @@
     <string name="message_view_cc_label">CC:</string>
     <string name="message_view_download_remainder">Gesamte Nachricht herunterladen</string>
     <string name="message_view_empty">Nachricht aus der Liste auswählen, um sie anzuzeigen</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mich</string>
+    <string name="message_view_from_me_text">mir</string>
     <string name="message_view_menu_action_export_eml">Als EML exportieren</string>
     <string name="message_view_no_viewer">Es wurde kein Anzeigeprogramm für <xliff:g id="mimetype">%s</xliff:g> gefunden.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -690,6 +703,8 @@
     <string name="message_view_status_attachment_not_saved">Anhang konnte nicht gespeichert werden.</string>
     <string name="message_view_theme_action_dark">Dunkles Design verwenden</string>
     <string name="message_view_theme_action_light">Helles Design verwenden</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mich</string>
     <string name="messagelist_preferences">Nachrichtenliste</string>
     <string name="messageview_crypto_error_title">Fehler beim Entschlüsseln der E-Mail</string>
     <string name="messageview_decrypt_cancelled">Entschlüsselung abgebrochen.</string>
@@ -739,9 +754,9 @@
     <string name="notification_channel_push_description">Wird während des Wartens auf neue Nachrichten angezeigt</string>
     <string name="notification_channel_push_title">Synchronisieren (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> neue Nachricht</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> neue Nachrichten</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> neue Nachricht</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> neue Nachrichten</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Beim Versuch, eine Systembenachrichtigung für eine neue Nachricht zu erstellen, ist ein Fehler aufgetreten. Der Grund dafür ist höchstwahrscheinlich ein fehlender Benachrichtigungston.\n\nAntippen, um die Benachrichtigungseinstellungen zu öffnen.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -789,14 +804,14 @@
     <string name="push_info_configure_notification_action">Benachrichtigung einstellen</string>
     <string name="push_info_configure_notification_text">Allerdings erlaubt Android auch, dass die Benachrichtigung ausgeblendet wird.</string>
     <string name="push_info_disable_push_action">Push deaktivieren</string>
-    <string name="push_info_disable_push_text">Wenn du keine sofortigen Benachrichtigungen über neue Nachrichten benötigst, solltest du Push deaktivieren und die Abfrage verwenden. Die Abfrage prüft in regelmäßigen Abständen auf neue E-Mails und benötigt die Benachrichtigung nicht.</string>
+    <string name="push_info_disable_push_text">Wenn du keine sofortigen Benachrichtigungen über neue Nachrichten benötigst, solltest du Push deaktivieren und stattdessen Polling verwenden. Bei Polling wird in regelmäßigen Abständen auf neue E-Mails geprüft, sodass keine Benachrichtigung erforderlich ist.</string>
     <string name="push_info_learn_more_text">Mehr erfahren</string>
     <string name="push_info_notification_explanation_text">Wenn Push verwendet wird, hält <xliff:g id="app_name">%1$s</xliff:g> eine Verbindung zum Mailserver aufrecht. Bei Android muss eine laufende Benachrichtigung angezeigt werden, während die App im Hintergrund aktiv ist. <xliff:g id="optional_extended_explanation">%2$s</xliff:g></string>
     <string name="push_info_title">Push-Information</string>
     <string name="push_notification_grant_alarm_permission">Antippen, um die Berechtigung zu erteilen.</string>
     <string name="push_notification_info">Antippen, um mehr zu erfahren.</string>
     <string name="push_notification_state_alarm_permission_missing">Fehlende Berechtigung zur Zeitplanung von Alarmen</string>
-    <string name="push_notification_state_initializing">Initialisieren…</string>
+    <string name="push_notification_state_initializing">Wird initialisiert…</string>
     <string name="push_notification_state_listening">Warte auf neue E-Mails</string>
     <string name="push_notification_state_wait_background_sync">Wartet, bis die Hintergrundsynchronisation erlaubt ist</string>
     <string name="push_notification_state_wait_network">Wartet, bis ein Netzwerk verfügbar ist</string>
@@ -817,16 +832,17 @@
     <string name="recipient_to">An</string>
     <string name="refile_action">Umsortieren…</string>
     <string name="refresh_folders_action">Ordnerliste aktualisieren</string>
+    <string name="remote_feature_flag_preferences">Remote-Feature-Flags</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">%d Resultat wird abgerufen</item>
-            <item quantity="other">%d Resultate werden abgerufen</item>
-        </plurals>
+        <item quantity="one">%d Resultat wird abgerufen</item>
+        <item quantity="other">%d Resultate werden abgerufen</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%1$d von %2$d Resultaten wird abgerufen</item>
-            <item quantity="other">%1$d von %2$d Resultaten werden abgerufen</item>
-        </plurals>
+        <item quantity="one">%1$d von %2$d Resultaten wird abgerufen</item>
+        <item quantity="other">%1$d von %2$d Resultaten werden abgerufen</item>
+    </plurals>
     <string name="remote_search_error">Suche fehlgeschlagen</string>
-    <string name="remote_search_sending_query">Sende Anfrage an den Server</string>
+    <string name="remote_search_sending_query">Anfrage an den Server senden</string>
     <string name="remote_search_unavailable_no_network">Für die Suche auf dem Server ist eine Netzwerkverbindung nötig.</string>
     <string name="remove_account_action">Konto entfernen</string>
     <string name="remove_attachment_action">Anhang entfernen</string>
@@ -919,8 +935,8 @@
     <string name="toast_openpgp_provider_error">Fehler beim Verbinden mit %s!</string>
     <string name="trash_folder_label">Ordner für gelöschte Nachrichten</string>
     <string name="unflag_action">Als unwichtig markieren</string>
-    <string name="unknown_recipient">&<;Unbekannter Empfänger&>;</string>
-    <string name="unknown_sender">&<;Unbekannter Absender&>;</string>
+    <string name="unknown_recipient">&lt;Unbekannter Empfänger&gt;</string>
+    <string name="unknown_sender">&lt;Unbekannter Absender&gt;</string>
     <string name="unsigned_text_divider_label">Unsignierter Text</string>
     <string name="unsubscribe_action">Abmelden</string>
     <string name="upgrade_database_format">Aktualisiere Datenbank für Konto \"<xliff:g id="account">%s</xliff:g>\"</string>

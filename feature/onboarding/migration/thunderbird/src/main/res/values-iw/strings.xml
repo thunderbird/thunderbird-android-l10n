@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">יבא את הגדרות החשבון שלך עכשיו</string>
     <string name="onboarding_migration_thunderbird_import_title">עובר מיישום או מכשיר אחר?</string>
     <string name="onboarding_migration_thunderbird_link_open_error">לא נמצאו אפליקציות לפתיחת הקישור.</string>

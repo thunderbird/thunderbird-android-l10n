@@ -5,6 +5,7 @@
     <string name="settings_import_button">Enporzhiañ</string>
     <string name="settings_import_failure">C\'hwitet eo enporzhiañ an arventennoù</string>
     <string name="settings_import_general_settings_item">Arventennoù hollek</string>
+    <string name="settings_import_later_button">Diwezatoc\'h</string>
     <string name="settings_import_password_required">Lakait gerioù-tremen mar plij</string>
     <string name="settings_import_pick_app_button">Enporzhiañ diwar an arload</string>
     <string name="settings_import_pick_app_dialog_title">Enporzhiañ diwar an arload</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Um forrit</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,9 +283,9 @@
     <string name="confirm_discard_draft_message_title">Henda skilaboðum?</string>
     <string name="copy_action">Afrita</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Póstfang afritað á klippispjald</item>
-            <item quantity="other">Póstföng afrituð á klippispjald</item>
-        </plurals>
+        <item quantity="one">Póstfang afritað á klippispjald</item>
+        <item quantity="other">Póstföng afrituð á klippispjald</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Texti viðfangsefnis afritaður á klippispjald</string>
     <string name="crypto_msg_cancelled">Skilaboðin eru dulrituð, en hætt var við afkóðun.</string>
     <string name="crypto_msg_encrypted_error">en villa kom upp við afkóðun</string>
@@ -348,9 +348,9 @@
     <string name="dialog_confirm_delete_confirm_button">Já</string>
     <string name="dialog_confirm_delete_message">Viltu eyða þessum skilaboðum?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Viltu í alvörunni eyða þessum skilaboðum?</item>
-            <item quantity="other">Viltu í alvörunni eyða <xliff:g id="message_count">%1$d</xliff:g> skilaboðum?</item>
-        </plurals>
+        <item quantity="one">Viltu í alvörunni eyða þessum skilaboðum?</item>
+        <item quantity="other">Viltu í alvörunni eyða <xliff:g id="message_count">%1$d</xliff:g> skilaboðum?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Staðfesta eyðingu</string>
     <string name="dialog_confirm_empty_spam_message">Viltu tæma ruslpóstmöppuna?</string>
     <string name="dialog_confirm_empty_spam_title">Staðfesta eyðingu ruslpósts</string>
@@ -363,9 +363,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nei</string>
     <string name="dialog_confirm_spam_confirm_button">Já</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Viltu í alvörunni flytja þessi skilaboð í ruslpóstmöppuna?</item>
-            <item quantity="other">Viltu í alvörunni flytja <xliff:g id="message_count">%1$d</xliff:g> skilaboð í ruslpóstmöppuna?</item>
-        </plurals>
+        <item quantity="one">Viltu í alvörunni flytja þessi skilaboð í ruslpóstmöppuna?</item>
+        <item quantity="other">Viltu í alvörunni flytja <xliff:g id="message_count">%1$d</xliff:g> skilaboð í ruslpóstmöppuna?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Staðfesta færslu í ruslpóstmöppu</string>
     <string name="dialog_openkeychain_info_install">Setja upp</string>
     <string name="dialog_openkeychain_info_text">Forritið OpenKeychain er nauðsynlegt til að virkja stuðning við enda-í-enda dulritun.</string>
@@ -641,9 +641,9 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> viðhengi (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> viðhengi (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> viðhengi (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> viðhengi (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Vista allt</string>
     <string name="message_view_attachments_title">Viðhengi</string>
     <string name="message_view_attachments_view">Skoða</string>
@@ -652,8 +652,6 @@
     <string name="message_view_cc_label">Afrit:</string>
     <string name="message_view_download_remainder">Niðurhala heil skilaboð</string>
     <string name="message_view_empty">Veldu skilaboð hér til vinstri</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mín</string>
     <string name="message_view_menu_action_export_eml">Flytja út sem EML</string>
     <string name="message_view_no_viewer">Gat ekki fundið neitt skoðunarforrit fyrir <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -665,6 +663,8 @@
     <string name="message_view_status_attachment_not_saved">Tókst ekki að vista viðhengi.</string>
     <string name="message_view_theme_action_dark">Skipta yfir í dekkra þema</string>
     <string name="message_view_theme_action_light">Skipta yfir í ljósara þema</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mín</string>
     <string name="messagelist_preferences">Skilaboðalistar</string>
     <string name="messageview_crypto_error_title">Villa við að afkóða póst</string>
     <string name="messageview_decrypt_cancelled">Hætt var við afkóðun.</string>
@@ -705,9 +705,9 @@
     <string name="notification_channel_push_description">Birtist á meðan beðið er eftir nýjum skilaboðum</string>
     <string name="notification_channel_push_title">Samstilla (Ýta)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ný skilaboð</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> ný skilaboð</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ný skilaboð</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> ný skilaboð</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Villa kom upp þegar reynt var að útbúa kerfistilkynningu vegna nýrra skilaboða. Ástæðan er líklegast sú að það vanti hljóð fyrir tilkynningar.\n\nPikkaðu til að opna stillingar á tilkynningum.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -780,13 +780,13 @@
     <string name="refile_action">Endurraða…</string>
     <string name="refresh_folders_action">Endurnýja möppulista</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Næ í %d niðurstöðu</item>
-            <item quantity="other">Næ í %d niðurstöður</item>
-        </plurals>
+        <item quantity="one">Næ í %d niðurstöðu</item>
+        <item quantity="other">Næ í %d niðurstöður</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Næ í %1$d af %2$d niðurstöðu</item>
-            <item quantity="other">Næ í %1$d af %2$d niðurstöðum</item>
-        </plurals>
+        <item quantity="one">Næ í %1$d af %2$d niðurstöðu</item>
+        <item quantity="other">Næ í %1$d af %2$d niðurstöðum</item>
+    </plurals>
     <string name="remote_search_error">Fjartengd leit mistókst</string>
     <string name="remote_search_sending_query">Sendi fyrirspurn á póstþjón</string>
     <string name="remote_search_unavailable_no_network">Nettenging er nauðsynleg til að geta leitað á póstþjóni.</string>
@@ -880,8 +880,8 @@
     <string name="toast_openpgp_provider_error">Villa við að tengjast %s!</string>
     <string name="trash_folder_label">Ruslmappa</string>
     <string name="unflag_action">Fjarlægja stjörnu</string>
-    <string name="unknown_recipient">&<;Óþekktur viðtakandi&>;</string>
-    <string name="unknown_sender">&<;Óþekktur sendandi&>;</string>
+    <string name="unknown_recipient">&lt;Óþekktur viðtakandi&gt;</string>
+    <string name="unknown_sender">&lt;Óþekktur sendandi&gt;</string>
     <string name="unsigned_text_divider_label">Óundirritaður texti</string>
     <string name="unsubscribe_action">Hætta áskrift</string>
     <string name="upgrade_database_format">Uppfæri gagnagrunn \"<xliff:g id="account">%s</xliff:g>\" aðgangsins</string>

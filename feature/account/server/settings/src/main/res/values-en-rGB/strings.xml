@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Unlock to view your password</string>
     <string name="account_server_settings_password_authentication_title">Verify your identity</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Unable to start biometric prompt.</string>
+    <string name="account_server_settings_password_input_label">Password</string>
     <string name="account_server_settings_port_label">Port</string>
     <string name="account_server_settings_protocol_type_label">Protocol</string>
     <string name="account_server_settings_security_label">Security</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Пра праграму</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -280,11 +280,11 @@
     <string name="confirm_discard_draft_message_title">Скасаваць ліст?</string>
     <string name="copy_action">Капіяваць</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Адрас скапіяваны ў буфер абмену</item>
-            <item quantity="few">Адрасы скапіяваныя ў буфер абмену</item>
-            <item quantity="many">Адрасы скапіяваныя ў буфер абмену</item>
-            <item quantity="other">Адрасы скапіяваныя ў буфер абмену</item>
-        </plurals>
+        <item quantity="one">Адрас скапіяваны ў буфер абмену</item>
+        <item quantity="few">Адрасы скапіяваныя ў буфер абмену</item>
+        <item quantity="many">Адрасы скапіяваныя ў буфер абмену</item>
+        <item quantity="other">Адрасы скапіяваныя ў буфер абмену</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Тэкст тэмы скапіяваны ў буфер абмену</string>
     <string name="crypto_msg_cancelled">Ліст зашыфраваны, расшыфроўка скасаваная.</string>
     <string name="crypto_msg_encrypted_error">але падчас расшыфроўкі адбылася памылка</string>
@@ -341,11 +341,11 @@
     <string name="dialog_confirm_delete_confirm_button">Так</string>
     <string name="dialog_confirm_delete_message">Хочаце выдаліць гэты ліст?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Сапраўды хочаце выдаліць гэты ліст?</item>
-            <item quantity="few">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лісты?</item>
-            <item quantity="many">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лістоў?</item>
-            <item quantity="other">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лістоў?</item>
-        </plurals>
+        <item quantity="one">Сапраўды хочаце выдаліць гэты ліст?</item>
+        <item quantity="few">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лісты?</item>
+        <item quantity="many">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лістоў?</item>
+        <item quantity="other">Сапраўды хочаце выдаліць <xliff:g id="message_count">%1$d</xliff:g> лістоў?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Пацвердзіць выдаленне</string>
     <string name="dialog_confirm_empty_trash_message">Хочаце ачысціць сметніцу?</string>
     <string name="dialog_confirm_empty_trash_title">Пацвердзіць ачыстку сметніцы</string>
@@ -356,11 +356,11 @@
     <string name="dialog_confirm_spam_cancel_button">Не</string>
     <string name="dialog_confirm_spam_confirm_button">Так</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Сапраўды хочаце перамясціць ліст у каталог спаму?</item>
-            <item quantity="few">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лісты ў каталог спаму?</item>
-            <item quantity="many">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лістоў у каталог спаму?</item>
-            <item quantity="other">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лістоў у каталог спаму?</item>
-        </plurals>
+        <item quantity="one">Сапраўды хочаце перамясціць ліст у каталог спаму?</item>
+        <item quantity="few">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лісты ў каталог спаму?</item>
+        <item quantity="many">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лістоў у каталог спаму?</item>
+        <item quantity="other">Сапраўды хочаце перамясціць <xliff:g id="message_count">%1$d</xliff:g> лістоў у каталог спаму?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Пацвердзіць перамяшчэнне ў каталог спаму</string>
     <string name="dialog_openkeychain_info_install">Усталяваць</string>
     <string name="dialog_openkeychain_info_text">Каб выкарыстоўваць скразное шыфраванне, патрэбная праграма OpenKeychain.</string>
@@ -629,8 +629,6 @@
     <string name="message_view_cc_label">Копія:</string>
     <string name="message_view_download_remainder">Спампаваць ліст цалкам</string>
     <string name="message_view_empty">Калі ласка, абярыце злева ліст</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">я</string>
     <string name="message_view_no_viewer">Няма праграмы для прагляду <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <string name="message_view_recipients_format">да <xliff:g id="recipients">%s</xliff:g></string>
@@ -640,6 +638,8 @@
     <string name="message_view_status_attachment_not_saved">Немагчыма захаваць далучаныя файлы.</string>
     <string name="message_view_theme_action_dark">Цёмная тэма</string>
     <string name="message_view_theme_action_light">Светлая тэма</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">я</string>
     <string name="messagelist_preferences">Спіс лістоў</string>
     <string name="messageview_crypto_error_title">Не ўдалося расшыфраваць пошту</string>
     <string name="messageview_decrypt_cancelled">Расшыфроўка скасаваная.</string>
@@ -679,11 +679,11 @@
     <string name="notification_channel_push_description">Паказваецца падчас чакання новых лістоў</string>
     <string name="notification_channel_push_title">Сінхранізаваць (прымусовае правяранне)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> новы ліст</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> новыя лісты</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> новых лістоў</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> новых лістоў</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> новы ліст</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> новыя лісты</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> новых лістоў</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> новых лістоў</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Падчас стварэння сістэмнага апавяшчэння пра новы ліст адбылася памылка. Хутчэй за ўсё, прычына ў адсутнасці гуку апавяшчэння.\n\nНацісніце, каб адкрыць налады апавяшчэнняў.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -755,17 +755,17 @@
     <string name="refile_action">Перамяшчэнне…</string>
     <string name="refresh_folders_action">Абнавіць спіс каталогаў</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Атрыманне %d выніку</item>
-            <item quantity="few">Атрыманне %d вынікаў</item>
-            <item quantity="many">Атрыманне %d вынікаў</item>
-            <item quantity="other">Атрыманне %d вынікаў</item>
-        </plurals>
+        <item quantity="one">Атрыманне %d выніку</item>
+        <item quantity="few">Атрыманне %d вынікаў</item>
+        <item quantity="many">Атрыманне %d вынікаў</item>
+        <item quantity="other">Атрыманне %d вынікаў</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Атрыманне %1$d з %2$d вынікаў</item>
-            <item quantity="few">Атрыманне %1$d з %2$d вынікаў</item>
-            <item quantity="many">Атрыманне %1$d з %2$d вынікаў</item>
-            <item quantity="other">Атрыманне %1$d з %2$d вынікаў</item>
-        </plurals>
+        <item quantity="one">Атрыманне %1$d з %2$d вынікаў</item>
+        <item quantity="few">Атрыманне %1$d з %2$d вынікаў</item>
+        <item quantity="many">Атрыманне %1$d з %2$d вынікаў</item>
+        <item quantity="other">Атрыманне %1$d з %2$d вынікаў</item>
+    </plurals>
     <string name="remote_search_error">Не ўдалося выканаць адлеглы пошук</string>
     <string name="remote_search_sending_query">Адпраўленне запытаў на сервер</string>
     <string name="remote_search_unavailable_no_network">Для пошуку на серверы патрабуецца злучэнне з сеткай.</string>
@@ -854,8 +854,8 @@
     <string name="toast_openpgp_provider_error">Не ўдалося злучыцца з %s!</string>
     <string name="trash_folder_label">Каталог сметніцы</string>
     <string name="unflag_action">Выдаліць адзнаку</string>
-    <string name="unknown_recipient">&<;Невядомы атрымальнік&>;</string>
-    <string name="unknown_sender">&<;Невядомы адпраўнік&>;</string>
+    <string name="unknown_recipient">&lt;Невядомы атрымальнік&gt;</string>
+    <string name="unknown_sender">&lt;Невядомы адпраўнік&gt;</string>
     <string name="unsigned_text_divider_label">Непадпісаны тэкст</string>
     <string name="unsubscribe_action">Адпісацца</string>
     <string name="upgrade_database_format">Абнаўленне базы даных акаўнта \"<xliff:g id="account">%s</xliff:g>\"</string>

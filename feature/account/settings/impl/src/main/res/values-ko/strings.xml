@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_settings_account_delete_dlg_instructions_fmt">\"<xliff:g id="account">%1$s</xliff:g>\" 계정이 <xliff:g id="app_name">%2$s</xliff:g>에서 제거됩니다.</string>
     <string name="account_settings_account_delete_dlg_title">계정 제거</string>
+    <string name="account_settings_always_show_cc_bcc_label">항상 참조/숨은 참조 표시</string>
     <string name="account_settings_autodownload_message_size_1">1 KiB</string>
     <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
     <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
@@ -21,11 +22,21 @@
     <string name="account_settings_avatar_error_unsupported_format">JPEG 이미지만 지원합니다.</string>
     <string name="account_settings_avatar_hint_jpeg_only">JPEG 한정</string>
     <string name="account_settings_cancel_action">취소</string>
+    <string name="account_settings_composition">메일 전송</string>
+    <string name="account_settings_composition_label">작성 기본값</string>
+    <string name="account_settings_composition_summary">기본 발신자, 숨은 참조, 서명을 설정하십시오</string>
+    <string name="account_settings_default_quoted_text_shown_label">답장 시 메시지 인용</string>
+    <string name="account_settings_default_quoted_text_shown_summary">답장할 때 원본 메시지를 포함합니다.</string>
     <string name="account_settings_expunge_policy_immediately">즉시</string>
     <string name="account_settings_expunge_policy_label">삭제한 메시지를 서버에서 지우는 시점</string>
     <string name="account_settings_expunge_policy_manual">수동</string>
     <string name="account_settings_expunge_policy_on_poll">동기화 시</string>
+    <string name="account_settings_fetching_and_data_limits">가져오기 및 데이터 한도</string>
+    <string name="account_settings_fetching_and_data_limits_description">빈도 및 동기화 한도</string>
     <string name="account_settings_fetching_mail">메일 가져오기</string>
+    <string name="account_settings_folder_sync_and_push">폴더 동기화 및 푸시</string>
+    <string name="account_settings_folder_sync_and_push_description">폴더별 폴/푸시 활성화</string>
+    <string name="account_settings_folder_visibility_and_sort_description">기본 폴더 및 폴더 표시 여부 변경</string>
     <string name="account_settings_general_avatar_description">내 계정 아바타를 어떻게 표시할지 선택합니다.</string>
     <string name="account_settings_general_avatar_icon_description">아바타로 쓸 아이콘을 고릅니다.</string>
     <string name="account_settings_general_avatar_icon_title">아바타 아이콘</string>
@@ -47,6 +58,8 @@
     <string name="account_settings_general_name_error_too_long">이름이 너무 깁니다</string>
     <string name="account_settings_general_name_title">계정 이름</string>
     <string name="account_settings_general_title">일반 설정</string>
+    <string name="account_settings_identities_label">내 정보 관리</string>
+    <string name="account_settings_identities_summary">다른 \'발신자\' 주소와 서명 설정</string>
     <string name="account_settings_idle_refresh_period_12min">12분마다</string>
     <string name="account_settings_idle_refresh_period_24min">24분마다</string>
     <string name="account_settings_idle_refresh_period_2min">2분마다</string>
@@ -64,6 +77,7 @@
     <string name="account_settings_incoming_summary">수신 메일 서버를 구성합니다</string>
     <string name="account_settings_mail_check_frequency_label">폴더 동기화 주기</string>
     <string name="account_settings_mail_display_count_label">로컬 폴더 크기</string>
+    <string name="account_settings_manage_folders">폴더 관리</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">삭제할 때 읽음으로 표시</string>
     <string name="account_settings_mark_message_as_read_on_delete_summary">메시지를 삭제했을 때 읽음으로 표시합니다</string>
     <string name="account_settings_mark_message_as_read_on_view_label">열 때 읽음으로 표시</string>
@@ -81,6 +95,15 @@
     <string name="account_settings_message_age_7">지난 주부터</string>
     <string name="account_settings_message_age_any">모든 기간 (제한 없음)</string>
     <string name="account_settings_message_age_label">메시지 동기화 시점</string>
+    <string name="account_settings_message_format_auto">자동</string>
+    <string name="account_settings_message_format_html">HTML (이미지 및 서식 보존)</string>
+    <string name="account_settings_message_format_label">메시지 형식</string>
+    <string name="account_settings_message_format_text">평문 (이미지 및 서식 제거)</string>
+    <string name="account_settings_message_read_receipt_label">읽음 확인</string>
+    <string name="account_settings_message_read_receipt_summary">항상 읽음 확인 요청</string>
+    <string name="account_settings_notificaction_and_sync">알림 및 동기화</string>
+    <string name="account_settings_notification_style">알림 스타일</string>
+    <string name="account_settings_notification_style_description">소리, 진동, 배지 사용자 지정</string>
     <string name="account_settings_okay_action">확인</string>
     <string name="account_settings_options_mail_check_frequency_12hour">12시간마다</string>
     <string name="account_settings_options_mail_check_frequency_15min">15분마다</string>
@@ -102,6 +125,8 @@
     <string name="account_settings_options_mail_display_count_500">메시지 500개</string>
     <string name="account_settings_options_mail_display_count_5000">메시지 5000개</string>
     <string name="account_settings_options_mail_display_count_all">모든 메시지</string>
+    <string name="account_settings_outgoing_label">발신 서버</string>
+    <string name="account_settings_outgoing_summary">메일 발신 (SMTP) 서버 설정</string>
     <string name="account_settings_push_advanced_title">고급</string>
     <string name="account_settings_push_limit_10">폴더 10개</string>
     <string name="account_settings_push_limit_100">폴더 100개</string>
@@ -112,6 +137,10 @@
     <string name="account_settings_push_limit_50">폴더 50개</string>
     <string name="account_settings_push_limit_500">폴더 500개</string>
     <string name="account_settings_push_limit_label">푸시 알림으로 확인할 최대 폴더 수</string>
+    <string name="account_settings_quote_prefix_label">인용 접두어</string>
+    <string name="account_settings_quote_style_header">헤더 (Outlook과 유사)</string>
+    <string name="account_settings_quote_style_label">답장 인용 서식</string>
+    <string name="account_settings_quote_style_prefix">접두어 (Gmail과 유사)</string>
     <string name="account_settings_reading_mail">메일 읽는 중</string>
     <string name="account_settings_remote_search_num_label">서버 검색 제한</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
@@ -123,11 +152,17 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">모두</string>
     <string name="account_settings_remove_account_action">계정 제거</string>
+    <string name="account_settings_reply_after_quote_label">인용 뒤에 답장</string>
+    <string name="account_settings_reply_after_quote_summary">원본 메시지가 답장 위에 나타납니다.</string>
     <string name="account_settings_search_action">검색</string>
     <string name="account_settings_show_pictures_always">누구의 메일이든</string>
     <string name="account_settings_show_pictures_label">이미지 항상 표시</string>
     <string name="account_settings_show_pictures_never">안 함</string>
     <string name="account_settings_show_pictures_only_from_contacts">연락처 주소만</string>
+    <string name="account_settings_strip_signature_label">답장 시 서명 지우기</string>
+    <string name="account_settings_strip_signature_summary">인용한 메시지에서 서명을 제거합니다</string>
     <string name="account_settings_sync_remote_deletetions_label">서버 측 삭제 동기화</string>
     <string name="account_settings_sync_remote_deletetions_summary">서버에서 삭제한 메시지 제거</string>
+    <string name="account_settings_upload_sent_messages_label">보낸 메시지 업로드</string>
+    <string name="account_settings_upload_sent_messages_summary">메시지를 보낸 뒤 보낸 편지함에 업로드</string>
 </resources>

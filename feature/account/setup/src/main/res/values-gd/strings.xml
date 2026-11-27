@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Chan fhaod ainm a’ chunntais a bhith bàn.</string>
     <string name="account_setup_options_account_name_label">Ainm a’ chunntais</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Gach %d uair a thìde</item>
-            <item quantity="two">Gach %d uair a thìde</item>
-            <item quantity="few">Gach %d uairean a thìde</item>
-            <item quantity="other">Gach %d uair a thìde</item>
-        </plurals>
+        <item quantity="one">Gach %d uair a thìde</item>
+        <item quantity="two">Gach %d uair a thìde</item>
+        <item quantity="few">Gach %d uairean a thìde</item>
+        <item quantity="other">Gach %d uair a thìde</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Gach %d mhionaid</item>
-            <item quantity="two">Gach %d mhionaid</item>
-            <item quantity="few">Gach %d mionaidean</item>
-            <item quantity="other">Gach %d mionaid</item>
-        </plurals>
+        <item quantity="one">Gach %d mhionaid</item>
+        <item quantity="two">Gach %d mhionaid</item>
+        <item quantity="few">Gach %d mionaidean</item>
+        <item quantity="other">Gach %d mionaid</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Chan ann idir</string>
     <string name="account_setup_options_email_display_count_label">Co mheud teachdaireachd a thèid a shealltainn</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">%d teachdaireachd</item>
-            <item quantity="two">%d theachdaireachd</item>
-            <item quantity="few">%d teachdaireachdan</item>
-            <item quantity="other">%d teachdaireachd</item>
-        </plurals>
+        <item quantity="one">%d teachdaireachd</item>
+        <item quantity="two">%d theachdaireachd</item>
+        <item quantity="few">%d teachdaireachdan</item>
+        <item quantity="other">%d teachdaireachd</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Chan fhaod eàrr-sgrìobhadh a’ phuist-d a bhith bàn.</string>
     <string name="account_setup_options_email_signature_label">Eàrr-sgrìobhadh a’ phuist-d</string>
     <string name="account_setup_options_section_display_options">Roghainnean taisbeanaidh</string>

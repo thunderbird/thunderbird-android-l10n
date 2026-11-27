@@ -19,28 +19,34 @@
     <string name="account_setup_auto_discovery_validation_error_email_address_required">A dirección de correo electrónico é obrigatoria.</string>
     <string name="account_setup_auto_discovery_validation_error_password_required">Requírese contrasinal.</string>
     <string name="account_setup_create_account_created">Conta creada correctamente</string>
+    <string name="account_setup_create_account_creating">Creando conta…</string>
+    <string name="account_setup_create_account_error">Produciuse un erro ao intentar crear a conta</string>
     <string name="account_setup_error_network">Erro de rede. Comprobe o estado da súa conexión e ténteo de novo.</string>
     <string name="account_setup_error_unknown">Erro descoñecido</string>
     <string name="account_setup_options_account_check_frequency_label">Comprobar frecuencia</string>
     <string name="account_setup_options_account_name_error_blank">O nome da conta non pode estar en branco.</string>
     <string name="account_setup_options_account_name_label">Nome da conta</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Cada hora</item>
-            <item quantity="other">Cada %d horas</item>
-        </plurals>
+        <item quantity="one">Cada hora</item>
+        <item quantity="other">Cada %d horas</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Cada minuto</item>
-            <item quantity="other">Cada %d minutos</item>
-        </plurals>
+        <item quantity="one">Cada minuto</item>
+        <item quantity="other">Cada %d minutos</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nunca</string>
+    <string name="account_setup_options_email_display_count_label">Número de mensaxes que amosar</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 mensaxe</item>
-            <item quantity="other">%d mensaxes</item>
-        </plurals>
+        <item quantity="one">1 mensaxe</item>
+        <item quantity="other">%d mensaxes</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">O nome da firma de correo electrónico non pode estar en branco.</string>
     <string name="account_setup_options_email_signature_label">Firma de correo electrónico</string>
-    <string name="account_setup_options_section_display_options">Mostrar opcións</string>
+    <string name="account_setup_options_section_display_options">Amosar opcións</string>
     <string name="account_setup_options_section_sync_options">Opcións de sincronización</string>
+    <string name="account_setup_options_show_notifications_label">Amosar notificacións</string>
+    <string name="account_setup_options_your_name_error_required">O teu nome é obrigatorio.</string>
+    <string name="account_setup_options_your_name_label">O teu nome</string>
     <string name="account_setup_special_folders_archive_folder_label">Arquivar cartafol</string>
     <string name="account_setup_special_folders_drafts_folder_label">Cartafol de borradores</string>
     <string name="account_setup_special_folders_error_message">Erro ao recuperar a lista de cartafoles do servidor</string>
@@ -50,7 +56,7 @@
     <string name="account_setup_special_folders_form_description_automatic">A entrada «Automático» seguirá automaticamente os cambios realizados polo servidor. O valor actual do servidor móstrase entre paréntese.</string>
     <string name="account_setup_special_folders_loading_message">Obtención da lista de cartafoles…</string>
     <string name="account_setup_special_folders_sent_folder_label">Cartafol de enviados</string>
-    <string name="account_setup_special_folders_spam_folder_label">Cartafol de correo non desexado</string>
+    <string name="account_setup_special_folders_spam_folder_label">Cartafol de correo lixo</string>
     <string name="account_setup_special_folders_success_message">Todos os cartafoles especiais foron configuradas automaticamente polo servidor.</string>
     <string name="account_setup_special_folders_trash_folder_label">Cartafol da papeleira</string>
 </resources>

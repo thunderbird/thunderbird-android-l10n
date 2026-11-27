@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">আপনার অ্যাকাউন্টে প্রবেশাধিকার দেওয়ার জন্য অ্যাপটি কোনো ব্রাউজার খুঁজে পায়নি।</string>
     <string name="account_oauth_error_canceled">অনুমোদন বাতিল করা হয়েছে</string>
     <string name="account_oauth_error_failed">নিম্নলিখিত ত্রুটির কারণে অনুমোদন ব্যর্থ হয়েছে: <xliff:g id="error">%s</xliff:g></string>

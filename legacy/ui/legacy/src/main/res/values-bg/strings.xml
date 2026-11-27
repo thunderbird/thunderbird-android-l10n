@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Относно</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -282,9 +282,9 @@
     <string name="confirm_discard_draft_message_title">Изтриване на съобщението?</string>
     <string name="copy_action">Копиране</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Адресът е копиран</item>
-            <item quantity="other">Адресите са копирани</item>
-        </plurals>
+        <item quantity="one">Адресът е копиран</item>
+        <item quantity="other">Адресите са копирани</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Текстът от полето Тема е копирано</string>
     <string name="crypto_msg_cancelled">Съобщението е шифровано, но дешифрирането е прекратено.</string>
     <string name="crypto_msg_encrypted_error">но възникна грешка при дешифрирането</string>
@@ -357,9 +357,9 @@
     <string name="dialog_confirm_delete_confirm_button">Да</string>
     <string name="dialog_confirm_delete_message">Желаете ли да изтриете това съобщение?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Наистина ли желаете да изтриете това съобщение?</item>
-            <item quantity="other">Наистина ли желаете да изтриете <xliff:g id="message_count">%1$d</xliff:g> съобщения?</item>
-        </plurals>
+        <item quantity="one">Наистина ли желаете да изтриете това съобщение?</item>
+        <item quantity="other">Наистина ли желаете да изтриете <xliff:g id="message_count">%1$d</xliff:g> съобщения?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Потвърдете изтриването</string>
     <string name="dialog_confirm_empty_spam_message">Искате ли да изчистите нежеланите съобщения?</string>
     <string name="dialog_confirm_empty_spam_title">Потвърждаване на изчистването на нежеланите съобщения</string>
@@ -372,9 +372,9 @@
     <string name="dialog_confirm_spam_cancel_button">Не</string>
     <string name="dialog_confirm_spam_confirm_button">Да</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Наистина ли желаете да преместите това съобщение в папката за спам?</item>
-            <item quantity="other">Наистина ли желаете да преместите тези <xliff:g id="message_count">%1$d</xliff:g> съобщения в папката за спам?</item>
-        </plurals>
+        <item quantity="one">Наистина ли желаете да преместите това съобщение в папката за спам?</item>
+        <item quantity="other">Наистина ли желаете да преместите тези <xliff:g id="message_count">%1$d</xliff:g> съобщения в папката за спам?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Потвърдете преместването в папката за спам</string>
     <string name="dialog_openkeychain_info_install">Инсталирване</string>
     <string name="dialog_openkeychain_info_text">Приложението OpenKeychain е необходимо, за да се активира поддръжката за шифроване от край до край.</string>
@@ -642,7 +642,6 @@
     <string name="message_view_cc_label">Копие:</string>
     <string name="message_view_download_remainder">Сваляне на цялото съобщение</string>
     <string name="message_view_empty">Моля, изберете съобщение в ляво</string>
-    <string name="message_view_me_text">мен</string>
     <string name="message_view_menu_action_export_eml">Изнасяне като EML</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
@@ -655,6 +654,7 @@
     <string name="message_view_status_attachment_not_saved">Не може да запази прикачения файл.</string>
     <string name="message_view_theme_action_dark">Превключи към тъмна тема</string>
     <string name="message_view_theme_action_light">Превключи към светла тема</string>
+    <string name="message_view_to_me_text">мен</string>
     <string name="messagelist_preferences">Списък на съобщенията</string>
     <string name="messageview_crypto_error_title">Грешка при декриптирване на имейл</string>
     <string name="messageview_decrypt_cancelled">Декриптирването е отказано.</string>
@@ -697,9 +697,9 @@
     <string name="notification_channel_push_description">Да се показва докато чака за нови съобщения</string>
     <string name="notification_channel_push_title">Синхронизирай (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ново съобщение</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> нови съобщения</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> ново съобщение</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> нови съобщения</item>
+    </plurals>
     <string name="notification_notify_error_text">Възникна грешка при създаването на известие за ново съобщение. Причината най-вероятно е липсващ звук за известия. \n \nДокоснете тук, за да отворите настройките на известията.</string>
     <string name="notification_notify_error_title">Грешка при известие</string>
     <string name="notifications_title">Известявания</string>
@@ -769,13 +769,13 @@
     <string name="refile_action">Преместване…</string>
     <string name="refresh_folders_action">Обнови списъка с папки</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Изтегляне на %d реултат</item>
-            <item quantity="other">Изтегляне на %d резултата</item>
-        </plurals>
+        <item quantity="one">Изтегляне на %d реултат</item>
+        <item quantity="other">Изтегляне на %d резултата</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Изтегляне на %1$d от %2$d резултат</item>
-            <item quantity="other">Изтегляне на %1$d от %2$d резултата</item>
-        </plurals>
+        <item quantity="one">Изтегляне на %1$d от %2$d резултат</item>
+        <item quantity="other">Изтегляне на %1$d от %2$d резултата</item>
+    </plurals>
     <string name="remote_search_error">Търсенето на сървърва е неуспешно</string>
     <string name="remote_search_sending_query">Изпращане на заявката към сървъра</string>
     <string name="remote_search_unavailable_no_network">Нужна е връзка с мрежата, за да бъде извършено търсене в сървъра.</string>
@@ -864,8 +864,8 @@
     <string name="toast_openpgp_provider_error">Грешка при свързването с %s!</string>
     <string name="trash_folder_label">Папка Кошче</string>
     <string name="unflag_action">Премахни звезда</string>
-    <string name="unknown_recipient">&<;Неизвестен Получател&>;</string>
-    <string name="unknown_sender">&<;Неизвестен подател&>;</string>
+    <string name="unknown_recipient">&lt;Неизвестен Получател&gt;</string>
+    <string name="unknown_sender">&lt;Неизвестен подател&gt;</string>
     <string name="unsigned_text_divider_label">Неподписан текст</string>
     <string name="unsubscribe_action">Отписване</string>
     <string name="upgrade_database_format">Обновяване на базата данни на профил \"<xliff:g id="account">%s</xliff:g>\"</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Ứng dụng không thể tìm thấy trình duyệt dùng để cấp quyền truy cập vào tài khoản của bạn.</string>
     <string name="account_oauth_error_canceled">Đã hủy ủy quyền</string>
     <string name="account_oauth_error_failed">Việc ủy quyền không thành công với lỗi sau: <xliff:g id="error">%s</xliff:g></string>

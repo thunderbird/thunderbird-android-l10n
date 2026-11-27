@@ -35,11 +35,11 @@
     <string name="notification_channel_push_description">Показується під час очікування нових повідомлень</string>
     <string name="notification_channel_push_title">Синхронізація (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d нове повідомлення</item>
-            <item quantity="few">%1$d нових повідомлення</item>
-            <item quantity="many">%1$d нових повідомлень</item>
-            <item quantity="other">%1$d нових повідомлень</item>
-        </plurals>
+        <item quantity="one">%1$d нове повідомлення</item>
+        <item quantity="few">%1$d нових повідомлення</item>
+        <item quantity="many">%1$d нових повідомлень</item>
+        <item quantity="other">%1$d нових повідомлень</item>
+    </plurals>
     <string name="notification_notify_error_text">Сталася помилка під час створення системного сповіщення про нове повідомлення. Найчастіше це стається через відсутність звуку сповіщення.\n\nТоркніться, щоб відкрити налаштування сповіщень.</string>
     <string name="notification_notify_error_title">Помилка сповіщення</string>
     <string name="push_info_disable_push_action">Вимкнути Push</string>

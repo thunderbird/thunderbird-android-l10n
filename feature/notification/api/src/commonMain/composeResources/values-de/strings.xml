@@ -35,16 +35,16 @@
     <string name="notification_channel_push_description">Wird während des Wartens auf neue Nachrichten angezeigt</string>
     <string name="notification_channel_push_title">Synchronisieren (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d neue Nachricht</item>
-            <item quantity="other">%1$d neue Nachrichten</item>
-        </plurals>
+        <item quantity="one">%1$d neue Nachricht</item>
+        <item quantity="other">%1$d neue Nachrichten</item>
+    </plurals>
     <string name="notification_notify_error_text">Beim Versuch, eine Systembenachrichtigung für eine neue Nachricht zu erstellen, ist ein Fehler aufgetreten. Der Grund dafür ist höchstwahrscheinlich ein fehlender Benachrichtigungston.\n\nAntippen, um die Benachrichtigungseinstellungen zu öffnen.</string>
     <string name="notification_notify_error_title">Benachrichtigungsfehler</string>
     <string name="push_info_disable_push_action">Push deaktivieren</string>
     <string name="push_notification_grant_alarm_permission">Antippen, um die Berechtigung zu erteilen.</string>
     <string name="push_notification_info">Antippen, um mehr zu erfahren.</string>
     <string name="push_notification_state_alarm_permission_missing">Fehlende Berechtigung zur Zeitplanung von Alarmen</string>
-    <string name="push_notification_state_initializing">Initialisieren…</string>
+    <string name="push_notification_state_initializing">Wird initialisiert…</string>
     <string name="push_notification_state_listening">Warte auf neue E-Mails</string>
     <string name="push_notification_state_wait_background_sync">Wartet, bis die Hintergrundsynchronisation erlaubt ist</string>
     <string name="push_notification_state_wait_network">Wartet, bis ein Netzwerk verfügbar ist</string>

@@ -35,8 +35,8 @@
     <string name="notification_channel_push_description">새 메시지 받는 동안 표시됨</string>
     <string name="notification_channel_push_title">동기화하기 (푸시)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other">새 메시지 %1$d개</item>
-        </plurals>
+        <item quantity="other">새 메시지 %1$d개</item>
+    </plurals>
     <string name="notification_notify_error_text">새로운 메시지를 위한 시스템 알림을 만드는 중에 오류가 발생했습니다. 알림 소리가 지정되지 않아 그럴 가능성이 높습니다.\n\n여기를 눌러 알림 설정으로 이동하세요.</string>
     <string name="notification_notify_error_title">알림 오류</string>
     <string name="push_info_disable_push_action">알림 끄기</string>

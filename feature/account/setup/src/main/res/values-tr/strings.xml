@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Hesap adı boş olamaz.</string>
     <string name="account_setup_options_account_name_label">Hesap adı</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Saatte bir</item>
-            <item quantity="other">%d saatte bir</item>
-        </plurals>
+        <item quantity="one">Saatte bir</item>
+        <item quantity="other">%d saatte bir</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Dakikada bir</item>
-            <item quantity="other">%d dakikada bir</item>
-        </plurals>
+        <item quantity="one">Dakikada bir</item>
+        <item quantity="other">%d dakikada bir</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Hiçbir zaman</string>
     <string name="account_setup_options_email_display_count_label">Görüntülenecek ileti sayısı</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 ileti</item>
-            <item quantity="other">%d ileti</item>
-        </plurals>
+        <item quantity="one">1 ileti</item>
+        <item quantity="other">%d ileti</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-posta imza adı boş olamaz.</string>
     <string name="account_setup_options_email_signature_label">E-posta imzası</string>
     <string name="account_setup_options_section_display_options">Görüntüleme seçenekleri</string>

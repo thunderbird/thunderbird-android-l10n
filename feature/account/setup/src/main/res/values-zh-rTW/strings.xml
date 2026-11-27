@@ -27,16 +27,16 @@
     <string name="account_setup_options_account_name_error_blank">帳號名稱不能為空白。</string>
     <string name="account_setup_options_account_name_label">帳號名稱</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="other">每 %d 小時</item>
-        </plurals>
+        <item quantity="other">每 %d 小時</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="other">每 %d 分鐘</item>
-        </plurals>
+        <item quantity="other">每 %d 分鐘</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">從不</string>
     <string name="account_setup_options_email_display_count_label">要顯示的郵件數</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="other">%d 封郵件</item>
-        </plurals>
+        <item quantity="other">%d 封郵件</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">電子郵件簽名不能為空白。</string>
     <string name="account_setup_options_email_signature_label">電子郵件簽名</string>
     <string name="account_setup_options_section_display_options">顯示選項</string>

@@ -27,22 +27,22 @@
     <string name="account_setup_options_account_name_error_blank">Nome account non può essere vuoto</string>
     <string name="account_setup_options_account_name_label">Nome account</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Ogni ora</item>
-            <item quantity="many">Ogni %d ore</item>
-            <item quantity="other">Ogni %d ore</item>
-        </plurals>
+        <item quantity="one">Ogni ora</item>
+        <item quantity="many">Ogni %d ore</item>
+        <item quantity="other">Ogni %d ore</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Ogni minuto</item>
-            <item quantity="many">Ogni %d minuti</item>
-            <item quantity="other">Ogni %d minuti</item>
-        </plurals>
+        <item quantity="one">Ogni minuto</item>
+        <item quantity="many">Ogni %d minuti</item>
+        <item quantity="other">Ogni %d minuti</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Mai</string>
     <string name="account_setup_options_email_display_count_label">Numero di messaggi da visualizzare</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 messaggio</item>
-            <item quantity="many">%d messaggi</item>
-            <item quantity="other">%d messaggi</item>
-        </plurals>
+        <item quantity="one">1 messaggio</item>
+        <item quantity="many">%d messaggi</item>
+        <item quantity="other">%d messaggi</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Il nome della firma email non può essere vuoto</string>
     <string name="account_setup_options_email_signature_label">Firma email</string>
     <string name="account_setup_options_section_display_options">Opzioni di visualizzazione</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Mbi</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -289,9 +289,9 @@
     <string name="confirm_discard_draft_message_title">Të hidhet tej mesazhi?</string>
     <string name="copy_action">Kopjoje</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa u kopjua në të papastër</item>
-            <item quantity="other">Adresat u kopjuan në të papastër</item>
-        </plurals>
+        <item quantity="one">Adresa u kopjua në të papastër</item>
+        <item quantity="other">Adresat u kopjuan në të papastër</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Teksti i subjektit u kopjua në të papastër</string>
     <string name="crypto_msg_cancelled">Mesazhi është i fshehtëzuar, por shfshehtëzimi u anulua.</string>
     <string name="crypto_msg_encrypted_error">por pati një gabim shfshehtëzimi</string>
@@ -364,9 +364,9 @@
     <string name="dialog_confirm_delete_confirm_button">Po</string>
     <string name="dialog_confirm_delete_message">Doni të fshihet ky mesazh?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Doni vërtet të fshihet ky mesazh?</item>
-            <item quantity="other">Doni vërtet të fshihen <xliff:g id="message_count">%1$d</xliff:g> mesazhe?</item>
-        </plurals>
+        <item quantity="one">Doni vërtet të fshihet ky mesazh?</item>
+        <item quantity="other">Doni vërtet të fshihen <xliff:g id="message_count">%1$d</xliff:g> mesazhe?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Ripohoni fshirjen</string>
     <string name="dialog_confirm_empty_spam_message">Doni të zbrazet dosja e të padëshiruarve?</string>
     <string name="dialog_confirm_empty_spam_title">Ripohoni zbrazje të padëshiruarish</string>
@@ -379,9 +379,9 @@
     <string name="dialog_confirm_spam_cancel_button">Jo</string>
     <string name="dialog_confirm_spam_confirm_button">Po</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Doni vërtet të shpihet ky mesazh te dosja e të padëshiruarve?</item>
-            <item quantity="other">Doni vërtet të shpihet te dosja e të padëshiruarve <xliff:g id="message_count">%1$d</xliff:g> mesazhe?</item>
-        </plurals>
+        <item quantity="one">Doni vërtet të shpihet ky mesazh te dosja e të padëshiruarve?</item>
+        <item quantity="other">Doni vërtet të shpihet te dosja e të padëshiruarve <xliff:g id="message_count">%1$d</xliff:g> mesazhe?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Ripohoni kalimin te dosja e të padëshiruarve</string>
     <string name="dialog_openkeychain_info_install">Instaloje</string>
     <string name="dialog_openkeychain_info_text">Aplikacioni OpenKeychain është i domosdoshëm për të aktivizuar mbulim fshehtëzimi skaj-më-skaj.</string>
@@ -657,9 +657,9 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Bashkëngjitje (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bashkëngjitje (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Bashkëngjitje (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Bashkëngjitje (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Ruaji krejt</string>
     <string name="message_view_attachments_title">Bashkëngjitje</string>
     <string name="message_view_attachments_view">Shiheni</string>
@@ -668,8 +668,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Shkarko mesazhin e plotë</string>
     <string name="message_view_empty">Ju lutemi, përzgjidhni një mesazh majtas</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mua</string>
     <string name="message_view_menu_action_export_eml">Eksportoje si EML</string>
     <string name="message_view_no_viewer">S’arrihet të gjendet parës për <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -681,6 +679,8 @@
     <string name="message_view_status_attachment_not_saved">S’arrihet të ruhet bashkëngjitje.</string>
     <string name="message_view_theme_action_dark">Kalo te tema e errët</string>
     <string name="message_view_theme_action_light">Kalo te tema e çelët</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mua</string>
     <string name="messagelist_preferences">Lista mesazhesh</string>
     <string name="messageview_crypto_error_title">Gabim në shfsheshtëzimin e email-it</string>
     <string name="messageview_decrypt_cancelled">Shfshehtëzimi u anulua.</string>
@@ -730,9 +730,9 @@
     <string name="notification_channel_push_description">Shfaqur teksa pritet për mesazhe të reja</string>
     <string name="notification_channel_push_title">Njëkohëso (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> mesazh i ri</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mesazhe të rinj</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> mesazh i ri</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mesazhe të rinj</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Ndodhi një gabim teksa provohej të krijohej një njoftim sistemi për një mesazh të ri. Arsyeja ka shumë gjasa të jetë mungesa e një tingulli njoftimesh. \n \nPrekeni që të hapen rregullimet për njoftimet.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -807,13 +807,13 @@
     <string name="refile_action">Riskedojeni…</string>
     <string name="refresh_folders_action">Rifresko listë dosjesh</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Po sillet %d përfundim</item>
-            <item quantity="other">Po sillen %d përfundime</item>
-        </plurals>
+        <item quantity="one">Po sillet %d përfundim</item>
+        <item quantity="other">Po sillen %d përfundime</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Po sillet %1$d nga %2$d përfundim gjithsej</item>
-            <item quantity="other">Po sillen %1$d nga %2$d përfundime gjithsej</item>
-        </plurals>
+        <item quantity="one">Po sillet %1$d nga %2$d përfundim gjithsej</item>
+        <item quantity="other">Po sillen %1$d nga %2$d përfundime gjithsej</item>
+    </plurals>
     <string name="remote_search_error">Kërkimi në largësi dështoi</string>
     <string name="remote_search_sending_query">Po dërgohet kërkesa te shërbyesi</string>
     <string name="remote_search_unavailable_no_network">Për kërkime në shërbyes lypset lidhje në rrjet.</string>
@@ -907,8 +907,8 @@
     <string name="toast_openpgp_provider_error">Gabim në lidhjen me %s!</string>
     <string name="trash_folder_label">Dosje hedhurinash</string>
     <string name="unflag_action">Hiqi yll</string>
-    <string name="unknown_recipient">&<;Marrës i Panjohur&>;</string>
-    <string name="unknown_sender">&<;Dërgues i Panjohur&>;</string>
+    <string name="unknown_recipient">&lt;Marrës i Panjohur&gt;</string>
+    <string name="unknown_sender">&lt;Dërgues i Panjohur&gt;</string>
     <string name="unsigned_text_divider_label">Tekst i Panënshkruar</string>
     <string name="unsubscribe_action">Shpajtomëni</string>
     <string name="upgrade_database_format">Po përditësohet baza e të dhënave për llogarinë \"<xliff:g id="account">%s</xliff:g>\"</string>

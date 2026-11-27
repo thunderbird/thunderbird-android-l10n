@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Näidatakse uute kirjade ootamisel</string>
     <string name="notification_channel_push_title">Sünkroniseeri (kasuta tõuketeenust)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d uus kiri</item>
-            <item quantity="other">%1$d uut kirja</item>
-        </plurals>
+        <item quantity="one">%1$d uus kiri</item>
+        <item quantity="other">%1$d uut kirja</item>
+    </plurals>
     <string name="notification_notify_error_text">Uue saabunud sõnumi kohta süsteemise teavituse loomisel tekkis viga. Üks võimalik põhjus on teavitusele määratud heli puudumine.\n\nAva teavituste seadistused.</string>
     <string name="notification_notify_error_title">Viga teavitusel</string>
     <string name="push_info_disable_push_action">Ära kasuta tõuketeenuseid</string>

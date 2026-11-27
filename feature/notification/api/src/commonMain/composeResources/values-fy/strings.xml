@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Wurdt yn ôfwachting fan nije berjochten toand</string>
     <string name="notification_channel_push_title">Syngronisearje (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d nij berjocht</item>
-            <item quantity="other">%1$d nije berjochten</item>
-        </plurals>
+        <item quantity="one">%1$d nij berjocht</item>
+        <item quantity="other">%1$d nije berjochten</item>
+    </plurals>
     <string name="notification_notify_error_text">Der is in flater bard wylst it meitsjen fan in systeemmelding foar in nij berjocht. De reden is wierskynlik in ûntbrekkend meldingslûd.\n\nTik om meldingsynstellingen te iepenjen.</string>
     <string name="notification_notify_error_title">Meldingsflater</string>
     <string name="push_info_disable_push_action">Push útskeakelje</string>

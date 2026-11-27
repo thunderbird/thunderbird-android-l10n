@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Apprupositu</string>
     <string name="about_app_authors_k9">Quelle è quelli di u K-9 storicu</string>
     <string name="about_app_authors_thunderbird">A squadra Thunderbird Mobile</string>
@@ -280,9 +280,9 @@
     <string name="confirm_discard_draft_message_title">Tralascià u messaghju ?</string>
     <string name="copy_action">Cupià</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">L’indirizzu hè statu cupiatu in u preme’papei</item>
-            <item quantity="other">L’indirizzi sò stati cupiati in u preme’papei</item>
-        </plurals>
+        <item quantity="one">L’indirizzu hè statu cupiatu in u preme’papei</item>
+        <item quantity="other">L’indirizzi sò stati cupiati in u preme’papei</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">U testu di u sughjettu hè statu cupiatu in u preme’papei</string>
     <string name="crypto_msg_cancelled">U messaghju hè cifratu, ma a dicifratura hè stata abbandunata.</string>
     <string name="crypto_msg_encrypted_error">ma un sbagliu di dicifratura hè accadutu</string>
@@ -356,9 +356,9 @@
     <string name="dialog_confirm_delete_confirm_button">Sì</string>
     <string name="dialog_confirm_delete_message">Vulete squassà stu messaghju ?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Da veru, vulete squassà stu messaghju ?</item>
-            <item quantity="other">Da veru, vulete squassà i <xliff:g id="message_count">%1$d</xliff:g> messaghji ?</item>
-        </plurals>
+        <item quantity="one">Da veru, vulete squassà stu messaghju ?</item>
+        <item quantity="other">Da veru, vulete squassà i <xliff:g id="message_count">%1$d</xliff:g> messaghji ?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Cunfirmà a squassatura</string>
     <string name="dialog_confirm_empty_spam_message">Vulete viutà u cartulare di i merzaghji ?</string>
     <string name="dialog_confirm_empty_spam_title">Cunfirmà à squassatura di i merzaghji</string>
@@ -371,9 +371,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nò</string>
     <string name="dialog_confirm_spam_confirm_button">Sì</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Da veru, vulete dispiazzà stu messaghju versu u cartulare di i merzaghji ?</item>
-            <item quantity="other">Da veru, vulete dispiazzà i <xliff:g id="message_count">%1$d</xliff:g> messaghji versu u cartulare di i merzaghji ?</item>
-        </plurals>
+        <item quantity="one">Da veru, vulete dispiazzà stu messaghju versu u cartulare di i merzaghji ?</item>
+        <item quantity="other">Da veru, vulete dispiazzà i <xliff:g id="message_count">%1$d</xliff:g> messaghji versu u cartulare di i merzaghji ?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Cunfirmà u dispiazzamentu versu u cartulare di i merzaghji</string>
     <string name="dialog_openkeychain_info_install">Installà</string>
     <string name="dialog_openkeychain_info_text">L’appiecazione OpenKeychain hè richiesta per permette l’adopru di a cifratura da un capu à l’altru.</string>
@@ -611,9 +611,9 @@
     <string name="message_to_label">À :</string>
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pezza ghjunta (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pezze ghjunte (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pezza ghjunta (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pezze ghjunte (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Tuttu arregistrà</string>
     <string name="message_view_attachments_title">Pezze ghjunte</string>
     <string name="message_view_attachments_view">Affissà</string>
@@ -622,7 +622,6 @@
     <string name="message_view_cc_label">Cc :</string>
     <string name="message_view_download_remainder">Scaricà u messaghju cumpletu</string>
     <string name="message_view_empty">Selezziunate un messaghju à manu manca</string>
-    <string name="message_view_me_text">eiu</string>
     <string name="message_view_menu_action_export_eml">Espurtà cum’è EML</string>
     <string name="message_view_no_viewer">Ùn si pò truvà un affissadore per <xliff:g id="mimetype">%s</xliff:g>.</string>
     <string name="message_view_recipients_format">à <xliff:g id="recipients">%s</xliff:g></string>
@@ -632,6 +631,7 @@
     <string name="message_view_status_attachment_not_saved">Impussibule d’arregistrà a pezza ghjunta.</string>
     <string name="message_view_theme_action_dark">Passà à u tema scuru</string>
     <string name="message_view_theme_action_light">Passà à u tema chjaru</string>
+    <string name="message_view_to_me_text">eiu</string>
     <string name="messagelist_preferences">Liste di i messaghji</string>
     <string name="messageview_crypto_error_title">Sbagliu di dicifratura di u messaghju</string>
     <string name="messageview_decrypt_cancelled">A dicifratura hè stata abbandunata.</string>
@@ -681,9 +681,9 @@
     <string name="notification_channel_push_description">Affissatu durante l’attesa di i messaghji novi</string>
     <string name="notification_channel_push_title">Sincrunizà (Catapughjà)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> messaghju novu</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> messaghji novi</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> messaghju novu</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> messaghji novi</item>
+    </plurals>
     <string name="notification_notify_error_text">Un sbagliu hè accadutu pruvendu di creà una nutificazione di sistema per un messaghju novu. A ragione prubabile hè l’assenza di sonu di nutificazione. \n \nPicchichjà per apre i parametri di nutificazione.</string>
     <string name="notification_notify_error_title">Sbagliu di nutificazione</string>
     <string name="notification_show_contact_picture_summary">Affissà a riprisentazione virtuale di i speditori in e nutificazioni di i messaghji novi</string>
@@ -755,13 +755,13 @@
     <string name="refile_action">Riclassificà…</string>
     <string name="refresh_folders_action">Attualizà a lista di i cartulari</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Riguarera di %d risultatu</item>
-            <item quantity="other">Riguarera di %d risultati</item>
-        </plurals>
+        <item quantity="one">Riguarera di %d risultatu</item>
+        <item quantity="other">Riguarera di %d risultati</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Riguarera di %1$d risultatu nant’à %2$d</item>
-            <item quantity="other">Riguarera di %1$d risultati nant’à %2$d</item>
-        </plurals>
+        <item quantity="one">Riguarera di %1$d risultatu nant’à %2$d</item>
+        <item quantity="other">Riguarera di %1$d risultati nant’à %2$d</item>
+    </plurals>
     <string name="remote_search_error">Fiascu di a ricerca alluntanata</string>
     <string name="remote_search_sending_query">Inviu di a richiesta à u servitore</string>
     <string name="remote_search_unavailable_no_network">Una cunnessione à a reta hè richiesta per una ricerca nant’à u servitore.</string>
@@ -855,8 +855,8 @@
     <string name="toast_openpgp_provider_error">Sbagliu di cunnessione à %s !</string>
     <string name="trash_folder_label">Cartulare di a curbella</string>
     <string name="unflag_action">Caccià a stella</string>
-    <string name="unknown_recipient">&<;U destinatariu hè scunnisciutu&>;</string>
-    <string name="unknown_sender">&<;U speditore hè scunnisciutu&>;</string>
+    <string name="unknown_recipient">&lt;U destinatariu hè scunnisciutu&gt;</string>
+    <string name="unknown_sender">&lt;U speditore hè scunnisciutu&gt;</string>
     <string name="unsigned_text_divider_label">Testu micca firmatu</string>
     <string name="unsubscribe_action">Disabbunassi</string>
     <string name="upgrade_database_format">Messa à livellu di a basa di dati di u contu « <xliff:g id="account">%s</xliff:g> »</string>

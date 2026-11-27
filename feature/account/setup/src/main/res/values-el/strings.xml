@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Το όνομα του λογαριασμού δεν μπορεί να είναι κενό.</string>
     <string name="account_setup_options_account_name_label">Όνομα λογαριασμού</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Κάθε ώρα</item>
-            <item quantity="other">Κάθε %d ώρες</item>
-        </plurals>
+        <item quantity="one">Κάθε ώρα</item>
+        <item quantity="other">Κάθε %d ώρες</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Κάθε λεπτό</item>
-            <item quantity="other">Κάθε %d λεπτά</item>
-        </plurals>
+        <item quantity="one">Κάθε λεπτό</item>
+        <item quantity="other">Κάθε %d λεπτά</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Ποτέ</string>
     <string name="account_setup_options_email_display_count_label">Αριθμός μηνυμάτων προς εμφάνιση</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 μήνυμα</item>
-            <item quantity="other">%d μηνύματα</item>
-        </plurals>
+        <item quantity="one">1 μήνυμα</item>
+        <item quantity="other">%d μηνύματα</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Το όνομα της υπογραφής email δεν μπορεί να είναι κενό.</string>
     <string name="account_setup_options_email_signature_label">Υπογραφή email</string>
     <string name="account_setup_options_section_display_options">Επιλογές εμφάνισης</string>

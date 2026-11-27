@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Aplikacja nie mogła znaleźć przeglądarki, za pomocą której można uzyskać dostęp do Twojego konta.</string>
     <string name="account_oauth_error_canceled">Autoryzacja anulowana</string>
     <string name="account_oauth_error_failed">Autoryzacja nie powiodła się z powodu następującego błędu: <xliff:g id="error">%s</xliff:g></string>

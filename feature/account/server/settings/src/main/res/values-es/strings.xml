@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Para ver tu contraseña tienes que verificar tu identidad</string>
     <string name="account_server_settings_password_authentication_title">Verifica tu identidad</string>
     <string name="account_server_settings_password_authentication_unable_to_start">No se pudo enseñar el diálogo de biometría.</string>
+    <string name="account_server_settings_password_input_label">Contraseña</string>
     <string name="account_server_settings_port_label">Puerto</string>
     <string name="account_server_settings_protocol_type_label">Protocolo</string>
     <string name="account_server_settings_security_label">Seguridad</string>

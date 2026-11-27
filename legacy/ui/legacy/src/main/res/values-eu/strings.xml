@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Honi buruz</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,9 +283,9 @@
     <string name="confirm_discard_draft_message_title">Baztertu mezua?</string>
     <string name="copy_action">Kopiatu</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Helbidea arbelera kopiatuta</item>
-            <item quantity="other">Helbideak arbelera kopiatuta</item>
-        </plurals>
+        <item quantity="one">Helbidea arbelera kopiatuta</item>
+        <item quantity="other">Helbideak arbelera kopiatuta</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Gaiaren testua arbelean kopiatu da</string>
     <string name="crypto_msg_cancelled">Mezua zifratuta dago, baina deszifratzea bertan behera utzi da.</string>
     <string name="crypto_msg_encrypted_error">baina deszifratze errore bat gertatu da</string>
@@ -359,9 +359,9 @@
     <string name="dialog_confirm_delete_confirm_button">Bai</string>
     <string name="dialog_confirm_delete_message">Mezu hau ezabatu nahi duzu?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Benetan mezu hau ezabatu nahi duzu?</item>
-            <item quantity="other">Benetan <xliff:g id="message_count">%1$d</xliff:g> mezu ezabatu nahi dituzu?</item>
-        </plurals>
+        <item quantity="one">Benetan mezu hau ezabatu nahi duzu?</item>
+        <item quantity="other">Benetan <xliff:g id="message_count">%1$d</xliff:g> mezu ezabatu nahi dituzu?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Berretsi ezabatzea</string>
     <string name="dialog_confirm_empty_spam_message">Hustu nahi duzu spam karpeta?</string>
     <string name="dialog_confirm_empty_spam_title">Berretsi spamaren hustuketa</string>
@@ -374,9 +374,9 @@
     <string name="dialog_confirm_spam_cancel_button">Ez</string>
     <string name="dialog_confirm_spam_confirm_button">Bai</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Benetan mezu hau spamera mugitu nahi duzula?</item>
-            <item quantity="other">Benetan <xliff:g id="message_count">%1$d</xliff:g> mezu zabor-posta karpetara mugitu nahi dituzula?</item>
-        </plurals>
+        <item quantity="one">Benetan mezu hau spamera mugitu nahi duzula?</item>
+        <item quantity="other">Benetan <xliff:g id="message_count">%1$d</xliff:g> mezu zabor-posta karpetara mugitu nahi dituzula?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Berretsi zabor-posta karpetara mugitzea</string>
     <string name="dialog_openkeychain_info_install">Instalatu</string>
     <string name="dialog_openkeychain_info_text">OpenKeychain aplikazioa beharrezkoa da muturretik muturrerako enkriptatzearen euskarria gaitzeko.</string>
@@ -654,8 +654,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Deskargatu mezu osoa</string>
     <string name="message_view_empty">Mesedez ezkerreko mezu bat hautatu</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">niri</string>
     <string name="message_view_menu_action_export_eml">Esportatu EML gisa</string>
     <string name="message_view_no_viewer">Ezin da <xliff:g id="mimetype">%s</xliff:g>-(r)entzako ikustailerik aurkitu.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -666,6 +664,8 @@
     <string name="message_view_status_attachment_not_saved">Ezin izan da eranskina gorde.</string>
     <string name="message_view_theme_action_dark">Aldatu itxura ilunera</string>
     <string name="message_view_theme_action_light">Aldatu itxura argira</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">niri</string>
     <string name="messagelist_preferences">Mezu-zerrendak</string>
     <string name="messageview_crypto_error_title">Errorea e-posta deszifratzean</string>
     <string name="messageview_decrypt_cancelled">Deszifratzea bertan behera utzi da.</string>
@@ -706,9 +706,9 @@
     <string name="notification_channel_push_description">Bistaratuta mezu berrien zain geundenean</string>
     <string name="notification_channel_push_title">Sinkronizatu (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">Mezu berri <xliff:g id="new_message_count">%d</xliff:g></item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mezu berri</item>
-        </plurals>
+        <item quantity="one">Mezu berri <xliff:g id="new_message_count">%d</xliff:g></item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> mezu berri</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Errore bat gertatu da mezu berri baterako sistemaren jakinarazpena sortzen saiatzean. Arrazoia ziurrenik jakinarazpen-soinu bat falta da.\n\nSakatu jakinarazpen-ezarpenak irekitzeko.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -781,13 +781,13 @@
     <string name="refile_action">Artxibatu…</string>
     <string name="refresh_folders_action">Freskatu karpeten zerrenda</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Emaitza %d eskuratzen</item>
-            <item quantity="other">%d emaitza eskuratzen</item>
-        </plurals>
+        <item quantity="one">Emaitza %d eskuratzen</item>
+        <item quantity="other">%d emaitza eskuratzen</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%1$d-(e)tik emaitza %2$d eskuratzen</item>
-            <item quantity="other">%1$d-(e)tik %2$d emaitza eskuratzen</item>
-        </plurals>
+        <item quantity="one">%1$d-(e)tik emaitza %2$d eskuratzen</item>
+        <item quantity="other">%1$d-(e)tik %2$d emaitza eskuratzen</item>
+    </plurals>
     <string name="remote_search_error">Urruneko bilaketak huts egin du</string>
     <string name="remote_search_sending_query">Kontsulta zerbitzarira bidaltzen</string>
     <string name="remote_search_unavailable_no_network">Zerbitzarian bilatzeko sareko konexioa behar da.</string>
@@ -880,8 +880,8 @@
     <string name="toast_openpgp_provider_error">Errorea %s zerbitzarira konektatzean!</string>
     <string name="trash_folder_label">Zakarrontziaren karpeta</string>
     <string name="unflag_action">Kendu izarra</string>
-    <string name="unknown_recipient">&<;Hartzaile ezezaguna&>;</string>
-    <string name="unknown_sender">&<;Bidaltzaile ezezaguna&>;</string>
+    <string name="unknown_recipient">&lt;Hartzaile ezezaguna&gt;</string>
+    <string name="unknown_sender">&lt;Bidaltzaile ezezaguna&gt;</string>
     <string name="unsigned_text_divider_label">Sinatu gabeko testua</string>
     <string name="unsubscribe_action">Harpidetza kendu</string>
     <string name="upgrade_database_format">\"<xliff:g id="account">%s</xliff:g>\" kontuaren datu-basea bertsio-berritzen</string>

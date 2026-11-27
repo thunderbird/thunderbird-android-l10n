@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">Kontoeinstellungen jetzt importieren</string>
     <string name="onboarding_migration_thunderbird_import_title">Von einer anderen App oder einem anderen Gerät übertragen?</string>
     <string name="onboarding_migration_thunderbird_link_open_error">Keine App zum Öffnen des Links gefunden.</string>

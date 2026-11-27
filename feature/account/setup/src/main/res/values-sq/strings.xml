@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Emri i llogarisë s’mund të jetë i zbrazët.</string>
     <string name="account_setup_options_account_name_label">Emër llogarie</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Çdo orë</item>
-            <item quantity="other">Çdo %d orë</item>
-        </plurals>
+        <item quantity="one">Çdo orë</item>
+        <item quantity="other">Çdo %d orë</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Çdo minutë</item>
-            <item quantity="other">Çdo %d minuta</item>
-        </plurals>
+        <item quantity="one">Çdo minutë</item>
+        <item quantity="other">Çdo %d minuta</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Kurrë</string>
     <string name="account_setup_options_email_display_count_label">Numër mesazhesh për shfaqje</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 mesazh</item>
-            <item quantity="other">%d mesazhe</item>
-        </plurals>
+        <item quantity="one">1 mesazh</item>
+        <item quantity="other">%d mesazhe</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Emri i nënshkrimit të email-it s’mund të jetë i zbrazët.</string>
     <string name="account_setup_options_email_signature_label">Nënshkrim email-i</string>
     <string name="account_setup_options_section_display_options">Mundësi shfaqjeje</string>

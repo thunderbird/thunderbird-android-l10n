@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">De app kan geen browser vinden. Een browser is nodig om toegang tot uw account te krijgen.</string>
     <string name="account_oauth_error_canceled">Autorisatie is geannuleerd</string>
     <string name="account_oauth_error_failed">Autorisatie is mislukt met de volgende foutmelding: <xliff:g id="error">%s</xliff:g></string>

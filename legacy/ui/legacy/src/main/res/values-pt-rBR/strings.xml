@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Sobre</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -161,7 +161,13 @@
     <string name="account_settings_signature__location_after_quoted_text">Depois do texto citado</string>
     <string name="account_settings_signature__location_before_quoted_text">Antes do texto citado</string>
     <string name="account_settings_signature__location_label">Posição da assinatura</string>
+    <string name="account_settings_signature_clear_label">Limpar assinatura</string>
+    <string name="account_settings_signature_html_label">Assinatura HTML</string>
+    <string name="account_settings_signature_is_html_label">Salvar assinatura como HTML</string>
+    <string name="account_settings_signature_is_html_summary">Interprete a assinatura como HTML. Scripts e manipuladores de eventos serão removidos por segurança.</string>
     <string name="account_settings_signature_label">Assinatura</string>
+    <string name="account_settings_signature_preview">Prévia da assinatura</string>
+    <string name="account_settings_signature_preview_empty">A prévia da sua assinatura aparecerá aqui</string>
     <string name="account_settings_signature_use_label">Usar assinatura</string>
     <string name="account_settings_strip_signature_label">Remover assinaturas nas respostas</string>
     <string name="account_settings_strip_signature_summary">As assinaturas serão removidas das mensagens citadas</string>
@@ -260,6 +266,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Removendo a conta…</string>
     <string name="batch_select_all">Selecionar todas</string>
+    <string name="camera_capture_lost">A imagem capturada foi perdida porque o aplicativo foi fechado. Tente novamente.</string>
     <string name="camera_permission_denied">Permissão de usar a câmera negado. Não foi possível tirar foto</string>
     <string name="changelog_latest_label_text">ATUAL</string>
     <string name="changelog_loading_error">Não foi possível carregar o registro de mudanças.</string>
@@ -296,10 +303,10 @@
     <string name="confirm_discard_draft_message_title">Descartar a mensagem?</string>
     <string name="copy_action">Copiar</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Endereço copiado para a área de transferência</item>
-            <item quantity="many">Endereços copiados para a área de transferência</item>
-            <item quantity="other">Endereços copiados para a área de transferência</item>
-        </plurals>
+        <item quantity="one">Endereço copiado para a área de transferência</item>
+        <item quantity="many">Endereços copiados para a área de transferência</item>
+        <item quantity="other">Endereços copiados para a área de transferência</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Texto do assunto copiado para a área de transferência</string>
     <string name="crypto_msg_cancelled">A mensagem está criptografada, mas a descriptografia foi cancelada.</string>
     <string name="crypto_msg_encrypted_error">mas ocorreu um erro de descriptografia</string>
@@ -373,10 +380,10 @@
     <string name="dialog_confirm_delete_confirm_button">Sim</string>
     <string name="dialog_confirm_delete_message">Deseja excluir esta mensagem?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Deseja realmente excluir esta mensagem?</item>
-            <item quantity="many">Deseja realmente excluir <xliff:g id="message_count">%1$d</xliff:g> mensagens?</item>
-            <item quantity="other">Deseja realmente excluir <xliff:g id="message_count">%1$d</xliff:g> mensagens?</item>
-        </plurals>
+        <item quantity="one">Deseja realmente excluir esta mensagem?</item>
+        <item quantity="many">Deseja realmente excluir <xliff:g id="message_count">%1$d</xliff:g> mensagens?</item>
+        <item quantity="other">Deseja realmente excluir <xliff:g id="message_count">%1$d</xliff:g> mensagens?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Confirmar exclusão</string>
     <string name="dialog_confirm_empty_spam_message">Você deseja esvaziar a pasta de spam?</string>
     <string name="dialog_confirm_empty_spam_title">Confirmar esvaziamento do spam</string>
@@ -389,10 +396,10 @@
     <string name="dialog_confirm_spam_cancel_button">Não</string>
     <string name="dialog_confirm_spam_confirm_button">Sim</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Deseja realmente mover esta mensagem para a pasta de spam?</item>
-            <item quantity="many">Deseja realmente mover <xliff:g id="message_count">%1$d</xliff:g> mensagens para a pasta de spam?</item>
-            <item quantity="other">Deseja realmente mover <xliff:g id="message_count">%1$d</xliff:g> mensagens para a pasta de spam?</item>
-        </plurals>
+        <item quantity="one">Deseja realmente mover esta mensagem para a pasta de spam?</item>
+        <item quantity="many">Deseja realmente mover <xliff:g id="message_count">%1$d</xliff:g> mensagens para a pasta de spam?</item>
+        <item quantity="other">Deseja realmente mover <xliff:g id="message_count">%1$d</xliff:g> mensagens para a pasta de spam?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Confirmar mover para a pasta de spam</string>
     <string name="dialog_openkeychain_info_install">Instalar</string>
     <string name="dialog_openkeychain_info_text">O app OpenKeychain é necessário para ativar o suporte à criptografia de ponta a ponta.</string>
@@ -429,6 +436,7 @@
     <string name="error_crypto_provider_connect">Não foi possível conectar ao provedor de criptografia. Verifique suas configurações ou clique no ícone de criptografia para tentar novamente!</string>
     <string name="error_crypto_provider_incompatible">O provedor de criptografia usa uma versão incompatível. Verifique suas configurações!</string>
     <string name="error_crypto_provider_ui_required">Falha ao iniciar a criptografia de ponta a ponta, verifique suas configurações</string>
+    <string name="error_no_contact_provider">Nenhum aplicativo de contatos foi encontrado. Instale um primeiro para adicionar este endereço.</string>
     <string name="error_sign_only_no_encryption">A criptografia não está disponível no modo Somente Assinatura!</string>
     <string name="expand_content_description">Expandir</string>
     <string name="expand_folders">Expandir Pastas</string>
@@ -573,6 +581,8 @@
     <string name="global_settings_privacy_hide_timezone_detail">Usar UTC ao invés do fuso horário local nos cabeçalhos das mensagens e das respostas</string>
     <string name="global_settings_privacy_hide_useragent">Ocultar o cliente de e-mail</string>
     <string name="global_settings_privacy_hide_useragent_detail">Remover o User-Agent dos cabeçalhos das mensagens</string>
+    <string name="global_settings_privacy_incognito_keyboard">Teclado anônimo</string>
+    <string name="global_settings_privacy_incognito_keyboard_detail">Diga ao teclado para não aprender com o que você digita ao criar mensagens</string>
     <string name="global_settings_registered_name_color_changed">Colorir nomes em sua lista de contatos</string>
     <string name="global_settings_registered_name_color_label">Colorir contatos</string>
     <string name="global_settings_sender_above_subject_label">Remetente acima do assunto</string>
@@ -623,6 +633,7 @@
     <string name="message_compose_content_hint">Texto da mensagem</string>
     <string name="message_compose_description_delete_quoted_text">Remover o texto citado</string>
     <string name="message_compose_description_edit_quoted_text">Editar o texto citado</string>
+    <string name="message_compose_encrypting_message">Criptografando mensagem…</string>
     <string name="message_compose_error_no_recipients">Você deve incluir ao menos um destinatário.</string>
     <string name="message_compose_quote_header_cc">Cc:</string>
     <string name="message_compose_quote_header_from">De:</string>
@@ -668,10 +679,10 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> anexo (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> anexos (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> anexos (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> anexo (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> anexos (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> anexos (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Salvar todos</string>
     <string name="message_view_attachments_title">Anexos</string>
     <string name="message_view_attachments_view">Ver</string>
@@ -680,8 +691,7 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Baixar a mensagem completa</string>
     <string name="message_view_empty">Selecione uma mensagem à esquerda</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mim</string>
+    <string name="message_view_from_me_text">eu</string>
     <string name="message_view_menu_action_export_eml">Exportar como EML</string>
     <string name="message_view_no_viewer">Não foi possível encontrar um visualizador para <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -693,6 +703,8 @@
     <string name="message_view_status_attachment_not_saved">Não foi possível salvar o anexo.</string>
     <string name="message_view_theme_action_dark">Mudar para o tema escuro</string>
     <string name="message_view_theme_action_light">Mudar para o tema claro</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mim</string>
     <string name="messagelist_preferences">Listas de mensagens</string>
     <string name="messageview_crypto_error_title">Erro ao descriptografar a mensagem</string>
     <string name="messageview_decrypt_cancelled">A descriptografia foi cancelada.</string>
@@ -742,10 +754,10 @@
     <string name="notification_channel_push_description">Exibido enquanto aguarda por novas mensagens</string>
     <string name="notification_channel_push_title">Sincronizar (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova mensagem</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> novas mensagens</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novas mensagens</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova mensagem</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> novas mensagens</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novas mensagens</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Ocorreu um erro ao tentar criar uma notificação de sistema para uma nova mensagem. O provável motivo é a ausência de um som de notificação.\n\nToque para abrir as configurações de notificação.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -821,16 +833,17 @@
     <string name="recipient_to">Para</string>
     <string name="refile_action">Movimentar…</string>
     <string name="refresh_folders_action">Atualizar a lista de pastas</string>
+    <string name="remote_feature_flag_preferences">Sinalizadores de recursos remotos</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Buscando %d resultado</item>
-            <item quantity="many">Buscando %d resultados</item>
-            <item quantity="other">Buscando %d resultados</item>
-        </plurals>
+        <item quantity="one">Buscando %d resultado</item>
+        <item quantity="many">Buscando %d resultados</item>
+        <item quantity="other">Buscando %d resultados</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Buscando %1$d de %2$d resultado</item>
-            <item quantity="many">Buscando %1$d de %2$d resultados</item>
-            <item quantity="other">Buscando %1$d de %2$d resultados</item>
-        </plurals>
+        <item quantity="one">Buscando %1$d de %2$d resultado</item>
+        <item quantity="many">Buscando %1$d de %2$d resultados</item>
+        <item quantity="other">Buscando %1$d de %2$d resultados</item>
+    </plurals>
     <string name="remote_search_error">Não foi possível efetuar a pesquisa remota</string>
     <string name="remote_search_sending_query">Enviando a consulta ao servidor</string>
     <string name="remote_search_unavailable_no_network">É necessária uma conexão de rede para pesquisar no servidor.</string>
@@ -896,6 +909,7 @@
     <string name="sort_by_attach">Anexo</string>
     <string name="sort_by_date">Data</string>
     <string name="sort_by_flag">Estrela</string>
+    <string name="sort_by_indicator">•</string>
     <string name="sort_by_sender">Remetente</string>
     <string name="sort_by_subject">Assunto</string>
     <string name="sort_by_then_by">Então por…</string>
@@ -924,8 +938,8 @@
     <string name="toast_openpgp_provider_error">Erro durante a conexão com %s!</string>
     <string name="trash_folder_label">Pasta da lixeira</string>
     <string name="unflag_action">Remover estrela</string>
-    <string name="unknown_recipient">&<;destinatário desconhecido&>;</string>
-    <string name="unknown_sender">&<;remetente desconhecido&>;</string>
+    <string name="unknown_recipient">&lt;destinatário desconhecido&gt;</string>
+    <string name="unknown_sender">&lt;remetente desconhecido&gt;</string>
     <string name="unsigned_text_divider_label">Texto não assinado</string>
     <string name="unsubscribe_action">Cancelar inscrição</string>
     <string name="upgrade_database_format">Atualizando banco de dados da conta \"<xliff:g id="account">%s</xliff:g>\"</string>

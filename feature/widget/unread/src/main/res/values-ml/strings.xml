@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">അക്കൗണ്ട് ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല</string>
     <string name="unread_widget_account_summary">വായിക്കാത്ത എണ്ണം പ്രദർശിപ്പിക്കേണ്ട അക്കൗണ്ട്</string>
     <string name="unread_widget_account_title">അക്കൗണ്ട്</string>

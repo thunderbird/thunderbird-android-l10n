@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">Importujte nastavení svého účtu</string>
     <string name="onboarding_migration_thunderbird_import_title">Přecházíte z jiné aplikace nebo zařízení?</string>
     <string name="onboarding_migration_thunderbird_link_open_error">Nenalezena aplikace k otevření odkazu.</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">O aplikácii</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -282,11 +282,11 @@
     <string name="confirm_discard_draft_message_title">Zahodiť správu?</string>
     <string name="copy_action">Kopírovať</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa bola skopírovaná do schránky</item>
-            <item quantity="few">Adresy boli skopírované do schránky</item>
-            <item quantity="many">Adries bolo skopírovaných do schránky</item>
-            <item quantity="other">Adries bolo skopírovaných do schránky</item>
-        </plurals>
+        <item quantity="one">Adresa bola skopírovaná do schránky</item>
+        <item quantity="few">Adresy boli skopírované do schránky</item>
+        <item quantity="many">Adries bolo skopírovaných do schránky</item>
+        <item quantity="other">Adries bolo skopírovaných do schránky</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Text predmetu skopírovaný do schránky</string>
     <string name="crypto_msg_cancelled">Správa je šifrovaná, dešifrovanie bolo zrušené.</string>
     <string name="crypto_msg_encrypted_error">ale s chybami počas dešifrovania</string>
@@ -360,11 +360,11 @@
     <string name="dialog_confirm_delete_confirm_button">Áno</string>
     <string name="dialog_confirm_delete_message">Chcete vymazať túto správu?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Vymazať túto správu?</item>
-            <item quantity="few">Vymmazať <xliff:g id="message_count">%1$d</xliff:g> správy?</item>
-            <item quantity="many">Vymazať <xliff:g id="message_count">%1$d</xliff:g> správ?</item>
-            <item quantity="other">Vymazať <xliff:g id="message_count">%1$d</xliff:g> správ?</item>
-        </plurals>
+        <item quantity="one">Vymazať túto správu?</item>
+        <item quantity="few">Vymmazať <xliff:g id="message_count">%1$d</xliff:g> správy?</item>
+        <item quantity="many">Vymazať <xliff:g id="message_count">%1$d</xliff:g> správ?</item>
+        <item quantity="other">Vymazať <xliff:g id="message_count">%1$d</xliff:g> správ?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Potvrdiť vymazanie</string>
     <string name="dialog_confirm_empty_spam_message">Naozaj chcete vyprázdniť priečinok s nevyžiadanou poštou?</string>
     <string name="dialog_confirm_empty_spam_title">Potvrdiť vyprázdnenie nevyžiadanej pošty</string>
@@ -377,11 +377,11 @@
     <string name="dialog_confirm_spam_cancel_button">Nie</string>
     <string name="dialog_confirm_spam_confirm_button">Áno</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Presunúť túto správu do priečinka Nevyžiadaná?</item>
-            <item quantity="few">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správy do priečinka Nevyžiadaná?</item>
-            <item quantity="many">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správ do priečinka Nevyžiadaná?</item>
-            <item quantity="other">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správ do priečinka Nevyžiadaná?</item>
-        </plurals>
+        <item quantity="one">Presunúť túto správu do priečinka Nevyžiadaná?</item>
+        <item quantity="few">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správy do priečinka Nevyžiadaná?</item>
+        <item quantity="many">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správ do priečinka Nevyžiadaná?</item>
+        <item quantity="other">Presunúť <xliff:g id="message_count">%1$d</xliff:g> správ do priečinka Nevyžiadaná?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Potvrdiť presun do priečinka Nevyžiadaná</string>
     <string name="dialog_openkeychain_info_install">Inštalovať</string>
     <string name="dialog_openkeychain_info_text">Aplikácia OpenKeychain je nevyhnutná na povolenie podpory end-to-end šifrovania.</string>
@@ -657,7 +657,6 @@
     <string name="message_view_cc_label">Kópia:</string>
     <string name="message_view_download_remainder">Stiahnuť kompletnú správu</string>
     <string name="message_view_empty">Prosím, vyberte správu vľavo</string>
-    <string name="message_view_me_text">mne</string>
     <string name="message_view_menu_action_export_eml">Exportovať ako EML</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
@@ -670,6 +669,7 @@
     <string name="message_view_status_attachment_not_saved">Prílohu sa nepodarilo uložiť.</string>
     <string name="message_view_theme_action_dark">Prepnúť na tmavú tému</string>
     <string name="message_view_theme_action_light">Prepnúť na svetlú tému</string>
+    <string name="message_view_to_me_text">mne</string>
     <string name="messagelist_preferences">Zoznamy správ</string>
     <string name="messageview_crypto_error_title">Chyba pri dešifrovaní správy</string>
     <string name="messageview_decrypt_cancelled">Dešifrovanie bolo zrušené.</string>
@@ -712,11 +712,11 @@
     <string name="notification_channel_push_description">Zobrazené po dobu čakania na nové správy</string>
     <string name="notification_channel_push_title">Synchronizovať (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nová správa</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nové správy</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nových správ</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nových správ</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nová správa</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nové správy</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nových správ</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nových správ</item>
+    </plurals>
     <string name="notification_notify_error_text">Vyskytla sa chyba počas pokusu o vytvorenie notifikácie pre noú správu. Dôvodom je pravdepodobne nenastavený zvuk notifikácie.\n\nKliknite pre otvorenie nastavení notifikácií.</string>
     <string name="notification_notify_error_title">Chyba oznámení</string>
     <string name="notifications_title">Oznámenia</string>
@@ -787,17 +787,17 @@
     <string name="refile_action">Presunúť…</string>
     <string name="refresh_folders_action">Obnoviť zoznam priečinkov</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Preberám %d výsledok</item>
-            <item quantity="few">Preberám %d výsledky</item>
-            <item quantity="many">Preberám %d výsledkov</item>
-            <item quantity="other">Preberám %d výsledkov</item>
-        </plurals>
+        <item quantity="one">Preberám %d výsledok</item>
+        <item quantity="few">Preberám %d výsledky</item>
+        <item quantity="many">Preberám %d výsledkov</item>
+        <item quantity="other">Preberám %d výsledkov</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Preberám %1$d z %2$d výsledkov</item>
-            <item quantity="few">Preberám %1$d z %2$d výsledkov</item>
-            <item quantity="many">Preberám %1$d z %2$d výsledkov</item>
-            <item quantity="other">Preberám %1$d z %2$d výsledkov</item>
-        </plurals>
+        <item quantity="one">Preberám %1$d z %2$d výsledkov</item>
+        <item quantity="few">Preberám %1$d z %2$d výsledkov</item>
+        <item quantity="many">Preberám %1$d z %2$d výsledkov</item>
+        <item quantity="other">Preberám %1$d z %2$d výsledkov</item>
+    </plurals>
     <string name="remote_search_error">Vzdialené vyhľadávanie sa nepodarilo</string>
     <string name="remote_search_sending_query">Odoslanie dotazu na server</string>
     <string name="remote_search_unavailable_no_network">Pripojenie k sieti je nevyhnutné pre vzdialené vyhľadávanie.</string>
@@ -891,8 +891,8 @@
     <string name="toast_openpgp_provider_error">Chyba pripojenia k %s!</string>
     <string name="trash_folder_label">Priečinok Kôš</string>
     <string name="unflag_action">Odstrániť hviezdičku</string>
-    <string name="unknown_recipient">&<;Neznámy príjemca&>;</string>
-    <string name="unknown_sender">&<;Neznámy odosielateľ&>;</string>
+    <string name="unknown_recipient">&lt;Neznámy príjemca&gt;</string>
+    <string name="unknown_sender">&lt;Neznámy odosielateľ&gt;</string>
     <string name="unsigned_text_divider_label">Nepodpísaný text</string>
     <string name="unsubscribe_action">Odhlásiť odber</string>
     <string name="upgrade_database_format">Aktualizácia databázy pre účet \"<xliff:g id="account">%s</xliff:g>\"</string>

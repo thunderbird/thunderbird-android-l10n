@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">關於</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -282,8 +282,8 @@
     <string name="confirm_discard_draft_message_title">捨棄郵件？</string>
     <string name="copy_action">複製</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="other">地址已複製至剪貼簿</item>
-        </plurals>
+        <item quantity="other">地址已複製至剪貼簿</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">主旨文字已複製至剪貼簿</string>
     <string name="crypto_msg_cancelled">訊息已加密，但解密被取消。</string>
     <string name="crypto_msg_encrypted_error">然而出現解密錯誤</string>
@@ -345,8 +345,8 @@
     <string name="dialog_confirm_delete_confirm_button">刪除</string>
     <string name="dialog_confirm_delete_message">你確定要刪除這封郵件？</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="other">確定要刪除 <xliff:g id="message_count">%1$d</xliff:g> 則訊息?</item>
-        </plurals>
+        <item quantity="other">確定要刪除 <xliff:g id="message_count">%1$d</xliff:g> 則訊息?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">刪除確認</string>
     <string name="dialog_confirm_empty_spam_message">您想清空垃圾郵件資料夾嗎？</string>
     <string name="dialog_confirm_empty_spam_title">確認清空垃圾郵件</string>
@@ -359,8 +359,8 @@
     <string name="dialog_confirm_spam_cancel_button">否</string>
     <string name="dialog_confirm_spam_confirm_button">是</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="other">確定要將選取的 <xliff:g id="message_count">%1$d</xliff:g> 封郵件移至垃圾桶嗎？</item>
-        </plurals>
+        <item quantity="other">確定要將選取的 <xliff:g id="message_count">%1$d</xliff:g> 封郵件移至垃圾桶嗎？</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">移至垃圾桶時確認</string>
     <string name="dialog_openkeychain_info_install">安裝</string>
     <string name="dialog_openkeychain_info_text">需要安裝 OpenKeychain 應用程式以支援端到端加密。</string>
@@ -634,8 +634,6 @@
     <string name="message_view_cc_label">副本：</string>
     <string name="message_view_download_remainder">下載完整郵件</string>
     <string name="message_view_empty">請從左方選擇訊息</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">我</string>
     <string name="message_view_menu_action_export_eml">匯出為 EML</string>
     <string name="message_view_no_viewer">無法開啟<xliff:g id="mimetype">%s</xliff:g>。找不到可以開啟該附件的程式。</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -646,6 +644,8 @@
     <string name="message_view_status_attachment_not_saved">無法存檔附件。</string>
     <string name="message_view_theme_action_dark">切換為暗色主題</string>
     <string name="message_view_theme_action_light">切換為亮色主題</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">我</string>
     <string name="messagelist_preferences">郵件列表</string>
     <string name="messageview_crypto_error_title">郵件解密錯誤</string>
     <string name="messageview_decrypt_cancelled">解密被取消了。</string>
@@ -686,8 +686,8 @@
     <string name="notification_channel_push_description">等待新訊息時顯示</string>
     <string name="notification_channel_push_title">同步處理（推播）</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> 則新訊息</item>
-        </plurals>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> 則新訊息</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">嘗試建立新訊息的系統通知時發生錯誤。最有可能的原因是缺少通知聲音。\n\n按一下開啟通知設定。</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -759,11 +759,11 @@
     <string name="refile_action">再次封存…</string>
     <string name="refresh_folders_action">重整信件匣</string>
     <plurals name="remote_search_downloading">
-            <item quantity="other">收到 %d 個符合項目</item>
-        </plurals>
+        <item quantity="other">收到 %d 個符合項目</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="other">已接收%1$d個項目，共%2$d個符合項目</item>
-        </plurals>
+        <item quantity="other">已接收%1$d個項目，共%2$d個符合項目</item>
+    </plurals>
     <string name="remote_search_error">遠端搜尋失敗</string>
     <string name="remote_search_sending_query">向伺服器發送查詢</string>
     <string name="remote_search_unavailable_no_network">沒有網路連線，無法進行遠端搜尋。</string>
@@ -856,8 +856,8 @@
     <string name="toast_openpgp_provider_error">無法連接到%s！</string>
     <string name="trash_folder_label">垃圾桶名稱</string>
     <string name="unflag_action">移除星號</string>
-    <string name="unknown_recipient">&<;未知收件人&>;</string>
-    <string name="unknown_sender">&<;未知寄件人&>;</string>
+    <string name="unknown_recipient">&lt;未知收件人&gt;</string>
+    <string name="unknown_sender">&lt;未知寄件人&gt;</string>
     <string name="unsigned_text_divider_label">未簽名文字</string>
     <string name="unsubscribe_action">取消訂閱</string>
     <string name="upgrade_database_format">正在更新帳號 \"<xliff:g id="account">%s</xliff:g>\"的資料庫</string>

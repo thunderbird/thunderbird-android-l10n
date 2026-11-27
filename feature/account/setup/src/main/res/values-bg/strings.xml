@@ -27,19 +27,19 @@
     <string name="account_setup_options_account_name_error_blank">Името на акаунта не може да бъде празно.</string>
     <string name="account_setup_options_account_name_label">Име на акаунта</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Всеки час</item>
-            <item quantity="other">Всеки %d час</item>
-        </plurals>
+        <item quantity="one">Всеки час</item>
+        <item quantity="other">Всеки %d час</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Всяка минута</item>
-            <item quantity="other">Всяка %d минута</item>
-        </plurals>
+        <item quantity="one">Всяка минута</item>
+        <item quantity="other">Всяка %d минута</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Никога</string>
     <string name="account_setup_options_email_display_count_label">Брой съобщения, които да бъдат показани</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 съобшение</item>
-            <item quantity="other">%d съобщения</item>
-        </plurals>
+        <item quantity="one">1 съобшение</item>
+        <item quantity="other">%d съобщения</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Името на подписа не може да бъде празно.</string>
     <string name="account_setup_options_email_signature_label">Подпис</string>
     <string name="account_setup_options_section_display_options">Настройки за визуализация</string>

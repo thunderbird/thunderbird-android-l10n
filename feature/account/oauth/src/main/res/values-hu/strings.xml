@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Az alkalmazás nem talált böngészőt, amellyel hozzáférést biztosíthatna a fiókhoz.</string>
     <string name="account_oauth_error_canceled">A hitelesítés megszakításra került</string>
     <string name="account_oauth_error_failed">A hitelesítés sikertelen volt a következő hiba miatt: <xliff:g id="error">%s</xliff:g></string>

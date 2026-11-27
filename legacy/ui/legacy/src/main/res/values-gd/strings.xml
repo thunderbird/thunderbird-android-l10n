@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Mu dhèidhinn</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -283,11 +283,11 @@
     <string name="confirm_discard_draft_message_title">A bheil thu airson an teachdaireachd seo a thilgeil air falbh?</string>
     <string name="copy_action">Dèan lethbhreac</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Chaidh an seòladh a chur air an stòr-bhòrd</item>
-            <item quantity="two">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
-            <item quantity="few">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
-            <item quantity="other">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
-        </plurals>
+        <item quantity="one">Chaidh an seòladh a chur air an stòr-bhòrd</item>
+        <item quantity="two">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+        <item quantity="few">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+        <item quantity="other">Chaidh na seòlaidhean a chur air an stòr-bhòrd</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Chaidh lethbhreac teacsa a’ chuspair a chur air an stòr-bhòrd</string>
     <string name="crypto_msg_cancelled">Tha an teachdaireachd crioptaichte ach sguireadh dhen dì-chrioptachadh.</string>
     <string name="crypto_msg_encrypted_error">ach thachair duilgheadas leis an dì-chrioptachadh</string>
@@ -347,11 +347,11 @@
     <string name="dialog_confirm_delete_confirm_button">Tha</string>
     <string name="dialog_confirm_delete_message">A bheil thu cinnteach gu bheil thu airson an teachdaireachd seo a sguabadh às?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a sguabadh às?</item>
-            <item quantity="two">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> theachdaireachd a sguabadh às?</item>
-            <item quantity="few">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachdan a sguabadh às?</item>
-            <item quantity="other">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a sguabadh às?</item>
-        </plurals>
+        <item quantity="one">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a sguabadh às?</item>
+        <item quantity="two">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> theachdaireachd a sguabadh às?</item>
+        <item quantity="few">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachdan a sguabadh às?</item>
+        <item quantity="other">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a sguabadh às?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Dearbh an sguabadh às</string>
     <string name="dialog_confirm_empty_spam_message">A bheil thu airson pasgan an spama fhalamhachadh?</string>
     <string name="dialog_confirm_empty_spam_title">Dearbh gu bheil thu airson an spama fhalamhachadh</string>
@@ -364,11 +364,11 @@
     <string name="dialog_confirm_spam_cancel_button">Chan eil</string>
     <string name="dialog_confirm_spam_confirm_button">Tha</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a ghluasad gu pasgan an spama?</item>
-            <item quantity="two">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> theachdaireachd a ghluasad gu pasgan an spama?</item>
-            <item quantity="few">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachdan a ghluasad gu pasgan an spama?</item>
-            <item quantity="other">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a ghluasad gu pasgan an spama?</item>
-        </plurals>
+        <item quantity="one">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a ghluasad gu pasgan an spama?</item>
+        <item quantity="two">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> theachdaireachd a ghluasad gu pasgan an spama?</item>
+        <item quantity="few">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachdan a ghluasad gu pasgan an spama?</item>
+        <item quantity="other">A bheil thu cinnteach gu bheil thu airson <xliff:g id="message_count">%1$d</xliff:g> teachdaireachd a ghluasad gu pasgan an spama?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Dearbh a ghluasad do phasgan an spama</string>
     <string name="dialog_openkeychain_info_install">Stàlaich</string>
     <string name="dialog_openkeychain_info_text">Feumaidh tu an aplacaid OpenKeychain mus urrainn dhut taic airson crioptachadh ceann ri ceann a chur an comas.</string>
@@ -636,7 +636,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Luchdaich a-nuas an teachdaireachd shlàn</string>
     <string name="message_view_empty">Tagh teachdaireachd air an taobh chlì</string>
-    <string name="message_view_me_text">domh-sa</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
@@ -648,6 +647,7 @@
     <string name="message_view_status_attachment_not_saved">Cha b’ urrainn dhuinn an ceanglachan a shàbhaladh.</string>
     <string name="message_view_theme_action_dark">Cleachd ùrlar dorcha ’na àite</string>
     <string name="message_view_theme_action_light">Cleachd ùrlar soilleir ’na àite</string>
+    <string name="message_view_to_me_text">domh-sa</string>
     <string name="messagelist_preferences">Liostaichean theachdaireachdan</string>
     <string name="messageview_crypto_error_title">Mearachd a’ dì-chrioptachadh a’ phuist-d</string>
     <string name="messageview_decrypt_cancelled">Sguireadh dhen dì-chrioptachadh.</string>
@@ -689,11 +689,11 @@
     <string name="notification_channel_push_description">Ga shealltainn fhad ’s a thathar a’ feitheamh ri teachdaireachdan ùra</string>
     <string name="notification_channel_push_title">Sioncronaich (Put)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachd ùr</item>
-            <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> theachdaireachd ùr</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachdan ùra</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachd ùr</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachd ùr</item>
+        <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> theachdaireachd ùr</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachdan ùra</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> teachdaireachd ùr</item>
+    </plurals>
     <string name="notification_notify_error_text">Dh’èirich mearachd fhad ’s a bha sinn airson brath siostaim a chruthachadh airson teachdaireachd ùr. Mar is trice, tachraidh sin ma tha fuaim bratha a dhìth.\n\nThoir gnogag a dh’fhosgladh roghainnean nam fuaimean.</string>
     <string name="notification_notify_error_title">Mearachd bratha</string>
     <string name="notifications_title">Brathan</string>
@@ -763,17 +763,17 @@
     <string name="refile_action">Ath-fhaidhlich…</string>
     <string name="refresh_folders_action">Ath-nuadhaich liosta nam pasgan</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">A’ faighinn %d toradh</item>
-            <item quantity="two">A’ faighinn %d thoradh</item>
-            <item quantity="few">A’ faighinn %d toraidhean</item>
-            <item quantity="other">A’ faighinn %d toradh</item>
-        </plurals>
+        <item quantity="one">A’ faighinn %d toradh</item>
+        <item quantity="two">A’ faighinn %d thoradh</item>
+        <item quantity="few">A’ faighinn %d toraidhean</item>
+        <item quantity="other">A’ faighinn %d toradh</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">A’ faighinn %1$d à %2$d toradh</item>
-            <item quantity="two">A’ faighinn %1$d à %2$d thoradh</item>
-            <item quantity="few">A’ faighinn %1$d à %2$d toraidhean</item>
-            <item quantity="other">A’ faighinn %1$d à %2$d toradh</item>
-        </plurals>
+        <item quantity="one">A’ faighinn %1$d à %2$d toradh</item>
+        <item quantity="two">A’ faighinn %1$d à %2$d thoradh</item>
+        <item quantity="few">A’ faighinn %1$d à %2$d toraidhean</item>
+        <item quantity="other">A’ faighinn %1$d à %2$d toradh</item>
+    </plurals>
     <string name="remote_search_error">Dh’fhàillig an lorg cèin</string>
     <string name="remote_search_sending_query">A’ cur na ceiste dhan fhrithealaiche</string>
     <string name="remote_search_unavailable_no_network">Feumaidh tu ceangal ris an lìonra mus urrainn dhut lorg a dhèanamh air an fhrithealaiche.</string>
@@ -862,8 +862,8 @@
     <string name="toast_openpgp_provider_error">Dh’èirich mearachd nuair a bha sinn airson ceangal ri %s!</string>
     <string name="trash_folder_label">Pasgan an sgudail</string>
     <string name="unflag_action">Thoir an rionnag air falbh</string>
-    <string name="unknown_recipient">&<;Faightear nach aithne dhuinn&>;</string>
-    <string name="unknown_sender">&<;Seòladair neo-aithnichte&>;</string>
+    <string name="unknown_recipient">&lt;Faightear nach aithne dhuinn&gt;</string>
+    <string name="unknown_sender">&lt;Seòladair neo-aithnichte&gt;</string>
     <string name="unsigned_text_divider_label">Teacsa gun soidhneadh</string>
     <string name="unsubscribe_action">Crìoch air an fho-sgrìobhadh</string>
     <string name="upgrade_database_format">Ag àrdachadh stòr-dàta a’ chunntais “<xliff:g id="account">%s</xliff:g>”</string>

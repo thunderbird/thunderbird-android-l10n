@@ -27,31 +27,31 @@
     <string name="account_setup_options_account_name_error_blank">لا يمكن أن يكون اسم الحساب فارغًا.</string>
     <string name="account_setup_options_account_name_label">اسم الحساب</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="zero">كل 0 ساعة</item>
-            <item quantity="one">كل ساعة</item>
-            <item quantity="two">كل ساعتين</item>
-            <item quantity="few">كل %d ساعات</item>
-            <item quantity="many">كل %d ساعة</item>
-            <item quantity="other">كل %d ساعة</item>
-        </plurals>
+        <item quantity="zero">كل 0 ساعة</item>
+        <item quantity="one">كل ساعة</item>
+        <item quantity="two">كل ساعتين</item>
+        <item quantity="few">كل %d ساعات</item>
+        <item quantity="many">كل %d ساعة</item>
+        <item quantity="other">كل %d ساعة</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="zero">كل 0 دقيقة</item>
-            <item quantity="one">كل دقيقة</item>
-            <item quantity="two">كل دقيقتين</item>
-            <item quantity="few">كل %d دقائق</item>
-            <item quantity="many">كل %d دقيقة</item>
-            <item quantity="other">كل %d دقيقة</item>
-        </plurals>
+        <item quantity="zero">كل 0 دقيقة</item>
+        <item quantity="one">كل دقيقة</item>
+        <item quantity="two">كل دقيقتين</item>
+        <item quantity="few">كل %d دقائق</item>
+        <item quantity="many">كل %d دقيقة</item>
+        <item quantity="other">كل %d دقيقة</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">مطلقًا</string>
     <string name="account_setup_options_email_display_count_label">عدد الرسائل المُراد عرضها</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="zero">0 رسالة</item>
-            <item quantity="one">رسالة واحدة</item>
-            <item quantity="two">رسالتين</item>
-            <item quantity="few">%d رسائل</item>
-            <item quantity="many">%d رسالة</item>
-            <item quantity="other">%d رسالة</item>
-        </plurals>
+        <item quantity="zero">0 رسالة</item>
+        <item quantity="one">رسالة واحدة</item>
+        <item quantity="two">رسالتين</item>
+        <item quantity="few">%d رسائل</item>
+        <item quantity="many">%d رسالة</item>
+        <item quantity="other">%d رسالة</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">لا يمكن أن يكون اسم توقيع البريد الإلكتروني فارغًا.</string>
     <string name="account_setup_options_email_signature_label">توقيع البريد الإلكتروني</string>
     <string name="account_setup_options_section_display_options">خيارات العرض</string>

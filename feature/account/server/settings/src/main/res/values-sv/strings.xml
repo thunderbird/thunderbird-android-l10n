@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Lås upp för att visa ditt lösenord</string>
     <string name="account_server_settings_password_authentication_title">Verifiera din identitet</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Det gick inte att starta den biometriska prompten.</string>
+    <string name="account_server_settings_password_input_label">Lösenord</string>
     <string name="account_server_settings_port_label">Port</string>
     <string name="account_server_settings_protocol_type_label">Protokoll</string>
     <string name="account_server_settings_security_label">Säkerhet</string>

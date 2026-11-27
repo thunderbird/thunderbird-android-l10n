@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Sblocca per visualizzare la password</string>
     <string name="account_server_settings_password_authentication_title">Verifica la tua identità</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Impossibile avviare il prompt biometrico.</string>
+    <string name="account_server_settings_password_input_label">Password</string>
     <string name="account_server_settings_port_label">Porta</string>
     <string name="account_server_settings_protocol_type_label">Protocollo</string>
     <string name="account_server_settings_security_label">Sicurezza</string>

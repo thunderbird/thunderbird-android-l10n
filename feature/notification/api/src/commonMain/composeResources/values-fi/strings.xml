@@ -32,9 +32,9 @@
     <string name="notification_channel_push_description">Näytetään kun odotetaan uusia viestejä</string>
     <string name="notification_channel_push_title">Synkronoi (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d uusi viesti</item>
-            <item quantity="other">%1$d uutta viestiä</item>
-        </plurals>
+        <item quantity="one">%1$d uusi viesti</item>
+        <item quantity="other">%1$d uutta viestiä</item>
+    </plurals>
     <string name="notification_notify_error_text">Uuteen viestiin liittyvää järjestelmäilmoitusta luotaessa tapahtui virhe. Syy on mitä luultavimmin puuttuva ilmoitusääni.\n\nNapauta avataksesi ilmoitusasetukset.</string>
     <string name="notification_notify_error_title">Ilmoitusvirhe</string>
     <string name="push_info_disable_push_action">Poista push käytöstä</string>

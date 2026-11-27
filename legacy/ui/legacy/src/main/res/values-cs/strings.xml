@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">O aplikaci</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -36,7 +36,7 @@
     <string name="account_notify_contacts_mail_only_summary">Zobrazovat oznámení pouze na zprávy od známých kontaktů</string>
     <string name="account_settings_action">Nastavení účtu</string>
     <string name="account_settings_always_bcc_label">Kopii všech zpráv na adresu</string>
-    <string name="account_settings_always_show_cc_bcc_label">Vždy zobrazit kopie/skrytá</string>
+    <string name="account_settings_always_show_cc_bcc_label">Vždy zobrazovat kopii / skrytou kopii</string>
     <string name="account_settings_autodownload_message_size_1">1 KiB</string>
     <string name="account_settings_autodownload_message_size_1024">1 MiB</string>
     <string name="account_settings_autodownload_message_size_10240">10 MiB</string>
@@ -54,9 +54,9 @@
     <string name="account_settings_autodownload_message_size_any">libovolná velikost (bez omezení)</string>
     <string name="account_settings_autodownload_message_size_label">Načíst zprávy až do</string>
     <string name="account_settings_automatic_special_folder">Automaticky (%s)</string>
-    <string name="account_settings_composition">Odesílání zpráv</string>
-    <string name="account_settings_composition_label">Výchozí položky nové zprávy</string>
-    <string name="account_settings_composition_summary">Nastavit výchozí hodnoty Odesílatele, Skryté a podpisu</string>
+    <string name="account_settings_composition">Odesílání pošty</string>
+    <string name="account_settings_composition_label">Výchozí hodnoty nových zpráv</string>
+    <string name="account_settings_composition_summary">Nastavte si výchozí pole Od, Skrytá kopie a podpis</string>
     <string name="account_settings_composition_title">Nastavení tvorby nových zpráv</string>
     <string name="account_settings_crypto">Koncové šifrování</string>
     <string name="account_settings_crypto_app">Zapnout podporu OpenPGP</string>
@@ -74,13 +74,16 @@
     <string name="account_settings_crypto_summary_config">Nastavování…</string>
     <string name="account_settings_crypto_summary_off">Není nastavená žádná OpenPGP aplikace</string>
     <string name="account_settings_crypto_summary_on">Připojeno k %s</string>
-    <string name="account_settings_default_quoted_text_shown_label">Citovat původní zprávu když odpovídám</string>
-    <string name="account_settings_default_quoted_text_shown_summary">Zahrnout původní zprávu v odpovědi.</string>
+    <string name="account_settings_default_quoted_text_shown_label">Citovat původní zprávu při odpovídání</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Zahrnout původní zprávu ve vaší odpovědi.</string>
     <string name="account_settings_email_label">Vaše e-mailová adresa</string>
+    <string name="account_settings_fetching_and_data_limits">Načítání a omezení dat</string>
+    <string name="account_settings_folder_sync_and_push">Synchronizace složek a služba push</string>
+    <string name="account_settings_folder_visibility">Viditelnost složek</string>
     <string name="account_settings_folders">Složky</string>
     <string name="account_settings_general_title">Obecná nastavení</string>
-    <string name="account_settings_identities_label">Správa identit</string>
-    <string name="account_settings_identities_summary">Nastavte alternativní adresy \'Od\' a podpisy</string>
+    <string name="account_settings_identities_label">Spravovat identity</string>
+    <string name="account_settings_identities_summary">Nastavte si alternativní adresy „Od“ a podpisy</string>
     <string name="account_settings_ignore_chat_messages_label">Ignorovat zprávy z chatů</string>
     <string name="account_settings_ignore_chat_messages_summary">Nezobrazovat oznámení na zprávy patřící do e-mailového chatu</string>
     <string name="account_settings_incoming_label">Příchozí server</string>
@@ -109,7 +112,7 @@
     <string name="account_settings_message_format_label">Formát zprávy</string>
     <string name="account_settings_message_format_text">Prostý text (odstraní obrázky a formátování)</string>
     <string name="account_settings_message_read_receipt_label">Potvrzení o přečtení</string>
-    <string name="account_settings_message_read_receipt_summary">Vždy požadovat potvrzení o přečtení</string>
+    <string name="account_settings_message_read_receipt_summary">Vždy požádat o potvrzení o přečtení</string>
     <string name="account_settings_name_label">Vaše jméno</string>
     <string name="account_settings_no_folder_selected">Žádné</string>
     <string name="account_settings_notification_channels_label">Kategorie oznámení</string>
@@ -134,7 +137,7 @@
     <string name="account_settings_open_notification_settings_miscellaneous_summary">Nastavit oznámení na chyby a stavy</string>
     <string name="account_settings_openpgp_missing">Chybí OpenPGP aplikace – byla odinstalována?</string>
     <string name="account_settings_outgoing_label">Server odchozí pošty</string>
-    <string name="account_settings_outgoing_summary">Nastavení serveru odchozí pošty (SMTP)</string>
+    <string name="account_settings_outgoing_summary">Nastavit server odchozí pošty (SMTP)</string>
     <string name="account_settings_push_advanced_title">Pokročilé</string>
     <string name="account_settings_quote_prefix_label">Předpona citovaného textu</string>
     <string name="account_settings_quote_style_header">Záhlaví (jako Outlook)</string>
@@ -151,7 +154,7 @@
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
     <string name="account_settings_remote_search_num_results_entries_all">Vše</string>
     <string name="account_settings_reply_after_quote_label">Odpovědět za citovaným textem</string>
-    <string name="account_settings_reply_after_quote_summary">Původní zprávu zobrazit nad textem odpovědi.</string>
+    <string name="account_settings_reply_after_quote_summary">Původní zpráva se zobrazí nad vaší odpovědí.</string>
     <string name="account_settings_ringtone">Zvuk při nové poště</string>
     <string name="account_settings_search">Hledání</string>
     <string name="account_settings_show_pictures_always">Od kohokoli</string>
@@ -161,16 +164,23 @@
     <string name="account_settings_signature__location_after_quoted_text">Za citovanými textem</string>
     <string name="account_settings_signature__location_before_quoted_text">Před citovanými textem</string>
     <string name="account_settings_signature__location_label">Umístění podpisu</string>
+    <string name="account_settings_signature_clear_label">Vymazat podpis</string>
+    <string name="account_settings_signature_html_label">HTML podpis</string>
+    <string name="account_settings_signature_is_html_label">Uložit podpis jako HTML</string>
+    <string name="account_settings_signature_is_html_summary">Interpretovat podpis jako HTML. Skripty a obslužné rutiny událostí budou z bezpečnostních důvodů odstraněny.</string>
     <string name="account_settings_signature_label">Podpis</string>
+    <string name="account_settings_signature_preview">Náhled podpisu</string>
+    <string name="account_settings_signature_preview_empty">Náhled vašeho podpisu se objeví zde</string>
     <string name="account_settings_signature_use_label">Používat podpis</string>
-    <string name="account_settings_strip_signature_label">Odstranit podpis z citované odpovědi</string>
-    <string name="account_settings_strip_signature_summary">Budou odstraněny podpisy z citovaných zpráv</string>
+    <string name="account_settings_strip_signature_label">Odstranit podpisy z odpovědi</string>
+    <string name="account_settings_strip_signature_summary">Z citovaných zpráv budou odstraněny podpisy</string>
     <string name="account_settings_sync">Stahování pošty</string>
+    <string name="account_settings_sync_and_notifications">Synchronizace a oznámení</string>
     <string name="account_settings_sync_remote_deletetions_label">Synchronizace odstranění ze serveru</string>
     <string name="account_settings_sync_remote_deletetions_summary">Odstranit zprávy po jejich smazání na serveru</string>
     <string name="account_settings_title_fmt">Nastavení účtu</string>
     <string name="account_settings_upload_sent_messages_label">Nahrát odeslané zprávy</string>
-    <string name="account_settings_upload_sent_messages_summary">Po odeslání nahrát zprávy do složky Odesláno</string>
+    <string name="account_settings_upload_sent_messages_summary">Po odeslání nahrát zprávy do složky Odeslané</string>
     <string name="account_settings_vibrate_enable">Vibrovat</string>
     <string name="account_settings_vibrate_pattern_1">Vzorec 1</string>
     <string name="account_settings_vibrate_pattern_2">Vzorec 2</string>
@@ -222,6 +232,7 @@
     <string name="account_setup_push_limit_50">50 složek</string>
     <string name="account_setup_push_limit_500">500 složek</string>
     <string name="account_setup_push_limit_label">Max. počet složek řízených Push</string>
+    <string name="account_setup_visibility_and_syncing">Synchronizace složek a služba push</string>
     <string name="accountlist_preferences">Seznam účtů</string>
     <string name="accounts_title">Účty</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -259,6 +270,7 @@
     <string name="background_ops_never">Nikdy</string>
     <string name="background_work_notification_remove_account">Odstraňování účtu…</string>
     <string name="batch_select_all">Vybrat vše</string>
+    <string name="camera_capture_lost">Zaznamenaný obrázek byl ztracen, protože aplikace byla zavřena. Zkuste to prosím znovu.</string>
     <string name="camera_permission_denied">Přístup k fotoaparátu zamítnut! Nepodařilo se pořídit fotografii</string>
     <string name="changelog_latest_label_text">NEJNOVĚJŠÍ</string>
     <string name="changelog_loading_error">Nepodařilo se nahrát seznam změn.</string>
@@ -295,11 +307,11 @@
     <string name="confirm_discard_draft_message_title">Zahodit zprávu?</string>
     <string name="copy_action">Kopírovat</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa zkopírována do schránky</item>
-            <item quantity="few">Adresy zkopírovány do schránky</item>
-            <item quantity="many">Adresy zkopírovány do schránky</item>
-            <item quantity="other">Adresy zkopírovány do schránky</item>
-        </plurals>
+        <item quantity="one">Adresa zkopírována do schránky</item>
+        <item quantity="few">Adresy zkopírovány do schránky</item>
+        <item quantity="many">Adresy zkopírovány do schránky</item>
+        <item quantity="other">Adresy zkopírovány do schránky</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Text předmětu zkopírován do schránky</string>
     <string name="crypto_msg_cancelled">Zpráva je zašifrována, ale dešifrování bylo zrušeno.</string>
     <string name="crypto_msg_encrypted_error">ale vyskytla se chyba při rozšifrovávání</string>
@@ -373,11 +385,11 @@
     <string name="dialog_confirm_delete_confirm_button">Ano</string>
     <string name="dialog_confirm_delete_message">Chcete smazat tuto zprávu?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Opravdu si přejete smazat tuto zprávu?</item>
-            <item quantity="few">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zprávy?</item>
-            <item quantity="many">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
-            <item quantity="other">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
-        </plurals>
+        <item quantity="one">Opravdu si přejete smazat tuto zprávu?</item>
+        <item quantity="few">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zprávy?</item>
+        <item quantity="many">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
+        <item quantity="other">Opravdu si přejete smazat <xliff:g id="message_count">%1$d</xliff:g> zpráv?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Potvrzení mazání</string>
     <string name="dialog_confirm_empty_spam_message">Opravdu chcete vyprázdnit složku Nevyžádané?</string>
     <string name="dialog_confirm_empty_spam_title">Potvrdit vysypání nevyžádaných</string>
@@ -390,11 +402,11 @@
     <string name="dialog_confirm_spam_cancel_button">Ne</string>
     <string name="dialog_confirm_spam_confirm_button">Ano</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Opravdu chcete přesunout tuto zprávy do nevyžádané pošty?</item>
-            <item quantity="few">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zprávy do nevyžádané pošty?</item>
-            <item quantity="many">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
-            <item quantity="other">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
-        </plurals>
+        <item quantity="one">Opravdu chcete přesunout tuto zprávy do nevyžádané pošty?</item>
+        <item quantity="few">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zprávy do nevyžádané pošty?</item>
+        <item quantity="many">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
+        <item quantity="other">Opravdu chcete přesunout <xliff:g id="message_count">%1$d</xliff:g> zpráv do nevyžádané pošty?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Potvrzení přesunu do nevyžádané pošty</string>
     <string name="dialog_openkeychain_info_install">Nainstalovat</string>
     <string name="dialog_openkeychain_info_text">Pro šifrování mezi odesílatelem a příjemcem je potřeba aplikace OpenKeychain.</string>
@@ -431,6 +443,7 @@
     <string name="error_crypto_provider_connect">Nelze se spojit se službou šifrování, zkontrolujte své nastavení nebo ťukněte na ikonu šifrování pro nový pokus!</string>
     <string name="error_crypto_provider_incompatible">Poskytovatel šifrování používá neslučitelnou verzi. Zkontrolujte svá nastavení!</string>
     <string name="error_crypto_provider_ui_required">Nepodařilo se inicializovat šifrování mezi odesílatelem a příjemcem – zkontrolujte svá nastavení</string>
+    <string name="error_no_contact_provider">Nebyla nalezena aplikace kontaktů. Pro přidání této adresy si nainstalujte aplikaci kontaktů.</string>
     <string name="error_sign_only_no_encryption">Šifrování není v režimu podepisování dostupné!</string>
     <string name="expand_content_description">Rozbalit</string>
     <string name="expand_folders">Rozbalit složky</string>
@@ -444,7 +457,7 @@
     <string name="folder_list_show_hidden_folders">Zobrazit skryté složky</string>
     <string name="folder_settings_clear_local_folder_action">Vyčistit místní zprávy</string>
     <string name="folder_settings_in_top_group_label">Zobrazit v nejvyšší skupině</string>
-    <string name="folder_settings_include_in_integrated_inbox_label">Integrovat</string>
+    <string name="folder_settings_include_in_integrated_inbox_label">Přidat do jednotné schránky</string>
     <string name="folder_settings_notifications_label">Oznámení</string>
     <string name="folder_settings_push_label">Povolit Push</string>
     <string name="folder_settings_sync_label">Zapnout synchronizaci</string>
@@ -540,10 +553,10 @@
     <string name="global_settings_background_as_unread_indicator_label">Ztmavit zprávy po přečtení</string>
     <string name="global_settings_background_as_unread_indicator_summary">Jiné pozadí indikuje přečtení zprávy</string>
     <string name="global_settings_colorize_missing_contact_pictures_label">Obarvit obrázky kontaktů</string>
-    <string name="global_settings_colorize_missing_contact_pictures_summary">Obarví chybějící obrázky u kontaktů</string>
+    <string name="global_settings_colorize_missing_contact_pictures_summary">Obarvit chybějící obrázky u kontaktů</string>
     <string name="global_settings_confirm_action_delete">Smazat</string>
     <string name="global_settings_confirm_action_delete_notif">Smazat (z oznámení)</string>
-    <string name="global_settings_confirm_action_delete_starred">Smaž zprávy s hvězdičkou (v zobrazení zpráv)</string>
+    <string name="global_settings_confirm_action_delete_starred">Smazat zprávy s hvězdičkou (v zobrazení zpráv)</string>
     <string name="global_settings_confirm_action_spam">Nevyžádaná</string>
     <string name="global_settings_confirm_actions_summary">Zobrazit dialog, když provádíte zvolené akce</string>
     <string name="global_settings_confirm_actions_title">Potvrzování akcí</string>
@@ -577,18 +590,18 @@
     <string name="global_settings_privacy_hide_useragent_detail">Odstraňovat z hlaviček e-mailů informaci o user agent</string>
     <string name="global_settings_privacy_incognito_keyboard">Klávesnice v anonymním režimu</string>
     <string name="global_settings_privacy_incognito_keyboard_detail">Při psaní zpráv nastavte klávesnici tak, aby se neučila z toho, co píšete</string>
-    <string name="global_settings_registered_name_color_changed">Obarvit jména v seznamu kontaktů</string>
+    <string name="global_settings_registered_name_color_changed">Obarvit jména ze seznamu kontaktů</string>
     <string name="global_settings_registered_name_color_label">Obarvit kontakty</string>
     <string name="global_settings_sender_above_subject_label">Odesílatel nad předmětem</string>
-    <string name="global_settings_sender_above_subject_summary">Zobraz odesílatele nad řádkem předmětu spíše než pod ním</string>
+    <string name="global_settings_sender_above_subject_summary">Zobrazit odesílatele nad řádkem předmětu namísto pod ním</string>
     <string name="global_settings_show_contact_name_label">Zobrazit jména kontaktů</string>
-    <string name="global_settings_show_contact_name_summary">Použít jména příjemců ze Seznamu kontaktů, je-li to možné</string>
+    <string name="global_settings_show_contact_name_summary">Použít jména příjemců z kontaktů, je-li to možné</string>
     <string name="global_settings_show_contact_picture_label">Zobraz obrázky u kontaktů</string>
-    <string name="global_settings_show_contact_picture_summary">V seznamu zpráv, zobrazovat u kontaktů jejich fotky</string>
-    <string name="global_settings_show_correspondent_names_label">Zobraz jméno odesílatele</string>
-    <string name="global_settings_show_correspondent_names_summary">Zobraz jméno odesílatele raději než adresu</string>
+    <string name="global_settings_show_contact_picture_summary">V seznamu zpráv zobrazovat obrázky kontaktů</string>
+    <string name="global_settings_show_correspondent_names_label">Zobrazit jména odesílatelů</string>
+    <string name="global_settings_show_correspondent_names_summary">Zobrazit jména odesílatelů namísto jejich e-mailových adres</string>
     <string name="global_settings_splitview_always">Vždy</string>
-    <string name="global_settings_splitview_mode_label">Zobraz rozdělení obrazovky</string>
+    <string name="global_settings_splitview_mode_label">Zobrazit rozdělení obrazovky</string>
     <string name="global_settings_splitview_never">Nikdy</string>
     <string name="global_settings_splitview_when_in_landscape">Při orientaci na šířku</string>
     <string name="global_settings_splitview_when_unfolded">Při rozložení zařízení</string>
@@ -627,6 +640,7 @@
     <string name="message_compose_content_hint">Text zprávy</string>
     <string name="message_compose_description_delete_quoted_text">Odstranit citovaný text</string>
     <string name="message_compose_description_edit_quoted_text">Upravit citovaný text</string>
+    <string name="message_compose_encrypting_message">Šifrování zprávy…</string>
     <string name="message_compose_error_no_recipients">Musíte přidat alespoň jednoho příjemce.</string>
     <string name="message_compose_quote_header_cc">Kopie:</string>
     <string name="message_compose_quote_header_from">Odesílatel:</string>
@@ -673,11 +687,11 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> příloha (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> přílohy (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> příloha (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> přílohy (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> příloh (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Uložit vše</string>
     <string name="message_view_attachments_title">Přílohy</string>
     <string name="message_view_attachments_view">Zobrazit</string>
@@ -686,8 +700,7 @@
     <string name="message_view_cc_label">Kopie:</string>
     <string name="message_view_download_remainder">Stáhnout úplnou zprávu</string>
     <string name="message_view_empty">Prosím zvolte zprávu vlevo</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">Mně</string>
+    <string name="message_view_from_me_text">já</string>
     <string name="message_view_menu_action_export_eml">Exportovat jako EML</string>
     <string name="message_view_no_viewer">Nelze nalézt prohlížeč pro <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -699,6 +712,8 @@
     <string name="message_view_status_attachment_not_saved">Přílohu se nedaří uložit.</string>
     <string name="message_view_theme_action_dark">Přepnout na tmavý motiv</string>
     <string name="message_view_theme_action_light">Přepnout na světlý motiv</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">Mně</string>
     <string name="messagelist_preferences">Seznam zpráv</string>
     <string name="messageview_crypto_error_title">Chyba při rozšifrovávání e-mailu</string>
     <string name="messageview_decrypt_cancelled">Rozšifrování zrušeno.</string>
@@ -748,11 +763,11 @@
     <string name="notification_channel_push_description">Zobrazeno po dobu čekání na nové zprávy</string>
     <string name="notification_channel_push_title">Synchronizovat (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nová zpráva</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nové zprávy</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nová zpráva</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nové zprávy</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nových zpráv</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Vyskytla se chyba při vytvoření systémového oznámení pro novou zprávu. Důvodem je nejspíš chybějící zvuk oznámení. \n \nKlepnutím otevřete nastavení oznámení.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -828,18 +843,19 @@
     <string name="recipient_to">Komu</string>
     <string name="refile_action">Přesměrovat…</string>
     <string name="refresh_folders_action">Obnovit složky</string>
+    <string name="remote_feature_flag_preferences">Vzdálené příznaky funkcí</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Načítání %d výsledku</item>
-            <item quantity="few">Načítání %d výsledků</item>
-            <item quantity="many">Načítání %d výsledků</item>
-            <item quantity="other">Načítání %d výsledků</item>
-        </plurals>
+        <item quantity="one">Načítání %d výsledku</item>
+        <item quantity="few">Načítání %d výsledků</item>
+        <item quantity="many">Načítání %d výsledků</item>
+        <item quantity="other">Načítání %d výsledků</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Stahování %1$d z %2$d výsledku</item>
-            <item quantity="few">Stahování %1$d ze %2$d výsledků</item>
-            <item quantity="many">Stahování %1$d z %2$d výsledků</item>
-            <item quantity="other">Stahování %1$d z %2$d výsledků</item>
-        </plurals>
+        <item quantity="one">Stahování %1$d z %2$d výsledku</item>
+        <item quantity="few">Stahování %1$d ze %2$d výsledků</item>
+        <item quantity="many">Stahování %1$d z %2$d výsledků</item>
+        <item quantity="other">Stahování %1$d z %2$d výsledků</item>
+    </plurals>
     <string name="remote_search_error">Vzdálené vyhledávání se nezdařilo</string>
     <string name="remote_search_sending_query">Odeslání dotazu na server</string>
     <string name="remote_search_unavailable_no_network">Vzdálené vyhledávání není k dispozici bez připojení k síti.</string>
@@ -894,7 +910,7 @@
     <string name="settings_ui_telemetry_title">Statistika používání a technická data</string>
     <string name="show_headers_action">Zobrazit hlavičku</string>
     <string name="show_starred_count_title">Zobrazit počet označených hvězdičkou</string>
-    <string name="show_unified_inbox_title">Ukázat sjednocený pohled na doručenou poštu</string>
+    <string name="show_unified_inbox_title">Zobrazit jednotnou schránku</string>
     <string name="size_format_bytes">%d B</string>
     <string name="size_format_gigabytes">%.1f GB</string>
     <string name="size_format_kilobytes">%.1f kB</string>
@@ -934,8 +950,8 @@
     <string name="toast_openpgp_provider_error">Chyba při připojování k %s!</string>
     <string name="trash_folder_label">Název složky Koš</string>
     <string name="unflag_action">Odebrat ☆</string>
-    <string name="unknown_recipient">&<;Neznámý příjemce&>;</string>
-    <string name="unknown_sender">&<;Neznámý odesilatel&>;</string>
+    <string name="unknown_recipient">&lt;Neznámý příjemce&gt;</string>
+    <string name="unknown_sender">&lt;Neznámý odesilatel&gt;</string>
     <string name="unsigned_text_divider_label">Nepodepsaný text</string>
     <string name="unsubscribe_action">Odhlásit odběr</string>
     <string name="upgrade_database_format">Přechod na novější verzi databáze účtu „<xliff:g id="account">%s</xliff:g>“</string>

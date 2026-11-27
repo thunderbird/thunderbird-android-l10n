@@ -35,11 +35,11 @@
     <string name="notification_channel_push_description">Wyświetlane podczas oczekiwania na nowe wiadomości</string>
     <string name="notification_channel_push_title">Synchronizuj (push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d nowa wiadomość</item>
-            <item quantity="few">%1$d nowe wiadomości</item>
-            <item quantity="many">%1$d nowych wiadomości</item>
-            <item quantity="other">%1$d nowych wiadomości</item>
-        </plurals>
+        <item quantity="one">%1$d nowa wiadomość</item>
+        <item quantity="few">%1$d nowe wiadomości</item>
+        <item quantity="many">%1$d nowych wiadomości</item>
+        <item quantity="other">%1$d nowych wiadomości</item>
+    </plurals>
     <string name="notification_notify_error_text">Wystąpił błąd podczas próby utworzenia powiadomienia systemowego o nowej wiadomości. Powodem jest najprawdopodobniej brak dźwięku powiadomienia.\n\nStuknij, aby otworzyć ustawienia powiadomień.</string>
     <string name="notification_notify_error_title">Błąd powiadomienia</string>
     <string name="push_info_disable_push_action">Wyłącz funkcję push</string>

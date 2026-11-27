@@ -27,22 +27,22 @@
     <string name="account_setup_options_account_name_error_blank">Nome da conta não pode estar em branco.</string>
     <string name="account_setup_options_account_name_label">Nome da conta</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">A cada hora</item>
-            <item quantity="many">A cada %d horas</item>
-            <item quantity="other">A cada %d horas</item>
-        </plurals>
+        <item quantity="one">A cada hora</item>
+        <item quantity="many">A cada %d horas</item>
+        <item quantity="other">A cada %d horas</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">A cada minuto</item>
-            <item quantity="many">A cada %d minutos</item>
-            <item quantity="other">A cada %d minutos</item>
-        </plurals>
+        <item quantity="one">A cada minuto</item>
+        <item quantity="many">A cada %d minutos</item>
+        <item quantity="other">A cada %d minutos</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nunca</string>
     <string name="account_setup_options_email_display_count_label">Número de mensagens a mostrar</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 mensagem</item>
-            <item quantity="many">%d mensagens</item>
-            <item quantity="other">%d mensagens</item>
-        </plurals>
+        <item quantity="one">1 mensagem</item>
+        <item quantity="many">%d mensagens</item>
+        <item quantity="other">%d mensagens</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Assinatura de e-mail não pode ser vazia.</string>
     <string name="account_setup_options_email_signature_label">Assinatura de e-mail</string>
     <string name="account_setup_options_section_display_options">Opções de visualização</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Forritið fann engan vafra til að nota til að fá aðgang að notandaaðgangnum þínum.</string>
     <string name="account_oauth_error_canceled">Hætt við auðkenningu</string>
     <string name="account_oauth_error_failed">Auðkenning mistókst með eftirfarandi villuboðum: <xliff:g id="error">%s</xliff:g></string>

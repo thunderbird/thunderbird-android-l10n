@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="settings_import_app_version_not_supported">גירסאת האפליקציה לא נתמכת.</string>
     <string name="settings_import_authorization_and_password_required">נא להתחבר ולהכניס סיסמאות</string>
     <string name="settings_import_authorization_required">נא להתחבר</string>
@@ -20,11 +20,11 @@
     <string name="settings_import_outgoing_server_password_hint">סיסמת שרת יוצא</string>
     <string name="settings_import_partial_failure">יבוא חלק מההגדרות נכשל</string>
     <plurals name="settings_import_password_prompt">
-            <item quantity="one">על מנת להשתמש בחשבון \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמת השרת.</item>
-            <item quantity="two">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
-            <item quantity="many">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
-            <item quantity="other">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
-        </plurals>
+        <item quantity="one">על מנת להשתמש בחשבון \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמת השרת.</item>
+        <item quantity="two">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+        <item quantity="many">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+        <item quantity="other">על מנת להשתמש בחשבונות \"<xliff:g id="account">%s</xliff:g>\" עליך לספק את סיסמאות השרת.</item>
+    </plurals>
     <string name="settings_import_password_required">נא להכניס סיסמאות</string>
     <string name="settings_import_pick_app_button">ייבא מיישום</string>
     <string name="settings_import_pick_app_dialog_title">ייבא מיישום</string>

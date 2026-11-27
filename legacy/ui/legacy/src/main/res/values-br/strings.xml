@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">A-zivout</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -27,6 +27,8 @@
     <string name="ac_transfer_show_code">Diskouez ar boneg kefluniañ</string>
     <string name="ac_transfer_title">Kemennadenn kefluniañ Autocrypt</string>
     <string name="ac_transfer_will_be_sent">Kaset e vo ar gemennadenn d\'ho chomlec\'h:</string>
+    <string name="accessibility_move_down">Dilec’hiañ d’an traoñ</string>
+    <string name="accessibility_move_up">Dilec\'hiañ d\'an nec\'h</string>
     <string name="account_delete_dlg_instructions_fmt">Ar gont \"<xliff:g id="account">%1$s</xliff:g>\" a vo dilamet eus <xliff:g id="app_name">%2$s</xliff:g>.</string>
     <string name="account_delete_dlg_title">Dilemel ar gont</string>
     <string name="account_notify_contacts_mail_only_label">Darempredoù nemetken</string>
@@ -100,12 +102,12 @@
     <string name="account_settings_message_age_6_months">ar 6 miz tremenet</string>
     <string name="account_settings_message_age_7">ar sizhun tremenet</string>
     <string name="account_settings_message_age_any">ne vern pe amzer (bevenn ebet)</string>
-    <string name="account_settings_message_age_label">Goubredañ kemennadennoù</string>
+    <string name="account_settings_message_age_label">Goubredañ posteloù gant</string>
     <string name="account_settings_message_format_auto">Emgefreek</string>
     <string name="account_settings_message_format_html">HTML (mirout ar skeudennoù hag ar mentrezh)</string>
     <string name="account_settings_message_format_label">Mentrezh ar gemennadenn</string>
     <string name="account_settings_message_format_text">Testenn blaen (dilemel ar skeudennoù hag ar mentrezh)</string>
-    <string name="account_settings_message_read_receipt_label">Lenn an testeni degemer</string>
+    <string name="account_settings_message_read_receipt_label">Testeni lenn</string>
     <string name="account_settings_message_read_receipt_summary">Goulenn un testeni degemer atav</string>
     <string name="account_settings_name_label">Anv</string>
     <string name="account_settings_no_folder_selected">Netra</string>
@@ -146,7 +148,7 @@
     <string name="account_settings_remote_search_num_results_entries_250">250</string>
     <string name="account_settings_remote_search_num_results_entries_50">50</string>
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
-    <string name="account_settings_remote_search_num_results_entries_all">Pep tra</string>
+    <string name="account_settings_remote_search_num_results_entries_all">An holl</string>
     <string name="account_settings_reply_after_quote_label">Respont goude ar gemennadenn orin</string>
     <string name="account_settings_reply_after_quote_summary">Ar gemennadenn orin a vo lakaet a-us d’ho respont.</string>
     <string name="account_settings_ringtone">Soniri postel nevez</string>
@@ -159,10 +161,12 @@
     <string name="account_settings_signature__location_before_quoted_text">A-raok ar gemennadenn orin</string>
     <string name="account_settings_signature__location_label">Lec’hiadur ar sinadur</string>
     <string name="account_settings_signature_label">Sinadur</string>
+    <string name="account_settings_signature_preview">Rakwel ar sinadur</string>
     <string name="account_settings_signature_use_label">Arverañ ar sinadur</string>
     <string name="account_settings_strip_signature_label">Lemel kuit ar sinadurioù er respont</string>
     <string name="account_settings_strip_signature_summary">Lamet e vo kuit ar sinadurioù er c’hemennadennoù enkorfet</string>
     <string name="account_settings_sync">O kerc’hat ar postel</string>
+    <string name="account_settings_sync_and_notifications">Goubredañ &amp; kemennoù</string>
     <string name="account_settings_sync_remote_deletetions_label">Goubredañ dilamadurioù an dafariad</string>
     <string name="account_settings_sync_remote_deletetions_summary">Dilemel ar c’hemennadennoù pa ’z int dilamet war an dafariad</string>
     <string name="account_settings_title_fmt">Arventennoù ar gont</string>
@@ -179,6 +183,7 @@
     <string name="account_settings_vibrate_summary_disabled">Diweredekaet</string>
     <string name="account_settings_vibrate_times">Adfroumal</string>
     <string name="account_settings_vibration">Froumal</string>
+    <string name="account_setup_auto_select_folder">Choaz emgefreek an teuliad</string>
     <string name="account_setup_basics_title">Ouzhpennañ ur gont</string>
     <string name="account_setup_expunge_policy_immediately">Diouzhtu</string>
     <string name="account_setup_expunge_policy_label">Dilemel ar c’hemennadennoù diverket war an dafariad</string>
@@ -232,6 +237,7 @@
     <string name="address_type_mobile">Hezoug</string>
     <string name="address_type_other">All</string>
     <string name="address_type_work">Labour</string>
+    <string name="animation_setting_off">Diweredekaet</string>
     <string name="animations_title">Bliverezh</string>
     <string name="app_license">Lañvaz Apache, Handelv 2.0</string>
     <string name="archive_action">Diellaouiñ</string>
@@ -257,6 +263,8 @@
     <string name="changelog_snackbar_button_text">Diskouez</string>
     <string name="changelog_snackbar_text">Taolit ur sell war ar pezh zo nevez er stumm-mañ</string>
     <string name="changelog_title">Marilh ar c\'hemmoù</string>
+    <string name="changelog_type_fixed_text">REIZHET</string>
+    <string name="changelog_type_new_text">NEVEZ</string>
     <string name="changelog_version_title">Stumm %s</string>
     <string name="check_mail_action">Kerc’hat ar posteloù</string>
     <string name="choose_folder_copy_title">Eilañ etrezek…</string>
@@ -284,12 +292,12 @@
     <string name="confirm_discard_draft_message_title">Dilezel ar gemennadenn?</string>
     <string name="copy_action">Eilañ</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Eilet eo bet ar chomlec’h er golver</item>
-            <item quantity="two">Eilet eo bet ar chomlec’hioù er golver</item>
-            <item quantity="few">Eilet eo bet ar chomlec’hioù er golver</item>
-            <item quantity="many">Eilet eo bet ar chomlec’hioù er golver</item>
-            <item quantity="other">Eilet eo bet ar chomlec’hioù er golver</item>
-        </plurals>
+        <item quantity="one">Eilet eo bet ar chomlec’h er golver</item>
+        <item quantity="two">Eilet eo bet ar chomlec’hioù er golver</item>
+        <item quantity="few">Eilet eo bet ar chomlec’hioù er golver</item>
+        <item quantity="many">Eilet eo bet ar chomlec’hioù er golver</item>
+        <item quantity="other">Eilet eo bet ar chomlec’hioù er golver</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Eilet eo bet testenn an danvez er golver</string>
     <string name="crypto_msg_cancelled">Enrineget eo ar gemennadenn met nullet eo bet an ezrinegañ.</string>
     <string name="crypto_msg_encrypted_error">met ur fazi ezrinegañ zo c\'hoarvezet</string>
@@ -349,12 +357,12 @@
     <string name="dialog_confirm_delete_confirm_button">Ya</string>
     <string name="dialog_confirm_delete_message">Fellout a ra deoc’h dilemel ar gemennadenn-mañ?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Sur oc’h e fell deoc’h dilemel ar gemennadenn-mañ?</item>
-            <item quantity="two">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
-            <item quantity="few">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
-            <item quantity="many">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
-            <item quantity="other">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
-        </plurals>
+        <item quantity="one">Sur oc’h e fell deoc’h dilemel ar gemennadenn-mañ?</item>
+        <item quantity="two">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
+        <item quantity="few">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
+        <item quantity="many">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
+        <item quantity="other">Sur oc’h e fell deoc’h dilemel <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Kadarnat an dilamadur</string>
     <string name="dialog_confirm_empty_spam_message">Ha fellout a ra deoc\'h goullonderiñ teuliad al lastez ?</string>
     <string name="dialog_confirm_empty_spam_title">Kadarnaat goullonderiñ al lastez</string>
@@ -367,12 +375,12 @@
     <string name="dialog_confirm_spam_cancel_button">Ket</string>
     <string name="dialog_confirm_spam_confirm_button">Ya</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Sur oc’h e fell deoc’h dilec’hiañ ar gemennadenn-mañ en teuliad lastez?</item>
-            <item quantity="two">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
-            <item quantity="few">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
-            <item quantity="many">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
-            <item quantity="other">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
-        </plurals>
+        <item quantity="one">Sur oc’h e fell deoc’h dilec’hiañ ar gemennadenn-mañ en teuliad lastez?</item>
+        <item quantity="two">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
+        <item quantity="few">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
+        <item quantity="many">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
+        <item quantity="other">Sur oc’h e fell deoc’h dilec’hiañ <xliff:g id="message_count">%1$d</xliff:g> a gemennadennoù en teuliad lastez?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Dilec’hiañ an holl e teuliad al lastez</string>
     <string name="dialog_openkeychain_info_install">Staliañ</string>
     <string name="dialog_openkeychain_info_text">Dleout a rankit kaout an arload OpenKeychain evit merañ an enrinegañ penn-da-benn.</string>
@@ -522,6 +530,7 @@
     <string name="global_settings_lock_screen_notification_visibility_title">Rebuzadurioù ar skramm-prennañ</string>
     <string name="global_settings_messageview_autofit_width_label">Klotañ ar c’hemennadennoù</string>
     <string name="global_settings_messageview_autofit_width_summary">Krennat ar c’hemennadennoù evit klotañ ouzh ar skramm</string>
+    <string name="global_settings_messageview_body_content_type_text_html">HTML (text/html)</string>
     <string name="global_settings_messageview_fixedwidth_label">Nodrezhoù digemm o ledander</string>
     <string name="global_settings_messageview_fixedwidth_summary">Arverañ un nodrezh digemm e ledander pa vez skrammet kemennadennoù e testenn blaen</string>
     <string name="global_settings_messageview_visible_refile_actions_summary">Diskouez ar gweredoù diuzet el lañser gwel kemennadenn</string>
@@ -585,6 +594,7 @@
     <string name="message_compose_content_hint">Testenn ar gemennadenn</string>
     <string name="message_compose_description_delete_quoted_text">Dilemel an destenn meneget</string>
     <string name="message_compose_description_edit_quoted_text">Embann an destenn meneget</string>
+    <string name="message_compose_encrypting_message">Oc\'h enrinegañ ar gemennadenn…</string>
     <string name="message_compose_error_no_recipients">Ret eo deoc’h ouzhpennañ un degemerer d’an nebeutañ.</string>
     <string name="message_compose_quote_header_cc">Cc:</string>
     <string name="message_compose_quote_header_from">A-berzh:</string>
@@ -627,11 +637,13 @@
     <string name="message_to_fmt">Da:<xliff:g id="counterParty">%s</xliff:g></string>
     <string name="message_to_label">Da:</string>
     <string name="message_view_additional_recipient_prefix">+</string>
+    <string name="message_view_attachments_title">Pezhioù stag</string>
+    <string name="message_view_attachments_view">Diskouez</string>
     <string name="message_view_bcc_label">Bcc:</string>
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Pellgargañ ar gemennadenn glok</string>
     <string name="message_view_empty">Diuzit ur gemennadenn war an tu kleiz</string>
-    <string name="message_view_me_text">me</string>
+    <string name="message_view_from_me_text">me</string>
     <string name="message_view_menu_action_export_eml">Ezporzhiañ e stumm EML</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
@@ -644,6 +656,7 @@
     <string name="message_view_status_attachment_not_saved">N\'haller ket enrollañ ar stagadenn.</string>
     <string name="message_view_theme_action_dark">Mont d’an neuz teñval</string>
     <string name="message_view_theme_action_light">Mont d’an neuz sklaer</string>
+    <string name="message_view_to_me_text">me</string>
     <string name="messagelist_preferences">Roll ar c’hemennadennoù</string>
     <string name="messageview_crypto_error_title">Fazi en ur ezrinegañ ar postel</string>
     <string name="messageview_decrypt_cancelled">Nullet eo bet an ezrinegañ.</string>
@@ -685,12 +698,12 @@
     <string name="notification_channel_push_description">Skrammet pa vez gortozet posteloù nevez</string>
     <string name="notification_channel_push_title">Goubredañ (bountañ)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> gemennadenn nevez</item>
-            <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> gemennadenn nevez</item>
+        <item quantity="two"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> a gemennadennoù nevez</item>
+    </plurals>
     <string name="notification_notify_error_text">Degouezhet ez eus bet ur fazi en ur glask krouiñ ur rebuzadur evit ur postel nevez. Moarvat e vank ur son evit ar rebuzadur.\n\nStokit da zigeriñ arventennoù ar rebuzadurioù.</string>
     <string name="notification_notify_error_title">Fazi rebuzadur</string>
     <string name="notifications_title">Rebuzadurioù</string>
@@ -761,19 +774,19 @@
     <string name="refile_action">Kemman ar rummad…</string>
     <string name="refresh_folders_action">Azgrenaat roll an teuliadoù</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">O kerc’hat %ddisoc’h</item>
-            <item quantity="two">O kerc’hat %da zisoc’hoù</item>
-            <item quantity="few">O kerc’hat %da zisoc’hoù</item>
-            <item quantity="many">O kerc’hat %da zisoc’hoù</item>
-            <item quantity="other">O kerc’hat %da zisoc’hoù</item>
-        </plurals>
+        <item quantity="one">O kerc’hat %ddisoc’h</item>
+        <item quantity="two">O kerc’hat %da zisoc’hoù</item>
+        <item quantity="few">O kerc’hat %da zisoc’hoù</item>
+        <item quantity="many">O kerc’hat %da zisoc’hoù</item>
+        <item quantity="other">O kerc’hat %da zisoc’hoù</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
-            <item quantity="two">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
-            <item quantity="few">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
-            <item quantity="many">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
-            <item quantity="other">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
-        </plurals>
+        <item quantity="one">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
+        <item quantity="two">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
+        <item quantity="few">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
+        <item quantity="many">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
+        <item quantity="other">O kerc’hat %1$d war %2$d a zisoc’hoù</item>
+    </plurals>
     <string name="remote_search_error">C’hwitadenn war ar c’hlask</string>
     <string name="remote_search_sending_query">Kas an azgoulenn d’an dafariad</string>
     <string name="remote_search_unavailable_no_network">Ret eo deoc’h bezañ kennasket evit klask war an dafariad</string>
@@ -839,6 +852,7 @@
     <string name="sort_by_attach">Stagadennoù</string>
     <string name="sort_by_date">Deiziad</string>
     <string name="sort_by_flag">Steredenn</string>
+    <string name="sort_by_indicator">•</string>
     <string name="sort_by_sender">Kaser</string>
     <string name="sort_by_subject">Danvez</string>
     <string name="sort_by_then_by">Goude dre…</string>
@@ -867,8 +881,8 @@
     <string name="toast_openpgp_provider_error">Fazi en ur gennaskañ ouzh %s!</string>
     <string name="trash_folder_label">Teuliad kest</string>
     <string name="unflag_action">Dilemel ar steredenn</string>
-    <string name="unknown_recipient">&<;Dianav eo an degemerer&>;</string>
-    <string name="unknown_sender">&<;Dianav eo ar c\'haser&>;</string>
+    <string name="unknown_recipient">&lt;Dianav eo an degemerer&gt;</string>
+    <string name="unknown_sender">&lt;Dianav eo ar c\'haser&gt;</string>
     <string name="unsigned_text_divider_label">Testenn ansinet</string>
     <string name="unsubscribe_action">Digoumantiñ</string>
     <string name="upgrade_database_format">Oc’h hizivaat stlennvon ar gont \"<xliff:g id="account">%s</xliff:g>\"</string>

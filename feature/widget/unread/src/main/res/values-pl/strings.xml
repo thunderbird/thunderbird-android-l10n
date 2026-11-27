@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">Nie wybrano konta</string>
     <string name="unread_widget_account_summary">Konto, dla którego liczba nieprzeczytanych wiadomości powinna być wyświetlana</string>
     <string name="unread_widget_account_title">Konto</string>

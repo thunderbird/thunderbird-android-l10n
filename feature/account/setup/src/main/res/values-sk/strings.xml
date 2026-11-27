@@ -27,25 +27,25 @@
     <string name="account_setup_options_account_name_error_blank">Názov konta nemôže byť prázdny.</string>
     <string name="account_setup_options_account_name_label">Názov konta</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="one">Každú hodinu</item>
-            <item quantity="few">Každé %d hodiny</item>
-            <item quantity="many">Každých %d hodín</item>
-            <item quantity="other">Každých %d hodín</item>
-        </plurals>
+        <item quantity="one">Každú hodinu</item>
+        <item quantity="few">Každé %d hodiny</item>
+        <item quantity="many">Každých %d hodín</item>
+        <item quantity="other">Každých %d hodín</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="one">Každú minútu</item>
-            <item quantity="few">Každé %d minúty</item>
-            <item quantity="many">Každých %d minút</item>
-            <item quantity="other">Každých %d minút</item>
-        </plurals>
+        <item quantity="one">Každú minútu</item>
+        <item quantity="few">Každé %d minúty</item>
+        <item quantity="many">Každých %d minút</item>
+        <item quantity="other">Každých %d minút</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Nikdy</string>
     <string name="account_setup_options_email_display_count_label">Počet správ na zobrazenie</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="one">1 správa</item>
-            <item quantity="few">%d správy</item>
-            <item quantity="many">%d správ</item>
-            <item quantity="other">%d správ</item>
-        </plurals>
+        <item quantity="one">1 správa</item>
+        <item quantity="few">%d správy</item>
+        <item quantity="many">%d správ</item>
+        <item quantity="other">%d správ</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">E-mailový podpis nemôže byť prázdny.</string>
     <string name="account_setup_options_email_signature_label">E-mailový podpis</string>
     <string name="account_setup_options_section_display_options">Zobraziť možnosti</string>

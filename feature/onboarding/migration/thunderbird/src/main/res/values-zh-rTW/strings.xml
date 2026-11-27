@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">立即匯入您的帳戶設定</string>
     <string name="onboarding_migration_thunderbird_import_title">從其他應用程式或裝置轉移？</string>
     <string name="onboarding_migration_thunderbird_link_open_error">找不到可以打開連結的應用程式。</string>

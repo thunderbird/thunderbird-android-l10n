@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">De app kin gjin browser fine. In browser is nedich om tagong te krijen ta jo account.</string>
     <string name="account_oauth_error_canceled">Autorisaasje is annulearre</string>
     <string name="account_oauth_error_failed">Autorisaasje is mislearre mei de folgjende flatermelding: <xliff:g id="error">%s</xliff:g></string>

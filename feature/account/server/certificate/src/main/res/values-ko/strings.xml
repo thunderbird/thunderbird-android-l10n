@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_server_certificate_button_advanced">고급</string>
     <string name="account_server_certificate_button_back">뒤로 가기 (권장)</string>
     <string name="account_server_certificate_button_continue">위험을 감수하고 계속 진행</string>

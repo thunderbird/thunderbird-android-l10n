@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">O</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -242,10 +242,10 @@
     <string name="confirm_discard_draft_message_title">Odbaciti poruku?</string>
     <string name="copy_action">Kopiraj</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresa kopirana u međuspremnik</item>
-            <item quantity="few">Adrese kopirane u međuspremnik</item>
-            <item quantity="other">Adresa kopirano u međuspremnik</item>
-        </plurals>
+        <item quantity="one">Adresa kopirana u međuspremnik</item>
+        <item quantity="few">Adrese kopirane u međuspremnik</item>
+        <item quantity="other">Adresa kopirano u međuspremnik</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Tekst predmeta kopiran u međuspremnik</string>
     <string name="crypto_msg_cancelled">Poruka je šifrirana, ali dešifriranje je otkazano.</string>
     <string name="crypto_msg_encrypted_error">ali došlo je do greške prilikom dešifriranje</string>
@@ -298,10 +298,10 @@
     <string name="dialog_confirm_delete_confirm_button">Da</string>
     <string name="dialog_confirm_delete_message">Da li želite obrisati ovu poruku?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Da li stvarno želite obrisati ovu poruku?</item>
-            <item quantity="few">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
-            <item quantity="other">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
-        </plurals>
+        <item quantity="one">Da li stvarno želite obrisati ovu poruku?</item>
+        <item quantity="few">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
+        <item quantity="other">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Potvrda brisanja</string>
     <string name="dialog_confirm_empty_trash_message">Da li želite isprazniti mapu za otpad?</string>
     <string name="dialog_confirm_empty_trash_title">Potvrdite ispražnjavanje otpada</string>
@@ -312,10 +312,10 @@
     <string name="dialog_confirm_spam_cancel_button">Ne</string>
     <string name="dialog_confirm_spam_confirm_button">Da</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Da li stvarno želite premjestiti ovu poruku u mapu otpada?</item>
-            <item quantity="few">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
-            <item quantity="other">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
-        </plurals>
+        <item quantity="one">Da li stvarno želite premjestiti ovu poruku u mapu otpada?</item>
+        <item quantity="few">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
+        <item quantity="other">Da li stvarno želite obrisati <xliff:g id="message_count">%1$d</xliff:g> poruke?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Potvrda premještanja u mapu neželjena pošta</string>
     <string name="dialog_openkeychain_info_install">Instaliraj</string>
     <string name="dialog_openkeychain_info_title">Nema intalirane OpenPGP aplikacije</string>
@@ -558,7 +558,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Preuzmi cijelu poruku</string>
     <string name="message_view_empty">Molimo vas odaberite poruku s lijeva</string>
-    <string name="message_view_me_text">mene</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
@@ -570,6 +569,7 @@
     <string name="message_view_status_attachment_not_saved">Nije moguće spremiti privitak.</string>
     <string name="message_view_theme_action_dark">Prebaci na tamnu temu</string>
     <string name="message_view_theme_action_light">Prebaci na svijetlu temu</string>
+    <string name="message_view_to_me_text">mene</string>
     <string name="messagelist_preferences">Popis poruka</string>
     <string name="messageview_crypto_error_title">Greška prilikom dešifriranja e-pošte</string>
     <string name="messageview_decrypt_cancelled">Dešifriranje je otkazano.</string>
@@ -611,10 +611,10 @@
     <string name="notification_channel_push_description">Prikazano dok čekate nove poruke</string>
     <string name="notification_channel_push_title">Sinkroniziraj (Slanje)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova poruka</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nova poruka</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> novih poruka</item>
+    </plurals>
     <string name="notification_notify_error_text">Došlo je do greške prilikom pokušaja stvaranja sistemske obavijesti za novu poruku. Razlog je najvjerojatnije nedostatak zvuka obavijesti.\n\nDodirnite za otvaranje postavki obavijesti.</string>
     <string name="notification_notify_error_title">Greška u obavijesti</string>
     <string name="notifications_title">Obavijesti</string>
@@ -665,15 +665,15 @@
     <string name="refile_action">Ponovno punjenje…</string>
     <string name="refresh_folders_action">Osvježi popis mape</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Dohvaćam %d rezultat</item>
-            <item quantity="few">Dohvaćam %d rezultata</item>
-            <item quantity="other">Dohvaćam %d rezultata</item>
-        </plurals>
+        <item quantity="one">Dohvaćam %d rezultat</item>
+        <item quantity="few">Dohvaćam %d rezultata</item>
+        <item quantity="other">Dohvaćam %d rezultata</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Dohvaćam %1$d od %2$d rezultat</item>
-            <item quantity="few">Dohvaćam %1$d od %2$d rezultata</item>
-            <item quantity="other">Dohvaćam %1$d od %2$d rezultata</item>
-        </plurals>
+        <item quantity="one">Dohvaćam %1$d od %2$d rezultat</item>
+        <item quantity="few">Dohvaćam %1$d od %2$d rezultata</item>
+        <item quantity="other">Dohvaćam %1$d od %2$d rezultata</item>
+    </plurals>
     <string name="remote_search_error">Udaljeno pretraživanje nije uspjelo</string>
     <string name="remote_search_sending_query">Šaljem upit poslužitelju</string>
     <string name="remote_search_unavailable_no_network">Potrebna je mrežna veza za pretragu poslužitelja.</string>

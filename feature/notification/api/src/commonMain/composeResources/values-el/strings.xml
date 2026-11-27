@@ -35,9 +35,9 @@
     <string name="notification_channel_push_description">Εμφανίζεται κατά την αναμονή για νέα μηνύματα</string>
     <string name="notification_channel_push_title">Συγχρονισμός (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">%1$d νέο μήνυμα</item>
-            <item quantity="other">%1$d νέα μηνύματα</item>
-        </plurals>
+        <item quantity="one">%1$d νέο μήνυμα</item>
+        <item quantity="other">%1$d νέα μηνύματα</item>
+    </plurals>
     <string name="notification_notify_error_text">Σφάλμα στην προσπάθεια δημιουργίας ειδοποίησης συστήματος για νέο μήνυμα. Η ατία είναι μάλλον λείπει ο ήχος της ειδοπίησης.\n\nΠατήστε για να ανοίξετε τις ρυθμίσεων των ειδοποιήσεων.</string>
     <string name="notification_notify_error_title">Σφάλμα ειδοποίησης</string>
     <string name="push_info_disable_push_action">Απενεργοποίηση σπρωξίματος</string>

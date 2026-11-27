@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Informazioni</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -84,7 +84,7 @@
     <string name="account_settings_ignore_chat_messages_label">Ignora messaggi da chat</string>
     <string name="account_settings_ignore_chat_messages_summary">Non notificare messaggi da una chat</string>
     <string name="account_settings_incoming_label">Server posta in arrivo</string>
-    <string name="account_settings_incoming_summary">Configura server della posta in arrivo</string>
+    <string name="account_settings_incoming_summary">Configura il server di posta in arrivo</string>
     <string name="account_settings_mail_check_frequency_label">Frequenza sincronizzazione cartella</string>
     <string name="account_settings_mail_display_count_label">Dimensione cartella locale</string>
     <string name="account_settings_mark_message_as_read_on_delete_label">Segna come letto all\'eliminazione</string>
@@ -92,16 +92,16 @@
     <string name="account_settings_mark_message_as_read_on_view_label">Segna come letto all\'apertura</string>
     <string name="account_settings_mark_message_as_read_on_view_summary">Segna un messaggio come letto dopo la visualizzazione</string>
     <string name="account_settings_message_age_0">oggi</string>
-    <string name="account_settings_message_age_1">ultimi 2 giorni</string>
-    <string name="account_settings_message_age_14">ultime 2 settimane</string>
+    <string name="account_settings_message_age_1">gli ultimi 2 giorni</string>
+    <string name="account_settings_message_age_14">le ultime 2 settimane</string>
     <string name="account_settings_message_age_1_month">ultimo mese</string>
     <string name="account_settings_message_age_1_year">ultimo anno</string>
-    <string name="account_settings_message_age_2">ultimi 3 giorni</string>
+    <string name="account_settings_message_age_2">gli ultimi 3 giorni</string>
     <string name="account_settings_message_age_21">ultime 3 settimane</string>
     <string name="account_settings_message_age_2_months">ultimi 2 mesi</string>
     <string name="account_settings_message_age_3_months">ultimi 3 mesi</string>
     <string name="account_settings_message_age_6_months">ultimi 6 mesi</string>
-    <string name="account_settings_message_age_7">ultima settimana</string>
+    <string name="account_settings_message_age_7">l\'ultima settimana</string>
     <string name="account_settings_message_age_any">qualsiasi data (senza limite)</string>
     <string name="account_settings_message_age_label">Sincronizza messaggi da</string>
     <string name="account_settings_message_format_auto">Automatico</string>
@@ -140,8 +140,8 @@
     <string name="account_settings_quote_style_header">Intestazione (come Outlook)</string>
     <string name="account_settings_quote_style_label">Aspetto testo citato</string>
     <string name="account_settings_quote_style_prefix">Prefisso (come Gmail)</string>
-    <string name="account_settings_reading_mail">Lettura messaggi</string>
-    <string name="account_settings_remote_search_num_label">Limite risultati di ricerca sul server</string>
+    <string name="account_settings_reading_mail">Lettura e-mail</string>
+    <string name="account_settings_remote_search_num_label">Limite di ricerca sul server</string>
     <string name="account_settings_remote_search_num_results_entries_10">10</string>
     <string name="account_settings_remote_search_num_results_entries_100">100</string>
     <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
@@ -149,7 +149,7 @@
     <string name="account_settings_remote_search_num_results_entries_250">250</string>
     <string name="account_settings_remote_search_num_results_entries_50">50</string>
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
-    <string name="account_settings_remote_search_num_results_entries_all">Tutti</string>
+    <string name="account_settings_remote_search_num_results_entries_all">Tutte</string>
     <string name="account_settings_reply_after_quote_label">Risposta dopo testo citato</string>
     <string name="account_settings_reply_after_quote_summary">Il messaggio originale sarà visualizzato sopra la tua risposta</string>
     <string name="account_settings_ringtone">Suono nuovo messaggio</string>
@@ -289,10 +289,10 @@
     <string name="confirm_discard_draft_message_title">Ignorare il messaggio?</string>
     <string name="copy_action">Copia</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Indirizzo copiato negli appunti</item>
-            <item quantity="many">Indirizzi copiati negli appunti</item>
-            <item quantity="other">Indirizzi copiati negli appunti</item>
-        </plurals>
+        <item quantity="one">Indirizzo copiato negli appunti</item>
+        <item quantity="many">Indirizzi copiati negli appunti</item>
+        <item quantity="other">Indirizzi copiati negli appunti</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Testo Oggetto copiato negli appunti</string>
     <string name="crypto_msg_cancelled">Il messaggio è criptato, ma la decrittografia è stata annullata</string>
     <string name="crypto_msg_encrypted_error">ma si è verificato un errore di decrittografia</string>
@@ -366,10 +366,10 @@
     <string name="dialog_confirm_delete_confirm_button">Sì</string>
     <string name="dialog_confirm_delete_message">Vuoi eliminare questo messaggio?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Vuoi davvero eliminare questo messaggio?</item>
-            <item quantity="many">Vuoi davvero eliminare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati?</item>
-            <item quantity="other">Vuoi davvero eliminare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati?</item>
-        </plurals>
+        <item quantity="one">Vuoi davvero eliminare questo messaggio?</item>
+        <item quantity="many">Vuoi davvero eliminare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati?</item>
+        <item quantity="other">Vuoi davvero eliminare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Conferma eliminazione</string>
     <string name="dialog_confirm_empty_spam_message">Vuoi svuotare la cartella spam?</string>
     <string name="dialog_confirm_empty_spam_title">Conferma spam vuota</string>
@@ -382,10 +382,10 @@
     <string name="dialog_confirm_spam_cancel_button">No</string>
     <string name="dialog_confirm_spam_confirm_button">Sì</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Vuoi davvero spostare il messaggio nella cartella spam?</item>
-            <item quantity="many">Vuoi davvero spostare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati nella cartella spam?</item>
-            <item quantity="other">Vuoi davvero spostare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati nella cartella spam?</item>
-        </plurals>
+        <item quantity="one">Vuoi davvero spostare il messaggio nella cartella spam?</item>
+        <item quantity="many">Vuoi davvero spostare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati nella cartella spam?</item>
+        <item quantity="other">Vuoi davvero spostare i <xliff:g id="message_count">%1$d</xliff:g> messaggi selezionati nella cartella spam?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Conferma spostamento nella cartella spam</string>
     <string name="dialog_openkeychain_info_install">Installa</string>
     <string name="dialog_openkeychain_info_text">L\'app OpenKeychain è richiesta per abilitare il supporto alla crittografia end-to-end.</string>
@@ -661,10 +661,10 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Allegato (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Allegati (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Allegati (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Allegato (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> Allegati (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Allegati (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Salva tutti</string>
     <string name="message_view_attachments_title">Allegati</string>
     <string name="message_view_attachments_view">Vedi</string>
@@ -673,8 +673,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Scarica messaggio completo</string>
     <string name="message_view_empty">Seleziona un messaggio a sinistra</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">me</string>
     <string name="message_view_menu_action_export_eml">Esporta come EML</string>
     <string name="message_view_no_viewer">Impossibile trovare un visualizzatore per <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -686,6 +684,8 @@
     <string name="message_view_status_attachment_not_saved">Impossibile salvare l\'allegato</string>
     <string name="message_view_theme_action_dark">Passa al tema scuro</string>
     <string name="message_view_theme_action_light">Passa al tema chiaro</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">me</string>
     <string name="messagelist_preferences">Lista messaggi</string>
     <string name="messageview_crypto_error_title">Errore durante la decrittografia del messaggio</string>
     <string name="messageview_decrypt_cancelled">La decrittografia è stata annullata</string>
@@ -735,10 +735,10 @@
     <string name="notification_channel_push_description">Visualizzata in attesa di nuovi messaggi</string>
     <string name="notification_channel_push_title">Sincronizzazione (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nuovo messaggio</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nuovi messaggi</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nuovi messaggi</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nuovo messaggio</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nuovi messaggi</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nuovi messaggi</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Errore nella generazione di una notifica di ricezione di un nuovo messaggio. Errore probabilmente dovuto alla mancanza di un suono di notifica. \n \nTocca per le impostazioni di notifica.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -813,15 +813,15 @@
     <string name="refile_action">Riclassifica…</string>
     <string name="refresh_folders_action">Aggiorna elenco cartelle</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Recupero di %d risultato</item>
-            <item quantity="many">Recupero di %d risultati</item>
-            <item quantity="other">Recupero di %d risultati</item>
-        </plurals>
+        <item quantity="one">Recupero di %d risultato</item>
+        <item quantity="many">Recupero di %d risultati</item>
+        <item quantity="other">Recupero di %d risultati</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Recupero di %1$d risultato su %2$d</item>
-            <item quantity="many">Recupero di %1$d risultati su %2$d</item>
-            <item quantity="other">Recupero di %1$d risultati su %2$d</item>
-        </plurals>
+        <item quantity="one">Recupero di %1$d risultato su %2$d</item>
+        <item quantity="many">Recupero di %1$d risultati su %2$d</item>
+        <item quantity="other">Recupero di %1$d risultati su %2$d</item>
+    </plurals>
     <string name="remote_search_error">Ricerca remota non riuscita</string>
     <string name="remote_search_sending_query">Invio richiesta al server</string>
     <string name="remote_search_unavailable_no_network">Le ricerche sul server richiedono una connessione alla rete</string>
@@ -915,8 +915,8 @@
     <string name="toast_openpgp_provider_error">Errore di connessione a %s!</string>
     <string name="trash_folder_label">Cartella Cestino</string>
     <string name="unflag_action">Rimuovi stella</string>
-    <string name="unknown_recipient">&<;Destinatario sconosciuto&>;</string>
-    <string name="unknown_sender">&<;Mittente sconosciuto&>;</string>
+    <string name="unknown_recipient">&lt;Destinatario sconosciuto&gt;</string>
+    <string name="unknown_sender">&lt;Mittente sconosciuto&gt;</string>
     <string name="unsigned_text_divider_label">Testo non firmato</string>
     <string name="unsubscribe_action">Disiscriviti</string>
     <string name="upgrade_database_format">Aggiornamento del database dell\'account \"<xliff:g id="account">%s</xliff:g>\"</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">О програму</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -284,10 +284,10 @@
     <string name="confirm_discard_draft_message_title">Одбацити поруку?</string>
     <string name="copy_action">Копирај</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Адреса је копирана у привремену меморију</item>
-            <item quantity="few">Адресе су копиране у привремену меморију</item>
-            <item quantity="other">Адреса је копирано у привремену меморију</item>
-        </plurals>
+        <item quantity="one">Адреса је копирана у привремену меморију</item>
+        <item quantity="few">Адресе су копиране у привремену меморију</item>
+        <item quantity="other">Адреса је копирано у привремену меморију</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Текст теме је копиран у привремену меморију</string>
     <string name="crypto_msg_cancelled">Порука је шифрована, али је дешифровање отказано.</string>
     <string name="crypto_msg_encrypted_error">али је дошло до грешке у дешифровању</string>
@@ -348,10 +348,10 @@
     <string name="dialog_confirm_delete_confirm_button">Да</string>
     <string name="dialog_confirm_delete_message">Желите ли заиста да избришете ову поруку?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Желите ли заиста да избришете поруку?</item>
-            <item quantity="few">Желите ли заиста да избришете <xliff:g id="message_count">%1$d</xliff:g> поруке?</item>
-            <item quantity="other">Желите ли заиста да избришете <xliff:g id="message_count">%1$d</xliff:g> порука?</item>
-        </plurals>
+        <item quantity="one">Желите ли заиста да избришете поруку?</item>
+        <item quantity="few">Желите ли заиста да избришете <xliff:g id="message_count">%1$d</xliff:g> поруке?</item>
+        <item quantity="other">Желите ли заиста да избришете <xliff:g id="message_count">%1$d</xliff:g> порука?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Потврда брисања</string>
     <string name="dialog_confirm_empty_spam_message">Желите ли да очистите непожељно?</string>
     <string name="dialog_confirm_empty_spam_title">Потврда чишћења непожељног</string>
@@ -364,10 +364,10 @@
     <string name="dialog_confirm_spam_cancel_button">Не</string>
     <string name="dialog_confirm_spam_confirm_button">Да</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Желите ли заиста да померите ову поруку у фолдер непожељног?</item>
-            <item quantity="few">Желите ли заиста да померите <xliff:g id="message_count">%1$d</xliff:g> поруке у фолдер непожељног?</item>
-            <item quantity="other">Желите ли заиста да померите <xliff:g id="message_count">%1$d</xliff:g> порука у фолдер непожељног?</item>
-        </plurals>
+        <item quantity="one">Желите ли заиста да померите ову поруку у фолдер непожељног?</item>
+        <item quantity="few">Желите ли заиста да померите <xliff:g id="message_count">%1$d</xliff:g> поруке у фолдер непожељног?</item>
+        <item quantity="other">Желите ли заиста да померите <xliff:g id="message_count">%1$d</xliff:g> порука у фолдер непожељног?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Потврда померања у непожељне</string>
     <string name="dialog_openkeychain_info_install">Инсталирај</string>
     <string name="dialog_openkeychain_info_text">Апликација OpenKeychain је неопходна за омогућавање подршке за шифровање с краја на крај.</string>
@@ -634,7 +634,6 @@
     <string name="message_view_cc_label">Копија:</string>
     <string name="message_view_download_remainder">Преузми читаву поруку</string>
     <string name="message_view_empty">Изаберите поруку слева</string>
-    <string name="message_view_me_text">мене</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
@@ -646,6 +645,7 @@
     <string name="message_view_status_attachment_not_saved">Није могуће сачувати прилог.</string>
     <string name="message_view_theme_action_dark">Пребаци на тамну тему</string>
     <string name="message_view_theme_action_light">Пребаци на светлу тему</string>
+    <string name="message_view_to_me_text">мене</string>
     <string name="messagelist_preferences">Листа порука</string>
     <string name="messageview_crypto_error_title">Грешка дешифровања имејла</string>
     <string name="messageview_decrypt_cancelled">Дешифровање је отказано.</string>
@@ -687,10 +687,10 @@
     <string name="notification_channel_push_description">Приказано док чекате нове поруке</string>
     <string name="notification_channel_push_title">Синхронизуј (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> нова порука</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> нове поруке</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> нових порука</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> нова порука</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> нове поруке</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> нових порука</item>
+    </plurals>
     <string name="notification_notify_error_text">Дошло је до грешке приликом покушаја прављења системског обавештења за нову поруку. Разлог је највероватније недостатак звука обавештења. \n \nДодирните да отворите подешавања обавештења.</string>
     <string name="notification_notify_error_title">Грешка обавештења</string>
     <string name="notifications_title">Обавештења</string>
@@ -760,15 +760,15 @@
     <string name="refile_action">Поново заведи…</string>
     <string name="refresh_folders_action">Освежи листу фолдера</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Прикупљање %d резултата</item>
-            <item quantity="few">Прикупљање %d резултата</item>
-            <item quantity="other">Прикупљање %d резултата</item>
-        </plurals>
+        <item quantity="one">Прикупљање %d резултата</item>
+        <item quantity="few">Прикупљање %d резултата</item>
+        <item quantity="other">Прикупљање %d резултата</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Прикупљање %1$d од %2$d резултата</item>
-            <item quantity="few">Прикупљање %1$d од %2$d резултата</item>
-            <item quantity="other">Прикупљање %1$d од %2$d резултата</item>
-        </plurals>
+        <item quantity="one">Прикупљање %1$d од %2$d резултата</item>
+        <item quantity="few">Прикупљање %1$d од %2$d резултата</item>
+        <item quantity="other">Прикупљање %1$d од %2$d резултата</item>
+    </plurals>
     <string name="remote_search_error">Удаљена претрага није успела</string>
     <string name="remote_search_sending_query">Слање упита серверу</string>
     <string name="remote_search_unavailable_no_network">За претрагу сервера потребна је мрежна веза.</string>
@@ -857,8 +857,8 @@
     <string name="toast_openpgp_provider_error">Грешка при повезивању на %s!</string>
     <string name="trash_folder_label">Фолдер отпада</string>
     <string name="unflag_action">Уклони звездицу</string>
-    <string name="unknown_recipient">&<;Непознат прималац&>;</string>
-    <string name="unknown_sender">&<;Непознат пошиљалац&>;</string>
+    <string name="unknown_recipient">&lt;Непознат прималац&gt;</string>
+    <string name="unknown_sender">&lt;Непознат пошиљалац&gt;</string>
     <string name="unsigned_text_divider_label">Непотписан текст</string>
     <string name="unsubscribe_action">Откажи претплату</string>
     <string name="upgrade_database_format">Надограђивање базе података за налог „<xliff:g id="account">%s</xliff:g>“</string>

@@ -35,8 +35,8 @@
     <string name="notification_channel_push_description">新着メッセージの待機中に表示します</string>
     <string name="notification_channel_push_title">同期 (プッシュ)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other">新着メッセージ %1$d 通</item>
-        </plurals>
+        <item quantity="other">新着メッセージ %1$d 通</item>
+    </plurals>
     <string name="notification_notify_error_text">新着メッセージのシステム通知の作成中にエラーが発生しました。通知サウンドが存在しないことが原因と思われます。 \n \nタップして通知設定を開いてください。</string>
     <string name="notification_notify_error_title">通知エラー</string>
     <string name="push_info_disable_push_action">プッシュ同期を無効化</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">لم يتمكن التطبيق من العثور على متصفح لاستخدامه لمنح الوصول إلى حسابك.</string>
     <string name="account_oauth_error_canceled">تم إلغاء التفويض</string>
     <string name="account_oauth_error_failed">فشل التفويض مع الخطأ التالي: <xliff:g id="error">%s</xliff:g></string>

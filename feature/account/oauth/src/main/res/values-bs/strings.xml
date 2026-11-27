@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">Ova aplikacija nije mogla pronaći pretraživač kojim bi dali pristup vašem računu.</string>
     <string name="account_oauth_error_canceled">Autorizacija otkazana</string>
     <string name="account_oauth_error_failed">Autorizacija neuspjela iz sljedećeg razloga: <xliff:g id="error">%s</xliff:g></string>

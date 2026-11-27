@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_oauth_error_browser_not_available">आपके अकाउंट का ऐक्सेस लेने के लिए ऐप को ब्राउज़र नहीं मिला।</string>
     <string name="account_oauth_error_canceled">ऑथराइज़ेशन कैंसिल किया गया</string>
     <string name="account_oauth_error_failed">ऑथराइज़ेशन इस गड़बड़ के वजह से फेल हुआ: <xliff:g id="error">%s</xliff:g></string>

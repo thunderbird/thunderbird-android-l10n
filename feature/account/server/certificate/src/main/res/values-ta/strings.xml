@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="account_server_certificate_button_advanced">மேம்பட்ட</string>
     <string name="account_server_certificate_button_back">திரும்பிச் செல்லுங்கள் (பரிந்துரைக்கப்படுகிறது)</string>
     <string name="account_server_certificate_button_continue">ஆபத்தை ஏற்றுக்கொண்டு தொடரவும்</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">O aplikacji</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -78,9 +78,12 @@
     <string name="account_settings_default_quoted_text_shown_label">Cytuj oryginał</string>
     <string name="account_settings_default_quoted_text_shown_summary">Dołącz oryginalną wiadomość do swojej odpowiedzi.</string>
     <string name="account_settings_email_label">Twój adres e-mail</string>
+    <string name="account_settings_fetching_and_data_limits">Limity pobierania i danych</string>
+    <string name="account_settings_folder_sync_and_push">Synchronizacja folderów i przesyłanie</string>
+    <string name="account_settings_folder_visibility">Widoczność folderów</string>
     <string name="account_settings_folders">Foldery</string>
     <string name="account_settings_general_title">Ustawienia ogólne</string>
-    <string name="account_settings_identities_label">Tożsamości</string>
+    <string name="account_settings_identities_label">Zarządzaj tożsamościami</string>
     <string name="account_settings_identities_summary">Ustaw alternatywne adresy nadawcy oraz podpisy</string>
     <string name="account_settings_ignore_chat_messages_label">Ignoruj wiadomości z czatu</string>
     <string name="account_settings_ignore_chat_messages_summary">Nie pokazuj powiadomień dla wiadomości należących do czatu e-mail</string>
@@ -106,11 +109,11 @@
     <string name="account_settings_message_age_any">wszystkie (bez ograniczenia)</string>
     <string name="account_settings_message_age_label">Synchronizuj nowsze niż</string>
     <string name="account_settings_message_format_auto">Automatycznie</string>
-    <string name="account_settings_message_format_html">HTML (z obrazami i formatowaniem)</string>
+    <string name="account_settings_message_format_html">HTML (z obrazami i formatowaniem)</string>
     <string name="account_settings_message_format_label">Format wiadomości</string>
-    <string name="account_settings_message_format_text">Zwykły tekst (bez obrazów i formatowania)</string>
+    <string name="account_settings_message_format_text">Zwykły tekst (bez obrazów i formatowania)</string>
     <string name="account_settings_message_read_receipt_label">Potwierdzenie przeczytania</string>
-    <string name="account_settings_message_read_receipt_summary">Zawsze wymagaj potwierdzenia o przeczytaniu</string>
+    <string name="account_settings_message_read_receipt_summary">Zawsze wymagaj potwierdzenia przeczytania</string>
     <string name="account_settings_name_label">Imię i nazwisko</string>
     <string name="account_settings_no_folder_selected">Żaden</string>
     <string name="account_settings_notification_channels_label">Kategorie powiadomień</string>
@@ -138,7 +141,7 @@
     <string name="account_settings_outgoing_summary">Ustawienia serwera poczty wychodzącej (SMTP)</string>
     <string name="account_settings_push_advanced_title">Zaawansowane</string>
     <string name="account_settings_quote_prefix_label">Prefiks cytowania</string>
-    <string name="account_settings_quote_style_header">Nagłówek (jak Microsoft Outlook)</string>
+    <string name="account_settings_quote_style_header">Nagłówek (jak Outlook)</string>
     <string name="account_settings_quote_style_label">Styl cytowania podczas odpowiedzi</string>
     <string name="account_settings_quote_style_prefix">Prefiks (jak Gmail)</string>
     <string name="account_settings_reading_mail">Czytanie poczty</string>
@@ -162,11 +165,18 @@
     <string name="account_settings_signature__location_after_quoted_text">Pod cytowaną wiadomością</string>
     <string name="account_settings_signature__location_before_quoted_text">Przed cytowaną wiadomością</string>
     <string name="account_settings_signature__location_label">Pozycja podpisu</string>
+    <string name="account_settings_signature_clear_label">Wyczyść podpis</string>
+    <string name="account_settings_signature_html_label">Podpis HTML</string>
+    <string name="account_settings_signature_is_html_label">Zapisz podpis jako HTML</string>
+    <string name="account_settings_signature_is_html_summary">Zinterpretuj podpis jako HTML. Skrypty i procedury obsługi zdarzeń zostaną usunięte ze względów bezpieczeństwa.</string>
     <string name="account_settings_signature_label">Podpis</string>
+    <string name="account_settings_signature_preview">Podgląd podpisu</string>
+    <string name="account_settings_signature_preview_empty">Tutaj pojawi się podgląd Twojego podpisu</string>
     <string name="account_settings_signature_use_label">Używaj podpisu</string>
-    <string name="account_settings_strip_signature_label">Wycinaj podpis z tekstu</string>
+    <string name="account_settings_strip_signature_label">Wycinaj podpis z tekstu</string>
     <string name="account_settings_strip_signature_summary">Gdy odpowiadasz na wiadomość, cytowany tekst nie bedzie zawierał podpisu</string>
     <string name="account_settings_sync">Pobieranie poczty</string>
+    <string name="account_settings_sync_and_notifications">Synchronizacja i powiadomienia</string>
     <string name="account_settings_sync_remote_deletetions_label">Synchronizacja usunięć</string>
     <string name="account_settings_sync_remote_deletetions_summary">Usuwaj wiadomości również z serwera poczty</string>
     <string name="account_settings_title_fmt">Ustawienia konta</string>
@@ -223,6 +233,7 @@
     <string name="account_setup_push_limit_50">Do 50 folderów</string>
     <string name="account_setup_push_limit_500">Do 500 folderów</string>
     <string name="account_setup_push_limit_label">Sprawdzanie przez push</string>
+    <string name="account_setup_visibility_and_syncing">Synchronizacja folderów i przesyłanie</string>
     <string name="accountlist_preferences">Lista kont</string>
     <string name="accounts_title">Konta</string>
     <!-- Name of the action to add a person to contacts. Usually displayed in a menu or in a tooltip when long-pressing the associated icon. -->
@@ -259,6 +270,7 @@
     <!-- Might be displayed in a notification when deleting an account (in the background) -->
     <string name="background_work_notification_remove_account">Usuwanie konta…</string>
     <string name="batch_select_all">Wybierz wszystkie</string>
+    <string name="camera_capture_lost">Zrobione zdjęcie zostało utracone, ponieważ aplikacja została zamknięta. Spróbuj ponownie.</string>
     <string name="camera_permission_denied">Odmowa dostępu do aparatu! Nie można zrobić zdjęcia</string>
     <string name="changelog_latest_label_text">NAJNOWSZE</string>
     <string name="changelog_loading_error">Nie udało się wczytać dziennika zmian.</string>
@@ -295,11 +307,11 @@
     <string name="confirm_discard_draft_message_title">Odrzucić wiadomość?</string>
     <string name="copy_action">Skopiuj</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adres skopiowany do schowka</item>
-            <item quantity="few">Adresy skopiowane do schowka</item>
-            <item quantity="many">Adresy skopiowane do schowka</item>
-            <item quantity="other">Adresy skopiowane do schowka</item>
-        </plurals>
+        <item quantity="one">Adres skopiowany do schowka</item>
+        <item quantity="few">Adresy skopiowane do schowka</item>
+        <item quantity="many">Adresy skopiowane do schowka</item>
+        <item quantity="other">Adresy skopiowane do schowka</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Skopiowano do schowka</string>
     <string name="crypto_msg_cancelled">Wiadomość jest zaszyfrowana, ale deszyfrowanie zostało przerwane.</string>
     <string name="crypto_msg_encrypted_error">ale wystąpił błąd deszyfrowania</string>
@@ -373,11 +385,11 @@
     <string name="dialog_confirm_delete_confirm_button">Tak</string>
     <string name="dialog_confirm_delete_message">Czy chcesz usunąć tę wiadomość?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Czy chcesz usunąć tę wiadomość?</item>
-            <item quantity="few">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
-            <item quantity="many">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
-            <item quantity="other">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
-        </plurals>
+        <item quantity="one">Czy chcesz usunąć tę wiadomość?</item>
+        <item quantity="few">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
+        <item quantity="many">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
+        <item quantity="other">Czy chcesz usunąć <xliff:g id="message_count">%1$d</xliff:g> wiadomości?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Potwierdź usunięcie</string>
     <string name="dialog_confirm_empty_spam_message">Czy chcesz opróżnić folder spamu?</string>
     <string name="dialog_confirm_empty_spam_title">Potwierdź opróżnienie spamu</string>
@@ -390,11 +402,11 @@
     <string name="dialog_confirm_spam_cancel_button">Nie</string>
     <string name="dialog_confirm_spam_confirm_button">Tak</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Czy chcesz przenieść tę wiadomość to folderu ze spamem?</item>
-            <item quantity="few">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
-            <item quantity="many">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
-            <item quantity="other">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
-        </plurals>
+        <item quantity="one">Czy chcesz przenieść tę wiadomość to folderu ze spamem?</item>
+        <item quantity="few">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
+        <item quantity="many">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
+        <item quantity="other">Czy chcesz przenieść <xliff:g id="message_count">%1$d</xliff:g> wiadomości do folderu ze spamem?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Potwierdź przeniesienie do folderu spamu</string>
     <string name="dialog_openkeychain_info_install">Instaluj</string>
     <string name="dialog_openkeychain_info_text">Aby umożliwić obsługę kompleksowego szyfrowania, wymagana jest aplikacja OpenKeychain.</string>
@@ -431,6 +443,7 @@
     <string name="error_crypto_provider_connect">Nie można połączyć się z dostawcą kryptografii, sprawdź ustawienia lub kliknij ikonę kryptografii, aby spróbować ponownie!</string>
     <string name="error_crypto_provider_incompatible">Aplikacja szyfrująca w niezgodnej wersji. Sprawdź ustawienia!</string>
     <string name="error_crypto_provider_ui_required">Inicjalizacja szyfrowania typu „end-to-end” się nie powiodła. Sprawdź ustawienia.</string>
+    <string name="error_no_contact_provider">Nie znaleziono aplikacji kontaktów. Zainstaluj aplikację kontaktów, aby dodać ten adres.</string>
     <string name="error_sign_only_no_encryption">Szyfrowanie nie jest dostępne w trybie sign-only!</string>
     <string name="expand_content_description">Rozwiń</string>
     <string name="expand_folders">Rozwiń foldery</string>
@@ -627,6 +640,7 @@
     <string name="message_compose_content_hint">Treść wiadomości</string>
     <string name="message_compose_description_delete_quoted_text">Usuń cytowany tekst</string>
     <string name="message_compose_description_edit_quoted_text">Edytuj cytowany tekst</string>
+    <string name="message_compose_encrypting_message">Szyfrowanie wiadomości…</string>
     <string name="message_compose_error_no_recipients">Musisz dodać co najmniej jednego odbiorcę.</string>
     <string name="message_compose_quote_header_cc">DW:</string>
     <string name="message_compose_quote_header_from">Od:</string>
@@ -672,11 +686,11 @@
     <!-- Displayed in the message view screen in front of the number of additional recipients (the ones that are not displayed). -->
     <string name="message_view_additional_recipient_prefix">+</string>
     <plurals name="message_view_attachment_summary">
-            <item quantity="one"><xliff:g id="count">%1$d</xliff:g> załącznik (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="few"><xliff:g id="count">%1$d</xliff:g> załączniki (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="many"><xliff:g id="count">%1$d</xliff:g> załączników (<xliff:g id="size">%2$s</xliff:g>)</item>
-            <item quantity="other"><xliff:g id="count">%1$d</xliff:g> załączników (<xliff:g id="size">%2$s</xliff:g>)</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> załącznik (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="few"><xliff:g id="count">%1$d</xliff:g> załączniki (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="many"><xliff:g id="count">%1$d</xliff:g> załączników (<xliff:g id="size">%2$s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> załączników (<xliff:g id="size">%2$s</xliff:g>)</item>
+    </plurals>
     <string name="message_view_attachments_save_all">Zapisz wszystkie</string>
     <string name="message_view_attachments_title">Załączniki</string>
     <string name="message_view_attachments_view">Wyświetl</string>
@@ -685,8 +699,7 @@
     <string name="message_view_cc_label">DW:</string>
     <string name="message_view_download_remainder">Pobierz całą wiadomość</string>
     <string name="message_view_empty">Wybierz wiadomość z listy po lewej</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mnie</string>
+    <string name="message_view_from_me_text">mnie</string>
     <string name="message_view_menu_action_export_eml">Eksportuj jako EML</string>
     <string name="message_view_no_viewer">Nie moge znaleźć aplikacji do wyświetlenia pliku <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
@@ -698,6 +711,8 @@
     <string name="message_view_status_attachment_not_saved">Nie można zapisać załącznika.</string>
     <string name="message_view_theme_action_dark">Przełącz na motyw ciemny</string>
     <string name="message_view_theme_action_light">Przełącz na motyw jasny</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mnie</string>
     <string name="messagelist_preferences">Listy wiadomości</string>
     <string name="messageview_crypto_error_title">Błąd odszyfrowywania wiadomości e-mail</string>
     <string name="messageview_decrypt_cancelled">Anulowano odszyfrowywanie.</string>
@@ -747,11 +762,11 @@
     <string name="notification_channel_push_description">Wyświetlane podczas oczekiwania na nowe wiadomości</string>
     <string name="notification_channel_push_title">Synchronizuj (push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nowa wiadomość</item>
-            <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nowe wiadomości</item>
-            <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nowych wiadomości</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nowych wiadomości</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nowa wiadomość</item>
+        <item quantity="few"><xliff:g id="new_message_count">%d</xliff:g> nowe wiadomości</item>
+        <item quantity="many"><xliff:g id="new_message_count">%d</xliff:g> nowych wiadomości</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nowych wiadomości</item>
+    </plurals>
     <!-- Body of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_text">Wystąpił błąd podczas próby utworzenia powiadomienia systemowego o nowej wiadomości. Powodem jest najprawdopodobniej brak dźwięku powiadomienia.\n\nStuknij, aby otworzyć ustawienia powiadomień.</string>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
@@ -816,7 +831,7 @@
     <string name="quiet_time_notification">Wyłącz powiadomienia</string>
     <string name="quiet_time_notification_description">Całkowicie wyłącz powiadomienia podczas okresu ciszy</string>
     <string name="quiet_time_starts">Początek okresu ciszy</string>
-    <string name="read_receipt">Powiadomienie o przeczytaniu</string>
+    <string name="read_receipt">Potwierdzenie przeczytania</string>
     <string name="read_receipt_disabled">Nie wymagaj powiadomienia o przeczytaniu</string>
     <string name="read_receipt_enabled">Żadaj powiadomienia o przeczytaniu</string>
     <string name="recipient_bcc">UDW</string>
@@ -827,18 +842,19 @@
     <string name="recipient_to">Do</string>
     <string name="refile_action">Operacje…</string>
     <string name="refresh_folders_action">Odśwież listę</string>
+    <string name="remote_feature_flag_preferences">Flagi funkcji zdalnych</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Pobieram %d wynik</item>
-            <item quantity="few">Pobieram %d wyniki</item>
-            <item quantity="many">Pobieram %d wyników</item>
-            <item quantity="other">Pobieram %d wyników</item>
-        </plurals>
+        <item quantity="one">Pobieram %d wynik</item>
+        <item quantity="few">Pobieram %d wyniki</item>
+        <item quantity="many">Pobieram %d wyników</item>
+        <item quantity="other">Pobieram %d wyników</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Pobieram %1$d z %2$d wyniku</item>
-            <item quantity="few">Pobieram %1$d z %2$d wyników</item>
-            <item quantity="many">Pobieram %1$d z %2$d wyników</item>
-            <item quantity="other">Pobieram %1$d z %2$d wyników</item>
-        </plurals>
+        <item quantity="one">Pobieram %1$d z %2$d wyniku</item>
+        <item quantity="few">Pobieram %1$d z %2$d wyników</item>
+        <item quantity="many">Pobieram %1$d z %2$d wyników</item>
+        <item quantity="other">Pobieram %1$d z %2$d wyników</item>
+    </plurals>
     <string name="remote_search_error">Wyszukiwanie na serwerze nie powiodło się</string>
     <string name="remote_search_sending_query">Wysyłam żądanie do serwera</string>
     <string name="remote_search_unavailable_no_network">Połączenie sieciowe jest wymagane, aby korzystać z wyszukiwania na serwerze.</string>
@@ -913,10 +929,10 @@
     <string name="sort_flagged_first">Wiadomości oznaczone gwiazdką jako pierwsze</string>
     <string name="sort_flagged_last">Wiadomości bez gwiazdki jako pierwsze</string>
     <string name="sort_latest_first">Najnowsze wiadomości na początku</string>
-    <string name="sort_sender_alpha">Alfabetycznie, według nadawcy (A-&>;Z)</string>
-    <string name="sort_sender_re_alpha">Alfabetycznie, według nadawcy (Z-&>;A)</string>
-    <string name="sort_subject_alpha">Alfabetycznie, według tematu (A-&>;Z)</string>
-    <string name="sort_subject_re_alpha">Alfabetycznie, według tematu (Z-&>;A)</string>
+    <string name="sort_sender_alpha">Alfabetycznie, według nadawcy (A-&gt;Z)</string>
+    <string name="sort_sender_re_alpha">Alfabetycznie, według nadawcy (Z-&gt;A)</string>
+    <string name="sort_subject_alpha">Alfabetycznie, według tematu (A-&gt;Z)</string>
+    <string name="sort_subject_re_alpha">Alfabetycznie, według tematu (Z-&gt;A)</string>
     <string name="sort_unattached_first">Wiadomości bez załączników jako pierwsze</string>
     <string name="sort_unread_first">Nieprzeczytane wiadomości jako pierwsze</string>
     <string name="sort_unread_last">Przeczytane wiadomości jako pierwsze</string>
@@ -933,8 +949,8 @@
     <string name="toast_openpgp_provider_error">Błąd połączenia z %s!</string>
     <string name="trash_folder_label">Folder kosza</string>
     <string name="unflag_action">Usuń gwiazdkę</string>
-    <string name="unknown_recipient">&<;Nieznany odbiorca&>;</string>
-    <string name="unknown_sender">&<;Nieznany nadawca&>;</string>
+    <string name="unknown_recipient">&lt;Nieznany odbiorca&gt;</string>
+    <string name="unknown_sender">&lt;Nieznany nadawca&gt;</string>
     <string name="unsigned_text_divider_label">Niepodpisany tekst</string>
     <string name="unsubscribe_action">Anuluj subskrypcję</string>
     <string name="upgrade_database_format">Aktualizacja bazy konta „<xliff:g id="account">%s</xliff:g>”</string>

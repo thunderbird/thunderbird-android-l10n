@@ -35,8 +35,8 @@
     <string name="notification_channel_push_description">等待新訊息時顯示</string>
     <string name="notification_channel_push_title">同步處理（推播）</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="other">%1$d 則新訊息</item>
-        </plurals>
+        <item quantity="other">%1$d 則新訊息</item>
+    </plurals>
     <string name="notification_notify_error_text">嘗試建立新訊息的系統通知時發生錯誤。最有可能的原因是缺少通知聲音。\n\n按一下開啟通知設定。</string>
     <string name="notification_notify_error_title">通知錯誤</string>
     <string name="push_info_disable_push_action">停用推播</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unread_widget_account_not_selected">계정이 선택되지 않았습니다</string>
     <string name="unread_widget_account_summary">읽지 않은 메시지 수를 표시할 계정</string>
     <string name="unread_widget_account_title">계정</string>

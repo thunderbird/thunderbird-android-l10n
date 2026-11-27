@@ -27,16 +27,16 @@
     <string name="account_setup_options_account_name_error_blank">Tên tài khoản không được để trống.</string>
     <string name="account_setup_options_account_name_label">Tên tài khoản</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="other">Mỗi %d giờ</item>
-        </plurals>
+        <item quantity="other">Mỗi %d giờ</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="other">Mỗi %d phút</item>
-        </plurals>
+        <item quantity="other">Mỗi %d phút</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Không bao giờ</string>
     <string name="account_setup_options_email_display_count_label">Số lượng tin nhắn hiển thị</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="other">%d tin nhắn</item>
-        </plurals>
+        <item quantity="other">%d tin nhắn</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Tên chữ ký email không được để trống.</string>
     <string name="account_setup_options_email_signature_label">Chữ ký email</string>
     <string name="account_setup_options_section_display_options">Tùy chọn hiển thị</string>

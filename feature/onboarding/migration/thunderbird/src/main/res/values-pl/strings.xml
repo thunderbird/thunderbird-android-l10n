@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="onboarding_migration_thunderbird_import_button_text">Importuj teraz ustawienia konta</string>
     <string name="onboarding_migration_thunderbird_import_title">Przechodzisz z innej aplikacji lub urządzenia?</string>
     <string name="onboarding_migration_thunderbird_link_open_error">Nie znaleziono aplikacji umożliwiającej otwarcie łącza.</string>

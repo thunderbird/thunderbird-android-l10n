@@ -22,6 +22,7 @@
     <string name="account_server_settings_password_authentication_subtitle">Розблокуйте, щоб переглянути пароль</string>
     <string name="account_server_settings_password_authentication_title">Підтвердьте свою особистість</string>
     <string name="account_server_settings_password_authentication_unable_to_start">Не вдалося розпочати біометричне розпізнавання.</string>
+    <string name="account_server_settings_password_input_label">Пароль</string>
     <string name="account_server_settings_port_label">Порт</string>
     <string name="account_server_settings_protocol_type_label">Протокол</string>
     <string name="account_server_settings_security_label">Безпека</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">കുറിച്ച്</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -252,9 +252,9 @@
     <string name="confirm_discard_draft_message_title">സന്ദേശം നിരസിക്കണോ?</string>
     <string name="copy_action">പകർത്തുക</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">വിലാസം ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</item>
-            <item quantity="other">വിലാസങ്ങൾ ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</item>
-        </plurals>
+        <item quantity="one">വിലാസം ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</item>
+        <item quantity="other">വിലാസങ്ങൾ ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">വിഷയ വാചകം ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി</string>
     <string name="crypto_msg_cancelled">സന്ദേശം എൻ‌ക്രിപ്റ്റ് ചെയ്തു, പക്ഷേ ഡീക്രിപ്ഷൻ റദ്ദാക്കി.</string>
     <string name="crypto_msg_encrypted_error">പക്ഷേ ഒരു ഡീക്രിപ്ഷൻ പിശക് ഉണ്ടായിരുന്നു</string>
@@ -311,9 +311,9 @@
     <string name="dialog_confirm_delete_confirm_button">അതെ</string>
     <string name="dialog_confirm_delete_message">ഈ സന്ദേശം ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">ഈ സന്ദേശം ഇല്ലാതാക്കാൻ നിങ്ങൾ ശരിക്കും ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
-            <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> സന്ദേശങ്ങൾ ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
-        </plurals>
+        <item quantity="one">ഈ സന്ദേശം ഇല്ലാതാക്കാൻ നിങ്ങൾ ശരിക്കും ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
+        <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g> സന്ദേശങ്ങൾ ഇല്ലാതാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">ഇല്ലാതാക്കൽ സ്ഥിരീകരിക്കുക</string>
     <string name="dialog_confirm_empty_trash_message">ചവറ്റുകൂട്ട ഫോൾഡർ ശൂന്യമാക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</string>
     <string name="dialog_confirm_empty_trash_title">ചവറ്റുകുട്ട ശൂന്യമാക്കൽ സ്ഥിരീകരിക്കുക</string>
@@ -324,9 +324,9 @@
     <string name="dialog_confirm_spam_cancel_button">ഇല്ല</string>
     <string name="dialog_confirm_spam_confirm_button">അതെ</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">ഈ സന്ദേശം സ്പാം ഫോൾഡറിലേക്ക് നീക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
-            <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g>സന്ദേശങ്ങൾ സ്പാം ഫോൾഡറിലേക്ക് നീക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
-        </plurals>
+        <item quantity="one">ഈ സന്ദേശം സ്പാം ഫോൾഡറിലേക്ക് നീക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
+        <item quantity="other"><xliff:g id="message_count">%1$d</xliff:g>സന്ദേശങ്ങൾ സ്പാം ഫോൾഡറിലേക്ക് നീക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">സ്പാം ഫോൾഡറിലേക്കുള്ള നീക്കം സ്ഥിരീകരിക്കുക</string>
     <string name="dialog_openkeychain_info_install">ഇൻസ്റ്റാൾ ചെയ്യുക</string>
     <string name="dialog_openkeychain_info_title">OpenPGP അപ്ലിക്കേഷനുകളൊന്നും ഇൻസ്റ്റാളുചെയ്‌തിട്ടില്ല</string>
@@ -607,9 +607,9 @@
     <string name="notification_channel_push_description">പുതിയ സന്ദേശങ്ങൾക്കായി കാത്തിരിക്കുമ്പോൾ പ്രദർശിപ്പിക്കുന്നു</string>
     <string name="notification_channel_push_title">സമന്വയിപ്പിക്കുക (പുഷ്)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one">പുതിയ <xliff:g id="new_message_count">%d</xliff:g> സന്ദേശം</item>
-            <item quantity="other">പുതിയ <xliff:g id="new_message_count">%d</xliff:g> സന്ദേശങ്ങൾ</item>
-        </plurals>
+        <item quantity="one">പുതിയ <xliff:g id="new_message_count">%d</xliff:g> സന്ദേശം</item>
+        <item quantity="other">പുതിയ <xliff:g id="new_message_count">%d</xliff:g> സന്ദേശങ്ങൾ</item>
+    </plurals>
     <string name="notifications_title">അറിയിപ്പുകൾ</string>
     <string name="openpgp_description_text1">സന്ദേശങ്ങൾ‌ എൻ‌ക്രിപ്റ്റ് ചെയ്യുന്നത് മറ്റാർ‌ക്കും വായിക്കാതെ സ്വീകർ‌ത്താവിന് മാത്രം വായിക്കാൻ‌ കഴിയുമെന്ന് ഉറപ്പാക്കുന്നു.</string>
     <string name="openpgp_description_text2">ഈ ഐക്കണിൽ ക്ലിക്കുചെയ്ത് എൻ‌ക്രിപ്ഷൻ മാറ്റുക.</string>
@@ -662,13 +662,13 @@
     <string name="refile_action">പുതുക്കുക…</string>
     <string name="refresh_folders_action">ഫോൾഡർ ലിസ്റ്റ് പുതുക്കുക</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">%d ഫലം ലഭ്യമാക്കുന്നു</item>
-            <item quantity="other">%d ഫലങ്ങൾ ലഭ്യമാക്കുന്നു</item>
-        </plurals>
+        <item quantity="one">%d ഫലം ലഭ്യമാക്കുന്നു</item>
+        <item quantity="other">%d ഫലങ്ങൾ ലഭ്യമാക്കുന്നു</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">%2$d ഫലങ്ങളിൽ %1$d ലഭ്യമാക്കുന്നു</item>
-            <item quantity="other">%2$d ഫലങ്ങളിൽ %1$d ലഭ്യമാക്കുന്നു</item>
-        </plurals>
+        <item quantity="one">%2$d ഫലങ്ങളിൽ %1$d ലഭ്യമാക്കുന്നു</item>
+        <item quantity="other">%2$d ഫലങ്ങളിൽ %1$d ലഭ്യമാക്കുന്നു</item>
+    </plurals>
     <string name="remote_search_error">വിദൂര തിരയൽ പരാജയപ്പെട്ടു</string>
     <string name="remote_search_sending_query">സെർവറിലേക്ക് അന്വേഷണം അയയ്ക്കുന്നു</string>
     <string name="remote_search_unavailable_no_network">സെർവർ തിരയലിനായി ഒരു നെറ്റ്‌വർക്ക് കണക്ഷൻ ആവശ്യമാണ്.</string>
@@ -749,8 +749,8 @@
     <string name="toast_openpgp_provider_error">%sലേക്ക് കണക്റ്റുചെയ്യുന്നതിൽ പിശക്!</string>
     <string name="trash_folder_label">ചവറ്റുകുട്ട ഫോൾഡർ</string>
     <string name="unflag_action">നക്ഷത്രം കളയുക</string>
-    <string name="unknown_recipient">&<;അജ്ഞാത സ്വീകർത്താവ്&>;</string>
-    <string name="unknown_sender">&<;അജ്ഞാത പ്രേഷിതൻ&>;</string>
+    <string name="unknown_recipient">&lt;അജ്ഞാത സ്വീകർത്താവ്&gt;</string>
+    <string name="unknown_sender">&lt;അജ്ഞാത പ്രേഷിതൻ&gt;</string>
     <string name="unsigned_text_divider_label">ഒപ്പിടാത്ത വാചകം</string>
     <string name="upgrade_database_format">\"<xliff:g id="account">%s</xliff:g>\" അക്കൗണ്ടിന്റെ ഡാറ്റാബേസ് നവീകരിക്കുന്നു</string>
     <string name="upgrade_databases_title">ഡാറ്റാബേസുകൾ‌ നവീകരിക്കുന്നു</string>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="about_action">Om</string>
     <!-- === App-specific strings ============================================================= -->
     <!-- This should make it easier for forks to change the branding -->
@@ -151,6 +151,8 @@
     <string name="account_settings_signature__location_after_quoted_text">Efter citeret tekst</string>
     <string name="account_settings_signature__location_before_quoted_text">Før citeret tekst</string>
     <string name="account_settings_signature__location_label">Signaturposition</string>
+    <string name="account_settings_signature_clear_label">Ryd signatur</string>
+    <string name="account_settings_signature_is_html_label">Gem signatur som HTML</string>
     <string name="account_settings_signature_label">Signatur</string>
     <string name="account_settings_signature_use_label">Benyt signatur</string>
     <string name="account_settings_strip_signature_label">Fjern signatur fra citeret svar</string>
@@ -230,10 +232,13 @@
     <string name="address_type_mobile">Mobil</string>
     <string name="address_type_other">Anden</string>
     <string name="address_type_work">Arbejde</string>
+    <string name="animation_setting_off">Fra</string>
+    <string name="animation_setting_on">Til</string>
     <string name="animations_title">Animation af Animation</string>
     <string name="app_license">Apache licens, version 2.0</string>
     <string name="archive_action">Arkiver</string>
     <string name="archive_folder_label">Arkiv mappen</string>
+    <string name="archiving_not_available_for_this_account">Arkivering er ikke tilgængelig for denne konto.</string>
     <!-- Default signature -->
     <!-- General strings that include the app name -->
     <!-- === General strings ================================================================== -->
@@ -242,6 +247,7 @@
     <string name="background_ops_auto_sync_only">Når \"Auto-sync\" er valgt</string>
     <string name="background_ops_label">Baggrundssynkronisering</string>
     <string name="background_ops_never">Aldrig</string>
+    <string name="background_work_notification_remove_account">Fjerner konto…</string>
     <string name="batch_select_all">Vælg alle</string>
     <string name="changelog_loading_error">Kunne ikke indlæse ændringsloggen.</string>
     <string name="changelog_recent_changes_title">Hvad er nyt</string>
@@ -274,9 +280,9 @@
     <string name="confirm_discard_draft_message_title">Annuller meddelelse?</string>
     <string name="copy_action">Kopier</string>
     <plurals name="copy_address_to_clipboard">
-            <item quantity="one">Adresse kopieret til udklipsholder</item>
-            <item quantity="other">Adresser kopieret til udklipsholder</item>
-        </plurals>
+        <item quantity="one">Adresse kopieret til udklipsholder</item>
+        <item quantity="other">Adresser kopieret til udklipsholder</item>
+    </plurals>
     <string name="copy_subject_to_clipboard">Emne kopieret til udklipsholder</string>
     <string name="crypto_msg_cancelled">Meddelelsen er krypteret, men dekrypteringen blev afbrudt.</string>
     <string name="crypto_msg_encrypted_error">men der var en dekrypteringsfejl</string>
@@ -332,10 +338,12 @@
     <string name="dialog_confirm_delete_confirm_button">Slet</string>
     <string name="dialog_confirm_delete_message">Ønsker du at slette denne mail?</string>
     <plurals name="dialog_confirm_delete_messages">
-            <item quantity="one">Ønsker du virkelig at slette denne meddelelse?</item>
-            <item quantity="other">Ønsker du virkelig at slette <xliff:g id="message_count">%1$d</xliff:g> meddelelser?</item>
-        </plurals>
+        <item quantity="one">Ønsker du virkelig at slette denne meddelelse?</item>
+        <item quantity="other">Ønsker du virkelig at slette <xliff:g id="message_count">%1$d</xliff:g> meddelelser?</item>
+    </plurals>
     <string name="dialog_confirm_delete_title">Bekræft sletning</string>
+    <string name="dialog_confirm_empty_spam_message">Vil du tømme spam mappen?</string>
+    <string name="dialog_confirm_empty_spam_title">Bekræft tøm spam</string>
     <string name="dialog_confirm_empty_trash_message">Ønsker du at tømme papirkurven?</string>
     <string name="dialog_confirm_empty_trash_title">Bekræft tømning af papirkurv</string>
     <string name="dialog_confirm_mark_all_as_read_cancel_button">Nej</string>
@@ -345,9 +353,9 @@
     <string name="dialog_confirm_spam_cancel_button">Nej</string>
     <string name="dialog_confirm_spam_confirm_button">Ja</string>
     <plurals name="dialog_confirm_spam_message">
-            <item quantity="one">Ønsker du virkelig at flytte denne meddelelse til spam mappen?</item>
-            <item quantity="other">Ønsker du virkelig at flytte <xliff:g id="message_count">%1$d</xliff:g> meddelelser til spam mappen?</item>
-        </plurals>
+        <item quantity="one">Ønsker du virkelig at flytte denne meddelelse til spam mappen?</item>
+        <item quantity="other">Ønsker du virkelig at flytte <xliff:g id="message_count">%1$d</xliff:g> meddelelser til spam mappen?</item>
+    </plurals>
     <string name="dialog_confirm_spam_title">Bekræft flytning til spam mappe</string>
     <string name="dialog_openkeychain_info_install">Installere</string>
     <string name="dialog_openkeychain_info_title">Intet OpenPGP program installeret</string>
@@ -383,6 +391,8 @@
     <string name="error_crypto_provider_incompatible">Kryptoleverandør bruger inkompatibel version. Kontroller dine indstillinger!</string>
     <string name="error_crypto_provider_ui_required">Ende-til-ende kryptering mislykkes initialisering, kontrollere indstillinger</string>
     <string name="error_sign_only_no_encryption">Kryptering er ikke tilgængelig i \"Signer-Kun\"-tilstand!</string>
+    <string name="expand_content_description">Udvid</string>
+    <string name="expand_folders">Udvid mapper</string>
     <string name="expunge_action">Ryd helt</string>
     <string name="fetching_attachment_dialog_message">Henter vedhæftning…</string>
     <string name="fetching_attachment_dialog_title_save">Gemmer kladde</string>
@@ -390,6 +400,7 @@
     <string name="filter_folders_action">Find mappe</string>
     <string name="flag_action">Tilføj stjernemarkering</string>
     <string name="folder_list_filter_hint">Mappenavn indeholder</string>
+    <string name="folder_list_show_hidden_folders">Vis skjulte mapper</string>
     <string name="folder_settings_clear_local_folder_action">Fjern lokalt lagrede mails</string>
     <string name="folder_settings_in_top_group_label">Vis i topgruppen</string>
     <string name="folder_settings_include_in_integrated_inbox_label">Inkluder i fælles indbakke</string>
@@ -574,6 +585,7 @@
     <!-- Title of the toolbar that is displayed when the message details bottom sheet has been expanded -->
     <string name="message_details_toolbar_title">Besked detaljer</string>
     <string name="message_discarded_toast">Mail kasseret</string>
+    <string name="message_list_content_description_unread_prefix">ulæst, %s</string>
     <!-- Displayed instead of the message list when a folder couldn't be found, e.g. due to an outdated home screen shortcut. -->
     <string name="message_list_error_folder_not_found">Mappe ikke fundet</string>
     <!-- Name of the swipe action to select a message. Try to keep it short. -->
@@ -600,8 +612,6 @@
     <string name="message_view_cc_label">Cc:</string>
     <string name="message_view_download_remainder">Hent hele meddelelsen</string>
     <string name="message_view_empty">Vær venlig og vælg en meddelelse fra venstre side</string>
-    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
-    <string name="message_view_me_text">mig</string>
     <string name="message_view_no_viewer">Kan ikke finde program som kan vise <xliff:g id="mimetype">%s</xliff:g>.</string>
     <!-- Used to display the recipient list in the message view screen. -->
     <string name="message_view_recipients_format">til <xliff:g id="recipients">%s</xliff:g></string>
@@ -611,6 +621,8 @@
     <string name="message_view_status_attachment_not_saved">Kunne ikke gemme vedhæftning.</string>
     <string name="message_view_theme_action_dark">Skift til mørkt tema</string>
     <string name="message_view_theme_action_light">Skift til lyst tema</string>
+    <!-- Displayed in the message view screen if the message was addressed to the user. Make sure this works with 'message_view_recipient_prefix'. In English it's "to me". -->
+    <string name="message_view_to_me_text">mig</string>
     <string name="messagelist_preferences">Mailliste</string>
     <string name="messageview_crypto_error_title">Fejl ved dekryptering af email</string>
     <string name="messageview_decrypt_cancelled">Dekryptering blev afbrudt.</string>
@@ -620,6 +632,7 @@
     <string name="move_action">Flyt</string>
     <string name="move_copy_cannot_copy_unsynced_message">Kan ikke kopiere eller flytte mail som ikke er synkroniseret med server</string>
     <string name="move_to_drafts_action">Flyt til kladder</string>
+    <string name="navigation_drawer_preferences">Sidemenu</string>
     <string name="network_preferences">Netværk</string>
     <string name="new_identity_action">Ny identitet</string>
     <string name="new_messages_title">Nye meddelelser</string>
@@ -651,9 +664,9 @@
     <string name="notification_channel_push_description">Vist når der lyttes efter nye emails</string>
     <string name="notification_channel_push_title">Synkronisér (Push)</string>
     <plurals name="notification_new_messages_title">
-            <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nyt brev</item>
-            <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nye meddelelser</item>
-        </plurals>
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> nyt brev</item>
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> nye meddelelser</item>
+    </plurals>
     <!-- Title of an error notification that is displayed when creating a notification for a new message has failed -->
     <string name="notification_notify_error_title">Notifikation fejl</string>
     <string name="notifications_title">Beskeder</string>
@@ -719,13 +732,13 @@
     <string name="refile_action">Genarkivering…</string>
     <string name="refresh_folders_action">Genindlæs mappeliste</string>
     <plurals name="remote_search_downloading">
-            <item quantity="one">Henter %d svar</item>
-            <item quantity="other">Henter %d svar</item>
-        </plurals>
+        <item quantity="one">Henter %d svar</item>
+        <item quantity="other">Henter %d svar</item>
+    </plurals>
     <plurals name="remote_search_downloading_limited">
-            <item quantity="one">Henter %1$d af %2$d svar</item>
-            <item quantity="other">Henter %1$d af %2$d svar</item>
-        </plurals>
+        <item quantity="one">Henter %1$d af %2$d svar</item>
+        <item quantity="other">Henter %1$d af %2$d svar</item>
+    </plurals>
     <string name="remote_search_error">Fjernsøgning fejlede</string>
     <string name="remote_search_sending_query">Sender forspørgsel til server</string>
     <string name="remote_search_unavailable_no_network">En netværksforbindelse er nødvendig når der søges på server.</string>
@@ -769,6 +782,7 @@
     <string name="settings_message_theme_selection_summary_off">Vælg tema under læsning af meddelelse</string>
     <string name="settings_message_theme_selection_summary_on">Benyt et fast meddelelsesvisnings-tema</string>
     <string name="settings_theme_label">Tema</string>
+    <string name="settings_ui_data_collection">Dataindsamling</string>
     <string name="show_headers_action">Vis headers</string>
     <string name="show_starred_count_title">Vis antal af stjernemarkeret</string>
     <string name="show_unified_inbox_title">Vis Fælles Indbakke</string>
@@ -782,6 +796,7 @@
     <string name="sort_by_attach">Vedhæftning</string>
     <string name="sort_by_date">Dato</string>
     <string name="sort_by_flag">Stjernemarkering</string>
+    <string name="sort_by_indicator">•</string>
     <string name="sort_by_sender">Afsender</string>
     <string name="sort_by_subject">Emne</string>
     <string name="sort_by_unread">Læst/ulæst</string>
@@ -809,8 +824,8 @@
     <string name="toast_openpgp_provider_error">Fejl ved forbindelse til %s!</string>
     <string name="trash_folder_label">Papirkurv mappe</string>
     <string name="unflag_action">Fjern stjernemarkering</string>
-    <string name="unknown_recipient">&<;Ukendt modtager&>;</string>
-    <string name="unknown_sender">&<;Ukendt afsender&>;</string>
+    <string name="unknown_recipient">&lt;Ukendt modtager&gt;</string>
+    <string name="unknown_sender">&lt;Ukendt afsender&gt;</string>
     <string name="unsigned_text_divider_label">Ikke-signeret tekst</string>
     <string name="unsubscribe_action">Afmeld</string>
     <string name="upgrade_database_format">Opdaterer databaser for konto \"<xliff:g id="account">%s</xliff:g>\"</string>

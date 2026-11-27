@@ -23,6 +23,7 @@
     <string name="account_settings_general_name_error_too_long">Name is too long</string>
     <string name="account_settings_general_name_title">Account name</string>
     <string name="account_settings_general_title">General Settings</string>
+    <string name="account_settings_incoming_label">Incoming server</string>
     <string name="account_settings_remote_search_num_label">Server search limit</string>
     <string name="account_settings_remote_search_num_results_entries_500">500</string>
 </resources>

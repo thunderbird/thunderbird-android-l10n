@@ -27,16 +27,16 @@
     <string name="account_setup_options_account_name_error_blank">Nama akun tidak boleh kosong.</string>
     <string name="account_setup_options_account_name_label">Nama akun</string>
     <plurals name="account_setup_options_email_check_frequency_hours">
-            <item quantity="other">Setiap %d jam</item>
-        </plurals>
+        <item quantity="other">Setiap %d jam</item>
+    </plurals>
     <plurals name="account_setup_options_email_check_frequency_minutes">
-            <item quantity="other">Setiap %d menit</item>
-        </plurals>
+        <item quantity="other">Setiap %d menit</item>
+    </plurals>
     <string name="account_setup_options_email_check_frequency_never">Tidak pernah</string>
     <string name="account_setup_options_email_display_count_label">Jumlah pesan yang akan ditampilkan</string>
     <plurals name="account_setup_options_email_display_count_messages">
-            <item quantity="other">%d pesan</item>
-        </plurals>
+        <item quantity="other">%d pesan</item>
+    </plurals>
     <string name="account_setup_options_email_signature_error_blank">Nama tanda tangan surel tidak boleh kosong.</string>
     <string name="account_setup_options_email_signature_label">Tanda tangan surel</string>
     <string name="account_setup_options_section_display_options">Pilihan tampilan</string>
